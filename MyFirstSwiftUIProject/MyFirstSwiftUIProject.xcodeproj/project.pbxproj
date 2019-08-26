@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C1D19CC23137651004C4176 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D19CB23137651004C4176 /* CircleImage.swift */; };
+		5C37103E2314366600F1DF1F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C37103D2314366600F1DF1F /* MapView.swift */; };
 		5C61642523104E0C00FC32DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61642423104E0C00FC32DC /* AppDelegate.swift */; };
 		5C61642723104E0C00FC32DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61642623104E0C00FC32DC /* SceneDelegate.swift */; };
 		5C61642923104E0C00FC32DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61642823104E0C00FC32DC /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5C1D19CB23137651004C4176 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		5C37103D2314366600F1DF1F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		5C61642123104E0C00FC32DC /* MyFirstSwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C61642423104E0C00FC32DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C61642623104E0C00FC32DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				5C61643223104E0E00FC32DC /* Info.plist */,
 				5C61642C23104E0E00FC32DC /* Preview Content */,
 				5C1D19CB23137651004C4176 /* CircleImage.swift */,
+				5C37103D2314366600F1DF1F /* MapView.swift */,
 			);
 			path = MyFirstSwiftUIProject;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				5C61642523104E0C00FC32DC /* AppDelegate.swift in Sources */,
 				5C1D19CC23137651004C4176 /* CircleImage.swift in Sources */,
+				5C37103E2314366600F1DF1F /* MapView.swift in Sources */,
 				5C61642723104E0C00FC32DC /* SceneDelegate.swift in Sources */,
 				5C61642923104E0C00FC32DC /* ContentView.swift in Sources */,
 			);
