@@ -17,6 +17,18 @@ struct ContentView: View {
     @State var gGuess: Double
     @State var bGuess: Double
     
+    func computeScore() -> Int {
+      let rDiff = rGuess - rTarget
+      let gDiff = gGuess - gTarget
+      let bDiff = bGuess - bTarget
+      let diff = sqrt(rDiff * rDiff + gDiff * gDiff + bDiff * bDiff)
+      return Int((1.0 - diff) * 100.0 + 0.5)
+    }//computeScore
+    
+    //Alert
+    @State var showAlert = false
+    
+    
     var body: some View {
         
         VStack {
@@ -40,7 +52,15 @@ struct ContentView: View {
                 
             }
             
-            Text("Hit me button")
+            //Button Hit me
+            Button(action: {
+                self.showAlert = true
+            }) {
+                Text("Hit me!")
+            }.alert(isPresented: $showAlert) { () -> Alert in
+                .init(title: Text("Your Score"), message: Text("\(computeScore())"))
+            }
+            
             
             VStack {
                 ColorSlider(value: $rGuess, textColor: .red)
