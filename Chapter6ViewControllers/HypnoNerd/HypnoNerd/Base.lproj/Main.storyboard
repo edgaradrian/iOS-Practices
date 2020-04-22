@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aTa-7T-DGa">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HypnosisViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="a7g-Rq-tSo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2778.2608695652175" y="20.758928571428569"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="vy7-f7-f9J">
+            <objects>
+                <viewController id="O9M-Y9-A1Q" customClass="ReminderViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ky5-wu-dRb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="3aY-sd-PCB">
+                                <rect key="frame" x="0.0" y="194" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="578092776.46996999">
+                                    <!--2019-04-27 21:19:36 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-FY-u7E">
+                                <rect key="frame" x="100.5" y="510" width="213" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rrp-g1-dIO"/>
+                                </constraints>
+                                <state key="normal" title="Reminder Me!"/>
+                                <connections>
+                                    <action selector="addReminder:" destination="O9M-Y9-A1Q" eventType="touchUpInside" id="Pok-Ki-BLU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3aY-sd-PCB" firstAttribute="trailing" secondItem="Sdo-kb-Ca3" secondAttribute="trailing" id="GiE-pH-URv"/>
+                            <constraint firstItem="gGA-FY-u7E" firstAttribute="top" secondItem="3aY-sd-PCB" secondAttribute="bottom" constant="100" id="Ri4-C6-lf5"/>
+                            <constraint firstItem="3aY-sd-PCB" firstAttribute="top" secondItem="Sdo-kb-Ca3" secondAttribute="top" constant="150" id="YMg-Rk-IGx"/>
+                            <constraint firstItem="3aY-sd-PCB" firstAttribute="leading" secondItem="Sdo-kb-Ca3" secondAttribute="leading" id="gVb-dj-Ewp"/>
+                            <constraint firstItem="gGA-FY-u7E" firstAttribute="leading" secondItem="Sdo-kb-Ca3" secondAttribute="leading" constant="100.5" id="nAj-sO-GSW"/>
+                            <constraint firstItem="Sdo-kb-Ca3" firstAttribute="trailing" secondItem="gGA-FY-u7E" secondAttribute="trailing" constant="100.5" id="ntx-cH-gno"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sdo-kb-Ca3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="C48-nQ-VN5"/>
+                    <connections>
+                        <outlet property="datePicker" destination="3aY-sd-PCB" id="xrf-Ec-p1L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xwq-Of-aZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3771.0144927536235" y="20.758928571428569"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OuA-sO-9Yu">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="aTa-7T-DGa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XkK-xE-3nC">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="e1S-HH-yQq"/>
+                        <segue destination="O9M-Y9-A1Q" kind="relationship" relationship="viewControllers" id="Hcu-un-dpg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YEI-h9-MMd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868.1159420289857" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+</document>

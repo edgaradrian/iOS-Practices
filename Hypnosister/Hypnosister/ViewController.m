@@ -7,12 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "HypnosisView.h"
+
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+-(void)loadView
+{
+    HypnosisView *backgroundView = [[HypnosisView alloc] init];
+    
+    self.view = backgroundView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
