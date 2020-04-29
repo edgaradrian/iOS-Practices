@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct NSLabelView: View {
-    @State var cont = 0
+    @Binding var cont: Int
     var body: some View {
         
         return VStack {

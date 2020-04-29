@@ -17,7 +17,7 @@ struct ContentView: View {
         ZStack {
             
             Color.yellow
-            NSLabelView()
+            NSLabelView(cont: $cont)
             
         }.edgesIgnoringSafeArea(.all)
         
