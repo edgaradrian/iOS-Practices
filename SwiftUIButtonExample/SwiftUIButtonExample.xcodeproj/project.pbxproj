@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D83EBFC245A45D5004CB6C3 /* NSLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D83EBFB245A45D5004CB6C3 /* NSLabelView.swift */; };
 		6DEFC934244FCDF4009359B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEFC933244FCDF4009359B4 /* AppDelegate.swift */; };
 		6DEFC936244FCDF4009359B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEFC935244FCDF4009359B4 /* SceneDelegate.swift */; };
 		6DEFC938244FCDF4009359B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEFC937244FCDF4009359B4 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D83EBFB245A45D5004CB6C3 /* NSLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLabelView.swift; sourceTree = "<group>"; };
 		6DEFC930244FCDF4009359B4 /* SwiftUIButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEFC933244FCDF4009359B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DEFC935244FCDF4009359B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				6DEFC93E244FCDFB009359B4 /* LaunchScreen.storyboard */,
 				6DEFC941244FCDFB009359B4 /* Info.plist */,
 				6DEFC93B244FCDFB009359B4 /* Preview Content */,
+				6D83EBFB245A45D5004CB6C3 /* NSLabelView.swift */,
 			);
 			path = SwiftUIButtonExample;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D83EBFC245A45D5004CB6C3 /* NSLabelView.swift in Sources */,
 				6DEFC934244FCDF4009359B4 /* AppDelegate.swift in Sources */,
 				6DEFC936244FCDF4009359B4 /* SceneDelegate.swift in Sources */,
 				6DEFC938244FCDF4009359B4 /* ContentView.swift in Sources */,

@@ -17,30 +17,8 @@ struct ContentView: View {
         ZStack {
             
             Color.yellow
+            NSLabelView()
             
-            VStack {
-                
-                Button(action: {
-                    self.cont += 1
-                }, label: {
-                    Text("Tap")
-                        .fontWeight(.heavy)
-                        .font(.custom("Monaco", size: 50))
-                    }).padding()
-                    .foregroundColor(.yellow)
-                    .background(Color.blue)
-                    
-                            
-                if cont > 0 {
-                    Text("Taps \(cont)")
-                    .padding()
-                        .foregroundColor(.purple)
-                } else {
-                    Text("Zero Taps")
-                    .padding()
-                }
-                
-            }
         }.edgesIgnoringSafeArea(.all)
         
     }
