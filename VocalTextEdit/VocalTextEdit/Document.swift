@@ -12,11 +12,14 @@ class Document: NSDocument {
     
     enum Error: Swift.Error, LocalizedError {
         case UTF8Encoding
+        case UTF8Decoding
         
         var failureReason: String? {
             switch self {
             case .UTF8Encoding:
                 return "File cannot be encoded in UTF-8"
+            case .UTF8Decoding:
+                return "File is not valid UTF-8"
             }//switch
         }
         
@@ -43,7 +46,14 @@ class Document: NSDocument {
     }//data ofType
     
     override func read(from data: Data, ofType typeName: String) throws {
-        throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
+        guard let contents = String(data: data, encoding: .utf8) else {
+            throw Document.Error.UTF8Decoding
+        }//contents
+        
+        let windowController = windowControllers[0]
+        let viewController = windowController.contentViewController as! ViewController
+        viewController.textView.string = contents
+        
     }
     
 }//Document
