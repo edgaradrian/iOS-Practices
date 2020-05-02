@@ -19,9 +19,8 @@
                                 <rect key="frame" x="351" y="73" width="40" height="30"/>
                                 <state key="normal" title="Insert"/>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To-do Item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6qb-cr-haa">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To-do Item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6qb-cr-haa">
                                 <rect key="frame" x="20" y="71" width="316" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -29,6 +28,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OaP-A7-3UE" secondAttribute="trailing" constant="23" id="1b9-Xh-cLl"/>
+                            <constraint firstItem="6qb-cr-haa" firstAttribute="firstBaseline" secondItem="OaP-A7-3UE" secondAttribute="firstBaseline" id="S0c-ke-oAE"/>
+                            <constraint firstItem="OaP-A7-3UE" firstAttribute="leading" secondItem="6qb-cr-haa" secondAttribute="trailing" constant="15" id="a66-JJ-YJ5"/>
                             <constraint firstItem="OaP-A7-3UE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="tda-hN-aDE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
