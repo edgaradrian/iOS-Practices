@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var itemTextField: UITextField!
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func addButtonPressed(_ sender: UIButton) {
+        print("Add to-do item: \(itemTextField.text)")
+    }
 
-}
+}//ViewController
 
