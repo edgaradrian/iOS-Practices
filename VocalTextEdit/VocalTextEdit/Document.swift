@@ -30,6 +30,10 @@ class Document: NSDocument {
     override func makeWindowControllers() {
         let storyboard = NSStoryboard(name: "Main", bundle: nil)
         let windowController = storyboard.instantiateController(withIdentifier: "Document Window Controller") as! NSWindowController
+        
+        let viewController = windowController.contentViewController as! ViewController
+        viewController.textView.string = contents
+        
         self.addWindowController(windowController)
     }//makeWindowControllers
     
