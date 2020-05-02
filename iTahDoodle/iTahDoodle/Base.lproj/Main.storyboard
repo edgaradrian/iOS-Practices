@@ -24,14 +24,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EkQ-fd-OAl">
+                                <rect key="frame" x="26" y="123" width="365" height="739"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OaP-A7-3UE" secondAttribute="trailing" constant="23" id="1b9-Xh-cLl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EkQ-fd-OAl" secondAttribute="bottom" id="7n0-w6-coG"/>
                             <constraint firstItem="6qb-cr-haa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bwo-0d-JGu"/>
+                            <constraint firstItem="EkQ-fd-OAl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="JjP-7Q-5di"/>
                             <constraint firstItem="6qb-cr-haa" firstAttribute="firstBaseline" secondItem="OaP-A7-3UE" secondAttribute="firstBaseline" constant="-1" id="S0c-ke-oAE"/>
                             <constraint firstItem="OaP-A7-3UE" firstAttribute="leading" secondItem="6qb-cr-haa" secondAttribute="trailing" constant="15" id="a66-JJ-YJ5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EkQ-fd-OAl" secondAttribute="trailing" constant="23" id="noc-7E-kJM"/>
                             <constraint firstItem="OaP-A7-3UE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="tda-hN-aDE"/>
+                            <constraint firstItem="EkQ-fd-OAl" firstAttribute="top" secondItem="6qb-cr-haa" secondAttribute="bottom" constant="18" id="yr7-7k-gPQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
