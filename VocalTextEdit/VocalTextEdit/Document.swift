@@ -25,6 +25,8 @@ class Document: NSDocument {
         
     }//Error
     
+    var contents: String = ""
+    
     override func makeWindowControllers() {
         let storyboard = NSStoryboard(name: "Main", bundle: nil)
         let windowController = storyboard.instantiateController(withIdentifier: "Document Window Controller") as! NSWindowController
