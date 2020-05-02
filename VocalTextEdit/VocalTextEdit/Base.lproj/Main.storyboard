@@ -768,6 +768,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="speakButton" destination="Xh4-xB-3kz" id="c1z-EL-A16"/>
+                        <outlet property="stopButton" destination="a5o-aN-5Yw" id="Mnq-B7-Tsm"/>
                         <outlet property="textView" destination="miK-9E-Vem" id="4in-ov-0PG"/>
                     </connections>
                 </viewController>
