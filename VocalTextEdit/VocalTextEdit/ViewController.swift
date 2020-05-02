@@ -19,7 +19,7 @@ class ViewController: NSViewController {
             return textView.string
         }
         set {
-            textView.string = newValue!
+            textView.string = newValue ?? ""
         }
     }
     
