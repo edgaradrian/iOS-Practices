@@ -52,10 +52,8 @@ class Document: NSDocument {
             throw Document.Error.UTF8Decoding
         }//contents
         
-        let windowController = windowControllers[0]
-        let viewController = windowController.contentViewController as! ViewController
-        viewController.textView.string = contents
+        self.contents = contents
         
-    }
+    }//read
     
 }//Document
