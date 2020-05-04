@@ -12,15 +12,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var itemTextField: UITextField!
     @IBOutlet weak var tableView: UITableView!
+    
+    let todoList = TodoList()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+    }//viewDidLoad
 
     @IBAction func addButtonPressed(_ sender: UIButton) {
-        print("Add to-do item: \(itemTextField.text)")
-    }
+        guard let todo = itemTextField.text else {
+            return
+        }
+        todoList.add(todo)
+    }//addButtonPressed
 
 }//ViewController
 
