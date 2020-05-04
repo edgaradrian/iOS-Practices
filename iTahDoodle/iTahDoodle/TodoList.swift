@@ -23,4 +23,14 @@ extension TodoList: UITableViewDataSource {
         return items.count
     }//numberOfRowsInSection
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let item = items[indexPath.row]
+        
+        cell.textLabel?.text = item
+
+        return cell
+        
+    }//cellForRowAt
+    
 }//extensión TableViewDataSource
