@@ -18,8 +18,19 @@ class TodoList: NSObject {
     
     fileprivate var items: [String] = []
     
+    func saveItems() {
+        let itemArray = items as NSArray
+        
+        print("Saving items to \(fileURL)")
+        if !itemArray.write(to: fileURL, atomically: true) {
+            print("Could not save to-do list")
+        }
+        
+    }//saveItems
+    
     func add(_ item: String){
         items.append(item)
+        saveItems()
     }//add
     
 }//TodoList
