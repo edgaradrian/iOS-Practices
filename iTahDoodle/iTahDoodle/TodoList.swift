@@ -18,6 +18,11 @@ class TodoList: NSObject {
     
     fileprivate var items: [String] = []
     
+    override init() {
+        super.init()
+        loadItems()
+    }
+    
     func saveItems() {
         let itemArray = items as NSArray
         
@@ -35,8 +40,11 @@ class TodoList: NSObject {
     }//loadItems
     
     func add(_ item: String){
-        items.append(item)
-        saveItems()
+        //Bronze Challenge
+        if !item.isEmpty {
+            items.append(item)
+            saveItems()
+        }
     }//add
     
 }//TodoList

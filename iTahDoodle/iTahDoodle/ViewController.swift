@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         }
         todoList.add(todo)
         tableView.reloadData()
+        //Bronze Challenge
+        itemTextField.text = ""
     }//addButtonPressed
 
 }//ViewController
