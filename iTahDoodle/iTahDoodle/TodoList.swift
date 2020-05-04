@@ -16,3 +16,11 @@ class TodoList: NSObject {
     }//add
     
 }//TodoList
+
+extension TodoList: UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
+    }//numberOfRowsInSection
+    
+}//extensión TableViewDataSource
