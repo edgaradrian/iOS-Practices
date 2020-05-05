@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         tableView.dataSource = todoList
+        tableView.delegate = todoList
     }//viewDidLoad
 
     @IBAction func addButtonPressed(_ sender: UIButton) {
@@ -33,4 +34,5 @@ class ViewController: UIViewController {
     }//addButtonPressed
 
 }//ViewController
+
 

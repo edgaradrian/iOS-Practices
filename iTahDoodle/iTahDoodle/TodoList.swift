@@ -66,3 +66,13 @@ extension TodoList: UITableViewDataSource {
     }//cellForRowAt
     
 }//extensión TableViewDataSource
+
+//Gold Challenge
+extension TodoList: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        items.remove(at: indexPath.row)
+        tableView.reloadData()
+    }//didSelectRowAt
+    
+}//TodoList extension UITableViewDelegate
