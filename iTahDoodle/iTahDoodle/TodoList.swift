@@ -56,10 +56,10 @@ extension TodoList: UITableViewDataSource {
     }//numberOfRowsInSection
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCellId", for: indexPath) as! TodoListTableViewCell
         let item = items[indexPath.row]
         
-        cell.textLabel?.text = item
+        cell.label.text = item
 
         return cell
         

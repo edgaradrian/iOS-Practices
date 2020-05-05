@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        //tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         tableView.dataSource = todoList
     }//viewDidLoad
 
