@@ -19,6 +19,10 @@ int main(int argc, const char * argv[]) {
         
         [items insertObject:@"Cero" atIndex:0];
         
+        for (NSString *item in items) {
+            NSLog(@"%@", item);
+        }
+        
         items = nil;
         
     }//main
