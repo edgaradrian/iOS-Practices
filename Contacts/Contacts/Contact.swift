@@ -15,6 +15,6 @@ class Contact: NSObject {
     init(name: String) {
         self.name = name
         super.init()
-    }//init
+    }
     
 }//Contact
