@@ -35,10 +35,9 @@ int main(int argc, const char * argv[]) {
         //[item setValueInDollars:100];
         item.valueInDollars = 100;
         
-        NSLog(@"%@ %@ %@ %d", [item itemName], [item dateCreated],
-              [item serialNumber], [item valueInDollars]);
-        NSLog(@"%@ %@ %@ %d", item.itemName, item.dateCreated,
-              item.serialNumber, item.valueInDollars);
+        //NSLog(@"%@ %@ %@ %d", [item itemName], [item dateCreated], [item serialNumber], [item valueInDollars]);
+        //NSLog(@"%@ %@ %@ %d", item.itemName, item.dateCreated, item.serialNumber, item.valueInDollars);
+        NSLog(@"%@", item);
         
         items = nil;
         
