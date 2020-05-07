@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
     NSDate *_dateCreated;
 }
 
++(instancetype)randomItem;
+
 -(instancetype)initWithItemName:(NSString *)name
                  valueInDollars:(int)value
                    serialNumber:(NSString *)sNumber;
