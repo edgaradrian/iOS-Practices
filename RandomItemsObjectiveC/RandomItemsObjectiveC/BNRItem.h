@@ -26,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype)initWithItemName:(NSString *)name;
 
+//Silver Challenge
+-(instancetype)initWithItemName:(NSString *)name
+                   serialNumber:(NSString *)sNumber;
+
 -(void)setItemName:(NSString *)str;
 -(NSString *)itemName;
 

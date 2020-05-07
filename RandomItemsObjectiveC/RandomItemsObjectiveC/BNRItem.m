@@ -35,6 +35,12 @@
     return [self initWithItemName:@"Item"];
 }//init
 
+//Silver Challenge
+-(instancetype)initWithItemName:(NSString *)name serialNumber:(NSString *)sNumber
+{
+    return [self initWithItemName:name valueInDollars:0 serialNumber:sNumber];
+}
+
 +(instancetype)randomItem
 {
     NSArray *randomAdjectiveList = @[@"Fluffy", @"Rusty", @"Shiny"];
