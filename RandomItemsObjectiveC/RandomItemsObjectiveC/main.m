@@ -14,28 +14,14 @@ int main(int argc, const char * argv[]) {
         
         NSMutableArray *items = [[NSMutableArray alloc] init];
         
-        [items addObject:@"Uno"];
-        [items addObject:@"Dos"];
-        [items addObject:@"Tres"];
-        
-        [items insertObject:@"Cero" atIndex:0];
-        
-        for (NSString *item in items) {
-            NSLog(@"%@", item);
+        for (int i = 0; i < 10; i++) {
+            BNRItem *item = [BNRItem randomItem];
+            [items addObject:item];
         }
         
-        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa"
-                                           valueInDollars:100
-                                             serialNumber:@"A3B2C1"];
-        NSLog(@"%@", item);
-        
-        //initWithItemName
-        BNRItem *itemWithName = [[BNRItem alloc] initWithItemName:@"Blue Sofa"];
-        NSLog(@"%@", itemWithName);
-        
-        //init
-        BNRItem *itemWithNoName = [[BNRItem alloc] init];
-        NSLog(@"%@", itemWithNoName);
+        for (BNRItem *item in items){
+            NSLog(@"%@", item);
+        }
         
         items = nil;
         
