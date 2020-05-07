@@ -24,20 +24,18 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@", item);
         }
         
-        BNRItem *item = [[BNRItem alloc] init];
-        
-        //[item setItemName:@"Red Sofa"];
-        item.itemName = @"Red Sofa";
-        
-        //[item setSerialNumber:@"A3B2C1"];
-        item.serialNumber = @"A3B2C1";
-        
-        //[item setValueInDollars:100];
-        item.valueInDollars = 100;
-        
-        //NSLog(@"%@ %@ %@ %d", [item itemName], [item dateCreated], [item serialNumber], [item valueInDollars]);
-        //NSLog(@"%@ %@ %@ %d", item.itemName, item.dateCreated, item.serialNumber, item.valueInDollars);
+        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa"
+                                           valueInDollars:100
+                                             serialNumber:@"A3B2C1"];
         NSLog(@"%@", item);
+        
+        //initWithItemName
+        BNRItem *itemWithName = [[BNRItem alloc] initWithItemName:@"Blue Sofa"];
+        NSLog(@"%@", itemWithName);
+        
+        //init
+        BNRItem *itemWithNoName = [[BNRItem alloc] init];
+        NSLog(@"%@", itemWithNoName);
         
         items = nil;
         
