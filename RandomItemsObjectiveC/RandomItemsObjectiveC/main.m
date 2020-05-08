@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@", item);
         }
         
+        NSLog(@"Setting item to nil...");
         items = nil;
         
     }//main

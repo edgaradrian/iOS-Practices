@@ -41,6 +41,11 @@
     return [self initWithItemName:name valueInDollars:0 serialNumber:sNumber];
 }
 
+-(void)dealloc
+{
+    NSLog(@"Destroyed: %@", self);
+}
+
 +(instancetype)randomItem
 {
     NSArray *randomAdjectiveList = @[@"Fluffy", @"Rusty", @"Shiny"];
