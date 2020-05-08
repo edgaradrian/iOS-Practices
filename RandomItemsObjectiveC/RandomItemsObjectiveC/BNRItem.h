@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
     NSString *_serialNumber;
     int _valueInDollars;
     NSDate *_dateCreated;
+    
+    BNRItem *_containedItem;
+    BNRItem *_container;
 }
 
 +(instancetype)randomItem;
@@ -29,6 +32,12 @@ NS_ASSUME_NONNULL_BEGIN
 //Silver Challenge
 -(instancetype)initWithItemName:(NSString *)name
                    serialNumber:(NSString *)sNumber;
+
+-(void)setContainedItem:(BNRItem *)item;
+-(BNRItem *)containedItem;
+
+-(void)setContainer:(BNRItem *)item;
+-(BNRItem *)container;
 
 -(void)setItemName:(NSString *)str;
 -(NSString *)itemName;

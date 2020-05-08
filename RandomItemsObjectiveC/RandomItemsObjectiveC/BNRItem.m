@@ -110,5 +110,24 @@
     return _dateCreated;
 }//dateCreated
 
+-(void)setContainedItem:(BNRItem *)item
+{
+    _containedItem = item;
+    
+    item.container = self;
+}//setContainedItem
+-(BNRItem *)containedItem
+{
+    return _containedItem;
+}//containedItem
+-(void)setContainer:(BNRItem *)item
+{
+    _container = item;
+}//setContainer
+-(BNRItem *)container
+{
+    return _container;
+}//container
+
 
 @end
