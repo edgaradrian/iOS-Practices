@@ -10,14 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var cont = 0
+    var cont = State(initialValue: 0)
     
     var body: some View {
         
         ZStack {
             
             Color.yellow
-            NSLabelView(cont: $cont)
+            NSLabelView(cont: cont.projectedValue)
             
         }.edgesIgnoringSafeArea(.all)
         
