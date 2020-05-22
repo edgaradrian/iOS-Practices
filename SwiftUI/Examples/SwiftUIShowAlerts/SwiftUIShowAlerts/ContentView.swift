@@ -14,11 +14,19 @@ struct ContentView: View {
     @State private var showActionSheet = false
 
     var alert: Alert {
-        Alert(title: Text("Alert"), message: Text("Showing an alert"), dismissButton: .default(Text("Accept")))
+        Alert(title: Text("Alert"), message: Text("Showing an alert"), dismissButton: .default(Text("Accept"), action: {
+            print("I am showing an Alert")
+        }))
     }//alert
 
     var actionSheet: ActionSheet {
-        ActionSheet(title: Text("Action Sheet"), message: Text("Showing an action sheet"), buttons: [.default(Text("Hello!")), .default(Text("Hi")), .cancel(Text("Cancel"))])
+        ActionSheet(title: Text("Action Sheet"), message: Text("Showing an action sheet"), buttons: [.default(Text("Hello!"), action: {
+            print("I am showing Hello!")
+        }), .default(Text("Hi"), action: {
+            print("I am showing Hi!")
+        }), .cancel(Text("Cancel"), action: {
+            print("I am cancelling...")
+        })])
     }
     
     var body: some View {
