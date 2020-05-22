@@ -11,30 +11,46 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var showAlert = false
+    @State private var showActionSheet = false
 
     var alert: Alert {
         Alert(title: Text("Alert"), message: Text("Showing an alert"), dismissButton: .default(Text("Accept")))
     }//alert
 
+    var actionSheet: ActionSheet {
+        ActionSheet(title: Text("Action Sheet"), message: Text("Showing an action sheet"), buttons: [.default(Text("Hello!")), .default(Text("Hi")), .cancel(Text("Cancel"))])
+    }
+    
     var body: some View {
         
         ZStack {
         
-            VStack {
+            VStack(alignment: .center, spacing: 10) {
        
                 Button(action: {
                     self.showAlert.toggle()
                 }) {
-                    Text("Show simple Alert")
+                    Text("Show Simple Alert")
                         .foregroundColor(.white)
                         .padding()
                 }.background(Color.blue)
-                .cornerRadius(8)
                     .alert(isPresented: self.$showAlert) {
                         self.alert
                 }
+                
+                Button(action: {
+                    self.showActionSheet.toggle()
+                }) {
+                    Text("Show Action Sheet")
+                        .foregroundColor(.white)
+                        .padding()
+                }.background(Color.green)
+                    .actionSheet(isPresented: self.$showActionSheet) { () -> ActionSheet in
+                        self.actionSheet
+                }
+                   
             
-            }//VStack
+            }.cornerRadius(8)
         
         }//Ztack
     
