@@ -33,6 +33,8 @@ struct ContentView: View {
         
         ZStack {
         
+            Color.yellow
+            
             VStack(alignment: .center, spacing: 10) {
        
                 Button(action: {
@@ -60,7 +62,7 @@ struct ContentView: View {
             
             }.cornerRadius(8)
         
-        }//Ztack
+        }.edgesIgnoringSafeArea(.all)
     
     }//body
     
