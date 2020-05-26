@@ -13,6 +13,7 @@ struct ContentView: View {
         Image(systemName: "cloud.heavyrain")
             .font(.system(size: 100))
             .foregroundColor(.red)
+            .shadow(color: .yellow, radius: 10, x: 0, y: 10)
     }
 }
 
