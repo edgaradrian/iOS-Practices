@@ -10,10 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image(systemName: "cloud.heavyrain")
-            .font(.system(size: 100))
-            .foregroundColor(.red)
-            .shadow(color: .yellow, radius: 10, x: 0, y: 10)
+        Image("Moscow")
     }
 }
 
