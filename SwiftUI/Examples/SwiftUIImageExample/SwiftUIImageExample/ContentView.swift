@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Image(systemName: "cloud.heavyrain")
+            .font(.system(size: 100))
     }
 }
 
