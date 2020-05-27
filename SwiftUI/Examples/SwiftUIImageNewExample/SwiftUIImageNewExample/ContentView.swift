@@ -16,6 +16,14 @@ struct ContentView: View {
             .frame(width: 300)
         .clipShape(Circle())
             .opacity(0.5)
+        .overlay(
+            
+            Image(systemName: "heart.fill")
+                .font(.system(size: 50))
+                .foregroundColor(.black)
+                .opacity(0.5)
+            
+        )
         
     }
 }
