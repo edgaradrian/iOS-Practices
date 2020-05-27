@@ -13,22 +13,21 @@ struct ContentView: View {
         Image("Chimalli")
         .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(width: 300)
-        .clipShape(Circle())
-            .opacity(0.5)
         .overlay(
             
-            Text("Chimalli - Lugar de los que tienen escudos")
-                .fontWeight(.heavy)
-                .font(.system(.headline, design: .rounded))
-                .foregroundColor(.white)
-            .padding()
-                .background(Color.black)
-                .cornerRadius(10)
-                .opacity(0.7)
-            .padding(),
+            Rectangle()
+                .foregroundColor(.black)
+                .opacity(0.4)
+            .overlay(
+                
+                Text("Chimalhuacan")
+                    .font(.largeTitle)
+                    .fontWeight(.black)
+                    .foregroundColor(.white)
+                    .frame(width: 300)
+                
+            )
             
-            alignment: .top
         )
         
     }
