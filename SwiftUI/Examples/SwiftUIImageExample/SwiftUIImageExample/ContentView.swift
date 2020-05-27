@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         Image("Moscow")
         .resizable()
-        .scaledToFit()
+            .aspectRatio(contentMode: .fit)
     }
 }
 
