@@ -10,11 +10,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("Moscow")
-        .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 300)
-        .clipShape(Circle())
+        VStack(alignment: .center, spacing: 10){
+            Image("Moscow")
+            .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 100)
+            .clipShape(Circle())
+            
+            Image("Moscow")
+            .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100)
+            .clipShape(Ellipse())
+            
+            Image("Moscow")
+            .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100)
+            .clipShape(Capsule())
+        }
     }
 }
 
