@@ -13,6 +13,7 @@ struct ContentView: View {
         Image("Moscow")
         .resizable()
             .aspectRatio(contentMode: .fit)
+            .frame(width: 300)
     }
 }
 
