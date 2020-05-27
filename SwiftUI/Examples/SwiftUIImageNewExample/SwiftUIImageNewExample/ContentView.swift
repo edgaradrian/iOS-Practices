@@ -18,11 +18,17 @@ struct ContentView: View {
             .opacity(0.5)
         .overlay(
             
-            Image(systemName: "heart.fill")
-                .font(.system(size: 50))
-                .foregroundColor(.black)
-                .opacity(0.5)
+            Text("Chimalli - Lugar de los que tienen escudos")
+                .fontWeight(.heavy)
+                .font(.system(.headline, design: .rounded))
+                .foregroundColor(.white)
+            .padding()
+                .background(Color.black)
+                .cornerRadius(10)
+                .opacity(0.7)
+            .padding(),
             
+            alignment: .top
         )
         
     }
