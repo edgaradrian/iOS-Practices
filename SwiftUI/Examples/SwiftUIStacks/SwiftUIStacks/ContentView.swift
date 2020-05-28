@@ -25,6 +25,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .padding(5)
                         .background(Color.yellow)
+                        .offset(x: 0, y: 90)
                     
                 }
             
