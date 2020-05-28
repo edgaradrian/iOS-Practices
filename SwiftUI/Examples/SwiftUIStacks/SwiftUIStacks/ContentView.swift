@@ -14,25 +14,27 @@ struct ContentView: View {
             
             HeaderView()
             
-            VStack {
-                Text("Basic")
-                    .font(.system(.title, design: .rounded))
-                    .fontWeight(.black)
-                    .foregroundColor(.white)
-                
-                Text("$5")
-                    .font(.system(.title, design: .rounded))
-                    .fontWeight(.heavy)
-                    .foregroundColor(.white)
-                
-                Text("per month")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                
+            HStack {
+                VStack {
+                    Text("Basic")
+                        .font(.system(.title, design: .rounded))
+                        .fontWeight(.black)
+                        .foregroundColor(.white)
+                    
+                    Text("$5")
+                        .font(.system(.title, design: .rounded))
+                        .fontWeight(.heavy)
+                        .foregroundColor(.white)
+                    
+                    Text("per month")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                    
+                }
+                .padding(40)
+                .background(Color.blue)
+                .cornerRadius(10)
             }
-        .padding(40)
-            .background(Color.blue)
-        .cornerRadius(10)
             
             
             
