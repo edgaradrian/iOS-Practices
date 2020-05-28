@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             
             HeaderView()
             
@@ -19,20 +21,22 @@ struct ContentView: View {
                 ZStack {
                     PlanView(title: "Pro", price: "$10", bgColor: Color.red)
                     
-                    Text("Best for designer")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                        .padding(5)
-                        .background(Color.yellow)
-                        .offset(x: 0, y: 90)
+                    TextOffsetView(title: "Best for designer")
                     
                 }
             
             }
             .padding(.horizontal)
             
-            
+            HStack {
+                ZStack {
+                    TeamView(imageName: "pencil.and.outline", title: "Team", price: "$100")
+                    
+                    TextOffsetView(title: "Perfect for teams with several members")
+                    
+                }
+            }
+            .padding(.horizontal)
             
         }
     }
@@ -84,5 +88,55 @@ struct PlanView: View {
         .padding(40)
         .background(bgColor)
         .cornerRadius(10)
+    }
+}
+
+struct TeamView: View {
+    
+    var imageName: String
+    var title: String
+    var price: String
+    
+    var body: some View {
+        VStack {
+            
+            Image(systemName: imageName)
+                .font(.system(size: 30))
+                .foregroundColor(.white)
+            
+            Text(title)
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.black)
+                .foregroundColor(.white)
+            
+            Text(price)
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.heavy)
+                .foregroundColor(.white)
+            
+            Text("per month")
+                .font(.headline)
+                .foregroundColor(.white)
+            
+            
+        }
+        .frame(minWidth: 0,  maxWidth: .infinity, minHeight: 180)
+        .background(Color.green)
+        .cornerRadius(10)
+    }
+}
+
+struct TextOffsetView: View {
+    
+    var title: String
+    
+    var body: some View {
+        Text(title)
+            .font(.system(.caption, design: .rounded))
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .padding(5)
+            .background(Color.yellow)
+            .offset(x: 0, y: 90)
     }
 }
