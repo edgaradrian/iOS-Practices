@@ -21,7 +21,7 @@ struct ContentView: View {
                 ZStack {
                     PlanView(title: "Pro", price: "$10", bgColor: Color.red)
                     
-                    TextOffsetView(title: "Best for designer")
+                    TextOffsetView(title: "Best for designer", positionY: 90)
                     
                 }
             
@@ -30,9 +30,9 @@ struct ContentView: View {
             
             HStack {
                 ZStack {
-                    TeamView(imageName: "pencil.and.outline", title: "Team", price: "$100")
+                    PlanView(title: "Team", price: "$100", bgColor: Color.green, imageName: "pencil.and.outline")
                     
-                    TextOffsetView(title: "Perfect for teams with several members")
+                    TextOffsetView(title: "Perfect for teams with several members", positionY: 100)
                     
                 }
             }
@@ -66,9 +66,17 @@ struct PlanView: View {
     var title: String
     var price: String
     var bgColor: Color
+    var imageName: String?
     
     var body: some View {
         VStack {
+            
+            imageName.map {
+                Image(systemName: $0)
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+            }
+            
             Text(title)
                 .font(.system(.title, design: .rounded))
                 .fontWeight(.black)
@@ -91,44 +99,10 @@ struct PlanView: View {
     }
 }
 
-struct TeamView: View {
-    
-    var imageName: String
-    var title: String
-    var price: String
-    
-    var body: some View {
-        VStack {
-            
-            Image(systemName: imageName)
-                .font(.system(size: 30))
-                .foregroundColor(.white)
-            
-            Text(title)
-                .font(.system(.title, design: .rounded))
-                .fontWeight(.black)
-                .foregroundColor(.white)
-            
-            Text(price)
-                .font(.system(.title, design: .rounded))
-                .fontWeight(.heavy)
-                .foregroundColor(.white)
-            
-            Text("per month")
-                .font(.headline)
-                .foregroundColor(.white)
-            
-            
-        }
-        .frame(minWidth: 0,  maxWidth: .infinity, minHeight: 180)
-        .background(Color.green)
-        .cornerRadius(10)
-    }
-}
-
 struct TextOffsetView: View {
     
     var title: String
+    var positionY: CGFloat
     
     var body: some View {
         Text(title)
@@ -137,6 +111,6 @@ struct TextOffsetView: View {
             .foregroundColor(.white)
             .padding(5)
             .background(Color.yellow)
-            .offset(x: 0, y: 90)
+            .offset(x: 0, y: positionY)
     }
 }
