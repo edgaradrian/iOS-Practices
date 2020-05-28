@@ -15,54 +15,11 @@ struct ContentView: View {
             HeaderView()
             
             HStack {
-                VStack {
-                    Text("Basic")
-                        .font(.system(.title, design: .rounded))
-                        .fontWeight(.black)
-                        .foregroundColor(.white)
-                    
-                    Text("$5")
-                        .font(.system(.title, design: .rounded))
-                        .fontWeight(.heavy)
-                        .foregroundColor(.white)
-                    
-                    Text("per month")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                    
-                }
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100)
-                .padding(40)
-                .background(Color.blue)
-                .cornerRadius(10)
-            
-            
-                VStack {
-                    
-                    Text("Pro")
-                        .font(.system(.title, design: .rounded))
-                        .fontWeight(.black)
-                        .foregroundColor(.white)
-                    
-                    Text("$15")
-                        .font(.system(.title, design: .rounded))
-                        .fontWeight(.heavy)
-                        .foregroundColor(.white)
-                    
-                    Text("per month")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                    
-                }
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100)
-                .padding(40)
-                .background(Color.red)
-                .cornerRadius(10)
-            
-            
+                PlanView(title: "Basic", price: "$4", bgColor: Color.blue)
+                PlanView(title: "Pro", price: "$10", bgColor: Color.red)
             
             }
-        .padding()
+            .padding(.horizontal)
             
             
             
@@ -86,5 +43,35 @@ struct HeaderView: View {
                 .font(.system(.largeTitle, design: .rounded))
                 .fontWeight(.black)
         }
+    }
+}
+
+struct PlanView: View {
+    
+    var title: String
+    var price: String
+    var bgColor: Color
+    
+    var body: some View {
+        VStack {
+            Text(title)
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.black)
+                .foregroundColor(.white)
+            
+            Text(price)
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.heavy)
+                .foregroundColor(.white)
+            
+            Text("per month")
+                .font(.headline)
+                .foregroundColor(.white)
+            
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100)
+        .padding(40)
+        .background(bgColor)
+        .cornerRadius(10)
     }
 }
