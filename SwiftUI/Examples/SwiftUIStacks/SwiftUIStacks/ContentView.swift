@@ -38,6 +38,7 @@ struct ContentView: View {
             }
             .padding(.horizontal)
             
+            Spacer()
         }
     }
 }
@@ -50,14 +51,19 @@ struct ContentView_Previews: PreviewProvider {
 
 struct HeaderView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Choose")
-                .font(.system(.largeTitle, design: .rounded))
-                .fontWeight(.black)
-            Text("Your Plan")
-                .font(.system(.largeTitle, design: .rounded))
-                .fontWeight(.black)
+        HStack {
+            VStack(alignment: .leading) {
+                Text("Choose")
+                    .font(.system(.largeTitle, design: .rounded))
+                    .fontWeight(.black)
+                Text("Your Plan")
+                    .font(.system(.largeTitle, design: .rounded))
+                    .fontWeight(.black)
+            }
+            
+            Spacer()
         }
+        .padding(.horizontal)
     }
 }
 
