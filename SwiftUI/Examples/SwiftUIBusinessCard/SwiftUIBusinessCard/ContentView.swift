@@ -13,10 +13,34 @@ struct ContentView: View {
         ZStack {
             Color(.systemTeal)
                 .edgesIgnoringSafeArea(.all)
-            Text("Edgar Adrián")
-                .font(.custom("ChelseaMarket-Regular", size: 30))
-                .fontWeight(.bold)
-                .foregroundColor(.white)
+            VStack {
+                
+                Image("Mordecai")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 180, height: 150)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle()
+                            .stroke(Color.white, lineWidth: 5)
+                    )
+                
+                Text("Edgar Adrián")
+                    .font(.custom("ChelseaMarket-Regular", size: 30))
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                
+                Text("iOS Developer")
+                    .font(.system(size: 25))
+                    .foregroundColor(.white)
+                
+                Divider()
+                
+                ContactView(imageName: "phone.fill", texto: "52+ (55) 57029406")
+                ContactView(imageName: "envelope.fill", texto: "addick@email.com")
+                    
+                
+            }
         }
     }
 }
@@ -26,3 +50,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

@@ -14,6 +14,7 @@
 		1316DD8B2481A49700C61105 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1316DD8A2481A49700C61105 /* Preview Assets.xcassets */; };
 		1316DD8E2481A49700C61105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1316DD8C2481A49700C61105 /* LaunchScreen.storyboard */; };
 		1316DD972481A9EE00C61105 /* ChelseaMarket-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1316DD962481A9EE00C61105 /* ChelseaMarket-Regular.ttf */; };
+		1316DD992481B7F000C61105 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DD982481B7F000C61105 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1316DD8D2481A49700C61105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1316DD8F2481A49700C61105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1316DD962481A9EE00C61105 /* ChelseaMarket-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChelseaMarket-Regular.ttf"; sourceTree = "<group>"; };
+		1316DD982481B7F000C61105 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1316DD8C2481A49700C61105 /* LaunchScreen.storyboard */,
 				1316DD8F2481A49700C61105 /* Info.plist */,
 				1316DD892481A49700C61105 /* Preview Content */,
+				1316DD982481B7F000C61105 /* ContactView.swift */,
 			);
 			path = SwiftUIBusinessCard;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				1316DD822481A49600C61105 /* AppDelegate.swift in Sources */,
 				1316DD842481A49600C61105 /* SceneDelegate.swift in Sources */,
 				1316DD862481A49600C61105 /* ContentView.swift in Sources */,
+				1316DD992481B7F000C61105 /* ContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
