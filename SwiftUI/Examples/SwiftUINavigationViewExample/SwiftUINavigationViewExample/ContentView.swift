@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             NavigationLink(destination: SecondView()) {
                 Text("Go to Second View")
-            }
+            }.navigationBarTitle("Main View")
         }
     }
 }
