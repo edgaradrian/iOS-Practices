@@ -10,7 +10,15 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text("I am The Second View")
+        HStack {
+            Text("I am The Second View")
+                .navigationBarTitle("Second View")
+            .navigationBarItems(trailing:
+                NavigationLink(destination: ThirdView()) {
+                    Image(systemName: "plus.app.fill")
+                }
+            )
+        }
     }
 }
 
