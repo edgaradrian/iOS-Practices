@@ -10,8 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List {
-            Text("I am an element")
+        NavigationView {
+            List {
+                Text("I am an element")
+            }
         }
     }
 }
