@@ -8,7 +8,9 @@
 
 import Foundation
 
-class NetworkManager {
+class NetworkManager: ObservableObject {
+    
+    @Published var posts = [Post]()
     
     func fetchData() {
         
@@ -20,6 +22,7 @@ class NetworkManager {
                     if let safeData = data {
                         do {
                            let results = try decoder.decode(Results.self, from: safeData)
+                            self.posts = results.hits
                         } catch {
                             print("error")
                         }

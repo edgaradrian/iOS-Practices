@@ -9,7 +9,7 @@
 import Foundation
 
 struct Post: Decodable, Identifiable {
-    let id: String {
+    var id: String {
         return objectID
     }
     let objectID: String
