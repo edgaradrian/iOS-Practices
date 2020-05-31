@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 Text("I am an element")
-            }
+            }.navigationBarTitle("H News")
         }
     }
 }
