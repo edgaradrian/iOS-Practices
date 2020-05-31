@@ -17,6 +17,7 @@
 		1316DDDE248439F200C61105 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DDDD248439F200C61105 /* NetworkManager.swift */; };
 		1316DDE024843D2800C61105 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DDDF24843D2800C61105 /* PostData.swift */; };
 		1316DDE324844BCB00C61105 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DDE224844BCB00C61105 /* DetailView.swift */; };
+		1316DDE52484502A00C61105 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DDE42484502A00C61105 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1316DDDD248439F200C61105 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1316DDDF24843D2800C61105 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		1316DDE224844BCB00C61105 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1316DDE42484502A00C61105 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1316DDCA24833F4500C61105 /* ContentView.swift */,
 				1316DDE224844BCB00C61105 /* DetailView.swift */,
+				1316DDE42484502A00C61105 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1316DDC724833F4500C61105 /* AppDelegate.swift in Sources */,
+				1316DDE52484502A00C61105 /* WebView.swift in Sources */,
 				1316DDE024843D2800C61105 /* PostData.swift in Sources */,
 				1316DDC924833F4500C61105 /* SceneDelegate.swift in Sources */,
 				1316DDE324844BCB00C61105 /* DetailView.swift in Sources */,
