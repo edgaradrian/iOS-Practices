@@ -8,6 +8,6 @@
 
 import Foundation
 
-class Results: Decodable {
+struct Results: Decodable {
     let hits: [Post]
 }
