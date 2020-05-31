@@ -9,9 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var networkManager = NetworkManager()
+    
     var body: some View {
         NavigationView {
-            List() { post in
+            List(networkManager.posts) { post in
                 Text(post.title)
             }.navigationBarTitle("H News")
         }
