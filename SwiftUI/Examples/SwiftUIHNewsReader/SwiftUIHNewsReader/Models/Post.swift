@@ -8,14 +8,11 @@
 
 import Foundation
 
-struct Post: Identifiable {
+struct Post: Decodable {
     let id: String
     let title: String
+    let points: Int
+    let url: String
 }//Post
 
 
-let posts = [
-    Post(id: "1", title: "item1"),
-    Post(id: "2", title: "item2"),
-    Post(id: "3", title: "item3")
-]
