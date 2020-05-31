@@ -8,8 +8,11 @@
 
 import Foundation
 
-struct Post: Decodable {
-    let id: String
+struct Post: Decodable, Identifiable {
+    let id: String {
+        return objectID
+    }
+    let objectID: String
     let title: String
     let points: Int
     let url: String
