@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("Dark Mode")
             }.font(.title)
                 .navigationBarTitle("Dark Mode")
-        }
+        }.environment(\.colorScheme, .dark)
     }
 }
 
