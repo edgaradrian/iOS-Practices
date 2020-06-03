@@ -10,8 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var modal = false
+    @State var modal = false
     @State private var myMessage = ""
+    @State var name = ""
     
     var body: some View {
         NavigationView {
@@ -32,8 +33,9 @@ struct ContentView: View {
                 Button("Show modal") {
                     self.modal.toggle()
                 }.sheet(isPresented: self.$modal) { 
-                    NewSheetView(sheetData: 1)
+                    NewSheetView(sheetData: 1, modal: self.$modal, name: self.$name)
                 }
+                Text("The name is: \(self.name)")
             }
         }
     }
