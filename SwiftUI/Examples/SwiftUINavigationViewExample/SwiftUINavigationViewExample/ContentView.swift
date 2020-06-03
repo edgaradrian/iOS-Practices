@@ -11,11 +11,14 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var modal = false
-    let myMessage = "Hi Second View from Content View"
+    @State private var myMessage = ""
     
     var body: some View {
         NavigationView {
             VStack {
+                TextField("Say Hello to Second View", text: self.$myMessage)
+                    .padding(.horizontal)
+                Divider()
                 NavigationLink(destination: SecondView(message: myMessage)) {
                     HStack {
                         Image(systemName: "hand.point.right.fill")
