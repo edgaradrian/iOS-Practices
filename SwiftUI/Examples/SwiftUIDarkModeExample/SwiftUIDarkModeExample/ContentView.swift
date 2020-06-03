@@ -14,6 +14,7 @@ struct ContentView: View {
             HStack {
                 Image(systemName: "moon.fill")
                 Text("Dark Mode")
+                .foregroundColor(Color("CustomTextColor"))
             }.font(.title)
                 .navigationBarTitle("Dark Mode")
         }.environment(\.colorScheme, .dark)
