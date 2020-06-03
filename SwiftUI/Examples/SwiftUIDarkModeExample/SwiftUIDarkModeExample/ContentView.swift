@@ -11,12 +11,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            HStack {
-                Image(systemName: "moon.fill")
-                Text("Dark Mode")
-                .foregroundColor(Color("CustomTextColor"))
-            }.font(.title)
-                .navigationBarTitle("Dark Mode")
+            VStack {
+                HStack {
+                    Image(systemName: "moon.fill")
+                    Text("Dark Mode")
+                    .foregroundColor(Color("CustomTextColor"))
+                }.font(.title)
+                    .navigationBarTitle("Dark Mode")
+                Image("CustomImageSet")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }.padding()
         }.environment(\.colorScheme, .dark)
     }
 }
