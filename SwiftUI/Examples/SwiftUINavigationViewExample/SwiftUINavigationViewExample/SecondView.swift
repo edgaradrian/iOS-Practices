@@ -13,10 +13,10 @@ struct SecondView: View {
         HStack {
             Text("I am The Second View")
                 .navigationBarTitle("Second View")
-            .navigationBarItems(trailing:
-                NavigationLink(destination: ThirdView()) {
-                    Image(systemName: "plus.app.fill")
-                }
+                .navigationBarItems(trailing:
+                    NavigationLink(destination: ThirdView()) {
+                        Image(systemName: "plus.app.fill")
+                    }
             )
         }
     }
