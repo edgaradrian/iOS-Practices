@@ -9,6 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var colorScheme: ColorScheme = .light
+    @State var flag = true
+    
+    private func changeColorScheme() {
+        if flag {
+            colorScheme = .light
+        } else {
+            colorScheme = .dark
+        }
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -21,8 +33,14 @@ struct ContentView: View {
                 Image("CustomImageSet")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                Button(action: {
+                    self.flag.toggle()
+                    self.changeColorScheme()
+                }) {
+                    Text("Change color scheme")
+                }
             }.padding()
-        }.environment(\.colorScheme, .dark)
+        }.environment(\.colorScheme, self.colorScheme)
     }
 }
 
