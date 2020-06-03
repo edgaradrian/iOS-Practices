@@ -28,7 +28,7 @@ struct ContentView: View {
                 Button("Show modal") {
                     self.modal.toggle()
                 }.sheet(isPresented: self.$modal) { 
-                    Text("I am a modal")
+                    NewSheetView()
                 }
             }
         }
