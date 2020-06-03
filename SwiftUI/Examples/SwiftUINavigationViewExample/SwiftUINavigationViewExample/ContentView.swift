@@ -32,7 +32,7 @@ struct ContentView: View {
                 Button("Show modal") {
                     self.modal.toggle()
                 }.sheet(isPresented: self.$modal) { 
-                    NewSheetView()
+                    NewSheetView(sheetData: 1)
                 }
             }
         }

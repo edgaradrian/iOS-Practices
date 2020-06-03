@@ -9,13 +9,16 @@
 import SwiftUI
 
 struct NewSheetView: View {
+    
+    var sheetData: Int
+    
     var body: some View {
-        Text("I am a sheet")
+        Text("I am a sheet \(sheetData)")
     }
 }
 
 struct NewSheetView_Previews: PreviewProvider {
     static var previews: some View {
-        NewSheetView()
+        NewSheetView(sheetData: 0)
     }
 }
