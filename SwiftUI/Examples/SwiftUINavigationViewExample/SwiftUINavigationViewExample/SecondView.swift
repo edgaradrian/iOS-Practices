@@ -9,9 +9,12 @@
 import SwiftUI
 
 struct SecondView: View {
+    
+    var message: String
+    
     var body: some View {
         HStack {
-            Text("I am The Second View")
+            Text(message)
                 .navigationBarTitle("Second View")
                 .navigationBarItems(trailing:
                     NavigationLink(destination: ThirdView()) {
@@ -24,6 +27,6 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView()
+        SecondView(message: "")
     }
 }
