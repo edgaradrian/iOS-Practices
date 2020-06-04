@@ -10,11 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            CardView(image: "swiftui-button", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners", author: "Edgar Adrián")
-            CardView(image: "macos-programming", category: "macOS", heading: "Building a Simple", author: "Bruce Wayne")
-            CardView(image: "flutter-app", category: "iOS", heading: "Building a Complex with Flutter", author: "Edgar Ruiz")
-            CardView(image: "natural-language-api", category: "iOS", heading: "What's New in Natural Language API", author: "Adrián")
+        ScrollView {
+            VStack {
+                CardView(image: "swiftui-button", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners", author: "Edgar Adrián")
+                CardView(image: "macos-programming", category: "macOS", heading: "Building a Simple", author: "Bruce Wayne")
+                CardView(image: "flutter-app", category: "iOS", heading: "Building a Complex with Flutter", author: "Edgar Ruiz")
+                CardView(image: "natural-language-api", category: "iOS", heading: "What's New in Natural Language API", author: "Adrián")
+            }
         }
     }
 }
