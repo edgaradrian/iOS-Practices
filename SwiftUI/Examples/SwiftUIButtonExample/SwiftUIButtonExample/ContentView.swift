@@ -13,12 +13,17 @@ struct ContentView: View {
         Button(action: {
             print("Delete button tapped!")
         }) {
-            Image(systemName: "trash")
-                .padding()
-                .background(Color.red)
-                .clipShape(Circle())
-                .font(.largeTitle)
-                .foregroundColor(.white)
+            HStack {
+                Image(systemName: "trash")
+                    .font(.title)
+                Text("Delete")
+                    .fontWeight(.semibold)
+                    .font(.title)
+            }
+            .padding()
+            .foregroundColor(.white)
+            .background(Color.red)
+            .cornerRadius(40)
         }
     }
 }
