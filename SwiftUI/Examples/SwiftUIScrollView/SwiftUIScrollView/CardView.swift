@@ -15,20 +15,24 @@ struct CardView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
-            VStack(alignment: .leading) {
-                Text("SwiftUI")
-                    .font(.headline)
-                    .foregroundColor(.secondary)
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("SwiftUI")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                        
+                    Text("Drawing a Border with Round Corners")
+                        .font(.title)
+                        .fontWeight(.black)
+                        .foregroundColor(.primary)
+                    .lineLimit(3)
                     
-                Text("Drawing a Border with Round Corners")
-                    .font(.title)
-                    .fontWeight(.black)
-                    .foregroundColor(.primary)
-                .lineLimit(3)
+                    Text("Written by Edgar Ruiz".uppercased())
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
                 
-                Text("Written by Edgar Ruiz".uppercased())
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+                Spacer()
             }
         }
     }
