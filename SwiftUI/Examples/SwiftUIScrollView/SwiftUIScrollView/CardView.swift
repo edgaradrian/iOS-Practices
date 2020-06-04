@@ -16,6 +16,7 @@ struct CardView: View {
                 .aspectRatio(contentMode: .fit)
             
             HStack {
+        
                 VStack(alignment: .leading) {
                     Text("SwiftUI")
                         .font(.headline)
@@ -31,6 +32,7 @@ struct CardView: View {
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
+                .layoutPriority(100)
                 
                 Spacer()
             }
