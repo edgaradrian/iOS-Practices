@@ -20,13 +20,9 @@ struct ContentView: View {
                     .fontWeight(.semibold)
                     .font(.title)
             }
-            .frame(minWidth:0, maxWidth: .infinity)
-            .padding()
-            .foregroundColor(.white)
-            .background(LinearGradient(gradient: Gradient(colors: [Color("DarkGreen"), Color("LightGreen")]), startPoint: .top, endPoint: .bottom))
-            .cornerRadius(40)
-            .shadow(color: .gray, radius: 20.0, x: 20, y: 10)
+            
         }
+        .buttonStyle(GradientBackgroundStyle())
     }
 }
 
