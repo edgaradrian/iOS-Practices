@@ -10,19 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button(action: {
-            print("Delete button tapped!")
-        }) {
-            HStack {
-                Image(systemName: "trash")
-                    .font(.title)
-                Text("Delete")
-                    .fontWeight(.semibold)
-                    .font(.title)
-            }
-            
+        VStack {
+            CustomButton(consoleText: "Share tapped!", image: "square.and.arrow.up", buttonText: "Share")
+            CustomButton(consoleText: "Edit tapped!", image: "square.and.pencil", buttonText: "Edit")
+            CustomButton(consoleText: "Delete tapped!", image: "trash", buttonText: "Delete")
         }
-        .buttonStyle(GradientBackgroundStyle())
+        
     }
 }
 

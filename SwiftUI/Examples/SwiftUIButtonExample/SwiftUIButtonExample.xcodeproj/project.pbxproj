@@ -14,6 +14,7 @@
 		1316DE402489658900C61105 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1316DE3F2489658900C61105 /* Preview Assets.xcassets */; };
 		1316DE432489658900C61105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1316DE412489658900C61105 /* LaunchScreen.storyboard */; };
 		1316DE4B248985C100C61105 /* GradientBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DE4A248985C100C61105 /* GradientBackgroundStyle.swift */; };
+		1316DE4E2489886200C61105 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DE4D2489886200C61105 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1316DE422489658900C61105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1316DE442489658900C61105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1316DE4A248985C100C61105 /* GradientBackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundStyle.swift; sourceTree = "<group>"; };
+		1316DE4D2489886200C61105 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1316DE442489658900C61105 /* Info.plist */,
 				1316DE3E2489658900C61105 /* Preview Content */,
 				1316DE4A248985C100C61105 /* GradientBackgroundStyle.swift */,
+				1316DE4D2489886200C61105 /* CustomButton.swift */,
 			);
 			path = SwiftUIButtonExample;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				1316DE392489658700C61105 /* SceneDelegate.swift in Sources */,
 				1316DE3B2489658700C61105 /* ContentView.swift in Sources */,
 				1316DE4B248985C100C61105 /* GradientBackgroundStyle.swift in Sources */,
+				1316DE4E2489886200C61105 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
