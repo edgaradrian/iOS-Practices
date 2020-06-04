@@ -24,6 +24,7 @@ struct ContentView: View {
             .foregroundColor(.white)
             .background(LinearGradient(gradient: Gradient(colors: [Color("DarkGreen"), Color("LightGreen")]), startPoint: .top, endPoint: .bottom))
             .cornerRadius(40)
+            .shadow(color: .gray, radius: 20.0, x: 20, y: 10)
         }
     }
 }
