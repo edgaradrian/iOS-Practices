@@ -11,20 +11,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Button(action: {
-            print("Holaaaaaa... Enfermera tapped")
+            print("Delete button tapped!")
         }) {
-            Text("Holaaaaa.... Enfermera")
-                .fontWeight(.bold)
-                .font(.title)
-                .padding()
-                .background(Color.purple)
-                .cornerRadius(40)
-                .foregroundColor(.white)
-                .padding(10)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 40)
-                        .stroke(Color.purple, lineWidth: 5)
-                )
+            Image(systemName: "trash")
+                .font(.largeTitle)
+                .foregroundColor(.red)
         }
     }
 }
