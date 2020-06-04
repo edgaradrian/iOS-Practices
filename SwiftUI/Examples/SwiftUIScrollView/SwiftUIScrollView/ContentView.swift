@@ -11,6 +11,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Thuesday, June 4")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                    Text("Your Reading")
+                        .font(.title)
+                        .fontWeight(.black)
+                        .foregroundColor(.primary)
+                }
+                .layoutPriority(100)
+                
+                Spacer()
+            }
+            .padding(.horizontal)
+            
             VStack {
                 CardView(image: "swiftui-button", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners", author: "Edgar Adrián")
                 CardView(image: "macos-programming", category: "macOS", heading: "Building a Simple", author: "Bruce Wayne")
