@@ -10,7 +10,27 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("swiftui-button")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            VStack(alignment: .leading) {
+                Text("SwiftUI")
+                    .font(.headline)
+                    .foregroundColor(.secondary)
+                    
+                Text("Drawing a Border with Round Corners")
+                    .font(.title)
+                    .fontWeight(.black)
+                    .foregroundColor(.primary)
+                .lineLimit(3)
+                
+                Text("Written by Edgar Ruiz".uppercased())
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+        }
     }
 }
 
