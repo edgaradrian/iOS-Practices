@@ -14,8 +14,11 @@ struct ContentView: View {
             print("Delete button tapped!")
         }) {
             Image(systemName: "trash")
+                .padding()
+                .background(Color.red)
+                .clipShape(Circle())
                 .font(.largeTitle)
-                .foregroundColor(.red)
+                .foregroundColor(.white)
         }
     }
 }
