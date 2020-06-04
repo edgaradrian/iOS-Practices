@@ -16,17 +16,17 @@ struct CardView: View {
                 .aspectRatio(contentMode: .fit)
             
             HStack {
-        
+                
                 VStack(alignment: .leading) {
                     Text("SwiftUI")
                         .font(.headline)
                         .foregroundColor(.secondary)
-                        
+                    
                     Text("Drawing a Border with Round Corners")
                         .font(.title)
                         .fontWeight(.black)
                         .foregroundColor(.primary)
-                    .lineLimit(3)
+                        .lineLimit(3)
                     
                     Text("Written by Edgar Ruiz".uppercased())
                         .font(.caption)
@@ -36,7 +36,15 @@ struct CardView: View {
                 
                 Spacer()
             }
+            .padding()
         }
+        .cornerRadius(10)
+        .overlay(
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255,
+                              opacity: 0.1), lineWidth: 1)
+        )
+            .padding([.top, .horizontal])
     }
 }
 
