@@ -22,7 +22,7 @@ struct ContentView: View {
             }
             .padding()
             .foregroundColor(.white)
-            .background(Color.red)
+            .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.yellow]), startPoint: .trailing, endPoint: .leading))
             .cornerRadius(40)
         }
     }
