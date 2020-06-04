@@ -14,9 +14,12 @@ struct ContentView: View {
             print("Holaaaaaa... Enfermera tapped")
         }) {
             Text("Holaaaaa.... Enfermera")
-                .foregroundColor(.purple)
+                .fontWeight(.bold)
                 .font(.title)
                 .padding()
+                .background(Color.purple)
+                .foregroundColor(.white)
+                .padding(10)
                 .border(Color.purple, width: 5)
         }
     }
