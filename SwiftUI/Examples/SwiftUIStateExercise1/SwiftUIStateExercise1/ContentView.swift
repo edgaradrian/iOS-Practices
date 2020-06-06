@@ -15,9 +15,9 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            CounterButton(counter: $counter)
-            CounterButton(counter: $counter)
-            CounterButton(counter: $counter)
+            CounterButton(counter: $counter, color: .yellow)
+            CounterButton(counter: $counter, color: .green)
+            CounterButton(counter: $counter, color: .red)
         }
         
         

@@ -11,6 +11,7 @@ import SwiftUI
 struct CounterButton: View {
     
     @Binding var counter: Int
+    var color: Color
     
     var body: some View {
         Button(action: {
@@ -18,7 +19,7 @@ struct CounterButton: View {
         }) {
             Circle()
                 .frame(width: 200, height: 200)
-                .foregroundColor(.yellow)
+                .foregroundColor(color)
                 .overlay(
                     Text("\(self.counter)")
                         .font(.system(size: 100, weight: .bold, design: .rounded))
@@ -29,7 +30,7 @@ struct CounterButton: View {
 
 struct CounterButton_Previews: PreviewProvider {
     static var previews: some View {
-        CounterButton(counter: .constant(1))
+        CounterButton(counter: .constant(1), color: .yellow)
             .previewLayout(.sizeThatFits)
     }
 }
