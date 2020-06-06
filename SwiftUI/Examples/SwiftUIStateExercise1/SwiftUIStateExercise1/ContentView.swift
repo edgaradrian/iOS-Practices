@@ -13,17 +13,14 @@ struct ContentView: View {
     @State private var counter = 1
     
     var body: some View {
-        Button(action: {
-            self.counter += 1
-        }) {
-            Circle()
-                .frame(width: 200, height: 200)
-                .foregroundColor(.yellow)
-                .overlay(
-                    Text("\(self.counter)")
-                        .font(.system(size: 100, weight: .bold, design: .rounded))
-            )
+        
+        VStack {
+            CounterButton(counter: $counter)
+            CounterButton(counter: $counter)
+            CounterButton(counter: $counter)
         }
+        
+        
     }//body
     
 }
