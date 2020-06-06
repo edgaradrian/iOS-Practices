@@ -18,11 +18,11 @@ struct CounterButton: View {
             self.counter += 1
         }) {
             Circle()
-                .frame(width: 200, height: 200)
+                .frame(width: 100, height: 100)
                 .foregroundColor(color)
                 .overlay(
                     Text("\(self.counter)")
-                        .font(.system(size: 100, weight: .bold, design: .rounded))
+                        .font(.system(size: 30, weight: .bold, design: .rounded))
             )
         }
     }//body

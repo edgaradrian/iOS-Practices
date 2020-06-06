@@ -10,14 +10,29 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var counter = 1
+    @State private var counter1 = 1
+    @State private var counter2 = 1
+    @State private var counter3 = 1
     
     var body: some View {
         
         VStack {
-            CounterButton(counter: $counter, color: .yellow)
-            CounterButton(counter: $counter, color: .green)
-            CounterButton(counter: $counter, color: .red)
+            
+            Spacer()
+            
+            Text("\(counter1 + counter2 + counter3)")
+                .font(.system(size: 150, weight: .bold, design: .rounded))
+            
+            Spacer()
+            
+            HStack {
+                CounterButton(counter: $counter1, color: .yellow)
+                CounterButton(counter: $counter2, color: .green)
+                CounterButton(counter: $counter3, color: .red)
+            }
+            
+            Spacer()
+            
         }
         
         
