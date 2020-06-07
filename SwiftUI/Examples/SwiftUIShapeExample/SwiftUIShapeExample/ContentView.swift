@@ -10,37 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let origin = CGPoint(x: 20, y: 60)
-    let pointB = CGPoint(x: 40, y: 60)
-    let pointC = CGPoint(x: 230, y: 60)
-    let pointD = CGPoint(x: 230, y: 100)
-    let pointE = CGPoint(x: 20, y: 100)
+    let origin = CGPoint(x: 200, y: 200)
     
     var body: some View {
-        ZStack {
-            
-            Path() { path in
-                path.move(to: origin)
-                path.addLine(to: pointB)
-                path.addQuadCurve(to: CGPoint(x: 210, y: 60), control: CGPoint(x: 125, y: 0))
-                path.addLine(to: pointC)
-                path.addLine(to: pointD)
-                path.addLine(to: pointE)
-            }
-            .fill(Color.red)
-            
-            Path() { path in
-                path.move(to: origin)
-                path.addLine(to: pointB)
-                path.addQuadCurve(to: CGPoint(x: 210, y: 60), control: CGPoint(x: 125, y: 0))
-                path.addLine(to: pointC)
-                path.addLine(to: pointD)
-                path.addLine(to: pointE)
-                path.closeSubpath()
-            }
-            .stroke(Color.black, lineWidth: 10)
-            
+        
+        Path() { path in
+            path.move(to: origin)
+            path.addArc(center: origin, radius: 125, startAngle: Angle(degrees: 0.0), endAngle: Angle(degrees: 90), clockwise: true)
         }
+        .fill(Color.blue)
+        
     }
 }
 
