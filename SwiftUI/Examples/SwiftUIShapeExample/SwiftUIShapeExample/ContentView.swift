@@ -10,20 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let origin = CGPoint(x: 20, y: 20)
-    let pointB = CGPoint(x: 300, y: 20)
-    let pointC = CGPoint(x: 300, y: 200)
-    let pointD = CGPoint(x: 20, y: 200)
+    let origin = CGPoint(x: 20, y: 60)
+    let pointB = CGPoint(x: 40, y: 60)
+    let pointC = CGPoint(x: 230, y: 60)
+    let pointD = CGPoint(x: 230, y: 100)
+    let pointE = CGPoint(x: 20, y: 100)
     
     var body: some View {
         Path() { path in
             path.move(to: origin)
             path.addLine(to: pointB)
+            path.addQuadCurve(to: CGPoint(x: 210, y: 60), control: CGPoint(x: 125, y: 0))
             path.addLine(to: pointC)
             path.addLine(to: pointD)
-            path.closeSubpath()
+            path.addLine(to: pointE)
         }
-        .stroke(Color.black, lineWidth: 10)
+        .fill(Color.red)
     }
 }
 
