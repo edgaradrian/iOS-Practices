@@ -21,8 +21,9 @@ struct ContentView: View {
             path.addLine(to: pointB)
             path.addLine(to: pointC)
             path.addLine(to: pointD)
+            path.closeSubpath()
         }
-        .fill(Color.yellow)
+        .stroke(Color.black, lineWidth: 10)
     }
 }
 
