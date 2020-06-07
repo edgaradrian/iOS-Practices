@@ -17,15 +17,30 @@ struct ContentView: View {
     let pointE = CGPoint(x: 20, y: 100)
     
     var body: some View {
-        Path() { path in
-            path.move(to: origin)
-            path.addLine(to: pointB)
-            path.addQuadCurve(to: CGPoint(x: 210, y: 60), control: CGPoint(x: 125, y: 0))
-            path.addLine(to: pointC)
-            path.addLine(to: pointD)
-            path.addLine(to: pointE)
+        ZStack {
+            
+            Path() { path in
+                path.move(to: origin)
+                path.addLine(to: pointB)
+                path.addQuadCurve(to: CGPoint(x: 210, y: 60), control: CGPoint(x: 125, y: 0))
+                path.addLine(to: pointC)
+                path.addLine(to: pointD)
+                path.addLine(to: pointE)
+            }
+            .fill(Color.red)
+            
+            Path() { path in
+                path.move(to: origin)
+                path.addLine(to: pointB)
+                path.addQuadCurve(to: CGPoint(x: 210, y: 60), control: CGPoint(x: 125, y: 0))
+                path.addLine(to: pointC)
+                path.addLine(to: pointD)
+                path.addLine(to: pointE)
+                path.closeSubpath()
+            }
+            .stroke(Color.black, lineWidth: 10)
+            
         }
-        .fill(Color.red)
     }
 }
 
