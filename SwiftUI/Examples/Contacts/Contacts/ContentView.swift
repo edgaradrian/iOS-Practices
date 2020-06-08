@@ -13,7 +13,9 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List {
-                   ContactCellView()
+                    NavigationLink(destination: DetailContactView()) {
+                        ContactCellView()
+                    }
                 }
                 NavigationLink(destination: AddContactView()) {
                     Spacer()

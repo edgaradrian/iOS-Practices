@@ -17,6 +17,9 @@
 		1316DF18248E0E7F00C61105 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DF17248E0E7F00C61105 /* Contacts.swift */; };
 		1316DF1B248E143700C61105 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DF1A248E143700C61105 /* AddContactView.swift */; };
 		1316DF1D248E1A1100C61105 /* ContactCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DF1C248E1A1100C61105 /* ContactCellView.swift */; };
+		1316DF1F248E1D4400C61105 /* DetailContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DF1E248E1D4400C61105 /* DetailContactView.swift */; };
+		1316DF21248EB96F00C61105 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DF20248EB96F00C61105 /* CustomButtonStyle.swift */; };
+		1316DF23248EBBEC00C61105 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316DF22248EBBEC00C61105 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		1316DF17248E0E7F00C61105 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		1316DF1A248E143700C61105 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		1316DF1C248E1A1100C61105 /* ContactCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellView.swift; sourceTree = "<group>"; };
+		1316DF1E248E1D4400C61105 /* DetailContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactView.swift; sourceTree = "<group>"; };
+		1316DF20248EB96F00C61105 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		1316DF22248EBBEC00C61105 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				1316DF1A248E143700C61105 /* AddContactView.swift */,
 				1316DF1C248E1A1100C61105 /* ContactCellView.swift */,
+				1316DF1E248E1D4400C61105 /* DetailContactView.swift */,
+				1316DF20248EB96F00C61105 /* CustomButtonStyle.swift */,
+				1316DF22248EBBEC00C61105 /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,8 +185,11 @@
 			files = (
 				1316DF00248E0C6000C61105 /* AppDelegate.swift in Sources */,
 				1316DF1D248E1A1100C61105 /* ContactCellView.swift in Sources */,
+				1316DF21248EB96F00C61105 /* CustomButtonStyle.swift in Sources */,
 				1316DF02248E0C6000C61105 /* SceneDelegate.swift in Sources */,
+				1316DF23248EBBEC00C61105 /* CustomButton.swift in Sources */,
 				1316DF07248E0C6000C61105 /* ContentView.swift in Sources */,
+				1316DF1F248E1D4400C61105 /* DetailContactView.swift in Sources */,
 				1316DF1B248E143700C61105 /* AddContactView.swift in Sources */,
 				1316DF05248E0C6000C61105 /* Contacts.xcdatamodeld in Sources */,
 				1316DF18248E0E7F00C61105 /* Contacts.swift in Sources */,
