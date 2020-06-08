@@ -10,7 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack {
+                List {
+                   ContactCellView()
+                }
+                NavigationLink(destination: AddContactView()) {
+                    Spacer()
+                    Image(systemName: "plus.app.fill")
+                    Text("Save contact")
+                    Spacer()
+                }
+                .foregroundColor(.white)
+                .font(.title)
+                .padding(10)
+                .background(Color(.systemTeal))
+                .navigationBarTitle("Contacts", displayMode: .inline)
+            }
+        }
     }
 }
 
