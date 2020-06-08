@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import CoreData
+
+class Contacts: NSManagedObject, Identifiable {
+    @NSManaged public var name : String
+    @NSManaged public var lastname : String
+    @NSManaged public var phone : String
+    @NSManaged public var vowels : String
+}
