@@ -9,8 +9,39 @@
 import SwiftUI
 
 struct AddContactView: View {
+        
+    @Environment(\.managedObjectContext) var context
+    
+    @State private var name = ""
+    @State private var lastName = ""
+    @State private var phone = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Name", text: self.$name)
+                .padding(10)
+            TextField("Last Name", text: self.$lastName)
+            .padding(10)
+            TextField("Phone", text: self.$phone)
+            .padding(10)
+                .keyboardType(.phonePad)
+            Button(action: {
+                
+            }) {
+                HStack {
+                    Image(systemName: "person.crop.circle")
+                    Text("Save contact")
+                }
+                .foregroundColor(.white)
+                .font(.title)
+            
+            }
+            .padding(10)
+            .background(Color.blue)
+            
+            Spacer()
+            .navigationBarTitle("Add Contact")
+        }
     }
 }
 
