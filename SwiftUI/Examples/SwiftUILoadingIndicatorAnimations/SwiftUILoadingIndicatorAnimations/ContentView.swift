@@ -18,7 +18,7 @@ struct ContentView: View {
             .stroke(Color.blue, lineWidth: 8)
             .frame(width: 100, height: 100)
             .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
-            .animation(Animation.default.repeatForever(autoreverses: false))
+            .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false))
             .onAppear() {
                 self.isLoading = true
         }
