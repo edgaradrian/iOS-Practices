@@ -32,6 +32,7 @@ struct ContentView: View {
                 self.heartColorChanged.toggle()
                 self.heartSizeChanged.toggle()
             }
+            
         }
         
     }
