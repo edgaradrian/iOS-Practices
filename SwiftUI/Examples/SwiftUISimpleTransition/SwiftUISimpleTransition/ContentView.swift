@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var show = false
     
     var body: some View {
+        
         VStack {
             
             RoundedRectangle(cornerRadius: 10)
@@ -25,17 +26,27 @@ struct ContentView: View {
                         .foregroundColor(.white)
                 )
             
-            RoundedRectangle(cornerRadius: 10)
-                .frame(width: 300, height: 300)
-                .foregroundColor(.purple)
-                .overlay(
-                    Text("Here the details")
-                        .font(.system(.largeTitle, design: .rounded))
-                        .bold()
-                        .foregroundColor(.white)
-            )
+            if show {
+                
+                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 300, height: 300)
+                    .foregroundColor(.purple)
+                    .overlay(
+                        Text("Here the details")
+                            .font(.system(.largeTitle, design: .rounded))
+                            .bold()
+                            .foregroundColor(.white)
+                )
+                
+            }//if show
             
         }
+        .onTapGesture {
+            withAnimation(Animation.spring()) {
+                self.show.toggle()
+            }
+        }
+        
     }
 }
 
