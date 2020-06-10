@@ -37,7 +37,8 @@ struct ContentView: View {
                             .bold()
                             .foregroundColor(.white)
                 )
-                    .transition(.scale(scale: 0, anchor: .bottom))
+                    //.transition(.scale(scale: 0, anchor: .bottom))
+                    .transition(.offset(x: -600, y: 0))
                 
             }//if show
             
