@@ -10,27 +10,37 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var isLoading = false
+    @State private var progress: CGFloat = 0.0
     
     var body: some View {
         ZStack {
             
-            Circle()
-                .stroke(Color(.systemGray6), lineWidth: 20)
-                .frame(width: 100, height: 100)
+            Text("\(Int(progress * 100))%")
+                .font(.system(.title, design: .rounded))
+                .bold()
             
             Circle()
-                .trim(from: 0.0, to: 0.7)
-                .stroke(Color.blue, lineWidth: 8)
-                .frame(width: 100, height: 100)
-                .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
-                .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false))
-                .onAppear() {
-                    self.isLoading = true
+                .stroke(Color(.systemGray6), lineWidth: 15)
+                .frame(width: 150, height: 150)
+            
+            Circle()
+                .trim(from: 0.0, to: progress)
+                .stroke(Color.blue, lineWidth: 10)
+                .frame(width: 150, height: 150)
+                .rotationEffect(Angle(degrees: 90))
+                
+        }
+        .onAppear() {
+            Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
+                self.progress += 0.05
+                print(self.progress)
+                if self.progress >= 1.0 {
+                    timer.invalidate()
+                }
             }
         }
         
-    }
+    }//body
 }
 
 struct ContentView_Previews: PreviewProvider {
