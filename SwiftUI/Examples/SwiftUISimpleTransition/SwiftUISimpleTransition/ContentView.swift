@@ -38,7 +38,8 @@ struct ContentView: View {
                             .foregroundColor(.white)
                 )
                     //.transition(.scale(scale: 0, anchor: .bottom))
-                    .transition(.offset(x: -600, y: 0))
+                    //.transition(.offset(x: -600, y: 0))
+                    .transition(AnyTransition.offset(x: -600, y: 0).combined(with: .scale).combined(with: .opacity))
                 
             }//if show
             
