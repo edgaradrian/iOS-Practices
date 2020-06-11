@@ -39,7 +39,8 @@ struct ContentView: View {
                 )
                     //.transition(.scale(scale: 0, anchor: .bottom))
                     //.transition(.offset(x: -600, y: 0))
-                    .transition(.offsetScaleOpacity)
+                    //.transition(.offsetScaleOpacity)
+                    .transition(.scaleAndOffset)
                 
             }//if show
             
@@ -60,7 +61,14 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 extension AnyTransition {
+    
     static var offsetScaleOpacity: AnyTransition {
         AnyTransition.offset(x: -600, y: 0).combined(with: .scale).combined(with: .opacity)
     }
+    
+    static var scaleAndOffset: AnyTransition {
+        AnyTransition.asymmetric(insertion: .scale(scale: 0, anchor: .bottom), removal: .offset(x: -600, y: 0))
+    }
+    
+    
 }
