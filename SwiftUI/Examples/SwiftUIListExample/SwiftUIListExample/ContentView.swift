@@ -11,8 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List {
-            ForEach(1...5, id: \.self) { index in
-                Text("\(index)")
+            ForEach(1...5, id: \.self) {
+                Text("\($0)")
             }
         }
     }
