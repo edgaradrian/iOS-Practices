@@ -13,6 +13,7 @@
 		1316DFF92493285A00C61105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1316DFF82493285A00C61105 /* Assets.xcassets */; };
 		1316DFFC2493285A00C61105 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1316DFFB2493285A00C61105 /* Preview Assets.xcassets */; };
 		1316DFFF2493285A00C61105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1316DFFD2493285A00C61105 /* LaunchScreen.storyboard */; };
+		1316E0072494080500C61105 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316E0062494080500C61105 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1316DFFB2493285A00C61105 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1316DFFE2493285A00C61105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1316E0002493285A00C61105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1316E0062494080500C61105 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1316DFFD2493285A00C61105 /* LaunchScreen.storyboard */,
 				1316E0002493285A00C61105 /* Info.plist */,
 				1316DFFA2493285A00C61105 /* Preview Content */,
+				1316E0062494080500C61105 /* Restaurant.swift */,
 			);
 			path = SwiftUIListExample;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1316E0072494080500C61105 /* Restaurant.swift in Sources */,
 				1316DFF32493285800C61105 /* AppDelegate.swift in Sources */,
 				1316DFF52493285800C61105 /* SceneDelegate.swift in Sources */,
 				1316DFF72493285800C61105 /* ContentView.swift in Sources */,
