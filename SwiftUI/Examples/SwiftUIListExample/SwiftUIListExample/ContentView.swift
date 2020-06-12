@@ -13,13 +13,7 @@ struct ContentView: View {
     var body: some View {
         List {
             ForEach(restaurants) { restaurant in
-                HStack {
-                    Image(restaurant.image)
-                        .resizable()
-                        .frame(width: 40, height: 40)
-                        .cornerRadius(5)
-                    Text(restaurant.name)
-                }
+                SimpleImageRow(restaurant: restaurant)
             }
         }
     }
@@ -28,5 +22,20 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct SimpleImageRow: View {
+    
+    var restaurant: Restaurant
+    
+    var body: some View {
+        HStack {
+            Image(restaurant.image)
+                .resizable()
+                .frame(width: 40, height: 40)
+                .cornerRadius(5)
+            Text(restaurant.name)
+        }
     }
 }
