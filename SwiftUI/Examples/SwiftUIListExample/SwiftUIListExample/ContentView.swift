@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         List {
-            ForEach(restaurants, id: \.name) { restaurant in
+            ForEach(restaurants) { restaurant in
                 HStack {
                     Image(restaurant.image)
                         .resizable()
