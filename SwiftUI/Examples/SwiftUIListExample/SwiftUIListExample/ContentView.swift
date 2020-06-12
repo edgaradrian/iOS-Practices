@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         List {
             ForEach(restaurants) { restaurant in
-                SimpleImageRow(restaurant: restaurant)
+                BigImageRow(restaurant: restaurant)
             }
         }
     }
