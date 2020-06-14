@@ -17,6 +17,7 @@ struct ContentView: View {
                     BigImageRow(restaurant: restaurant)
                 }
             }
+            .navigationBarTitle("Restaurants")
         }
     }
 }
