@@ -14,7 +14,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(restaurants) { restaurant in
-                    BigImageRow(restaurant: restaurant)
+                    SimpleImageRow(restaurant: restaurant)
                 }
             }
             .navigationBarTitle("Restaurants")
