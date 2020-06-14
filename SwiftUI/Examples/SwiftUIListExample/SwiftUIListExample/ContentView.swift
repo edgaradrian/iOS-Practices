@@ -11,9 +11,11 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        List {
-            ForEach(restaurants) { restaurant in
-                BigImageRow(restaurant: restaurant)
+        NavigationView {
+            List {
+                ForEach(restaurants) { restaurant in
+                    BigImageRow(restaurant: restaurant)
+                }
             }
         }
     }
