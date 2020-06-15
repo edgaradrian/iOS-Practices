@@ -19,6 +19,9 @@ struct ContentView: View {
         UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearence
         UINavigationBar.appearance().compactAppearance = navBarAppearence
         
+        navBarAppearence.setBackIndicatorImage(UIImage(systemName: "arrow.turn.up.left"), transitionMaskImage: UIImage(systemName: "arrow.turn.up.left"))
+        UINavigationBar.appearance().tintColor = .black
+        
         
     }
     
