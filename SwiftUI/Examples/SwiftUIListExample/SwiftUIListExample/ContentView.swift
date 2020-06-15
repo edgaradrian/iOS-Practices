@@ -19,7 +19,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationBarTitle("Restaurants")
+            .navigationBarTitle("Restaurants", displayMode: .inline)
         }
     }
 }
