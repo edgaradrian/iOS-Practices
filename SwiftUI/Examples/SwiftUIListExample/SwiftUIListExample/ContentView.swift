@@ -10,6 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     
+    init() {
+        let navBarAppearence = UINavigationBarAppearance()
+        navBarAppearence.largeTitleTextAttributes = [.foregroundColor: UIColor.systemTeal, .font: UIFont(name: "ArialRoundedMTBold", size: 35)!]
+        navBarAppearence.titleTextAttributes = [.foregroundColor: UIColor.systemTeal, .font: UIFont(name: "ArialRoundedMTBold", size: 20)!]
+        
+        UINavigationBar.appearance().standardAppearance = navBarAppearence
+        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearence
+        UINavigationBar.appearance().compactAppearance = navBarAppearence
+        
+        
+    }
+    
     var body: some View {
         NavigationView {
             List {
@@ -19,7 +31,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationBarTitle("Restaurants", displayMode: .inline)
+            .navigationBarTitle("Restaurants", displayMode: .automatic)
         }
     }
 }
