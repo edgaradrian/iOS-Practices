@@ -12,6 +12,8 @@ class DropDownButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        self.backgroundColor = UIColor.yellow
     }//init
     
     required init?(coder: NSCoder) {
