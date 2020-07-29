@@ -38,10 +38,22 @@ class DropDownButton: UIButton {
     }//init? coder
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if isOpen {
-            
+        if self.isOpen {
+            self.isOpen = false
+            NSLayoutConstraint.deactivate([self.heightConstraint])
+            self.heightConstraint.constant = 0
+            NSLayoutConstraint.activate([self.heightConstraint])
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
+                self.dropDownView.layoutIfNeeded()
+            }, completion: nil)
         } else {
-            
+            self.isOpen = true
+            NSLayoutConstraint.deactivate([self.heightConstraint])
+            self.heightConstraint.constant = 150
+            NSLayoutConstraint.activate([self.heightConstraint])
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
+                self.dropDownView.layoutIfNeeded()
+            }, completion: nil)
         }
     }
     

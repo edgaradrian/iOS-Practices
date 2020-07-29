@@ -16,6 +16,8 @@ class DropDownView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        self.backgroundColor = UIColor.gray
+        tableView.backgroundColor = UIColor.gray
         tableView.delegate = self
         tableView.dataSource = self
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -48,6 +50,7 @@ extension DropDownView: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = dropDownOptions[indexPath.row]
+        cell.backgroundColor = UIColor.gray
         return cell
     }//cellForRowAt
     
