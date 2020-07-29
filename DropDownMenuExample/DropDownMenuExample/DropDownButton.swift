@@ -44,6 +44,7 @@ class DropDownButton: UIButton {
             self.heightConstraint.constant = 0
             NSLayoutConstraint.activate([self.heightConstraint])
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
+                self.dropDownView.center.y -= self.dropDownView.frame.height / 2
                 self.dropDownView.layoutIfNeeded()
             }, completion: nil)
         } else {
@@ -53,6 +54,7 @@ class DropDownButton: UIButton {
             NSLayoutConstraint.activate([self.heightConstraint])
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
                 self.dropDownView.layoutIfNeeded()
+                self.dropDownView.center.y += self.dropDownView.frame.height / 2
             }, completion: nil)
         }
     }
