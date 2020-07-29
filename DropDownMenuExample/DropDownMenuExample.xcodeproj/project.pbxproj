@@ -14,6 +14,7 @@
 		1380FCCF24D0CDEF004432A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1380FCCE24D0CDEF004432A2 /* Assets.xcassets */; };
 		1380FCD224D0CDEF004432A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1380FCD024D0CDEF004432A2 /* LaunchScreen.storyboard */; };
 		1380FCDA24D0D39F004432A2 /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1380FCD924D0D39F004432A2 /* DropDownButton.swift */; };
+		1380FCDC24D0E6F7004432A2 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1380FCDB24D0E6F7004432A2 /* DropDownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1380FCD124D0CDEF004432A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1380FCD324D0CDEF004432A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1380FCD924D0D39F004432A2 /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
+		1380FCDB24D0E6F7004432A2 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1380FCD024D0CDEF004432A2 /* LaunchScreen.storyboard */,
 				1380FCD324D0CDEF004432A2 /* Info.plist */,
 				1380FCD924D0D39F004432A2 /* DropDownButton.swift */,
+				1380FCDB24D0E6F7004432A2 /* DropDownView.swift */,
 			);
 			path = DropDownMenuExample;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1380FCDA24D0D39F004432A2 /* DropDownButton.swift in Sources */,
+				1380FCDC24D0E6F7004432A2 /* DropDownView.swift in Sources */,
 				1380FCCA24D0CDEC004432A2 /* ViewController.swift in Sources */,
 				1380FCC624D0CDEC004432A2 /* AppDelegate.swift in Sources */,
 				1380FCC824D0CDEC004432A2 /* SceneDelegate.swift in Sources */,
