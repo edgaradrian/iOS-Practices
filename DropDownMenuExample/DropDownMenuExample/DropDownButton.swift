@@ -67,3 +67,11 @@ class DropDownButton: UIButton {
     }
     
 }//DropDownButton
+
+extension DropDownButton: DropDownProtocol {
+    
+    func dropDownButtonPressed(value: String) {
+        self.setTitle(value, for: .normal)
+    }//dropDownButtonPressed
+    
+}//extension DropDownProtocol
