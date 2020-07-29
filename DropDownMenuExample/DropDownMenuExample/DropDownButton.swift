@@ -50,7 +50,14 @@ class DropDownButton: UIButton {
         } else {
             self.isOpen = true
             NSLayoutConstraint.deactivate([self.heightConstraint])
-            self.heightConstraint.constant = 150
+            
+            let tableHeight = self.dropDownView.tableView.contentSize.height
+            if  tableHeight > 150 {
+                self.heightConstraint.constant = 150
+            } else {
+                self.heightConstraint.constant = tableHeight
+            }
+            
             NSLayoutConstraint.activate([self.heightConstraint])
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
                 self.dropDownView.layoutIfNeeded()
