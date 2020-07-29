@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var button = DropDownButton()
+    var colors = ["Yellow", "Blue"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,8 @@ class ViewController: UIViewController {
         
         button.widthAnchor.constraint(equalToConstant: 200).isActive = true
         button.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        button.dropDownView.dropDownOptions = colors
         
     }//customButton
 
