@@ -20,6 +20,7 @@ class DropDownButton: UIButton {
         self.backgroundColor = UIColor.gray
         
         dropDownView = DropDownView.init(frame: CGRect.init(x: 0, y: 0, width: 0, height: 0))
+        dropDownView.delegate = self
         dropDownView.translatesAutoresizingMaskIntoConstraints = false
  
     }//init
@@ -39,14 +40,7 @@ class DropDownButton: UIButton {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if self.isOpen {
-            self.isOpen = false
-            NSLayoutConstraint.deactivate([self.heightConstraint])
-            self.heightConstraint.constant = 0
-            NSLayoutConstraint.activate([self.heightConstraint])
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
-                self.dropDownView.center.y -= self.dropDownView.frame.height / 2
-                self.dropDownView.layoutIfNeeded()
-            }, completion: nil)
+            self.dismissDropDown()
         } else {
             self.isOpen = true
             NSLayoutConstraint.deactivate([self.heightConstraint])
@@ -66,12 +60,24 @@ class DropDownButton: UIButton {
         }
     }
     
+    fileprivate func dismissDropDown() {
+        self.isOpen = false
+        NSLayoutConstraint.deactivate([self.heightConstraint])
+        self.heightConstraint.constant = 0
+        NSLayoutConstraint.activate([self.heightConstraint])
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
+            self.dropDownView.center.y -= self.dropDownView.frame.height / 2
+            self.dropDownView.layoutIfNeeded()
+        }, completion: nil)
+    }//dismissDropDown
+    
 }//DropDownButton
 
 extension DropDownButton: DropDownProtocol {
     
     func dropDownButtonPressed(value: String) {
         self.setTitle(value, for: .normal)
+        self.dismissDropDown()
     }//dropDownButtonPressed
     
 }//extension DropDownProtocol

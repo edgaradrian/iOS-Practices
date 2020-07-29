@@ -12,6 +12,7 @@ class DropDownView: UIView {
     
     var dropDownOptions = [String]()
     var tableView = UITableView()
+    var delegate: DropDownProtocol!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -55,7 +56,8 @@ extension DropDownView: UITableViewDelegate, UITableViewDataSource {
     }//cellForRowAt
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("selected: \(dropDownOptions[indexPath.row])")
-    }
+        self.delegate.dropDownButtonPressed(value: dropDownOptions[indexPath.row])
+        self.tableView.deselectRow(at: indexPath, animated: true)
+    }//didSelectRowAt
     
 }//extension DropDownView
