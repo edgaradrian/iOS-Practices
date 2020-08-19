@@ -21,7 +21,7 @@ struct Person: Identifiable, Decodable {
 extension Person: Equatable {
     
     static func ==(lhs: Person, rhs: Person) -> Bool {
-        lhs.id = rhs.id
+        lhs.id == rhs.id
     }//func ==
     
 }//extension Person
