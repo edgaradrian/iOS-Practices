@@ -19,3 +19,12 @@ struct Person: Identifiable, Decodable {
 }//Person
 
 
+struct PersonSection: Identifiable, Decodable {
+    
+    var id: String { name }
+    
+    let name: String
+    let picturesImageName: [String]
+    
+}//PersonSection
+
