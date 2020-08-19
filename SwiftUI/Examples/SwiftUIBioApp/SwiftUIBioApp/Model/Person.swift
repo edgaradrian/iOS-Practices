@@ -18,6 +18,13 @@ struct Person: Identifiable, Decodable {
     
 }//Person
 
+extension Person: Equatable {
+    
+    static func ==(lhs: Person, rhs: Person) -> Bool {
+        lhs.id = rhs.id
+    }//func ==
+    
+}//extension Person
 
 struct PersonSection: Identifiable, Decodable {
     
@@ -27,4 +34,6 @@ struct PersonSection: Identifiable, Decodable {
     let picturesImageName: [String]
     
 }//PersonSection
+
+
 
