@@ -8,8 +8,13 @@
 
 import SwiftUI
 
+@available(iOS 14.0, *)
 struct ContentView: View {
     private var symbols = ["keyboard", "hifispeaker.fill", "printer.fill", "tv.fill", "desktopcomputer", "headphones", "tv.music.note", "mic", "plus.bubble", "video"]
+    
+    private var colors: [Color] = [.yellow, .purple, .green]
+    
+    private var gridItemLayout = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some View {
         Text("Hello, World!")
@@ -18,6 +23,10 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        if #available(iOS 14.0, *) {
+            ContentView()
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
