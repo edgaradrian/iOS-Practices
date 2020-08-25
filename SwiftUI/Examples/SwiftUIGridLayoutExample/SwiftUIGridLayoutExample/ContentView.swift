@@ -22,7 +22,7 @@ struct ContentView: View {
                 ForEach((0...9999), id: \.self) {
                     Image(systemName: symbols[$0 % symbols.count])
                         .font(.system(size: 30))
-                        .frame(width: 50, height: 50)
+                        .frame(minWidth: 50, maxWidth: .infinity, minHeight: 50)
                         .background(colors[$0 % colors.count])
                         .cornerRadius(10)
                 }
