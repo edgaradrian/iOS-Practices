@@ -15,12 +15,13 @@ struct ContentView: View {
     private var colors: [Color] = [.yellow, .purple, .green]
     
     //private var gridItemLayout = [GridItem(.flexible(), spacing: 0), GridItem(.flexible(), spacing: 0), GridItem(.flexible(), spacing: 0)]
-    private var gridItemLayout = Array(repeating: GridItem(.flexible(), spacing: 0), count: 3)
+    //private var gridItemLayout = Array(repeating: GridItem(.flexible(), spacing: 0), count: 3)
+    private var gridItemLayout = [GridItem(.adaptive(minimum: 50))]
     private var sixColumnGrid: [GridItem] = Array(repeating: .init(.flexible()), count: 6)
     
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: gridItemLayout, spacing: 0) {
+            LazyVGrid(columns: gridItemLayout, spacing: 20) {
                 ForEach((0...9999), id: \.self) {
                     Image(systemName: symbols[$0 % symbols.count])
                         .font(.system(size: 30))
