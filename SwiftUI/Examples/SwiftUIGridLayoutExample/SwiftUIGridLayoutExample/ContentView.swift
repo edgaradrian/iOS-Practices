@@ -14,7 +14,7 @@ struct ContentView: View {
     
     private var colors: [Color] = [.yellow, .purple, .green]
     
-    private var gridItemLayout = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
+    private var gridItemLayout = [GridItem(.flexible(), spacing: 0), GridItem(.flexible(), spacing: 0), GridItem(.flexible(), spacing: 0)]
     
     var body: some View {
         ScrollView {
