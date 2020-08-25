@@ -16,6 +16,7 @@ struct ContentView: View {
     
     //private var gridItemLayout = [GridItem(.flexible(), spacing: 0), GridItem(.flexible(), spacing: 0), GridItem(.flexible(), spacing: 0)]
     private var gridItemLayout = Array(repeating: GridItem(.flexible(), spacing: 0), count: 3)
+    private var sixColumnGrid: [GridItem] = Array(repeating: .init(.flexible()), count: 6)
     
     var body: some View {
         ScrollView {
