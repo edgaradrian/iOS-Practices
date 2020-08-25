@@ -18,7 +18,7 @@ struct ContentView: View {
     
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: gridItemLayout, spacing: 20) {
+            LazyVGrid(columns: gridItemLayout, spacing: 0) {
                 ForEach((0...9999), id: \.self) {
                     Image(systemName: symbols[$0 % symbols.count])
                         .font(.system(size: 30))
