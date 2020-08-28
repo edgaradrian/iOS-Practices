@@ -13,6 +13,7 @@
 		5C30C81F24F882DE008B6B9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C30C81E24F882DE008B6B9B /* Preview Assets.xcassets */; };
 		5C30C82A24F882DE008B6B9B /* SwiftUIPhotoGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30C82924F882DE008B6B9B /* SwiftUIPhotoGridTests.swift */; };
 		5C30C83524F882DE008B6B9B /* SwiftUIPhotoGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30C83424F882DE008B6B9B /* SwiftUIPhotoGridUITests.swift */; };
+		5C30C84324F88D71008B6B9B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30C84224F88D71008B6B9B /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		5C30C83024F882DE008B6B9B /* SwiftUIPhotoGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPhotoGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C30C83424F882DE008B6B9B /* SwiftUIPhotoGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGridUITests.swift; sourceTree = "<group>"; };
 		5C30C83624F882DE008B6B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C30C84224F88D71008B6B9B /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5C30C81B24F882DE008B6B9B /* Assets.xcassets */,
 				5C30C82024F882DE008B6B9B /* Info.plist */,
 				5C30C81D24F882DE008B6B9B /* Preview Content */,
+				5C30C84224F88D71008B6B9B /* Photo.swift */,
 			);
 			path = SwiftUIPhotoGrid;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C30C84324F88D71008B6B9B /* Photo.swift in Sources */,
 				5C30C81A24F882DD008B6B9B /* ContentView.swift in Sources */,
 				5C30C81824F882DD008B6B9B /* SwiftUIPhotoGridApp.swift in Sources */,
 			);
