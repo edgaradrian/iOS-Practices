@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var gridLayout: [GridItem] = [ GridItem() ]
+    @State var gridLayout: [GridItem] = [ GridItem(.adaptive(minimum: 100)), GridItem(.flexible()) ]
     
     var body: some View {
         NavigationView {
