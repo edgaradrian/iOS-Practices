@@ -30,6 +30,17 @@ struct ContentView: View {
                 .padding(.all, 10)
             }
             .navigationTitle("Coffee Feed")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        self.gridLayout = Array(repeating: .init(.flexible()), count: self.gridLayout.count % 4 + 1)
+                    }) {
+                        Image(systemName: "square.grid.2x2")
+                            .font(.title)
+                            .foregroundColor(.black)
+                    }
+                }
+            }
         }
         
     }
