@@ -17,6 +17,8 @@ struct ProgressRingView: View {
         ZStack {
             Circle()
                 .stroke(Color(.systemGray6), lineWidth: thickness)
+            
+            RingShape(progress: 0.5, thickness: thickness)
         }
         .frame(width: width, height: width, alignment: .center)
     }
