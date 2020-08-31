@@ -15,6 +15,7 @@
 		5C5CBAE524FDAF4A001CCD7E /* SwiftUIProgressRingExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBAE424FDAF4A001CCD7E /* SwiftUIProgressRingExampleUITests.swift */; };
 		5C5CBAF324FDAF98001CCD7E /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBAF224FDAF98001CCD7E /* ProgressRingView.swift */; };
 		5C5CBAF524FDB031001CCD7E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBAF424FDB031001CCD7E /* Color+Ext.swift */; };
+		5C5CBAF724FDB496001CCD7E /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBAF624FDB496001CCD7E /* RingShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5C5CBAE624FDAF4A001CCD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C5CBAF224FDAF98001CCD7E /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
 		5C5CBAF424FDB031001CCD7E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		5C5CBAF624FDB496001CCD7E /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5C5CBACD24FDAF4A001CCD7E /* Preview Content */,
 				5C5CBAF224FDAF98001CCD7E /* ProgressRingView.swift */,
 				5C5CBAF424FDB031001CCD7E /* Color+Ext.swift */,
+				5C5CBAF624FDB496001CCD7E /* RingShape.swift */,
 			);
 			path = SwiftUIProgressRingExample;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5CBACA24FDAF49001CCD7E /* ContentView.swift in Sources */,
+				5C5CBAF724FDB496001CCD7E /* RingShape.swift in Sources */,
 				5C5CBAF524FDB031001CCD7E /* Color+Ext.swift in Sources */,
 				5C5CBAC824FDAF49001CCD7E /* SwiftUIProgressRingExampleApp.swift in Sources */,
 				5C5CBAF324FDAF98001CCD7E /* ProgressRingView.swift in Sources */,
