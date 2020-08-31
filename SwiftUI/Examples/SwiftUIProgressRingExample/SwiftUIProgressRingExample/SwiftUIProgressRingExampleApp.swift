@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIProgressRingExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProgressRingView()
         }
     }
 }

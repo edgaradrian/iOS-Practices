@@ -8,10 +8,21 @@
 import SwiftUI
 
 struct ProgressRingView: View {
+    
+    var thickness: CGFloat = 30.0
+    var width: CGFloat = 250.0
+    var gradient = Gradient(colors: [.darkRed, .lightRed])
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Circle()
+                .stroke(Color(.systemGray6), lineWidth: thickness)
+        }
+        .frame(width: width, height: width, alignment: .center)
     }
-}
+    
+    
+}//ProgressRingView
 
 struct ProgressRingView_Previews: PreviewProvider {
     static var previews: some View {
