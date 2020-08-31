@@ -53,6 +53,7 @@ struct MultiGridView: View {
             }
             .navigationTitle("CoffeeFeed")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         .onChange(of: verticalSizeClass) { value in
             self.gridLayout = [ GridItem(.adaptive(minimum: verticalSizeClass == .compact ? 250 : 100)), GridItem(.flexible())]
             
