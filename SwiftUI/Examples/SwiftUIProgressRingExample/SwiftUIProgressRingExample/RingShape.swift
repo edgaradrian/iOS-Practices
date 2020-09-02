@@ -12,6 +12,11 @@ struct RingShape: Shape {
     var thickness: CGFloat = 30.0
     var startAngle: Double = -90.0
     
+    var animatableData: Double {
+        get { progress }
+        set { progress = newValue }
+    }
+    
     func path(in rect: CGRect) -> Path {
     
         var path = Path()
