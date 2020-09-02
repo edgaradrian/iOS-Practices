@@ -14,13 +14,15 @@ struct ProgressRingView: View {
     var gradient = Gradient(colors: [.darkPurple, .lightYellow])
     var startAngle = -90.0
     
+    @Binding var progress: Double
+    
     var body: some View {
         ZStack {
             Circle()
                 .stroke(Color(.systemGray6), lineWidth: thickness)
             
-            RingShape(progress: 0.5, thickness: thickness)
-                .fill(AngularGradient(gradient: gradient, center: .center, startAngle: .degrees(startAngle), endAngle: .degrees(360 * 0.5 + startAngle)))
+            RingShape(progress: progress, thickness: thickness)
+                .fill(AngularGradient(gradient: gradient, center: .center, startAngle: .degrees(startAngle), endAngle: .degrees(360 * progress + startAngle)))
         }
         .frame(width: width, height: width, alignment: .center)
     }
