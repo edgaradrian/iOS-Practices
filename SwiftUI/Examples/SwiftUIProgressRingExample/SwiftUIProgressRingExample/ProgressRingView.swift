@@ -32,6 +32,9 @@ struct ProgressRingView: View {
 
 struct ProgressRingView_Previews: PreviewProvider {
     static var previews: some View {
-        ProgressRingView()
+        Group {
+            ProgressRingView(progress: .constant(0.5)).previewLayout(.fixed(width: 300, height: 300))
+            ProgressRingView(progress: .constant(0.9)).previewLayout(.fixed(width: 300, height: 300))
+        }
     }
 }
