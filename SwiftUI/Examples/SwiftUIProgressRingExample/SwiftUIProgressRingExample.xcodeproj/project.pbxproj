@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C416612250159C200D45CBD /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C416611250159C200D45CBD /* RingTip.swift */; };
 		5C5CBAC824FDAF49001CCD7E /* SwiftUIProgressRingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBAC724FDAF49001CCD7E /* SwiftUIProgressRingExampleApp.swift */; };
 		5C5CBACA24FDAF49001CCD7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBAC924FDAF49001CCD7E /* ContentView.swift */; };
 		5C5CBACC24FDAF4A001CCD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5CBACB24FDAF4A001CCD7E /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C416611250159C200D45CBD /* RingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
 		5C5CBAC424FDAF49001CCD7E /* SwiftUIProgressRingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProgressRingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5CBAC724FDAF49001CCD7E /* SwiftUIProgressRingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProgressRingExampleApp.swift; sourceTree = "<group>"; };
 		5C5CBAC924FDAF49001CCD7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				5C5CBAF224FDAF98001CCD7E /* ProgressRingView.swift */,
 				5C5CBAF424FDB031001CCD7E /* Color+Ext.swift */,
 				5C5CBAF624FDB496001CCD7E /* RingShape.swift */,
+				5C416611250159C200D45CBD /* RingTip.swift */,
 			);
 			path = SwiftUIProgressRingExample;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5CBACA24FDAF49001CCD7E /* ContentView.swift in Sources */,
+				5C416612250159C200D45CBD /* RingTip.swift in Sources */,
 				5C5CBAF724FDB496001CCD7E /* RingShape.swift in Sources */,
 				5C5CBAF524FDB031001CCD7E /* Color+Ext.swift in Sources */,
 				5C5CBAC824FDAF49001CCD7E /* SwiftUIProgressRingExampleApp.swift in Sources */,
