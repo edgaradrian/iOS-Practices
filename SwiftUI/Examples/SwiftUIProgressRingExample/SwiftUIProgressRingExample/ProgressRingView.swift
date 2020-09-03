@@ -16,6 +16,10 @@ struct ProgressRingView: View {
     
     @Binding var progress: Double
     
+    private var radius: Double {
+        Double(width / 2)
+    }
+    
     var body: some View {
         ZStack {
             Circle()
