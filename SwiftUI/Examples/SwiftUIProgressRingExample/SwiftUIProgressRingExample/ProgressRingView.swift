@@ -27,6 +27,10 @@ struct ProgressRingView: View {
             
             RingShape(progress: progress, thickness: thickness)
                 .fill(AngularGradient(gradient: gradient, center: .center, startAngle: .degrees(startAngle), endAngle: .degrees(360 * progress + startAngle)))
+            
+            RingTip(progress: progress, startAngle: startAngle, ringRadius: radius)
+                .frame(width: thickness, height: thickness)
+                .foregroundColor(progress > 0.96 ? gradient.stops[1].color : Color.clear)
         }
         .frame(width: width, height: width, alignment: .center)
     }
