@@ -35,7 +35,13 @@ class ViewController: UIViewController {
                 fatalError("Model failed to process image")
             }
             
-            print(results)
+            if let firstResult = results.first {
+                if firstResult.identifier.contains("hotdog") {
+                    self.navigationItem.title = "¡Hotdog!"
+                } else {
+                    self.navigationItem.title = "¡No Hotdog!"
+                }
+            }
         }
         
         let handler = VNImageRequestHandler(ciImage: image)
