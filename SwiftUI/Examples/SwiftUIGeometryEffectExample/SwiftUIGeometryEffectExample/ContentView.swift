@@ -14,33 +14,41 @@ struct ContentView: View {
     
     var body: some View {
         
-        if expand {
+        VStack {
             
-            //Final state
-            Circle()
-                .fill(Color.blue)
-                .matchedGeometryEffect(id: "circle", in: shapeTransition)
-                .frame(width: 300, height: 300)
-                .offset(y: -100)
-                .animation(.default)
-                .onTapGesture {
-                    self.expand.toggle()
-                }
+            if expand {
+                
+                Spacer()
+                
+                //Final state
+                RoundedRectangle(cornerRadius: 50.0)
+                    .matchedGeometryEffect(id: "circle", in: shapeTransition)
+                    .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 300)
+                    .padding()
+                    .foregroundColor(Color(.systemBlue))
+                    .animation(.easeIn)
+                    .onTapGesture {
+                        expand.toggle()
+                    }
+                
+            } else {
+                
+                //Start state
+                RoundedRectangle(cornerRadius: 50.0)
+                    .matchedGeometryEffect(id: "circle", in: shapeTransition)
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(Color(.systemYellow))
+                    .animation(.easeIn)
+                    .onTapGesture {
+                        expand.toggle()
+                    }
+                
+                Spacer()
             
-        } else {
+            }
             
-            //Start state
-            Circle()
-                .fill(Color.yellow)
-                .matchedGeometryEffect(id: "circle", in: shapeTransition)
-                .frame(width: 150, height: 150)
-                .offset(y: 0)
-                .animation(.default)
-                .onTapGesture {
-                    self.expand.toggle()
-                }
+        }//VStack
         
-        }
         
     }
 
