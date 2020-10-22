@@ -10,14 +10,28 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var inputText = ""
+    @State private var wordCount: Int = 0
     
     var body: some View {
-        TextEditor(text: $inputText)
-            .font(.title)
-            .lineSpacing(20)
-            .autocapitalization(.words)
-            .disableAutocorrection(true)
-            .padding()Cu
+        ZStack(alignment: .topTrailing) {
+            TextEditor(text: $inputText)
+                .font(.title)
+                .lineSpacing(20)
+                .autocapitalization(.words)
+                .disableAutocorrection(true)
+                .padding()
+                .onChange(of: inputText) { value in
+                    let words = inputText.split {
+                        $0 == " " || $0.isNewline
+                    }
+                    self.wordCount = words.count
+                }
+            
+            Text("\(wordCount) words")
+                .font(.headline)
+                .foregroundColor(.secondary)
+                .padding(.trailing)
+        }
     }
 }
 
