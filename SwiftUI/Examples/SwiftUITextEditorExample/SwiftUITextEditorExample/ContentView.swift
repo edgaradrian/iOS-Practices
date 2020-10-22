@@ -13,6 +13,11 @@ struct ContentView: View {
     
     var body: some View {
         TextEditor(text: $inputText)
+            .font(.title)
+            .lineSpacing(20)
+            .autocapitalization(.words)
+            .disableAutocorrection(true)
+            .padding()Cu
     }
 }
 
