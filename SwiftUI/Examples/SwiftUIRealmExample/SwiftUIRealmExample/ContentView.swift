@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var name = ""
     @State private var age = ""
     let labels = ["Name:", "Age:"]
+    let config = Realm.Configuration(schemaVersion: 1)
     
     var body: some View {
         VStack {
@@ -42,7 +43,6 @@ struct ContentView: View {
 
             
             Button(action:{
-                let config = Realm.Configuration(schemaVersion: 1)
                 do {
                     let realm = try Realm(configuration: config)
                     let newPerson = Person()
@@ -64,7 +64,28 @@ struct ContentView: View {
                     .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .background(Color.gray)
                     
-            }
+            }//Button Save
+            
+            
+            Button(action:{
+                do {
+                    let realm = try Realm(configuration: config)
+                    let results = realm.objects(Person.self)
+                    print(results)
+                } catch {
+                    print(error.localizedDescription)
+                }
+                
+            }) {
+                Text("Show results")
+                    .font(.body)
+                    .foregroundColor(.black)
+                    .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .background(Color.gray)
+                    
+            }//Button Save
+            
+            
         }
     }
 }
