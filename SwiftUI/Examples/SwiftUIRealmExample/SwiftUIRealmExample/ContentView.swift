@@ -88,7 +88,7 @@ struct ContentView: View {
                     .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .background(Color.gray)
                     
-            }//Button Save
+            }//Button Show results
             
             
             Button(action:{
@@ -120,8 +120,38 @@ struct ContentView: View {
                     .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .background(Color.gray)
                     
-            }//Button Save
+            }//Button Update
             
+            
+            Button(action:{
+                do {
+                    let realm = try Realm(configuration: config)
+                    let results = realm.objects(New_Person.self)
+            
+                    for person in results {
+                        
+                        try realm.write {
+                            
+                            if person.name.uppercased() == "EDGAR" {
+                                realm.delete(person)
+                            }
+                            
+                        }
+                    }
+                    print("Delete completed!")
+                    
+                } catch {
+                    print(error.localizedDescription)
+                }
+                
+            }) {
+                Text("Delete")
+                    .font(.body)
+                    .foregroundColor(.black)
+                    .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .background(Color.gray)
+                    
+            }//Button Delete
             
         }
     }
