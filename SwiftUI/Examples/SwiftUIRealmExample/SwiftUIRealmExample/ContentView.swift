@@ -12,7 +12,9 @@ struct ContentView: View {
     
     @State private var name = ""
     @State private var age = ""
-    let labels = ["Name:", "Age:"]
+    @State private var address = ""
+    
+    let labels = ["Name:", "Age:", "Address:"]
     let config = Realm.Configuration(schemaVersion: 1)
     
     var body: some View {
@@ -35,6 +37,8 @@ struct ContentView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     TextField("Age", text: $age)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                    TextField("Address", text: $address)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                 }.padding(.leading)
            
             }
@@ -45,9 +49,10 @@ struct ContentView: View {
             Button(action:{
                 do {
                     let realm = try Realm(configuration: config)
-                    let newPerson = Person()
+                    let newPerson = New_Person()
                     newPerson.name = self.name
                     newPerson.age = self.age
+                    newPerson.address = self.address
                     try realm.write {
                         realm.add(newPerson)
                         print("New person added")
@@ -70,7 +75,7 @@ struct ContentView: View {
             Button(action:{
                 do {
                     let realm = try Realm(configuration: config)
-                    let results = realm.objects(Person.self)
+                    let results = realm.objects(New_Person.self)
                     print(results)
                 } catch {
                     print(error.localizedDescription)
