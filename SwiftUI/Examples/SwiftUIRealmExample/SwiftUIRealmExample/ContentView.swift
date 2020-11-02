@@ -91,6 +91,34 @@ struct ContentView: View {
             }//Button Save
             
             
+            Button(action:{
+                do {
+                    let realm = try Realm(configuration: config)
+                    let results = realm.objects(New_Person.self)
+            
+                    for person in results {
+                        
+                        try realm.write {
+                            person.address = "20 de Noviembre"
+                            realm.add(person)
+                        }
+                    }
+                    print("Update completed!")
+                    
+                } catch {
+                    print(error.localizedDescription)
+                }
+                
+            }) {
+                Text("Update")
+                    .font(.body)
+                    .foregroundColor(.black)
+                    .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .background(Color.gray)
+                    
+            }//Button Save
+            
+            
         }
     }
 }
