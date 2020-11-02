@@ -99,8 +99,12 @@ struct ContentView: View {
                     for person in results {
                         
                         try realm.write {
-                            person.address = "20 de Noviembre"
-                            realm.add(person)
+                            
+                            if person.name.uppercased() == "EDGAR" {
+                                person.address = "Distrito Federal"
+                                realm.add(person)
+                            }
+                            
                         }
                     }
                     print("Update completed!")
