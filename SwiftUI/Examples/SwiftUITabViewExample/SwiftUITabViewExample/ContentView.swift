@@ -24,6 +24,10 @@ struct ContentView: View {
                     Text("Profile")
                 }
         }
+        .onAppear() {
+            UITabBar.appearance().barTintColor = .white
+        }
+        .accentColor(.pink)
         
     }
 }
