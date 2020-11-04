@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("My First TabView")
-            .font(.system(size: 30, weight: .bold, design: .rounded))
+        TabView {
+            Text("My First TabView")
+                .font(.system(size: 30, weight: .bold, design: .rounded))
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+        }
+        
     }
 }
 
