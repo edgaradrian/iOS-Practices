@@ -11,6 +11,7 @@
 		13EAA64B255226D2009C776D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EAA64A255226D2009C776D /* ContentView.swift */; };
 		13EAA64D255226D3009C776D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EAA64C255226D3009C776D /* Assets.xcassets */; };
 		13EAA650255226D3009C776D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EAA64F255226D3009C776D /* Preview Assets.xcassets */; };
+		13EAA6592553C456009C776D /* HideTabViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EAA6582553C455009C776D /* HideTabViewContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		13EAA64C255226D3009C776D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13EAA64F255226D3009C776D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13EAA651255226D3009C776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EAA6582553C455009C776D /* HideTabViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideTabViewContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		13EAA647255226D2009C776D /* SwiftUITabViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				13EAA6582553C455009C776D /* HideTabViewContent.swift */,
 				13EAA648255226D2009C776D /* SwiftUITabViewExampleApp.swift */,
 				13EAA64A255226D2009C776D /* ContentView.swift */,
 				13EAA64C255226D3009C776D /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13EAA64B255226D2009C776D /* ContentView.swift in Sources */,
+				13EAA6592553C456009C776D /* HideTabViewContent.swift in Sources */,
 				13EAA649255226D2009C776D /* SwiftUITabViewExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
