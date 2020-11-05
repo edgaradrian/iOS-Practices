@@ -15,13 +15,18 @@ struct HideTabViewContent: View {
         
         NavigationView {
             TabView(selection: $selection) {
-                Text("My First TabView")
-                    .font(.system(size: 30, weight: .bold, design: .rounded))
-                    .tabItem {
-                        Image(systemName: "house.fill")
-                        Text("Home")
-                    }
-                    .tag(0)
+                List(1...10, id: \.self) { index in
+                    NavigationLink (destination: Text("Showing Item #\(index)"),
+                                    label: {
+                                        Text("Item \(index)")
+                                            .font(.system(size: 20, weight: .bold, design: .rounded))
+                                    })
+                }
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+                .tag(0)
                 
                 Text("Profile Tab")
                     .font(.system(size: 30, weight: .bold, design: .rounded))
