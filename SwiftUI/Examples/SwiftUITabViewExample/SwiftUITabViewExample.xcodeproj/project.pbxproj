@@ -12,6 +12,7 @@
 		13EAA64D255226D3009C776D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EAA64C255226D3009C776D /* Assets.xcassets */; };
 		13EAA650255226D3009C776D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EAA64F255226D3009C776D /* Preview Assets.xcassets */; };
 		13EAA6592553C456009C776D /* HideTabViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EAA6582553C455009C776D /* HideTabViewContent.swift */; };
+		13EAA65D2553C902009C776D /* NavigationTabViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EAA65C2553C902009C776D /* NavigationTabViewContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13EAA64F255226D3009C776D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13EAA651255226D3009C776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13EAA6582553C455009C776D /* HideTabViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideTabViewContent.swift; sourceTree = "<group>"; };
+		13EAA65C2553C902009C776D /* NavigationTabViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabViewContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				13EAA64C255226D3009C776D /* Assets.xcassets */,
 				13EAA651255226D3009C776D /* Info.plist */,
 				13EAA64E255226D3009C776D /* Preview Content */,
+				13EAA65C2553C902009C776D /* NavigationTabViewContent.swift */,
 			);
 			path = SwiftUITabViewExample;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				13EAA64B255226D2009C776D /* ContentView.swift in Sources */,
 				13EAA6592553C456009C776D /* HideTabViewContent.swift in Sources */,
+				13EAA65D2553C902009C776D /* NavigationTabViewContent.swift in Sources */,
 				13EAA649255226D2009C776D /* SwiftUITabViewExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
