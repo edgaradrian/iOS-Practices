@@ -13,6 +13,7 @@
 		6DFD8B692578AF3900B6404C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFD8B682578AF3900B6404C /* Preview Assets.xcassets */; };
 		6DFD8B742578AF3900B6404C /* HelloMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFD8B732578AF3900B6404C /* HelloMVVMTests.swift */; };
 		6DFD8B7F2578AF3900B6404C /* HelloMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFD8B7E2578AF3900B6404C /* HelloMVVMUITests.swift */; };
+		6DFD8B912578B2B000B6404C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFD8B902578B2AF00B6404C /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6DFD8B7A2578AF3900B6404C /* HelloMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFD8B7E2578AF3900B6404C /* HelloMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMVVMUITests.swift; sourceTree = "<group>"; };
 		6DFD8B802578AF3900B6404C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DFD8B902578B2AF00B6404C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		6DFD8B602578AF3500B6404C /* HelloMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6DFD8B8F2578B22A00B6404C /* Models */,
 				6DFD8B612578AF3500B6404C /* HelloMVVMApp.swift */,
 				6DFD8B632578AF3500B6404C /* ContentView.swift */,
 				6DFD8B652578AF3900B6404C /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				6DFD8B802578AF3900B6404C /* Info.plist */,
 			);
 			path = HelloMVVMUITests;
+			sourceTree = "<group>";
+		};
+		6DFD8B8F2578B22A00B6404C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DFD8B902578B2AF00B6404C /* Counter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				6DFD8B642578AF3500B6404C /* ContentView.swift in Sources */,
 				6DFD8B622578AF3500B6404C /* HelloMVVMApp.swift in Sources */,
+				6DFD8B912578B2B000B6404C /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
