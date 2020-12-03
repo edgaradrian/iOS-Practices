@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIRealmExample {
+  umbrella header "Pods-SwiftUIRealmExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
