@@ -11,4 +11,8 @@ struct Counter {
     
     var value = 0
     
+    mutating func increment() {
+        value += 1
+    }//increment 
+    
 }//Counter
