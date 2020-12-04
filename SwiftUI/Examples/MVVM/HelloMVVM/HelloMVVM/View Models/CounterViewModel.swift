@@ -10,7 +10,7 @@ import SwiftUI
 
 class CounterViewModel: ObservableObject {
     
-    private var counter = Counter()
+    @Published private var counter = Counter()
     
     var value: Int {
         counter.value
