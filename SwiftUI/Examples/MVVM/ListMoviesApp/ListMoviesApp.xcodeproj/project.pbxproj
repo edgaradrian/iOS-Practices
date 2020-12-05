@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D06A71D257B5F11003602C9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06A71C257B5F11003602C9 /* Movie.swift */; };
 		6D29D2E7257B374000582C93 /* ListMoviesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29D2E6257B374000582C93 /* ListMoviesAppApp.swift */; };
 		6D29D2E9257B374000582C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29D2E8257B374000582C93 /* ContentView.swift */; };
 		6D29D2EB257B374700582C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D29D2EA257B374700582C93 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D06A71C257B5F11003602C9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		6D29D2E3257B374000582C93 /* ListMoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListMoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D29D2E6257B374000582C93 /* ListMoviesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesAppApp.swift; sourceTree = "<group>"; };
 		6D29D2E8257B374000582C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D06A71B257B5F02003602C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D06A71C257B5F11003602C9 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6D29D2DA257B374000582C93 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		6D29D2E5257B374000582C93 /* ListMoviesApp */ = {
 			isa = PBXGroup;
 			children = (
+				6D06A71B257B5F02003602C9 /* Models */,
 				6D29D327257B3AB100582C93 /* Controls */,
 				6D29D31E257B38A200582C93 /* Loaders */,
 				6D29D314257B376600582C93 /* Utils */,
@@ -295,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D06A71D257B5F11003602C9 /* Movie.swift in Sources */,
 				6D29D331257B3EB100582C93 /* Rating.swift in Sources */,
 				6D29D2E9257B374000582C93 /* ContentView.swift in Sources */,
 				6D29D2E7257B374000582C93 /* ListMoviesAppApp.swift in Sources */,
