@@ -24,6 +24,7 @@
 		6D7BE845257EC0AE00755CC0 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BE844257EC0AE00755CC0 /* View+Extensions.swift */; };
 		6D7BE84A257ECF5400755CC0 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BE849257ECF5400755CC0 /* String+Extensions.swift */; };
 		6D7BE84F257ED28800755CC0 /* FailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BE84E257ED28800755CC0 /* FailedView.swift */; };
+		6D7BE854257ED38400755CC0 /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BE853257ED38400755CC0 /* ViewModelBase.swift */; };
 		6D9E5C8B257C49EC00EF60EE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E5C8A257C49EC00EF60EE /* HTTPClient.swift */; };
 		6D9E5C91257C508900EF60EE /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E5C90257C508900EF60EE /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		6D7BE844257EC0AE00755CC0 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		6D7BE849257ECF5400755CC0 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		6D7BE84E257ED28800755CC0 /* FailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedView.swift; sourceTree = "<group>"; };
+		6D7BE853257ED38400755CC0 /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
 		6D9E5C8A257C49EC00EF60EE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		6D9E5C90257C508900EF60EE /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				6D40BBA2257DC0D4003CF300 /* MovieListViewModel.swift */,
+				6D7BE853257ED38400755CC0 /* ViewModelBase.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				6D9E5C8B257C49EC00EF60EE /* HTTPClient.swift in Sources */,
 				6D29D2E9257B374000582C93 /* ContentView.swift in Sources */,
 				6D9E5C91257C508900EF60EE /* URL+Extensions.swift in Sources */,
+				6D7BE854257ED38400755CC0 /* ViewModelBase.swift in Sources */,
 				6D7BE83D257EBD7D00755CC0 /* MovieListView.swift in Sources */,
 				6D29D2E7257B374000582C93 /* ListMoviesAppApp.swift in Sources */,
 				6D29D320257B38B900582C93 /* ImageLoader.swift in Sources */,
