@@ -35,6 +35,11 @@ class MovieListViewModel: ObservableObject {
     let httpClient = HTTPClient()
     
     func searchByName(_ name: String) {
+        
+        if name.isEmpty {
+            return
+        }
+        
         httpClient.getMoviesBy(search: name) { (result) in
             switch result {
             case .success(let movies):
