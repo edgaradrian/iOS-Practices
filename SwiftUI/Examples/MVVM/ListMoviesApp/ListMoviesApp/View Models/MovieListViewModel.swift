@@ -40,6 +40,8 @@ class MovieListViewModel: ViewModelBase {
             return
         }
         
+        self.loadingState = .loading
+        
         httpClient.getMoviesBy(search: name) { (result) in
             switch result {
             case .success(let movies):
