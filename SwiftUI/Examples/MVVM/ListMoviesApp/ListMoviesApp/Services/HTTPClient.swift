@@ -27,7 +27,7 @@ class HTTPClient {
                 return completition(.failure(.noData))
             }
             
-            guard let movieDetailResponse = try? JSONDecoder().decode(MovieDetail.self, from: data) else {
+            guard let movieDetailResponse = try? JSONDecoder().decode(MovieDetail.self, from: data) else {
                 return completition(.failure(.noData))
             }
             

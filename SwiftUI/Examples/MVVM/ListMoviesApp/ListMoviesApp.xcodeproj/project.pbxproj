@@ -27,6 +27,7 @@
 		6D7BE854257ED38400755CC0 /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BE853257ED38400755CC0 /* ViewModelBase.swift */; };
 		6D7BE859257EDA9600755CC0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BE858257EDA9600755CC0 /* LoadingView.swift */; };
 		6D9111DA2580553F006037A1 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9111D92580553F006037A1 /* MovieDetail.swift */; };
+		6D9111DF25806285006037A1 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9111DE25806285006037A1 /* MovieDetailViewModel.swift */; };
 		6D9E5C8B257C49EC00EF60EE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E5C8A257C49EC00EF60EE /* HTTPClient.swift */; };
 		6D9E5C91257C508900EF60EE /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E5C90257C508900EF60EE /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		6D7BE853257ED38400755CC0 /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
 		6D7BE858257EDA9600755CC0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6D9111D92580553F006037A1 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		6D9111DE25806285006037A1 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 		6D9E5C8A257C49EC00EF60EE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		6D9E5C90257C508900EF60EE /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +212,7 @@
 			children = (
 				6D40BBA2257DC0D4003CF300 /* MovieListViewModel.swift */,
 				6D7BE853257ED38400755CC0 /* ViewModelBase.swift */,
+				6D9111DE25806285006037A1 /* MovieDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D06A71D257B5F11003602C9 /* Movie.swift in Sources */,
+				6D9111DF25806285006037A1 /* MovieDetailViewModel.swift in Sources */,
 				6D29D331257B3EB100582C93 /* Rating.swift in Sources */,
 				6D9E5C8B257C49EC00EF60EE /* HTTPClient.swift in Sources */,
 				6D9111DA2580553F006037A1 /* MovieDetail.swift in Sources */,
