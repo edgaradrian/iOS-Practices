@@ -20,7 +20,7 @@ struct MovieDetailScreen: View {
             } else if self.movieDetailVM.loadingState == .failed {
                 FailedView()
             } else if self.movieDetailVM.loadingState == .success {
-                
+                MovieDetailView(movieDetailVM: self.movieDetailVM)
             }
             
         }
