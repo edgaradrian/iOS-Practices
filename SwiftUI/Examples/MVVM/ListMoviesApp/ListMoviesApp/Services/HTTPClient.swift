@@ -15,6 +15,28 @@ enum MovieError: Error {
 
 class HTTPClient {
     
+    func getMovieDetailBy(imdbId: String, completition: @escaping (Result<MovieDetail?,MovieError>) -> Void) {
+        
+        guard let url = URL.forMoviesByImdbId(imdbId) else {
+            return completition(.failure(.badURL))
+        }
+        
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            
+            guard let data = data, error == nil else {
+                return completition(.failure(.noData))
+            }
+            
+            guard let movieDetailResponse = try? JSONDecoder().decode(MovieDetail.self, from: data) else {
+                return completition(.failure(.noData))
+            }
+            
+            completition(.success(movieDetailResponse))
+            
+        }.resume()
+        
+    }//getMovieDetailsBy
+    
     func getMoviesBy(search: String, completion: @escaping (Result<[Movie]?,MovieError>) -> Void) {
         
         guard let url = URL.forMoviesByName(search) else {
