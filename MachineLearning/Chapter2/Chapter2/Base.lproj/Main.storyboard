@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,13 +19,47 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="showdowncover" translatesAutoresizingMaskIntoConstraints="NO" id="Ahr-sf-TKE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJw-9y-i0d">
+                                <rect key="frame" x="20" y="59" width="374" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jab-nr-R8g">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shovel Knight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fG-6k-tsH">
+                                                <rect key="frame" x="131" y="0.0" width="112.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="74% Confidence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baV-t3-1Ax">
+                                                <rect key="frame" x="130.5" y="30" width="113.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Jab-nr-R8g" firstAttribute="leading" secondItem="DJw-9y-i0d" secondAttribute="leading" id="NIz-vr-Dqq"/>
+                                    <constraint firstItem="Jab-nr-R8g" firstAttribute="top" secondItem="DJw-9y-i0d" secondAttribute="top" id="OEQ-fX-rXx"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jab-nr-R8g" secondAttribute="trailing" id="Rrr-yc-5JL"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jab-nr-R8g" secondAttribute="bottom" id="qOF-pr-BFt"/>
+                                    <constraint firstAttribute="height" constant="60" id="ytH-2a-ZPb"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="DJw-9y-i0d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CGV-TA-cad"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DJw-9y-i0d" secondAttribute="trailing" constant="20" id="Xbu-Gw-NDi"/>
+                            <constraint firstItem="DJw-9y-i0d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="Y5k-YU-huh"/>
                             <constraint firstItem="Ahr-sf-TKE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fnA-Px-jzx"/>
                             <constraint firstAttribute="bottom" secondItem="Ahr-sf-TKE" secondAttribute="bottom" id="lVu-tE-A01"/>
                             <constraint firstItem="Ahr-sf-TKE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mWx-UN-ja4"/>
+                            <constraint firstItem="DJw-9y-i0d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oe6-LU-idO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ahr-sf-TKE" secondAttribute="trailing" id="wkH-rA-wK3"/>
                         </constraints>
                     </view>
