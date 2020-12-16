@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6D70EAA125872CFA00EE3628 /* MVVMBankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70EAA025872CFA00EE3628 /* MVVMBankAppApp.swift */; };
-		6D70EAA325872CFA00EE3628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70EAA225872CFA00EE3628 /* ContentView.swift */; };
 		6D70EAA525872CFF00EE3628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D70EAA425872CFF00EE3628 /* Assets.xcassets */; };
 		6D70EAA825872CFF00EE3628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D70EAA725872CFF00EE3628 /* Preview Assets.xcassets */; };
 		6D70EAB325872CFF00EE3628 /* MVVMBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70EAB225872CFF00EE3628 /* MVVMBankAppTests.swift */; };
@@ -19,6 +18,8 @@
 		6DA577742588228E00B49B88 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA577732588228E00B49B88 /* Account.swift */; };
 		6DA5777D258825A400B49B88 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5777C258825A400B49B88 /* AccountService.swift */; };
 		6DA5778325884BBB00B49B88 /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5778225884BBB00B49B88 /* AccountSummaryViewModel.swift */; };
+		6DF1E7CA25895B6700CCB5E2 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1E7C925895B6700CCB5E2 /* AccountSummaryScreen.swift */; };
+		6DF1E7D3258972E600CCB5E2 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1E7D2258972E600CCB5E2 /* AccountListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 /* Begin PBXFileReference section */
 		6D70EA9D25872CFA00EE3628 /* MVVMBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D70EAA025872CFA00EE3628 /* MVVMBankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBankAppApp.swift; sourceTree = "<group>"; };
-		6D70EAA225872CFA00EE3628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D70EAA425872CFF00EE3628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D70EAA725872CFF00EE3628 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D70EAA925872CFF00EE3628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		6DA577732588228E00B49B88 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		6DA5777C258825A400B49B88 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 		6DA5778225884BBB00B49B88 /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
+		6DF1E7C925895B6700CCB5E2 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
+		6DF1E7D2258972E600CCB5E2 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +109,13 @@
 		6D70EA9F25872CFA00EE3628 /* MVVMBankApp */ = {
 			isa = PBXGroup;
 			children = (
+				6DF1E7D1258972CF00CCB5E2 /* Views */,
+				6DF1E7C825895B3600CCB5E2 /* Screens */,
 				6DA5778125884B9100B49B88 /* View Models */,
 				6DA5777B2588258900B49B88 /* Services */,
 				6DA5777225881F7800B49B88 /* Models */,
 				6D70EACF25872DD700EE3628 /* Extensions */,
 				6D70EAA025872CFA00EE3628 /* MVVMBankAppApp.swift */,
-				6D70EAA225872CFA00EE3628 /* ContentView.swift */,
 				6D70EAA425872CFF00EE3628 /* Assets.xcassets */,
 				6D70EAA925872CFF00EE3628 /* Info.plist */,
 				6D70EAA625872CFF00EE3628 /* Preview Content */,
@@ -178,6 +181,22 @@
 				6DA5778225884BBB00B49B88 /* AccountSummaryViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		6DF1E7C825895B3600CCB5E2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1E7C925895B6700CCB5E2 /* AccountSummaryScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6DF1E7D1258972CF00CCB5E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1E7D2258972E600CCB5E2 /* AccountListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,9 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF1E7D3258972E600CCB5E2 /* AccountListView.swift in Sources */,
+				6DF1E7CA25895B6700CCB5E2 /* AccountSummaryScreen.swift in Sources */,
 				6D70EAD125872DEC00EE3628 /* Double+Extensions.swift in Sources */,
 				6DA5776925881C5400B49B88 /* URL+Extensions.swift in Sources */,
-				6D70EAA325872CFA00EE3628 /* ContentView.swift in Sources */,
 				6DA5776E25881CEC00B49B88 /* View+Extensions.swift in Sources */,
 				6DA5777D258825A400B49B88 /* AccountService.swift in Sources */,
 				6D70EAA125872CFA00EE3628 /* MVVMBankAppApp.swift in Sources */,
