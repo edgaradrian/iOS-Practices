@@ -73,6 +73,8 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
             
         }
         
+        try? VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
+        
     }//captureOutput
     
 }//extension AVCaptureVideoDataOutputSampleBufferDelegate
