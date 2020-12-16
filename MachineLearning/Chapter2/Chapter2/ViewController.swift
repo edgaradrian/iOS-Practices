@@ -64,6 +64,13 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
             
             guard let first = results.first else { return }
             
+            let confidence = first.confidence * 100
+            
+            DispatchQueue.main.async {
+                self.predictionLabel.text = first.identifier.capitalized
+                self.confidenceLabel.text = String(confidence) + "%"
+            }
+            
         }
         
     }//captureOutput
