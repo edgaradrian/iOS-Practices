@@ -38,13 +38,35 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         imageView.layer.addSublayer(previewLayer)
         
         let output = AVCaptureVideoDataOutput()
-        output.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoQueue"))
+        output.setSampleBufferDelegate(self, queue: DispatchQueue(label: "myVideoQueue"))
         
         session.addOutput(output)
         session.addInput(input)
         session.startRunning()
         
     }//setupSession
+    
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+        
+        guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
+            return
+        }
+        
+        guard let model = try? VNCoreMLModel(for: MobileNet(configuration: MLModelConfiguration()).model) else {
+            return
+        }
+        
+        let request = VNCoreMLRequest(model: model) { (data, error) in
+            
+            guard let results = data.results as? [VNClassificationObservation] else {
+                return
+            }
+            
+            guard let first = results.first else { return }
+            
+        }
+        
+    }//captureOutput
     
 }//extension AVCaptureVideoDataOutputSampleBufferDelegate
 
