@@ -63,6 +63,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ahr-sf-TKE" secondAttribute="trailing" id="wkH-rA-wK3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confidenceLabel" destination="baV-t3-1Ax" id="vbX-pd-eiI"/>
+                        <outlet property="imageView" destination="Ahr-sf-TKE" id="hHJ-Km-TOc"/>
+                        <outlet property="predictionLabel" destination="5fG-6k-tsH" id="d5T-fR-3nj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
