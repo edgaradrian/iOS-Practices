@@ -18,6 +18,35 @@ class AccountService {
     private init () { }
     
     static let shared = AccountService()
+    
+    func createAccount(createAccountRequest: CreateAccountRequest, completion: @escaping (Result<CreateAccountResponse, NetworkError>) -> Void) {
+        
+        guard let url = URL.urlForCreateAccounts() else {
+            return completion(.failure(.badUrl))
+        }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpBody = try? JSONEncoder().encode(createAccountRequest)
+        
+        URLSession.shared.dataTask(with: request) { (data, response, error) in
+            
+            guard let data = data, error == nil else {
+                return completion(.failure(.noData))
+            }
+            
+            let accountCreateResponse = try? JSONDecoder().decode(CreateAccountResponse.self, from: data)
+            
+            if let response = accountCreateResponse {
+                completion(.success(response))
+            } else {
+                completion(.failure(.decodingError))
+            }
+            
+        }
+       
+    }//createAccount
 
     func getAllAccounts(completition: @escaping (Result<[Account]?, NetworkError>) -> Void) {
         

@@ -10,7 +10,7 @@ import Foundation
 extension URL {
     
     static func urlForAccounts() -> URL? {
-        return URL(string: "")
+        return URL(string: "https://sugar-cherry-stick.glitch.me/api/accounts")
     }//urlForAccounts
     
     static func urlForCreateAccounts() -> URL? {
