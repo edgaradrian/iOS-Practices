@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D651A002591202D00B74F49 /* AddAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6519FF2591202D00B74F49 /* AddAccountScreen.swift */; };
 		6D70EAA125872CFA00EE3628 /* MVVMBankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70EAA025872CFA00EE3628 /* MVVMBankAppApp.swift */; };
 		6D70EAA525872CFF00EE3628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D70EAA425872CFF00EE3628 /* Assets.xcassets */; };
 		6D70EAA825872CFF00EE3628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D70EAA725872CFF00EE3628 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D6519FF2591202D00B74F49 /* AddAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountScreen.swift; sourceTree = "<group>"; };
 		6D70EA9D25872CFA00EE3628 /* MVVMBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D70EAA025872CFA00EE3628 /* MVVMBankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBankAppApp.swift; sourceTree = "<group>"; };
 		6D70EAA425872CFF00EE3628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				6DF1E7C925895B6700CCB5E2 /* AccountSummaryScreen.swift */,
+				6D6519FF2591202D00B74F49 /* AddAccountScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				6DA5777D258825A400B49B88 /* AccountService.swift in Sources */,
 				6D70EAA125872CFA00EE3628 /* MVVMBankAppApp.swift in Sources */,
 				6DA577742588228E00B49B88 /* Account.swift in Sources */,
+				6D651A002591202D00B74F49 /* AddAccountScreen.swift in Sources */,
 				6DA5778325884BBB00B49B88 /* AccountSummaryViewModel.swift in Sources */,
 				6DA63C09258C4C6C006FCE1B /* CreateAccountRequest.swift in Sources */,
 			);
