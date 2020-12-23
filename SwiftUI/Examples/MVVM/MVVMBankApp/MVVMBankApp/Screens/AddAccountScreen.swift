@@ -46,6 +46,8 @@ struct AddAccountScreen: View {
                 
             }
             
+            Text(self.addAccountVM.errorMessage)
+            
         }
         .navigationBarTitle("Add Account")
         .embedInNavigationView()

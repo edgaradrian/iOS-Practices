@@ -44,7 +44,9 @@ extension AddAccountViewModel {
         }
         
         if !errors.isEmpty {
-            self.errorMessage = errors.joined(separator: "\n")
+            DispatchQueue.main.async {
+                self.errorMessage = errors.joined(separator: "\n")
+            }
             return false
         }
         
@@ -69,7 +71,9 @@ extension AddAccountViewModel {
                     completion(true)
                 } else {
                     if let error = createAccountResponse.error {
-                        self.errorMessage = error
+                        DispatchQueue.main.async {
+                            self.errorMessage = error
+                        }
                         completion(false)
                     }
                 }
