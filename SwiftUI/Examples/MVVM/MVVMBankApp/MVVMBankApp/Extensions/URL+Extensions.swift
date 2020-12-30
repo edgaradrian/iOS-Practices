@@ -14,7 +14,11 @@ extension URL {
     }//urlForAccounts
     
     static func urlForCreateAccounts() -> URL? {
-        return URL(string: "")
+        return URL(string: "https://sugar-cherry-stick.glitch.me/api/accounts")
     }//urlForCreateAccounts
+    
+    static func urlForTransferFunds() -> URL? {
+        return URL(string: "https://sugar-cherry-stick.glitch.me/api/transfer")
+    }
     
 }//URL extension
