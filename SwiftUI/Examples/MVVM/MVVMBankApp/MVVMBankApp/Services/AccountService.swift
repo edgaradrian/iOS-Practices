@@ -71,4 +71,8 @@ class AccountService {
         
     }//getAllAccount
     
+    func transferFunds(transferFundRequest: TransferFundRequest, completion: @escaping (Result<Bool, NetworkError>) -> Void) {
+        
+    }//transferFunds
+    
 }//AccountService
