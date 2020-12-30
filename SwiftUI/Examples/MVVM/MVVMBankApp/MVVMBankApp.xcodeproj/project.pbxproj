@@ -24,6 +24,7 @@
 		6DA63C13258C54F5006FCE1B /* AddAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA63C12258C54F5006FCE1B /* AddAccountViewModel.swift */; };
 		6DC1EDDE259D0D08004B8475 /* TransferFunds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1EDDD259D0D08004B8475 /* TransferFunds.swift */; };
 		6DC1EDE3259D1012004B8475 /* TransferFundResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1EDE2259D1012004B8475 /* TransferFundResponse.swift */; };
+		6DC1EDE8259D191C004B8475 /* TransferFundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1EDE7259D191C004B8475 /* TransferFundsViewModel.swift */; };
 		6DF1E7CA25895B6700CCB5E2 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1E7C925895B6700CCB5E2 /* AccountSummaryScreen.swift */; };
 		6DF1E7D3258972E600CCB5E2 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1E7D2258972E600CCB5E2 /* AccountListView.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		6DA63C12258C54F5006FCE1B /* AddAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewModel.swift; sourceTree = "<group>"; };
 		6DC1EDDD259D0D08004B8475 /* TransferFunds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFunds.swift; sourceTree = "<group>"; };
 		6DC1EDE2259D1012004B8475 /* TransferFundResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundResponse.swift; sourceTree = "<group>"; };
+		6DC1EDE7259D191C004B8475 /* TransferFundsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsViewModel.swift; sourceTree = "<group>"; };
 		6DF1E7C925895B6700CCB5E2 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
 		6DF1E7D2258972E600CCB5E2 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +198,7 @@
 			children = (
 				6DA5778225884BBB00B49B88 /* AccountSummaryViewModel.swift */,
 				6DA63C12258C54F5006FCE1B /* AddAccountViewModel.swift */,
+				6DC1EDE7259D191C004B8475 /* TransferFundsViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				6DC1EDDE259D0D08004B8475 /* TransferFunds.swift in Sources */,
 				6DA5776E25881CEC00B49B88 /* View+Extensions.swift in Sources */,
 				6DA63C13258C54F5006FCE1B /* AddAccountViewModel.swift in Sources */,
+				6DC1EDE8259D191C004B8475 /* TransferFundsViewModel.swift in Sources */,
 				6DA5777D258825A400B49B88 /* AccountService.swift in Sources */,
 				6D70EAA125872CFA00EE3628 /* MVVMBankAppApp.swift in Sources */,
 				6DA577742588228E00B49B88 /* Account.swift in Sources */,
