@@ -40,6 +40,14 @@ struct TransfersFundsScreen: View {
                 .onAppear {
                     self.transfersFundsVM.populateAccounts()
             }
+                
+            Button(action: {
+                
+            }) {
+                Text("Submit transfer")
+            }
+            .padding()
+                
                 .actionSheet(isPresented: $showSheet, content: {
                     ActionSheet(title: Text("Transfer Funds"), message: Text("Choose an account"), buttons: self.actionSheetButton)
                 })
@@ -86,6 +94,9 @@ struct TransferFundsAccountSelectView: View {
             .foregroundColor(.white)
             .opacity(self.transferFundsVM.fromAccount != nil ? 1.0 : 0.5)
             .disabled(self.transferFundsVM.fromAccount == nil)
+            
+            TextField("Amount", text: self.$transferFundsVM.amount)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             
         }
         .padding()
