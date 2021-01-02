@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TransfersFundsScreen: View {
     
+    @Environment(\.presentationMode) var presentationMode
     @ObservedObject private var transfersFundsVM = TransferFundsViewModel()
     @State private var showSheet = false
     @State private var isFromAccount = false
@@ -31,26 +32,32 @@ struct TransfersFundsScreen: View {
     }
     
     var body: some View {
-        VStack {
-            AccountListView(accounts: self.transfersFundsVM.accounts)
-                .frame(height: 300)
+        ScrollView {
+            VStack {
+                AccountListView(accounts: self.transfersFundsVM.accounts)
+                    .frame(height: 300)
                 
-            TransferFundsAccountSelectView(transferFundsVM: self.transfersFundsVM, showSheet: $showSheet, isFromAccount: $isFromAccount)
-            Spacer()
-                .onAppear {
-                    self.transfersFundsVM.populateAccounts()
-            }
+                TransferFundsAccountSelectView(transferFundsVM: self.transfersFundsVM, showSheet: $showSheet, isFromAccount: $isFromAccount)
+                Spacer()
+                    .onAppear {
+                        self.transfersFundsVM.populateAccounts()
+                    }
                 
-            Button(action: {
+                Text(self.transfersFundsVM.message ?? "")
                 
-            }) {
-                Text("Submit transfer")
-            }
-            .padding()
+                Button(action: {
+                    self.transfersFundsVM.submitTransfer {
+                        self.presentationMode.wrappedValue.dismiss()
+                    }
+                }) {
+                    Text("Submit transfer")
+                }
+                .padding()
                 
                 .actionSheet(isPresented: $showSheet, content: {
                     ActionSheet(title: Text("Transfer Funds"), message: Text("Choose an account"), buttons: self.actionSheetButton)
                 })
+            }
         }
         .navigationBarTitle("Transfer Funds")
         .embedInNavigationView()

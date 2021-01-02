@@ -10,6 +10,7 @@ import Foundation
 class TransferFundsViewModel: ObservableObject {
     
     @Published var accounts = [AccountViewModel]()
+    @Published var message: String?
     
     var filteredAccounts: [AccountViewModel] {
         if self.fromAccount === nil {
@@ -52,7 +53,7 @@ class TransferFundsViewModel: ObservableObject {
         return isAmountValid
     }//isValid
     
-    func submitTransfer() {
+    func submitTransfer(completition: @escaping () -> Void) {
         
         if !isValid() {
             return
@@ -64,10 +65,19 @@ class TransferFundsViewModel: ObservableObject {
             return
         }
         
-        let transferFundRequest = TransferFundRequest(accountFromId: fromAccount.accountId, accountToId: toAccount.accountId, amount: amount)
+        let transferFundRequest = TransferFundRequest(accountFromId: fromAccount.accountId.lowercased(), accountToId: toAccount.accountId.lowercased(), amount: amount)
         
         AccountService.shared.transferFunds(transferFundRequest: transferFundRequest) { (result) in
-            <#code#>
+            switch result {
+            case .success(let response):
+                if response.success {
+                    completition()
+                } else {
+                    self.message = response.error
+                }
+            case .failure(let error):
+                self.message = error.localizedDescription
+            }
         }
         
     }//submitTransfer
