@@ -15,6 +15,7 @@
 		132699B9270F99E6003B7703 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132699B8270F99E6003B7703 /* View+Extensions.swift */; };
 		132699BB270FD9BF003B7703 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 132699BA270FD9BF003B7703 /* GoogleService-Info.plist */; };
 		132699BE270FDB2D003B7703 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132699BD270FDB2D003B7703 /* Store.swift */; };
+		132699C1270FDBFD003B7703 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132699C0270FDBFD003B7703 /* FirestoreManager.swift */; };
 		174C20D9A1475E3A3B14EF05 /* Pods_GroceryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CD9FF3A4CEEE79618F4A2 /* Pods_GroceryApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		132699B8270F99E6003B7703 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		132699BA270FD9BF003B7703 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		132699BD270FDB2D003B7703 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		132699C0270FDBFD003B7703 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		1FBDCE1B2BBACF0FA895E1DB /* Pods-GroceryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryApp.release.xcconfig"; path = "Target Support Files/Pods-GroceryApp/Pods-GroceryApp.release.xcconfig"; sourceTree = "<group>"; };
 		87B4DDC6092C31F06A1558D6 /* Pods-GroceryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryApp.debug.xcconfig"; path = "Target Support Files/Pods-GroceryApp/Pods-GroceryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CC0CD9FF3A4CEEE79618F4A2 /* Pods_GroceryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 		132699A5270F9871003B7703 /* GroceryApp */ = {
 			isa = PBXGroup;
 			children = (
+				132699BF270FDBD4003B7703 /* Managers */,
 				132699BC270FDAF6003B7703 /* Models */,
 				132699B7270F99C0003B7703 /* Extensions */,
 				132699B4270F988D003B7703 /* Utils */,
@@ -108,6 +111,14 @@
 				132699BD270FDB2D003B7703 /* Store.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		132699BF270FDBD4003B7703 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				132699C0270FDBFD003B7703 /* FirestoreManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		1D8FB78C01B94BEEF4E852B9 /* Frameworks */ = {
@@ -243,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				132699BE270FDB2D003B7703 /* Store.swift in Sources */,
+				132699C1270FDBFD003B7703 /* FirestoreManager.swift in Sources */,
 				132699A9270F9871003B7703 /* ContentView.swift in Sources */,
 				132699A7270F9871003B7703 /* GroceryAppApp.swift in Sources */,
 				132699B9270F99E6003B7703 /* View+Extensions.swift in Sources */,
