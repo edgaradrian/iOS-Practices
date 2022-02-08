@@ -11,9 +11,20 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             
-            HeaderView(titulo: "Título", subtitulo: "Subtítulo", description: "Pequeña descripción de lo que quiero demostrar aquí")
+            Text("Título")
+                .font(.largeTitle)
             
-        }//VStack
+            Text("Subtítulo")
+                .foregroundColor(Color.gray)
+            
+            Text("Pequeña descripción de lo que quiero demostrar va aquí.")
+                .frame(maxWidth: .infinity)
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.blue)
+            
+        }
+        .font(.footnote)
     }//body
 }//ContentView
 
