@@ -28,6 +28,11 @@ struct ContentView: View {
             
             Image("SF Symbols")
                 .resizable()
+                .opacity(0.7)
+                .overlay(Text("SF Symbols")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.red))
             
         }
         .font(.title)
