@@ -11,20 +11,27 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             
-            Text("Título")
+            Text("Imágenes")
                 .font(.largeTitle)
             
-            Text("Subtítulo")
+            Text("Usando SF Symbols")
                 .foregroundColor(Color.gray)
             
-            Text("Pequeña descripción de lo que quiero demostrar va aquí.")
+            Text("Se mostrarán los siguientes simbolos para dar mayor claridad. Estos simbolos son dueños de la manzana.")
                 .frame(maxWidth: .infinity)
                 .foregroundColor(.white)
                 .padding()
                 .background(Color.blue)
             
+            Image(systemName: "hand.thumbsup.fill")
+                .font(.largeTitle)
+            
+            Image("SF Symbols")
+                .resizable()
+            
         }
-        .font(.footnote)
+        .font(.title)
+        .ignoresSafeArea(edges: .bottom)
     }//body
 }//ContentView
 
