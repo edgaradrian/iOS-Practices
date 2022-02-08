@@ -22,6 +22,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity)
                 .font(.title)
                 .foregroundColor(.white)
+                .padding()
                 .background(Color.blue)
             
         }//VStack
