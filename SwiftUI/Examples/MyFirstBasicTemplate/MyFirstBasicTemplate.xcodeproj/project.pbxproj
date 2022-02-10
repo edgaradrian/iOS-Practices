@@ -14,6 +14,7 @@
 		1362D52827B2CB7400695795 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D52727B2CB7400695795 /* HeaderView.swift */; };
 		1362D52A27B2D22700695795 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D52927B2D22700695795 /* Shapes.swift */; };
 		1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D52B27B494FA00695795 /* SomeViewsPullIn.swift */; };
+		1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D52D27B49B6E00695795 /* SomeViewsPushOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1362D52727B2CB7400695795 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1362D52927B2D22700695795 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		1362D52B27B494FA00695795 /* SomeViewsPullIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeViewsPullIn.swift; sourceTree = "<group>"; };
+		1362D52D27B49B6E00695795 /* SomeViewsPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeViewsPushOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				1362D52727B2CB7400695795 /* HeaderView.swift */,
 				1362D52927B2D22700695795 /* Shapes.swift */,
 				1362D52B27B494FA00695795 /* SomeViewsPullIn.swift */,
+				1362D52D27B49B6E00695795 /* SomeViewsPushOut.swift */,
 			);
 			path = MyFirstBasicTemplate;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
+				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
