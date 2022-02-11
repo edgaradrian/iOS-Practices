@@ -21,6 +21,9 @@
 		1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53527B5287500695795 /* VStack_Aligment.swift */; };
 		1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53727B6C00000695795 /* LazyVStack_Intro.swift */; };
 		1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53927B6CC9700695795 /* LazyVStack_Alignment.swift */; };
+		1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53B27B6ECAD00695795 /* LazyVStack_WithScrolling.swift */; };
+		1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */; };
+		1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		1362D53527B5287500695795 /* VStack_Aligment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Aligment.swift; sourceTree = "<group>"; };
 		1362D53727B6C00000695795 /* LazyVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Intro.swift; sourceTree = "<group>"; };
 		1362D53927B6CC9700695795 /* LazyVStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Alignment.swift; sourceTree = "<group>"; };
+		1362D53B27B6ECAD00695795 /* LazyVStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_WithScrolling.swift; sourceTree = "<group>"; };
+		1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Player.swift; sourceTree = "<group>"; };
+		1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				1362D53527B5287500695795 /* VStack_Aligment.swift */,
 				1362D53727B6C00000695795 /* LazyVStack_Intro.swift */,
 				1362D53927B6CC9700695795 /* LazyVStack_Alignment.swift */,
+				1362D53B27B6ECAD00695795 /* LazyVStack_WithScrolling.swift */,
+				1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */,
+				1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */,
 			);
 			path = MyFirstBasicTemplate;
 			sourceTree = "<group>";
@@ -169,14 +178,17 @@
 			files = (
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
+				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
 				1362D53427B5259B00695795 /* VStack_Spacing.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				1362D53027B5216900695795 /* VStack_Intro.swift in Sources */,
+				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
+				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 			);
