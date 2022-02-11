@@ -24,6 +24,7 @@
 		1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53B27B6ECAD00695795 /* LazyVStack_WithScrolling.swift */; };
 		1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */; };
 		1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */; };
+		1362D54327B7039200695795 /* HStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54227B7039200695795 /* HStack_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1362D53B27B6ECAD00695795 /* LazyVStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_WithScrolling.swift; sourceTree = "<group>"; };
 		1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Player.swift; sourceTree = "<group>"; };
 		1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_HeaderView.swift; sourceTree = "<group>"; };
+		1362D54227B7039200695795 /* HStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1362D54127B7037D00695795 /* HStack */,
 				1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */,
 				1362D51B27B2B88F00695795 /* ContentView.swift */,
 				1362D51D27B2B89100695795 /* Assets.xcassets */,
@@ -104,6 +107,14 @@
 				1362D52027B2B89100695795 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1362D54127B7037D00695795 /* HStack */ = {
+			isa = PBXGroup;
+			children = (
+				1362D54227B7039200695795 /* HStack_Intro.swift */,
+			);
+			path = HStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
+				1362D54327B7039200695795 /* HStack_Intro.swift in Sources */,
 				1362D53427B5259B00695795 /* VStack_Spacing.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				1362D53027B5216900695795 /* VStack_Intro.swift in Sources */,
