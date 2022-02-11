@@ -20,6 +20,7 @@
 		1362D53427B5259B00695795 /* VStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53327B5259B00695795 /* VStack_Spacing.swift */; };
 		1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53527B5287500695795 /* VStack_Aligment.swift */; };
 		1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53727B6C00000695795 /* LazyVStack_Intro.swift */; };
+		1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53927B6CC9700695795 /* LazyVStack_Alignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1362D53327B5259B00695795 /* VStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Spacing.swift; sourceTree = "<group>"; };
 		1362D53527B5287500695795 /* VStack_Aligment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Aligment.swift; sourceTree = "<group>"; };
 		1362D53727B6C00000695795 /* LazyVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Intro.swift; sourceTree = "<group>"; };
+		1362D53927B6CC9700695795 /* LazyVStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Alignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				1362D53327B5259B00695795 /* VStack_Spacing.swift */,
 				1362D53527B5287500695795 /* VStack_Aligment.swift */,
 				1362D53727B6C00000695795 /* LazyVStack_Intro.swift */,
+				1362D53927B6CC9700695795 /* LazyVStack_Alignment.swift */,
 			);
 			path = MyFirstBasicTemplate;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
+				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
