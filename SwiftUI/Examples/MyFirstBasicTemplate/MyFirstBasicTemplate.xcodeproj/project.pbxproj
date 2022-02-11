@@ -25,6 +25,7 @@
 		1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */; };
 		1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */; };
 		1362D54327B7039200695795 /* HStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54227B7039200695795 /* HStack_Intro.swift */; };
+		1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54427B70A9800695795 /* HStack_Spacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		1362D53D27B6ED4800695795 /* LazyVStack_Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_Player.swift; sourceTree = "<group>"; };
 		1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_HeaderView.swift; sourceTree = "<group>"; };
 		1362D54227B7039200695795 /* HStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Intro.swift; sourceTree = "<group>"; };
+		1362D54427B70A9800695795 /* HStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Spacing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				1362D54227B7039200695795 /* HStack_Intro.swift */,
+				1362D54427B70A9800695795 /* HStack_Spacing.swift */,
 			);
 			path = HStack;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
+				1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
 				1362D54327B7039200695795 /* HStack_Intro.swift in Sources */,
