@@ -26,6 +26,7 @@
 		1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */; };
 		1362D54327B7039200695795 /* HStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54227B7039200695795 /* HStack_Intro.swift */; };
 		1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54427B70A9800695795 /* HStack_Spacing.swift */; };
+		1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54627B84E3900695795 /* HStack_Alignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		1362D53F27B6F9CE00695795 /* LazyVStack_HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack_HeaderView.swift; sourceTree = "<group>"; };
 		1362D54227B7039200695795 /* HStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Intro.swift; sourceTree = "<group>"; };
 		1362D54427B70A9800695795 /* HStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Spacing.swift; sourceTree = "<group>"; };
+		1362D54627B84E3900695795 /* HStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Alignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				1362D54227B7039200695795 /* HStack_Intro.swift */,
 				1362D54427B70A9800695795 /* HStack_Spacing.swift */,
+				1362D54627B84E3900695795 /* HStack_Alignment.swift */,
 			);
 			path = HStack;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				1362D53027B5216900695795 /* VStack_Intro.swift in Sources */,
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
+				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
