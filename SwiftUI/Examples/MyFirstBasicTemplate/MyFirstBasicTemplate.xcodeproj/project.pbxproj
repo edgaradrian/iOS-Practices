@@ -35,6 +35,7 @@
 		13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3D27BC92A300B0E8C9 /* LazyHStack_Alignment.swift */; };
 		13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3F27BC949200B0E8C9 /* LazyHStack_WithScrolling.swift */; };
 		13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4227BC997900B0E8C9 /* ZStack_Intro.swift */; };
+		13FB4D4527BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4427BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		13FB4D3D27BC92A300B0E8C9 /* LazyHStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_Alignment.swift; sourceTree = "<group>"; };
 		13FB4D3F27BC949200B0E8C9 /* LazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
 		13FB4D4227BC997900B0E8C9 /* ZStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Intro.swift; sourceTree = "<group>"; };
+		13FB4D4427BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_IgnoresSafeArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				13FB4D4227BC997900B0E8C9 /* ZStack_Intro.swift */,
+				13FB4D4427BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift */,
 			);
 			path = ZStack;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */,
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
+				13FB4D4527BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift in Sources */,
 				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
