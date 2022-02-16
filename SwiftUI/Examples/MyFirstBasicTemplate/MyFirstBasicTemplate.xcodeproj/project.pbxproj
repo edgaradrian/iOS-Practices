@@ -34,6 +34,7 @@
 		13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3B27BC873500B0E8C9 /* LazyHStack_Intro.swift */; };
 		13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3D27BC92A300B0E8C9 /* LazyHStack_Alignment.swift */; };
 		13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3F27BC949200B0E8C9 /* LazyHStack_WithScrolling.swift */; };
+		13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4227BC997900B0E8C9 /* ZStack_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		13FB4D3B27BC873500B0E8C9 /* LazyHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_Intro.swift; sourceTree = "<group>"; };
 		13FB4D3D27BC92A300B0E8C9 /* LazyHStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_Alignment.swift; sourceTree = "<group>"; };
 		13FB4D3F27BC949200B0E8C9 /* LazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
+		13FB4D4227BC997900B0E8C9 /* ZStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				13FB4D4127BC995D00B0E8C9 /* ZStack */,
 				13FB4D3A27BC871600B0E8C9 /* LazyHStack */,
 				1362D54127B7037D00695795 /* HStack */,
 				1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */,
@@ -150,6 +153,14 @@
 				13FB4D3F27BC949200B0E8C9 /* LazyHStack_WithScrolling.swift */,
 			);
 			path = LazyHStack;
+			sourceTree = "<group>";
+		};
+		13FB4D4127BC995D00B0E8C9 /* ZStack */ = {
+			isa = PBXGroup;
+			children = (
+				13FB4D4227BC997900B0E8C9 /* ZStack_Intro.swift */,
+			);
+			path = ZStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 			files = (
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
+				13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */,
 				13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
