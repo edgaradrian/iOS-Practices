@@ -30,6 +30,7 @@
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
+		13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3827BC7CD400B0E8C9 /* HStack_Customizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
+		13FB4D3827BC7CD400B0E8C9 /* HStack_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Customizing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				1362D54627B84E3900695795 /* HStack_Alignment.swift */,
 				13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */,
 				13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */,
+				13FB4D3827BC7CD400B0E8C9 /* HStack_Customizing.swift */,
 			);
 			path = HStack;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
+				13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
