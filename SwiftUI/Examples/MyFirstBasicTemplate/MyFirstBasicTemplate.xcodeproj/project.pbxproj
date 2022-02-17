@@ -29,6 +29,7 @@
 		1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54627B84E3900695795 /* HStack_Alignment.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
+		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -66,6 +67,7 @@
 		1362D54627B84E3900695795 /* HStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Alignment.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
+		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1392028B27BE07E60078A01D /* Spacer */,
 				13FB4D4127BC995D00B0E8C9 /* ZStack */,
 				13FB4D3A27BC871600B0E8C9 /* LazyHStack */,
 				1362D54127B7037D00695795 /* HStack */,
@@ -153,6 +156,14 @@
 				13FB4D3827BC7CD400B0E8C9 /* HStack_Customizing.swift */,
 			);
 			path = HStack;
+			sourceTree = "<group>";
+		};
+		1392028B27BE07E60078A01D /* Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				1392028C27BE08010078A01D /* Spacer_Intro.swift */,
+			);
+			path = Spacer;
 			sourceTree = "<group>";
 		};
 		13FB4D3A27BC871600B0E8C9 /* LazyHStack */ = {
@@ -270,6 +281,7 @@
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
 				13FB4D4527BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift in Sources */,
+				1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */,
 				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
