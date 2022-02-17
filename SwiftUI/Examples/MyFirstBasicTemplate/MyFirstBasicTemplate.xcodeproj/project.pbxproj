@@ -33,6 +33,7 @@
 		1392028F27BEB5990078A01D /* Spacer_MinimumLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028E27BEB5990078A01D /* Spacer_MinimumLength.swift */; };
 		1392029127BEB9670078A01D /* Spacer_RelativeSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029027BEB9670078A01D /* Spacer_RelativeSpacing.swift */; };
 		1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029327BEBE780078A01D /* GeometryReader_Intro.swift */; };
+		1392029627BEBFCF0078A01D /* GeometryReader_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029527BEBFCF0078A01D /* GeometryReader_Alignment.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -74,6 +75,7 @@
 		1392028E27BEB5990078A01D /* Spacer_MinimumLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_MinimumLength.swift; sourceTree = "<group>"; };
 		1392029027BEB9670078A01D /* Spacer_RelativeSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_RelativeSpacing.swift; sourceTree = "<group>"; };
 		1392029327BEBE780078A01D /* GeometryReader_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Intro.swift; sourceTree = "<group>"; };
+		1392029527BEBFCF0078A01D /* GeometryReader_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Alignment.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				1392029327BEBE780078A01D /* GeometryReader_Intro.swift */,
+				1392029527BEBFCF0078A01D /* GeometryReader_Alignment.swift */,
 			);
 			path = GeometryReader;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */,
 				13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
+				1392029627BEBFCF0078A01D /* GeometryReader_Alignment.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
 				1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
