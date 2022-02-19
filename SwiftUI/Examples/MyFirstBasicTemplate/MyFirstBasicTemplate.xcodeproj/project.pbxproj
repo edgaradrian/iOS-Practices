@@ -34,6 +34,7 @@
 		1392029127BEB9670078A01D /* Spacer_RelativeSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029027BEB9670078A01D /* Spacer_RelativeSpacing.swift */; };
 		1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029327BEBE780078A01D /* GeometryReader_Intro.swift */; };
 		1392029627BEBFCF0078A01D /* GeometryReader_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029527BEBFCF0078A01D /* GeometryReader_Alignment.swift */; };
+		1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029727C0AFC10078A01D /* GeometryReader_Layers.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -76,6 +77,7 @@
 		1392029027BEB9670078A01D /* Spacer_RelativeSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_RelativeSpacing.swift; sourceTree = "<group>"; };
 		1392029327BEBE780078A01D /* GeometryReader_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Intro.swift; sourceTree = "<group>"; };
 		1392029527BEBFCF0078A01D /* GeometryReader_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Alignment.swift; sourceTree = "<group>"; };
+		1392029727C0AFC10078A01D /* GeometryReader_Layers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Layers.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				1392029327BEBE780078A01D /* GeometryReader_Intro.swift */,
 				1392029527BEBFCF0078A01D /* GeometryReader_Alignment.swift */,
+				1392029727C0AFC10078A01D /* GeometryReader_Layers.swift */,
 			);
 			path = GeometryReader;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */,
 				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
+				1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */,
 				1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */,
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
