@@ -43,6 +43,7 @@
 		13E8EEDE27C2B77800307F9A /* LazyHGrid_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDD27C2B77800307F9A /* LazyHGrid_Intro.swift */; };
 		13E8EEE027C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDF27C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift */; };
 		13E8EEE227C4AF3D00307F9A /* LazyHGrid_Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEE127C4AF3D00307F9A /* LazyHGrid_Rows.swift */; };
+		13E8EEE427C4B0FA00307F9A /* LazyHGrid_FixedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEE327C4B0FA00307F9A /* LazyHGrid_FixedSize.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -94,6 +95,7 @@
 		13E8EEDD27C2B77800307F9A /* LazyHGrid_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid_Intro.swift; sourceTree = "<group>"; };
 		13E8EEDF27C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid_ColumnSpacing.swift; sourceTree = "<group>"; };
 		13E8EEE127C4AF3D00307F9A /* LazyHGrid_Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid_Rows.swift; sourceTree = "<group>"; };
+		13E8EEE327C4B0FA00307F9A /* LazyHGrid_FixedSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid_FixedSize.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 				13E8EEDD27C2B77800307F9A /* LazyHGrid_Intro.swift */,
 				13E8EEDF27C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift */,
 				13E8EEE127C4AF3D00307F9A /* LazyHGrid_Rows.swift */,
+				13E8EEE327C4B0FA00307F9A /* LazyHGrid_FixedSize.swift */,
 			);
 			path = LazyHGrid;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
+				13E8EEE427C4B0FA00307F9A /* LazyHGrid_FixedSize.swift in Sources */,
 				1392029127BEB9670078A01D /* Spacer_RelativeSpacing.swift in Sources */,
 				13FB4D4527BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift in Sources */,
 				1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */,
