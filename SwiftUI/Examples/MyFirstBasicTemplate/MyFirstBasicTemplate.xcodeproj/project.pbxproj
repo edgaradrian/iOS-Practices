@@ -57,6 +57,7 @@
 		13E8EEFB27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEFA27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift */; };
 		13E8EEFD27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEFC27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift */; };
 		13E8EEFF27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEFE27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift */; };
+		13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0027C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -122,6 +123,7 @@
 		13E8EEFA27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_AdaptiveWidth.swift; sourceTree = "<group>"; };
 		13E8EEFC27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_ColumnSpacing.swift; sourceTree = "<group>"; };
 		13E8EEFE27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_ColumnAndRowSpacing.swift; sourceTree = "<group>"; };
+		13E8EF0027C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_HorizontalAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				13E8EEFA27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift */,
 				13E8EEFC27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift */,
 				13E8EEFE27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift */,
+				13E8EF0027C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift */,
 			);
 			path = LazyVGrid;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				13E8EEF927C59D9200307F9A /* LazyVGrid_FlexibleWidth.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
 				1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */,
+				13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
 				13E8EEFD27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift in Sources */,
