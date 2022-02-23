@@ -61,6 +61,7 @@
 		13E8EF0427C6268900307F9A /* ScrollViewReader_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0327C6268900307F9A /* ScrollViewReader_Intro.swift */; };
 		13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0527C6E74F00307F9A /* ScrollViewReader_Anchor.swift */; };
 		13E8EF0827C6EBB500307F9A /* ScrollViewReader_Animating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0727C6EBB500307F9A /* ScrollViewReader_Animating.swift */; };
+		13E8EF0B27C6F07800307F9A /* ControlGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0A27C6F07800307F9A /* ControlGroup_Intro.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -130,6 +131,7 @@
 		13E8EF0327C6268900307F9A /* ScrollViewReader_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_Intro.swift; sourceTree = "<group>"; };
 		13E8EF0527C6E74F00307F9A /* ScrollViewReader_Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_Anchor.swift; sourceTree = "<group>"; };
 		13E8EF0727C6EBB500307F9A /* ScrollViewReader_Animating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_Animating.swift; sourceTree = "<group>"; };
+		13E8EF0A27C6F07800307F9A /* ControlGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroup_Intro.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				13E8EF0927C6F05B00307F9A /* ControlGroup */,
 				13E8EF0227C6264400307F9A /* ScrollViewReader */,
 				13E8EEEF27C4C15A00307F9A /* LazyVGrid */,
 				13E8EEDC27C2B75D00307F9A /* LazyHGrid */,
@@ -291,6 +294,14 @@
 			path = ScrollViewReader;
 			sourceTree = "<group>";
 		};
+		13E8EF0927C6F05B00307F9A /* ControlGroup */ = {
+			isa = PBXGroup;
+			children = (
+				13E8EF0A27C6F07800307F9A /* ControlGroup_Intro.swift */,
+			);
+			path = ControlGroup;
+			sourceTree = "<group>";
+		};
 		13FB4D3A27BC871600B0E8C9 /* LazyHStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +407,7 @@
 				13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */,
 				13E8EEF527C5992F00307F9A /* LazyVGrid_Columns.swift in Sources */,
 				13E8EEE227C4AF3D00307F9A /* LazyHGrid_Rows.swift in Sources */,
+				13E8EF0B27C6F07800307F9A /* ControlGroup_Intro.swift in Sources */,
 				13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				1392029627BEBFCF0078A01D /* GeometryReader_Alignment.swift in Sources */,
