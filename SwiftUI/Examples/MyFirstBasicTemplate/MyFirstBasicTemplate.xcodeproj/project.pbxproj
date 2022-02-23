@@ -54,6 +54,7 @@
 		13E8EEF527C5992F00307F9A /* LazyVGrid_Columns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEF427C5992F00307F9A /* LazyVGrid_Columns.swift */; };
 		13E8EEF727C59BC000307F9A /* LazyVGrid_FixedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEF627C59BC000307F9A /* LazyVGrid_FixedSize.swift */; };
 		13E8EEF927C59D9200307F9A /* LazyVGrid_FlexibleWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEF827C59D9200307F9A /* LazyVGrid_FlexibleWidth.swift */; };
+		13E8EEFB27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEFA27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -116,6 +117,7 @@
 		13E8EEF427C5992F00307F9A /* LazyVGrid_Columns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_Columns.swift; sourceTree = "<group>"; };
 		13E8EEF627C59BC000307F9A /* LazyVGrid_FixedSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_FixedSize.swift; sourceTree = "<group>"; };
 		13E8EEF827C59D9200307F9A /* LazyVGrid_FlexibleWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_FlexibleWidth.swift; sourceTree = "<group>"; };
+		13E8EEFA27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid_AdaptiveWidth.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				13E8EEF427C5992F00307F9A /* LazyVGrid_Columns.swift */,
 				13E8EEF627C59BC000307F9A /* LazyVGrid_FixedSize.swift */,
 				13E8EEF827C59D9200307F9A /* LazyVGrid_FlexibleWidth.swift */,
+				13E8EEFA27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift */,
 			);
 			path = LazyVGrid;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */,
 				13E8EEF127C4C18700307F9A /* LazyVGrid_Introduction.swift in Sources */,
 				13E8EEE027C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift in Sources */,
+				13E8EEFB27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift in Sources */,
 				13E8EEEA27C4B6B400307F9A /* LazyHGrid_RowSpacing.swift in Sources */,
 				13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */,
 				13E8EEF527C5992F00307F9A /* LazyVGrid_Columns.swift in Sources */,
