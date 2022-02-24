@@ -64,6 +64,7 @@
 		13E8EF0B27C6F07800307F9A /* ControlGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0A27C6F07800307F9A /* ControlGroup_Intro.swift */; };
 		13E8EF0E27C6F27B00307F9A /* Button_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0D27C6F27B00307F9A /* Button_Intro.swift */; };
 		13E8EF1027C6F67100307F9A /* Button_TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF0F27C6F67100307F9A /* Button_TextModifiers.swift */; };
+		13E8EF1227C7CCC900307F9A /* Button_EffectModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1127C7CCC900307F9A /* Button_EffectModifiers.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -136,6 +137,7 @@
 		13E8EF0A27C6F07800307F9A /* ControlGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroup_Intro.swift; sourceTree = "<group>"; };
 		13E8EF0D27C6F27B00307F9A /* Button_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Intro.swift; sourceTree = "<group>"; };
 		13E8EF0F27C6F67100307F9A /* Button_TextModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_TextModifiers.swift; sourceTree = "<group>"; };
+		13E8EF1127C7CCC900307F9A /* Button_EffectModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_EffectModifiers.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 			children = (
 				13E8EF0D27C6F27B00307F9A /* Button_Intro.swift */,
 				13E8EF0F27C6F67100307F9A /* Button_TextModifiers.swift */,
+				13E8EF1127C7CCC900307F9A /* Button_EffectModifiers.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */,
 				13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
+				13E8EF1227C7CCC900307F9A /* Button_EffectModifiers.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
 				13E8EEFD27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift in Sources */,
 				1362D54327B7039200695795 /* HStack_Intro.swift in Sources */,
