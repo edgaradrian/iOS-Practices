@@ -68,6 +68,7 @@
 		13E8EF1427C7D8EE00307F9A /* Button_WithBorders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1327C7D8EE00307F9A /* Button_WithBorders.swift */; };
 		13E8EF1627C7DD5000307F9A /* Button_WithSFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1527C7DD5000307F9A /* Button_WithSFSymbols.swift */; };
 		13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1727C7DFA600307F9A /* Button_WithImages.swift */; };
+		13E8EF1A27C7E5C500307F9A /* Button_FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1927C7E5C500307F9A /* Button_FloatingActionButton.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -144,6 +145,7 @@
 		13E8EF1327C7D8EE00307F9A /* Button_WithBorders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_WithBorders.swift; sourceTree = "<group>"; };
 		13E8EF1527C7DD5000307F9A /* Button_WithSFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_WithSFSymbols.swift; sourceTree = "<group>"; };
 		13E8EF1727C7DFA600307F9A /* Button_WithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_WithImages.swift; sourceTree = "<group>"; };
+		13E8EF1927C7E5C500307F9A /* Button_FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FloatingActionButton.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				13E8EF1327C7D8EE00307F9A /* Button_WithBorders.swift */,
 				13E8EF1527C7DD5000307F9A /* Button_WithSFSymbols.swift */,
 				13E8EF1727C7DFA600307F9A /* Button_WithImages.swift */,
+				13E8EF1927C7E5C500307F9A /* Button_FloatingActionButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E8EF1A27C7E5C500307F9A /* Button_FloatingActionButton.swift in Sources */,
 				13E8EEF727C59BC000307F9A /* LazyVGrid_FixedSize.swift in Sources */,
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
