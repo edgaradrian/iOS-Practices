@@ -71,6 +71,7 @@
 		13E8EF1A27C7E5C500307F9A /* Button_FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1927C7E5C500307F9A /* Button_FloatingActionButton.swift */; };
 		13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1B27C7EA6A00307F9A /* Button_ButtonStyle.swift */; };
 		13E8EF1E27C7EC0C00307F9A /* Button_ControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF1D27C7EC0C00307F9A /* Button_ControlSize.swift */; };
+		13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2027C7EFAC00307F9A /* Button_Tint.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -150,6 +151,7 @@
 		13E8EF1927C7E5C500307F9A /* Button_FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FloatingActionButton.swift; sourceTree = "<group>"; };
 		13E8EF1B27C7EA6A00307F9A /* Button_ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ButtonStyle.swift; sourceTree = "<group>"; };
 		13E8EF1D27C7EC0C00307F9A /* Button_ControlSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ControlSize.swift; sourceTree = "<group>"; };
+		13E8EF2027C7EFAC00307F9A /* Button_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Tint.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -333,6 +335,7 @@
 				13E8EF1927C7E5C500307F9A /* Button_FloatingActionButton.swift */,
 				13E8EF1B27C7EA6A00307F9A /* Button_ButtonStyle.swift */,
 				13E8EF1D27C7EC0C00307F9A /* Button_ControlSize.swift */,
+				13E8EF2027C7EFAC00307F9A /* Button_Tint.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				1362D53427B5259B00695795 /* VStack_Spacing.swift in Sources */,
 				1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */,
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
+				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
 				13E8EEF327C5965200307F9A /* LazyVGrid_RowSpacing.swift in Sources */,
