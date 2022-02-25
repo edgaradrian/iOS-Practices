@@ -75,6 +75,7 @@
 		13E8EF2327C7F23F00307F9A /* Button_Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2227C7F23F00307F9A /* Button_Role.swift */; };
 		13E8EF2527C7FA3800307F9A /* Button_ButtonBorderShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2427C7FA3800307F9A /* Button_ButtonBorderShape.swift */; };
 		13E8EF2827C9254B00307F9A /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2727C9254B00307F9A /* ColorPicker_Intro.swift */; };
+		13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2927C9271100307F9A /* ColorPicker_OpacityOption.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -158,6 +159,7 @@
 		13E8EF2227C7F23F00307F9A /* Button_Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Role.swift; sourceTree = "<group>"; };
 		13E8EF2427C7FA3800307F9A /* Button_ButtonBorderShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ButtonBorderShape.swift; sourceTree = "<group>"; };
 		13E8EF2727C9254B00307F9A /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
+		13E8EF2927C9271100307F9A /* ColorPicker_OpacityOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_OpacityOption.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				13E8EF2727C9254B00307F9A /* ColorPicker_Intro.swift */,
+				13E8EF2927C9271100307F9A /* ColorPicker_OpacityOption.swift */,
 			);
 			path = ColorPicker;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				13E8EF0427C6268900307F9A /* ScrollViewReader_Intro.swift in Sources */,
 				13E8EF0827C6EBB500307F9A /* ScrollViewReader_Animating.swift in Sources */,
 				13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */,
+				13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */,
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
 				1392029A27C0B1170078A01D /* GeometryReader_GettingSize.swift in Sources */,
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
