@@ -83,6 +83,7 @@
 		13E8EF3527C9396500307F9A /* DatePicker_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF3427C9396500307F9A /* DatePicker_Customizing.swift */; };
 		13E8EF3727C93E4600307F9A /* DatePicker_CustomSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF3627C93E4600307F9A /* DatePicker_CustomSelector.swift */; };
 		13E8EF3A27C940AF00307F9A /* DisclosureGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF3927C940AF00307F9A /* DisclosureGroup_Intro.swift */; };
+		13E8EF3C27C945BE00307F9A /* DisclosureGroup_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF3B27C945BE00307F9A /* DisclosureGroup_Color.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -174,6 +175,7 @@
 		13E8EF3427C9396500307F9A /* DatePicker_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_Customizing.swift; sourceTree = "<group>"; };
 		13E8EF3627C93E4600307F9A /* DatePicker_CustomSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_CustomSelector.swift; sourceTree = "<group>"; };
 		13E8EF3927C940AF00307F9A /* DisclosureGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup_Intro.swift; sourceTree = "<group>"; };
+		13E8EF3B27C945BE00307F9A /* DisclosureGroup_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup_Color.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -393,6 +395,7 @@
 			isa = PBXGroup;
 			children = (
 				13E8EF3927C940AF00307F9A /* DisclosureGroup_Intro.swift */,
+				13E8EF3B27C945BE00307F9A /* DisclosureGroup_Color.swift */,
 			);
 			path = DisclosureGroup;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
 				13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */,
+				13E8EF3C27C945BE00307F9A /* DisclosureGroup_Color.swift in Sources */,
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
