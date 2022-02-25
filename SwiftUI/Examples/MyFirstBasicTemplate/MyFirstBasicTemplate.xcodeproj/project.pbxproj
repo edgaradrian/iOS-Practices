@@ -77,6 +77,7 @@
 		13E8EF2827C9254B00307F9A /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2727C9254B00307F9A /* ColorPicker_Intro.swift */; };
 		13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2927C9271100307F9A /* ColorPicker_OpacityOption.swift */; };
 		13E8EF2D27C9293C00307F9A /* DatePicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2C27C9293C00307F9A /* DatePicker_Intro.swift */; };
+		13E8EF2F27C9319F00307F9A /* DatePicker_Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF2E27C9319F00307F9A /* DatePicker_Styles.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -162,6 +163,7 @@
 		13E8EF2727C9254B00307F9A /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
 		13E8EF2927C9271100307F9A /* ColorPicker_OpacityOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_OpacityOption.swift; sourceTree = "<group>"; };
 		13E8EF2C27C9293C00307F9A /* DatePicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_Intro.swift; sourceTree = "<group>"; };
+		13E8EF2E27C9319F00307F9A /* DatePicker_Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_Styles.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 			isa = PBXGroup;
 			children = (
 				13E8EF2C27C9293C00307F9A /* DatePicker_Intro.swift */,
+				13E8EF2E27C9319F00307F9A /* DatePicker_Styles.swift */,
 			);
 			path = DatePicker;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				13E8EF2327C7F23F00307F9A /* Button_Role.swift in Sources */,
 				13E8EEE227C4AF3D00307F9A /* LazyHGrid_Rows.swift in Sources */,
 				13E8EF0B27C6F07800307F9A /* ControlGroup_Intro.swift in Sources */,
+				13E8EF2F27C9319F00307F9A /* DatePicker_Styles.swift in Sources */,
 				13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				1392029627BEBFCF0078A01D /* GeometryReader_Alignment.swift in Sources */,
