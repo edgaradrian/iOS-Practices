@@ -99,6 +99,7 @@
 		13E8EF5927CAABBD00307F9A /* Label_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5827CAABBD00307F9A /* Label_Problem.swift */; };
 		13E8EF5B27CAD2AE00307F9A /* Label_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5A27CAD2AE00307F9A /* Label_Solution.swift */; };
 		13E8EF5D27CAD45D00307F9A /* Label_WithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5C27CAD45D00307F9A /* Label_WithImages.swift */; };
+		13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5E27CAE00900307F9A /* Label_ListItemTint.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -206,6 +207,7 @@
 		13E8EF5827CAABBD00307F9A /* Label_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_Problem.swift; sourceTree = "<group>"; };
 		13E8EF5A27CAD2AE00307F9A /* Label_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_Solution.swift; sourceTree = "<group>"; };
 		13E8EF5C27CAD45D00307F9A /* Label_WithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_WithImages.swift; sourceTree = "<group>"; };
+		13E8EF5E27CAE00900307F9A /* Label_ListItemTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_ListItemTint.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -465,6 +467,7 @@
 				13E8EF5827CAABBD00307F9A /* Label_Problem.swift */,
 				13E8EF5A27CAD2AE00307F9A /* Label_Solution.swift */,
 				13E8EF5C27CAD45D00307F9A /* Label_WithImages.swift */,
+				13E8EF5E27CAE00900307F9A /* Label_ListItemTint.swift */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -608,6 +611,7 @@
 				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
+				13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */,
 				13E8EEF327C5965200307F9A /* LazyVGrid_RowSpacing.swift in Sources */,
 				1362D53027B5216900695795 /* VStack_Intro.swift in Sources */,
 				13E8EEE827C4B49F00307F9A /* LazyHGrid_AdaptiveItems.swift in Sources */,
