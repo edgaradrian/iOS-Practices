@@ -91,6 +91,7 @@
 		13E8EF4727CA93B100307F9A /* Form_ListRowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF4627CA93B100307F9A /* Form_ListRowBackground.swift */; };
 		13E8EF4927CA971C00307F9A /* Form_RowBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF4827CA971C00307F9A /* Form_RowBackgroundImage.swift */; };
 		13E8EF4B27CA9B2200307F9A /* Form_ListRowInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF4A27CA9B2200307F9A /* Form_ListRowInset.swift */; };
+		13E8EF4D27CA9E0A00307F9A /* Form_WithControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF4C27CA9E0A00307F9A /* Form_WithControls.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -190,6 +191,7 @@
 		13E8EF4627CA93B100307F9A /* Form_ListRowBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_ListRowBackground.swift; sourceTree = "<group>"; };
 		13E8EF4827CA971C00307F9A /* Form_RowBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_RowBackgroundImage.swift; sourceTree = "<group>"; };
 		13E8EF4A27CA9B2200307F9A /* Form_ListRowInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_ListRowInset.swift; sourceTree = "<group>"; };
+		13E8EF4C27CA9E0A00307F9A /* Form_WithControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_WithControls.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -425,6 +427,7 @@
 				13E8EF4627CA93B100307F9A /* Form_ListRowBackground.swift */,
 				13E8EF4827CA971C00307F9A /* Form_RowBackgroundImage.swift */,
 				13E8EF4A27CA9B2200307F9A /* Form_ListRowInset.swift */,
+				13E8EF4C27CA9E0A00307F9A /* Form_WithControls.swift */,
 			);
 			path = Form;
 			sourceTree = "<group>";
@@ -611,6 +614,7 @@
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
 				13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */,
+				13E8EF4D27CA9E0A00307F9A /* Form_WithControls.swift in Sources */,
 				13E8EF3C27C945BE00307F9A /* DisclosureGroup_Color.swift in Sources */,
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
