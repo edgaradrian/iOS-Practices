@@ -97,6 +97,7 @@
 		13E8EF5427CAA6DA00307F9A /* GroupBox_WithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5327CAA6DA00307F9A /* GroupBox_WithLabel.swift */; };
 		13E8EF5627CAA92E00307F9A /* GroupBox_AsCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5527CAA92E00307F9A /* GroupBox_AsCards.swift */; };
 		13E8EF5927CAABBD00307F9A /* Label_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5827CAABBD00307F9A /* Label_Problem.swift */; };
+		13E8EF5B27CAD2AE00307F9A /* Label_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF5A27CAD2AE00307F9A /* Label_Solution.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -202,6 +203,7 @@
 		13E8EF5327CAA6DA00307F9A /* GroupBox_WithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_WithLabel.swift; sourceTree = "<group>"; };
 		13E8EF5527CAA92E00307F9A /* GroupBox_AsCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_AsCards.swift; sourceTree = "<group>"; };
 		13E8EF5827CAABBD00307F9A /* Label_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_Problem.swift; sourceTree = "<group>"; };
+		13E8EF5A27CAD2AE00307F9A /* Label_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_Solution.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -459,6 +461,7 @@
 			isa = PBXGroup;
 			children = (
 				13E8EF5827CAABBD00307F9A /* Label_Problem.swift */,
+				13E8EF5A27CAD2AE00307F9A /* Label_Solution.swift */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -619,6 +622,7 @@
 				13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */,
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
 				1392029A27C0B1170078A01D /* GeometryReader_GettingSize.swift in Sources */,
+				13E8EF5B27CAD2AE00307F9A /* Label_Solution.swift in Sources */,
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
