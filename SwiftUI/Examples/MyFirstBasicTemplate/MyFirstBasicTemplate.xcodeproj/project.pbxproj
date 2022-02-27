@@ -109,6 +109,7 @@
 		13E8EF6F27CBE9EB00307F9A /* List_CustomRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF6E27CBE9EB00307F9A /* List_CustomRows.swift */; };
 		13E8EF7127CBEEBF00307F9A /* List_MoveRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7027CBEEBF00307F9A /* List_MoveRow.swift */; };
 		13E8EF7327CBF0B800307F9A /* List_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7227CBF0B800307F9A /* List_Delete.swift */; };
+		13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -226,6 +227,7 @@
 		13E8EF6E27CBE9EB00307F9A /* List_CustomRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_CustomRows.swift; sourceTree = "<group>"; };
 		13E8EF7027CBEEBF00307F9A /* List_MoveRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_MoveRow.swift; sourceTree = "<group>"; };
 		13E8EF7227CBF0B800307F9A /* List_Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Delete.swift; sourceTree = "<group>"; };
+		13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Selection_Single.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -511,6 +513,7 @@
 				13E8EF6E27CBE9EB00307F9A /* List_CustomRows.swift */,
 				13E8EF7027CBEEBF00307F9A /* List_MoveRow.swift */,
 				13E8EF7227CBF0B800307F9A /* List_Delete.swift */,
+				13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -712,6 +715,7 @@
 				13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
+				13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */,
 				13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */,
 				13E8EF4D27CA9E0A00307F9A /* Form_WithControls.swift in Sources */,
 				13E8EF3C27C945BE00307F9A /* DisclosureGroup_Color.swift in Sources */,
