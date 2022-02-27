@@ -111,6 +111,7 @@
 		13E8EF7327CBF0B800307F9A /* List_Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7227CBF0B800307F9A /* List_Delete.swift */; };
 		13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */; };
 		13E8EF7727CBF58000307F9A /* List_Selection_Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7627CBF58000307F9A /* List_Selection_Multiple.swift */; };
+		13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7A27CBF76C00307F9A /* List_ListRowBackground.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -230,6 +231,7 @@
 		13E8EF7227CBF0B800307F9A /* List_Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Delete.swift; sourceTree = "<group>"; };
 		13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Selection_Single.swift; sourceTree = "<group>"; };
 		13E8EF7627CBF58000307F9A /* List_Selection_Multiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Selection_Multiple.swift; sourceTree = "<group>"; };
+		13E8EF7A27CBF76C00307F9A /* List_ListRowBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListRowBackground.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -517,6 +519,7 @@
 				13E8EF7227CBF0B800307F9A /* List_Delete.swift */,
 				13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */,
 				13E8EF7627CBF58000307F9A /* List_Selection_Multiple.swift */,
+				13E8EF7A27CBF76C00307F9A /* List_ListRowBackground.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -704,6 +707,7 @@
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */,
 				1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */,
+				13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */,
 				13E8EF1627C7DD5000307F9A /* Button_WithSFSymbols.swift in Sources */,
 				13E8EF1427C7D8EE00307F9A /* Button_WithBorders.swift in Sources */,
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
