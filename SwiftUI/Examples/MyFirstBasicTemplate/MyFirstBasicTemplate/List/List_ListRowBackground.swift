@@ -23,7 +23,7 @@ struct List_ListRowBackground: View {
         Packer(name: "Aaron Jones", position: "RB"),
         Packer(name: "Davante Adams", position: "WR"),
         Packer(name: "Randall Cobb", position: "WR"),
-        Packer(name: "ZaDarious Smith", position: "EDGE"),
+        Packer(name: "ZaDarious Smith", position: "EDGE")
     ]
     
     var body: some View {

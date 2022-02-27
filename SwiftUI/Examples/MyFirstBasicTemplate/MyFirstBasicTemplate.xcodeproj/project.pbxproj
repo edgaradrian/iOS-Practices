@@ -112,6 +112,7 @@
 		13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */; };
 		13E8EF7727CBF58000307F9A /* List_Selection_Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7627CBF58000307F9A /* List_Selection_Multiple.swift */; };
 		13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7A27CBF76C00307F9A /* List_ListRowBackground.swift */; };
+		13E8EF7D27CBFB9300307F9A /* List_ListRowInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EF7C27CBFB9300307F9A /* List_ListRowInsets.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -232,6 +233,7 @@
 		13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Selection_Single.swift; sourceTree = "<group>"; };
 		13E8EF7627CBF58000307F9A /* List_Selection_Multiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Selection_Multiple.swift; sourceTree = "<group>"; };
 		13E8EF7A27CBF76C00307F9A /* List_ListRowBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListRowBackground.swift; sourceTree = "<group>"; };
+		13E8EF7C27CBFB9300307F9A /* List_ListRowInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListRowInsets.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -520,6 +522,7 @@
 				13E8EF7427CBF2B700307F9A /* List_Selection_Single.swift */,
 				13E8EF7627CBF58000307F9A /* List_Selection_Multiple.swift */,
 				13E8EF7A27CBF76C00307F9A /* List_ListRowBackground.swift */,
+				13E8EF7C27CBFB9300307F9A /* List_ListRowInsets.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -682,6 +685,7 @@
 				13E8EF0427C6268900307F9A /* ScrollViewReader_Intro.swift in Sources */,
 				13E8EF0827C6EBB500307F9A /* ScrollViewReader_Animating.swift in Sources */,
 				13E8EF3527C9396500307F9A /* DatePicker_Customizing.swift in Sources */,
+				13E8EF7D27CBFB9300307F9A /* List_ListRowInsets.swift in Sources */,
 				13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */,
 				13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */,
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
