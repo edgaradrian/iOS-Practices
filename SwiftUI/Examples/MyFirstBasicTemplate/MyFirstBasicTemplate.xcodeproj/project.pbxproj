@@ -40,6 +40,7 @@
 		13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */; };
 		13CC9CA227CD6BD5007E9F33 /* List_ListStyle_Automatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */; };
 		13CC9CA427CD6F89007E9F33 /* List_GroupedListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */; };
+		13CC9CA627CD74CB007E9F33 /* List_ListStyle_SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA527CD74CB007E9F33 /* List_ListStyle_SideBar.swift */; };
 		13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */; };
 		13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */; };
 		13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */; };
@@ -164,6 +165,7 @@
 		13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_WithChildren.swift; sourceTree = "<group>"; };
 		13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListStyle_Automatic.swift; sourceTree = "<group>"; };
 		13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_GroupedListStyle.swift; sourceTree = "<group>"; };
+		13CC9CA527CD74CB007E9F33 /* List_ListStyle_SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListStyle_SideBar.swift; sourceTree = "<group>"; };
 		13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GettingCoordinates.swift; sourceTree = "<group>"; };
 		13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_MinMidMax.swift; sourceTree = "<group>"; };
 		13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_SafeAreaInsets.swift; sourceTree = "<group>"; };
@@ -532,6 +534,7 @@
 				13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */,
 				13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */,
 				13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */,
+				13CC9CA527CD74CB007E9F33 /* List_ListStyle_SideBar.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -687,6 +690,7 @@
 				13E8EF5227CAA53300307F9A /* GroupBox_Intro.swift in Sources */,
 				13E8EF3A27C940AF00307F9A /* DisclosureGroup_Intro.swift in Sources */,
 				13E8EF3127C9360500307F9A /* DatePicker_DisplayedComponents.swift in Sources */,
+				13CC9CA627CD74CB007E9F33 /* List_ListStyle_SideBar.swift in Sources */,
 				13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */,
 				13E8EF4F27CAA23300307F9A /* Form_WithDisclosureGroup.swift in Sources */,
 				1392029C27C0B3450078A01D /* GeometryReader_Positioning.swift in Sources */,
