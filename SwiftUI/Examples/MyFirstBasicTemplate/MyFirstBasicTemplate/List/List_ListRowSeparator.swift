@@ -21,6 +21,8 @@ struct List_ListRowSeparator: View {
                 Text("Row 5")
                 Text("Row 6")
                 Text("Row 7")
+                    .listRowSeparator(.hidden, edges: .top)
+                Text("Row 8")
             }
         }
         .font(.title)
