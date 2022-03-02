@@ -55,6 +55,7 @@
 		13CC9CEF27CF504C007E9F33 /* List_Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CEE27CF504C007E9F33 /* List_Refreshable.swift */; };
 		13CC9CF127CF5277007E9F33 /* List_SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CF027CF5277007E9F33 /* List_SwipeActions.swift */; };
 		13CC9CF327CF54BB007E9F33 /* List_SwipeActions_Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CF227CF54BB007E9F33 /* List_SwipeActions_Options.swift */; };
+		13CC9CF527CF5659007E9F33 /* List_Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CF427CF5659007E9F33 /* List_Badges.swift */; };
 		13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */; };
 		13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */; };
 		13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */; };
@@ -194,6 +195,7 @@
 		13CC9CEE27CF504C007E9F33 /* List_Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Refreshable.swift; sourceTree = "<group>"; };
 		13CC9CF027CF5277007E9F33 /* List_SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_SwipeActions.swift; sourceTree = "<group>"; };
 		13CC9CF227CF54BB007E9F33 /* List_SwipeActions_Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_SwipeActions_Options.swift; sourceTree = "<group>"; };
+		13CC9CF427CF5659007E9F33 /* List_Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Badges.swift; sourceTree = "<group>"; };
 		13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GettingCoordinates.swift; sourceTree = "<group>"; };
 		13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_MinMidMax.swift; sourceTree = "<group>"; };
 		13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_SafeAreaInsets.swift; sourceTree = "<group>"; };
@@ -577,6 +579,7 @@
 				13CC9CEE27CF504C007E9F33 /* List_Refreshable.swift */,
 				13CC9CF027CF5277007E9F33 /* List_SwipeActions.swift */,
 				13CC9CF227CF54BB007E9F33 /* List_SwipeActions_Options.swift */,
+				13CC9CF427CF5659007E9F33 /* List_Badges.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -679,6 +682,7 @@
 				13E8EEF727C59BC000307F9A /* LazyVGrid_FixedSize.swift in Sources */,
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
 				13E8EF5427CAA6DA00307F9A /* GroupBox_WithLabel.swift in Sources */,
+				13CC9CF527CF5659007E9F33 /* List_Badges.swift in Sources */,
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
 				13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */,
 				13E8EF6D27CBE86100307F9A /* List_WithData.swift in Sources */,
