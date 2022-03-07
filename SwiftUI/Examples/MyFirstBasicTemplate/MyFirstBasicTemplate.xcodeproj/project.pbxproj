@@ -77,6 +77,7 @@
 		13CC9D2A27D5AAF8007E9F33 /* NavigationLink_WithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D2927D5AAF8007E9F33 /* NavigationLink_WithList.swift */; };
 		13CC9D2C27D64F0C007E9F33 /* NavigationLink_WithListNoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D2B27D64F0C007E9F33 /* NavigationLink_WithListNoBar.swift */; };
 		13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D2D27D65826007E9F33 /* NavigationLink_InToolbarItem.swift */; };
+		13CC9D3027D65A0F007E9F33 /* NavigationLink_InToolbarWorkaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D2F27D65A0F007E9F33 /* NavigationLink_InToolbarWorkaround.swift */; };
 		13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */; };
 		13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */; };
 		13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */; };
@@ -238,6 +239,7 @@
 		13CC9D2927D5AAF8007E9F33 /* NavigationLink_WithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink_WithList.swift; sourceTree = "<group>"; };
 		13CC9D2B27D64F0C007E9F33 /* NavigationLink_WithListNoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink_WithListNoBar.swift; sourceTree = "<group>"; };
 		13CC9D2D27D65826007E9F33 /* NavigationLink_InToolbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink_InToolbarItem.swift; sourceTree = "<group>"; };
+		13CC9D2F27D65A0F007E9F33 /* NavigationLink_InToolbarWorkaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink_InToolbarWorkaround.swift; sourceTree = "<group>"; };
 		13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GettingCoordinates.swift; sourceTree = "<group>"; };
 		13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_MinMidMax.swift; sourceTree = "<group>"; };
 		13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_SafeAreaInsets.swift; sourceTree = "<group>"; };
@@ -484,6 +486,7 @@
 				13CC9D2927D5AAF8007E9F33 /* NavigationLink_WithList.swift */,
 				13CC9D2B27D64F0C007E9F33 /* NavigationLink_WithListNoBar.swift */,
 				13CC9D2D27D65826007E9F33 /* NavigationLink_InToolbarItem.swift */,
+				13CC9D2F27D65A0F007E9F33 /* NavigationLink_InToolbarWorkaround.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -878,6 +881,7 @@
 				13E8EF6B27CB079D00307F9A /* List_WithStaticViews.swift in Sources */,
 				13CC9D1427D20F2B007E9F33 /* Navigation_NavBarItems.swift in Sources */,
 				13E8EF2527C7FA3800307F9A /* Button_ButtonBorderShape.swift in Sources */,
+				13CC9D3027D65A0F007E9F33 /* NavigationLink_InToolbarWorkaround.swift in Sources */,
 				13CC9D0327D0AB24007E9F33 /* Menu_MenuPosition.swift in Sources */,
 				13E8EEDE27C2B77800307F9A /* LazyHGrid_Intro.swift in Sources */,
 				13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */,
