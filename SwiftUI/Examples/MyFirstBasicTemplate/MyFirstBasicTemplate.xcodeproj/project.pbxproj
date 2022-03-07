@@ -81,6 +81,7 @@
 		13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D3227D65E67007E9F33 /* OutlineGroup_Intro.swift */; };
 		13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D3527D66018007E9F33 /* Picker_Intro.swift */; };
 		13CC9D3827D661D4007E9F33 /* Picker_Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D3727D661D4007E9F33 /* Picker_Sections.swift */; };
+		13CC9D3A27D6637D007E9F33 /* Picker_Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D3927D6637D007E9F33 /* Picker_Wheel.swift */; };
 		13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */; };
 		13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */; };
 		13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */; };
@@ -246,6 +247,7 @@
 		13CC9D3227D65E67007E9F33 /* OutlineGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroup_Intro.swift; sourceTree = "<group>"; };
 		13CC9D3527D66018007E9F33 /* Picker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Intro.swift; sourceTree = "<group>"; };
 		13CC9D3727D661D4007E9F33 /* Picker_Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Sections.swift; sourceTree = "<group>"; };
+		13CC9D3927D6637D007E9F33 /* Picker_Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Wheel.swift; sourceTree = "<group>"; };
 		13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GettingCoordinates.swift; sourceTree = "<group>"; };
 		13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_MinMidMax.swift; sourceTree = "<group>"; };
 		13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_SafeAreaInsets.swift; sourceTree = "<group>"; };
@@ -512,6 +514,7 @@
 			children = (
 				13CC9D3527D66018007E9F33 /* Picker_Intro.swift */,
 				13CC9D3727D661D4007E9F33 /* Picker_Sections.swift */,
+				13CC9D3927D6637D007E9F33 /* Picker_Wheel.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -951,6 +954,7 @@
 				13E8EF5627CAA92E00307F9A /* GroupBox_AsCards.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
+				13CC9D3A27D6637D007E9F33 /* Picker_Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
