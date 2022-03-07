@@ -15,7 +15,7 @@ struct NavigationLink_WithListNoBar: View {
             List {
                 Section {
                     ForEach(libros, id: \.self) { libro in
-                        NavigationLink(destination: BookDetail(bookItem: libro)) {
+                        NavigationLink(destination: BookDetail_NoBack(bookItem: libro)) {
                             Text(libro)
                                 .font(Font.system(size: 24))
                                 .padding()
@@ -55,6 +55,47 @@ struct BookDetail: View {
     }
     
 }//BookDetail
+
+struct BookDetail_NoBack: View {
+    @Environment(\.dismiss) var dismiss
+    var bookItem: String!
+    
+    var body: some View {
+        VStack {
+            
+            Text("Detalle Libros")
+                .font(.title)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(
+                    Color.cyan
+                )
+                .foregroundColor(.cyan)
+            
+            Spacer()
+            
+            Text(bookItem)
+                .font(.title)
+            
+            Spacer()
+            
+            Button {
+                dismiss()
+            } label: {
+                HStack {
+                    Image(systemName: "arrow.left.circle")
+                    Text("Regresar")
+                }
+            }
+
+            Spacer()
+            
+        }
+        .navigationTitle(bookItem)
+        .navigationBarHidden(true)
+    }
+    
+}//BookDetail_NoBack
 
 struct NavigationLink_WithListNoBar_Previews: PreviewProvider {
     static var previews: some View {
