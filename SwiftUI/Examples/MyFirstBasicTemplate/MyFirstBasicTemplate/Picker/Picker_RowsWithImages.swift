@@ -29,7 +29,7 @@ struct Picker_RowsWithImages: View {
     }
 }
 
-fileprivate struct Row: View {
+struct Row: View {
     var name: String
     
     var body: some View {
