@@ -86,6 +86,7 @@
 		13CC9D4027D84DF9007E9F33 /* Picker_Customized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D3F27D84DF9007E9F33 /* Picker_Customized.swift */; };
 		13CC9D4227D85699007E9F33 /* Picker_RowsWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D4127D85699007E9F33 /* Picker_RowsWithImages.swift */; };
 		13CC9D4427D85A86007E9F33 /* Picker_BindingToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D4327D85A86007E9F33 /* Picker_BindingToData.swift */; };
+		13CC9D4627D85F20007E9F33 /* Picker_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9D4527D85F20007E9F33 /* Picker_Menu.swift */; };
 		13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */; };
 		13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */; };
 		13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */; };
@@ -256,6 +257,7 @@
 		13CC9D3F27D84DF9007E9F33 /* Picker_Customized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Customized.swift; sourceTree = "<group>"; };
 		13CC9D4127D85699007E9F33 /* Picker_RowsWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_RowsWithImages.swift; sourceTree = "<group>"; };
 		13CC9D4327D85A86007E9F33 /* Picker_BindingToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_BindingToData.swift; sourceTree = "<group>"; };
+		13CC9D4527D85F20007E9F33 /* Picker_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Menu.swift; sourceTree = "<group>"; };
 		13E8EED627C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_GettingCoordinates.swift; sourceTree = "<group>"; };
 		13E8EED827C2ACC900307F9A /* GeometryReader_MinMidMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_MinMidMax.swift; sourceTree = "<group>"; };
 		13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_SafeAreaInsets.swift; sourceTree = "<group>"; };
@@ -527,6 +529,7 @@
 				13CC9D3F27D84DF9007E9F33 /* Picker_Customized.swift */,
 				13CC9D4127D85699007E9F33 /* Picker_RowsWithImages.swift */,
 				13CC9D4327D85A86007E9F33 /* Picker_BindingToData.swift */,
+				13CC9D4527D85F20007E9F33 /* Picker_Menu.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -874,6 +877,7 @@
 				13E8EF4B27CA9B2200307F9A /* Form_ListRowInset.swift in Sources */,
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
 				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
+				13CC9D4627D85F20007E9F33 /* Picker_Menu.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
 				13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */,
