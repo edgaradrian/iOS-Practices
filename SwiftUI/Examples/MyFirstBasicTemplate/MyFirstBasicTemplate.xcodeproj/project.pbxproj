@@ -31,6 +31,7 @@
 		1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */; };
 		1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */; };
 		1383E5C727DAD80100C12E4D /* ProgressView_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C627DAD80100C12E4D /* ProgressView_Customizing.swift */; };
+		1383E5C927DAF75900C12E4D /* ProgressView_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C827DAF75900C12E4D /* ProgressView_Tint.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -208,6 +209,7 @@
 		1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
 		1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
 		1383E5C627DAD80100C12E4D /* ProgressView_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Customizing.swift; sourceTree = "<group>"; };
+		1383E5C827DAF75900C12E4D /* ProgressView_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Tint.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -556,6 +558,7 @@
 				1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */,
 				1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */,
 				1383E5C627DAD80100C12E4D /* ProgressView_Customizing.swift */,
+				1383E5C827DAF75900C12E4D /* ProgressView_Tint.swift */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -1004,6 +1007,7 @@
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 				13CC9D4C27D86318007E9F33 /* ProgressView_Intro.swift in Sources */,
 				13E8EF5627CAA92E00307F9A /* GroupBox_AsCards.swift in Sources */,
+				1383E5C927DAF75900C12E4D /* ProgressView_Tint.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
 				13CC9D3A27D6637D007E9F33 /* Picker_Wheel.swift in Sources */,
