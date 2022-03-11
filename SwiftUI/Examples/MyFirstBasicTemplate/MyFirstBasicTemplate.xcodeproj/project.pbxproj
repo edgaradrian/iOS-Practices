@@ -29,6 +29,7 @@
 		1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54627B84E3900695795 /* HStack_Alignment.swift */; };
 		1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */; };
 		1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */; };
+		1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -204,6 +205,7 @@
 		1362D54627B84E3900695795 /* HStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Alignment.swift; sourceTree = "<group>"; };
 		1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_ShowingProgress.swift; sourceTree = "<group>"; };
 		1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
+		1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -550,6 +552,7 @@
 				13CC9D4B27D86318007E9F33 /* ProgressView_Intro.swift */,
 				1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */,
 				1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */,
+				1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -989,6 +992,7 @@
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
 				13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */,
+				1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */,
 				13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */,
 				13E8EF4D27CA9E0A00307F9A /* Form_WithControls.swift in Sources */,
 				13CC9CA427CD6F89007E9F33 /* List_GroupedListStyle.swift in Sources */,
