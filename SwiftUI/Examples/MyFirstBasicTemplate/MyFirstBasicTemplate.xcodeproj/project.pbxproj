@@ -179,6 +179,7 @@
 		13EDD09E27DD6B50005B4112 /* Searchable_DismissSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDD09D27DD6B50005B4112 /* Searchable_DismissSearch.swift */; };
 		13EDD0A027DD74C0005B4112 /* Navigation_Searchable_Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDD09F27DD74C0005B4112 /* Navigation_Searchable_Filter.swift */; };
 		13EDD0A227DD784E005B4112 /* Navigation_Filter_Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDD0A127DD784E005B4112 /* Navigation_Filter_Grid.swift */; };
+		13EDD0A527DD896C005B4112 /* SecureField_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EDD0A427DD896C005B4112 /* SecureField_Intro.swift */; };
 		13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */; };
 		13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3427B975AB00B0E8C9 /* DescView.swift */; };
 		13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */; };
@@ -366,6 +367,7 @@
 		13EDD09D27DD6B50005B4112 /* Searchable_DismissSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable_DismissSearch.swift; sourceTree = "<group>"; };
 		13EDD09F27DD74C0005B4112 /* Navigation_Searchable_Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Searchable_Filter.swift; sourceTree = "<group>"; };
 		13EDD0A127DD784E005B4112 /* Navigation_Filter_Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Filter_Grid.swift; sourceTree = "<group>"; };
+		13EDD0A427DD896C005B4112 /* SecureField_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_Intro.swift; sourceTree = "<group>"; };
 		13FB4D3227B8524500B0E8C9 /* HStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment.swift; sourceTree = "<group>"; };
 		13FB4D3427B975AB00B0E8C9 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		13FB4D3627B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_TextAlignment_FirstLast.swift; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				13EDD0A327DD893B005B4112 /* SecureField */,
 				13EDD09827DD6366005B4112 /* Searchable */,
 				1383E5CA27DAFC8900C12E4D /* ScrollView */,
 				13CC9D4A27D862E5007E9F33 /* ProgressView */,
@@ -789,6 +792,14 @@
 			path = Searchable;
 			sourceTree = "<group>";
 		};
+		13EDD0A327DD893B005B4112 /* SecureField */ = {
+			isa = PBXGroup;
+			children = (
+				13EDD0A427DD896C005B4112 /* SecureField_Intro.swift */,
+			);
+			path = SecureField;
+			sourceTree = "<group>";
+		};
 		13FB4D3A27BC871600B0E8C9 /* LazyHStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -1060,6 +1071,7 @@
 				13CC9D4C27D86318007E9F33 /* ProgressView_Intro.swift in Sources */,
 				13E8EF5627CAA92E00307F9A /* GroupBox_AsCards.swift in Sources */,
 				1383E5C927DAF75900C12E4D /* ProgressView_Tint.swift in Sources */,
+				13EDD0A527DD896C005B4112 /* SecureField_Intro.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
 				13CC9D3A27D6637D007E9F33 /* Picker_Wheel.swift in Sources */,
