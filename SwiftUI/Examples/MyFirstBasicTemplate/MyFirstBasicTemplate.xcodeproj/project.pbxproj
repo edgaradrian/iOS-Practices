@@ -11,6 +11,7 @@
 		134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */; };
 		134CB34E27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */; };
 		134CB35127DF84B0002BFADE /* SegmentedControl_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35027DF84B0002BFADE /* SegmentedControl_Intro.swift */; };
+		134CB35327DF87C9002BFADE /* SegmentedControl_NoSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35227DF87C9002BFADE /* SegmentedControl_NoSelected.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -202,6 +203,7 @@
 		134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_CustomizationLayers.swift; sourceTree = "<group>"; };
 		134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		134CB35027DF84B0002BFADE /* SegmentedControl_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_Intro.swift; sourceTree = "<group>"; };
+		134CB35227DF87C9002BFADE /* SegmentedControl_NoSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_NoSelected.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -404,6 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				134CB35027DF84B0002BFADE /* SegmentedControl_Intro.swift */,
+				134CB35227DF87C9002BFADE /* SegmentedControl_NoSelected.swift */,
 			);
 			path = SegmentedControl;
 			sourceTree = "<group>";
@@ -947,6 +950,7 @@
 				13EDD09A27DD638A005B4112 /* Navigation_Searchable_Search.swift in Sources */,
 				13CC9D4027D84DF9007E9F33 /* Picker_Customized.swift in Sources */,
 				13E8EEF527C5992F00307F9A /* LazyVGrid_Columns.swift in Sources */,
+				134CB35327DF87C9002BFADE /* SegmentedControl_NoSelected.swift in Sources */,
 				13CC9CE327CF3C19007E9F33 /* List_SafeAreaInset_ScrollView.swift in Sources */,
 				13CC9CF827CF577D007E9F33 /* Menu_Intro.swift in Sources */,
 				13CC9CE927CF404D007E9F33 /* List_ListSectionSeparator.swift in Sources */,
