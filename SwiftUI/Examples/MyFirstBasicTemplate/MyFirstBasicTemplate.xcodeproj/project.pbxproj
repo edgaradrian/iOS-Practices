@@ -15,6 +15,7 @@
 		134CB35527DF8AE4002BFADE /* Segmented_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35427DF8AE4002BFADE /* Segmented_Colors.swift */; };
 		134CB35827DF9110002BFADE /* SignInWithApple_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */; };
 		134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */; };
+		134CB35C27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -210,6 +211,7 @@
 		134CB35427DF8AE4002BFADE /* Segmented_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segmented_Colors.swift; sourceTree = "<group>"; };
 		134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple_Intro.swift; sourceTree = "<group>"; };
 		134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_Customizing.swift; sourceTree = "<group>"; };
+		134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_SizeChanges.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -423,6 +425,7 @@
 			children = (
 				134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */,
 				134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */,
+				134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */,
 			);
 			path = SignInWithAppleButton;
 			sourceTree = "<group>";
@@ -972,6 +975,7 @@
 				13CC9CF827CF577D007E9F33 /* Menu_Intro.swift in Sources */,
 				13CC9CE927CF404D007E9F33 /* List_ListSectionSeparator.swift in Sources */,
 				13E8EF2327C7F23F00307F9A /* Button_Role.swift in Sources */,
+				134CB35C27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift in Sources */,
 				13E8EEE227C4AF3D00307F9A /* LazyHGrid_Rows.swift in Sources */,
 				13E8EF0B27C6F07800307F9A /* ControlGroup_Intro.swift in Sources */,
 				13E8EF2F27C9319F00307F9A /* DatePicker_Styles.swift in Sources */,
