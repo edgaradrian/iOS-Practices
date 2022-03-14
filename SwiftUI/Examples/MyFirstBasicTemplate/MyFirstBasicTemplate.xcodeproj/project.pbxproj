@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		134CB34A27DF7D05002BFADE /* SecureField_Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */; };
 		134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */; };
+		134CB34E27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -198,6 +199,7 @@
 /* Begin PBXFileReference section */
 		134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_Customizations.swift; sourceTree = "<group>"; };
 		134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_CustomizationLayers.swift; sourceTree = "<group>"; };
+		134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -802,6 +804,7 @@
 				13EDD0A427DD896C005B4112 /* SecureField_Intro.swift */,
 				134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */,
 				134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */,
+				134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */,
 			);
 			path = SecureField;
 			sourceTree = "<group>";
@@ -1044,6 +1047,7 @@
 				13CC9D2A27D5AAF8007E9F33 /* NavigationLink_WithList.swift in Sources */,
 				13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */,
 				13E8EF1627C7DD5000307F9A /* Button_WithSFSymbols.swift in Sources */,
+				134CB34E27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift in Sources */,
 				13E8EF1427C7D8EE00307F9A /* Button_WithBorders.swift in Sources */,
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
