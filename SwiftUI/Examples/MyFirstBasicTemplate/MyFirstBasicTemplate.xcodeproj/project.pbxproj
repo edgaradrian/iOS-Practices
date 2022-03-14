@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		134CB34A27DF7D05002BFADE /* SecureField_Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */; };
+		134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -196,6 +197,7 @@
 
 /* Begin PBXFileReference section */
 		134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_Customizations.swift; sourceTree = "<group>"; };
+		134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_CustomizationLayers.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -799,6 +801,7 @@
 			children = (
 				13EDD0A427DD896C005B4112 /* SecureField_Intro.swift */,
 				134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */,
+				134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */,
 			);
 			path = SecureField;
 			sourceTree = "<group>";
@@ -1003,6 +1006,7 @@
 				13E8EF7D27CBFB9300307F9A /* List_ListRowInsets.swift in Sources */,
 				13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */,
 				13CC9CEB27CF4BA4007E9F33 /* List_ListRowSeparatorTint.swift in Sources */,
+				134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */,
 				13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */,
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
 				13CC9D4427D85A86007E9F33 /* Picker_BindingToData.swift in Sources */,
