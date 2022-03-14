@@ -10,6 +10,7 @@
 		134CB34A27DF7D05002BFADE /* SecureField_Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */; };
 		134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */; };
 		134CB34E27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */; };
+		134CB35127DF84B0002BFADE /* SegmentedControl_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35027DF84B0002BFADE /* SegmentedControl_Intro.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -200,6 +201,7 @@
 		134CB34927DF7D05002BFADE /* SecureField_Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_Customizations.swift; sourceTree = "<group>"; };
 		134CB34B27DF808A002BFADE /* SecureField_CustomizationLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_CustomizationLayers.swift; sourceTree = "<group>"; };
 		134CB34D27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_KeyboardSafeArea.swift; sourceTree = "<group>"; };
+		134CB35027DF84B0002BFADE /* SegmentedControl_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_Intro.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -398,6 +400,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134CB34F27DF848A002BFADE /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				134CB35027DF84B0002BFADE /* SegmentedControl_Intro.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
 		1362D50D27B2B88F00695795 = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +427,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				134CB34F27DF848A002BFADE /* SegmentedControl */,
 				13EDD0A327DD893B005B4112 /* SecureField */,
 				13EDD09827DD6366005B4112 /* Searchable */,
 				1383E5CA27DAFC8900C12E4D /* ScrollView */,
@@ -1067,6 +1078,7 @@
 				13CC9D4927D86193007E9F33 /* Picker_InForm.swift in Sources */,
 				13EDD0A027DD74C0005B4112 /* Navigation_Searchable_Filter.swift in Sources */,
 				13E8EF7327CBF0B800307F9A /* List_Delete.swift in Sources */,
+				134CB35127DF84B0002BFADE /* SegmentedControl_Intro.swift in Sources */,
 				13CC9D0A27D0B2D5007E9F33 /* Navigation_Intro.swift in Sources */,
 				13CC9D2427D35D71007E9F33 /* NavigationLink_UINavigationBarAppearance.swift in Sources */,
 				13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */,
