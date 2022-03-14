@@ -14,6 +14,7 @@
 		134CB35327DF87C9002BFADE /* SegmentedControl_NoSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35227DF87C9002BFADE /* SegmentedControl_NoSelected.swift */; };
 		134CB35527DF8AE4002BFADE /* Segmented_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35427DF8AE4002BFADE /* Segmented_Colors.swift */; };
 		134CB35827DF9110002BFADE /* SignInWithApple_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */; };
+		134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -208,6 +209,7 @@
 		134CB35227DF87C9002BFADE /* SegmentedControl_NoSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_NoSelected.swift; sourceTree = "<group>"; };
 		134CB35427DF8AE4002BFADE /* Segmented_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segmented_Colors.swift; sourceTree = "<group>"; };
 		134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple_Intro.swift; sourceTree = "<group>"; };
+		134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_Customizing.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -420,6 +422,7 @@
 			isa = PBXGroup;
 			children = (
 				134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */,
+				134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */,
 			);
 			path = SignInWithAppleButton;
 			sourceTree = "<group>";
@@ -1081,6 +1084,7 @@
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
 				13E8EEFF27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift in Sources */,
+				134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */,
 				13E8EF4327C9511500307F9A /* Form_Intro.swift in Sources */,
 				13E8EF7127CBEEBF00307F9A /* List_MoveRow.swift in Sources */,
 				13E8EF1027C6F67100307F9A /* Button_TextModifiers.swift in Sources */,
