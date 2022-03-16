@@ -18,6 +18,7 @@
 		134CB35C27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */; };
 		135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294D427E1DC3800B29311 /* Slider_Intro.swift */; };
 		135294D727E1E30500B29311 /* Slider_RangeOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294D627E1E30500B29311 /* Slider_RangeOfValues.swift */; };
+		135294D927E1E65800B29311 /* Slider_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294D827E1E65800B29311 /* Slider_Customization.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -216,6 +217,7 @@
 		134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_SizeChanges.swift; sourceTree = "<group>"; };
 		135294D427E1DC3800B29311 /* Slider_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Intro.swift; sourceTree = "<group>"; };
 		135294D627E1E30500B29311 /* Slider_RangeOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_RangeOfValues.swift; sourceTree = "<group>"; };
+		135294D827E1E65800B29311 /* Slider_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Customization.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -439,6 +441,7 @@
 			children = (
 				135294D427E1DC3800B29311 /* Slider_Intro.swift */,
 				135294D627E1E30500B29311 /* Slider_RangeOfValues.swift */,
+				135294D827E1E65800B29311 /* Slider_Customization.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -964,6 +967,7 @@
 				1383E5D027DB04F000C12E4D /* ScrollView_Horizontal.swift in Sources */,
 				13CC9D1027D20A6C007E9F33 /* Navigation_DisplayMode.swift in Sources */,
 				13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */,
+				135294D927E1E65800B29311 /* Slider_Customization.swift in Sources */,
 				13CC9D1E27D3561A007E9F33 /* NavigationLink_Intro.swift in Sources */,
 				13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */,
 				13E8EF2D27C9293C00307F9A /* DatePicker_Intro.swift in Sources */,
