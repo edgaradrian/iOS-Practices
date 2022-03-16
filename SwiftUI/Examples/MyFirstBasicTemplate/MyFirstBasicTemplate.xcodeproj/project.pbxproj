@@ -16,6 +16,7 @@
 		134CB35827DF9110002BFADE /* SignInWithApple_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */; };
 		134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */; };
 		134CB35C27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */; };
+		135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294D427E1DC3800B29311 /* Slider_Intro.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -212,6 +213,7 @@
 		134CB35727DF9110002BFADE /* SignInWithApple_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple_Intro.swift; sourceTree = "<group>"; };
 		134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_Customizing.swift; sourceTree = "<group>"; };
 		134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_SizeChanges.swift; sourceTree = "<group>"; };
+		135294D427E1DC3800B29311 /* Slider_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Intro.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -430,6 +432,14 @@
 			path = SignInWithAppleButton;
 			sourceTree = "<group>";
 		};
+		135294D127E1DB3F00B29311 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				135294D427E1DC3800B29311 /* Slider_Intro.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
 		1362D50D27B2B88F00695795 = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +459,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				135294D127E1DB3F00B29311 /* Slider */,
 				134CB35627DF90E4002BFADE /* SignInWithAppleButton */,
 				134CB34F27DF848A002BFADE /* SegmentedControl */,
 				13EDD0A327DD893B005B4112 /* SecureField */,
@@ -1059,6 +1070,7 @@
 				13CC9CAC27CD7C2E007E9F33 /* List_HeaderFooter_Sidebar.swift in Sources */,
 				13E8EEE427C4B0FA00307F9A /* LazyHGrid_FixedSize.swift in Sources */,
 				1392029127BEB9670078A01D /* Spacer_RelativeSpacing.swift in Sources */,
+				135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */,
 				13E8EF0E27C6F27B00307F9A /* Button_Intro.swift in Sources */,
 				13E8EF6327CAE55000307F9A /* Label_HideShowComponents.swift in Sources */,
 				13CC9D3827D661D4007E9F33 /* Picker_Sections.swift in Sources */,
