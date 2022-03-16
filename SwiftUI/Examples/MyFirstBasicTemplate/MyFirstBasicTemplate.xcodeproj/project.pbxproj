@@ -17,6 +17,7 @@
 		134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */; };
 		134CB35C27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */; };
 		135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294D427E1DC3800B29311 /* Slider_Intro.swift */; };
+		135294D727E1E30500B29311 /* Slider_RangeOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294D627E1E30500B29311 /* Slider_RangeOfValues.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -214,6 +215,7 @@
 		134CB35927DF960F002BFADE /* SignInWithAppleButton_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_Customizing.swift; sourceTree = "<group>"; };
 		134CB35B27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_SizeChanges.swift; sourceTree = "<group>"; };
 		135294D427E1DC3800B29311 /* Slider_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Intro.swift; sourceTree = "<group>"; };
+		135294D627E1E30500B29311 /* Slider_RangeOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_RangeOfValues.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -436,6 +438,7 @@
 			isa = PBXGroup;
 			children = (
 				135294D427E1DC3800B29311 /* Slider_Intro.swift */,
+				135294D627E1E30500B29311 /* Slider_RangeOfValues.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -1056,6 +1059,7 @@
 				13E8EF7D27CBFB9300307F9A /* List_ListRowInsets.swift in Sources */,
 				13FB4D3527B975AB00B0E8C9 /* DescView.swift in Sources */,
 				13CC9CEB27CF4BA4007E9F33 /* List_ListRowSeparatorTint.swift in Sources */,
+				135294D727E1E30500B29311 /* Slider_RangeOfValues.swift in Sources */,
 				134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */,
 				13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */,
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
