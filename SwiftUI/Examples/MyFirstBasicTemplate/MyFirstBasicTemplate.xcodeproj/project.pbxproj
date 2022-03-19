@@ -27,6 +27,7 @@
 		135294E627E581C300B29311 /* Stepper_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294E527E581C300B29311 /* Stepper_Customization.swift */; };
 		135294E827E5853600B29311 /* Stepper_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294E727E5853600B29311 /* Stepper_Colors.swift */; };
 		135294EB27E5874C00B29311 /* TabView_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294EA27E5874C00B29311 /* TabView_Intro.swift */; };
+		135294ED27E588E000B29311 /* TabView_TabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294EC27E588E000B29311 /* TabView_TabItems.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -234,6 +235,7 @@
 		135294E527E581C300B29311 /* Stepper_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Customization.swift; sourceTree = "<group>"; };
 		135294E727E5853600B29311 /* Stepper_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Colors.swift; sourceTree = "<group>"; };
 		135294EA27E5874C00B29311 /* TabView_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Intro.swift; sourceTree = "<group>"; };
+		135294EC27E588E000B29311 /* TabView_TabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_TabItems.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -480,6 +482,7 @@
 			isa = PBXGroup;
 			children = (
 				135294EA27E5874C00B29311 /* TabView_Intro.swift */,
+				135294EC27E588E000B29311 /* TabView_TabItems.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1160,6 +1163,7 @@
 				13E8EF7127CBEEBF00307F9A /* List_MoveRow.swift in Sources */,
 				13E8EF1027C6F67100307F9A /* Button_TextModifiers.swift in Sources */,
 				134CB35527DF8AE4002BFADE /* Segmented_Colors.swift in Sources */,
+				135294ED27E588E000B29311 /* TabView_TabItems.swift in Sources */,
 				13CC9D2027D358E1007E9F33 /* NavigationLink_Customization.swift in Sources */,
 				13CC9CA827CD7638007E9F33 /* List_HeaderFooter_Intro.swift in Sources */,
 				13CC9CA227CD6BD5007E9F33 /* List_ListStyle_Automatic.swift in Sources */,
