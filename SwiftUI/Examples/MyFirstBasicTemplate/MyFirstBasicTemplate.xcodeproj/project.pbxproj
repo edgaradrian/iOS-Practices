@@ -23,6 +23,7 @@
 		135294DD27E1ED9800B29311 /* Slider_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294DC27E1ED9800B29311 /* Slider_Tint.swift */; };
 		135294E027E3031A00B29311 /* Stepper_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294DF27E3031A00B29311 /* Stepper_Intro.swift */; };
 		135294E227E57A9B00B29311 /* Stepper_LabelHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294E127E57A9B00B29311 /* Stepper_LabelHidden.swift */; };
+		135294E427E57E5700B29311 /* Stepper_Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294E327E57E5700B29311 /* Stepper_Range.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -226,6 +227,7 @@
 		135294DC27E1ED9800B29311 /* Slider_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Tint.swift; sourceTree = "<group>"; };
 		135294DF27E3031A00B29311 /* Stepper_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Intro.swift; sourceTree = "<group>"; };
 		135294E127E57A9B00B29311 /* Stepper_LabelHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LabelHidden.swift; sourceTree = "<group>"; };
+		135294E327E57E5700B29311 /* Stepper_Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Range.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -461,6 +463,7 @@
 			children = (
 				135294DF27E3031A00B29311 /* Stepper_Intro.swift */,
 				135294E127E57A9B00B29311 /* Stepper_LabelHidden.swift */,
+				135294E327E57E5700B29311 /* Stepper_Range.swift */,
 			);
 			path = Stepper;
 			sourceTree = "<group>";
@@ -988,6 +991,7 @@
 				13CC9D1027D20A6C007E9F33 /* Navigation_DisplayMode.swift in Sources */,
 				13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */,
 				135294D927E1E65800B29311 /* Slider_Customization.swift in Sources */,
+				135294E427E57E5700B29311 /* Stepper_Range.swift in Sources */,
 				13CC9D1E27D3561A007E9F33 /* NavigationLink_Intro.swift in Sources */,
 				13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */,
 				13E8EF2D27C9293C00307F9A /* DatePicker_Intro.swift in Sources */,
