@@ -28,6 +28,7 @@
 		135294E827E5853600B29311 /* Stepper_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294E727E5853600B29311 /* Stepper_Colors.swift */; };
 		135294EB27E5874C00B29311 /* TabView_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294EA27E5874C00B29311 /* TabView_Intro.swift */; };
 		135294ED27E588E000B29311 /* TabView_TabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294EC27E588E000B29311 /* TabView_TabItems.swift */; };
+		135294EF27E58A8900B29311 /* TabView_TooManyTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294EE27E58A8900B29311 /* TabView_TooManyTabs.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -236,6 +237,7 @@
 		135294E727E5853600B29311 /* Stepper_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Colors.swift; sourceTree = "<group>"; };
 		135294EA27E5874C00B29311 /* TabView_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Intro.swift; sourceTree = "<group>"; };
 		135294EC27E588E000B29311 /* TabView_TabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_TabItems.swift; sourceTree = "<group>"; };
+		135294EE27E58A8900B29311 /* TabView_TooManyTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_TooManyTabs.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -483,6 +485,7 @@
 			children = (
 				135294EA27E5874C00B29311 /* TabView_Intro.swift */,
 				135294EC27E588E000B29311 /* TabView_TabItems.swift */,
+				135294EE27E58A8900B29311 /* TabView_TooManyTabs.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1042,6 +1045,7 @@
 				13E8EF0B27C6F07800307F9A /* ControlGroup_Intro.swift in Sources */,
 				135294DB27E1E90400B29311 /* Slider_WithImages.swift in Sources */,
 				13E8EF2F27C9319F00307F9A /* DatePicker_Styles.swift in Sources */,
+				135294EF27E58A8900B29311 /* TabView_TooManyTabs.swift in Sources */,
 				13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				13CC9D3C27D664CB007E9F33 /* Picker_ProgrammaticSelection.swift in Sources */,
