@@ -38,6 +38,7 @@
 		135294FD27E71D1F00B29311 /* TabView_UITabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */; };
 		135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */; };
 		1352950127E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352950027E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift */; };
+		1352950327E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352950227E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -256,6 +257,7 @@
 		135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_UITabBarAppearance.swift; sourceTree = "<group>"; };
 		135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle.swift; sourceTree = "<group>"; };
 		1352950027E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexViewStyle.swift; sourceTree = "<group>"; };
+		1352950227E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexDisplayMode.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -513,6 +515,7 @@
 				135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */,
 				135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */,
 				1352950027E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift */,
+				1352950227E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1189,6 +1192,7 @@
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
 				13CC9D2A27D5AAF8007E9F33 /* NavigationLink_WithList.swift in Sources */,
 				13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */,
+				1352950327E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */,
 				13E8EF1627C7DD5000307F9A /* Button_WithSFSymbols.swift in Sources */,
 				135294F327E713A700B29311 /* TabView_Colors.swift in Sources */,
 				134CB34E27DF8255002BFADE /* SecureField_KeyboardSafeArea.swift in Sources */,
