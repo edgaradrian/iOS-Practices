@@ -35,6 +35,7 @@
 		135294F727E7172C00B29311 /* TabView_Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F627E7172C00B29311 /* TabView_Badge.swift */; };
 		135294F927E718F600B29311 /* TabView_Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F827E718F600B29311 /* TabView_Background.swift */; };
 		135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */; };
+		135294FD27E71D1F00B29311 /* TabView_UITabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -250,6 +251,7 @@
 		135294F627E7172C00B29311 /* TabView_Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Badge.swift; sourceTree = "<group>"; };
 		135294F827E718F600B29311 /* TabView_Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Background.swift; sourceTree = "<group>"; };
 		135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PreventBackground.swift; sourceTree = "<group>"; };
+		135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_UITabBarAppearance.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -504,6 +506,7 @@
 				135294F627E7172C00B29311 /* TabView_Badge.swift */,
 				135294F827E718F600B29311 /* TabView_Background.swift */,
 				135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */,
+				135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1226,6 +1229,7 @@
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				135294F127E58C9E00B29311 /* TabView_Navigating.swift in Sources */,
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
+				135294FD27E71D1F00B29311 /* TabView_UITabBarAppearance.swift in Sources */,
 				13CC9D3A27D6637D007E9F33 /* Picker_Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
