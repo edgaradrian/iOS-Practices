@@ -37,6 +37,7 @@
 		135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */; };
 		135294FD27E71D1F00B29311 /* TabView_UITabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */; };
 		135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */; };
+		1352950127E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352950027E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -254,6 +255,7 @@
 		135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PreventBackground.swift; sourceTree = "<group>"; };
 		135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_UITabBarAppearance.swift; sourceTree = "<group>"; };
 		135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle.swift; sourceTree = "<group>"; };
+		1352950027E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexViewStyle.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -510,6 +512,7 @@
 				135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */,
 				135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */,
 				135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */,
+				1352950027E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1153,6 +1156,7 @@
 				13CC9CE127CF3A74007E9F33 /* List_SafeAreaInset.swift in Sources */,
 				1392029A27C0B1170078A01D /* GeometryReader_GettingSize.swift in Sources */,
 				13E8EF5B27CAD2AE00307F9A /* Label_Solution.swift in Sources */,
+				1352950127E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */,
 				13E8EF7727CBF58000307F9A /* List_Selection_Multiple.swift in Sources */,
 				1362D53C27B6ECAD00695795 /* LazyVStack_WithScrolling.swift in Sources */,
 				13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */,
