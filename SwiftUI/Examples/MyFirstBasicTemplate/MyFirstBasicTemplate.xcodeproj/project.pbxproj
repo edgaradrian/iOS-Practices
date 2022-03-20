@@ -31,6 +31,7 @@
 		135294EF27E58A8900B29311 /* TabView_TooManyTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294EE27E58A8900B29311 /* TabView_TooManyTabs.swift */; };
 		135294F127E58C9E00B29311 /* TabView_Navigating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F027E58C9E00B29311 /* TabView_Navigating.swift */; };
 		135294F327E713A700B29311 /* TabView_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F227E713A700B29311 /* TabView_Colors.swift */; };
+		135294F527E7151400B29311 /* TabView_SymbolVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F427E7151400B29311 /* TabView_SymbolVariants.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -242,6 +243,7 @@
 		135294EE27E58A8900B29311 /* TabView_TooManyTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_TooManyTabs.swift; sourceTree = "<group>"; };
 		135294F027E58C9E00B29311 /* TabView_Navigating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Navigating.swift; sourceTree = "<group>"; };
 		135294F227E713A700B29311 /* TabView_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Colors.swift; sourceTree = "<group>"; };
+		135294F427E7151400B29311 /* TabView_SymbolVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_SymbolVariants.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -492,6 +494,7 @@
 				135294EE27E58A8900B29311 /* TabView_TooManyTabs.swift */,
 				135294F027E58C9E00B29311 /* TabView_Navigating.swift */,
 				135294F227E713A700B29311 /* TabView_Colors.swift */,
+				135294F427E7151400B29311 /* TabView_SymbolVariants.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1023,6 +1026,7 @@
 				135294E427E57E5700B29311 /* Stepper_Range.swift in Sources */,
 				13CC9D1E27D3561A007E9F33 /* NavigationLink_Intro.swift in Sources */,
 				13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */,
+				135294F527E7151400B29311 /* TabView_SymbolVariants.swift in Sources */,
 				13E8EF2D27C9293C00307F9A /* DatePicker_Intro.swift in Sources */,
 				1383E5D227DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */,
 				13CC9D0727D0AFFB007E9F33 /* Menu_OtherViewsWithin.swift in Sources */,
