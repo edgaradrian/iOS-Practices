@@ -36,6 +36,7 @@
 		135294F927E718F600B29311 /* TabView_Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F827E718F600B29311 /* TabView_Background.swift */; };
 		135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */; };
 		135294FD27E71D1F00B29311 /* TabView_UITabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */; };
+		135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -252,6 +253,7 @@
 		135294F827E718F600B29311 /* TabView_Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Background.swift; sourceTree = "<group>"; };
 		135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PreventBackground.swift; sourceTree = "<group>"; };
 		135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_UITabBarAppearance.swift; sourceTree = "<group>"; };
+		135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				135294F827E718F600B29311 /* TabView_Background.swift */,
 				135294FA27E71AF700B29311 /* TabView_PreventBackground.swift */,
 				135294FC27E71D1F00B29311 /* TabView_UITabBarAppearance.swift */,
+				135294FE27E7227500B29311 /* TabView_PageTabViewStyle.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1050,6 +1053,7 @@
 				13CC9CED27CF4DB3007E9F33 /* List_ListSectionSeparatorTint.swift in Sources */,
 				13CC9D0127D0A886007E9F33 /* Menu_Customizing.swift in Sources */,
 				13E8EF4527CA8EED00307F9A /* Form_HeaderAndFooters.swift in Sources */,
+				135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */,
 				1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */,
 				13E8EEEA27C4B6B400307F9A /* LazyHGrid_RowSpacing.swift in Sources */,
 				13E8EF4727CA93B100307F9A /* Form_ListRowBackground.swift in Sources */,
