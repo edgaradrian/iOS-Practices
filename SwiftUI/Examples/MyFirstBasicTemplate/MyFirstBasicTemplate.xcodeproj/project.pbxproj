@@ -32,6 +32,7 @@
 		135294F127E58C9E00B29311 /* TabView_Navigating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F027E58C9E00B29311 /* TabView_Navigating.swift */; };
 		135294F327E713A700B29311 /* TabView_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F227E713A700B29311 /* TabView_Colors.swift */; };
 		135294F527E7151400B29311 /* TabView_SymbolVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F427E7151400B29311 /* TabView_SymbolVariants.swift */; };
+		135294F727E7172C00B29311 /* TabView_Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135294F627E7172C00B29311 /* TabView_Badge.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -244,6 +245,7 @@
 		135294F027E58C9E00B29311 /* TabView_Navigating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Navigating.swift; sourceTree = "<group>"; };
 		135294F227E713A700B29311 /* TabView_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Colors.swift; sourceTree = "<group>"; };
 		135294F427E7151400B29311 /* TabView_SymbolVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_SymbolVariants.swift; sourceTree = "<group>"; };
+		135294F627E7172C00B29311 /* TabView_Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Badge.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 				135294F027E58C9E00B29311 /* TabView_Navigating.swift */,
 				135294F227E713A700B29311 /* TabView_Colors.swift */,
 				135294F427E7151400B29311 /* TabView_SymbolVariants.swift */,
+				135294F627E7172C00B29311 /* TabView_Badge.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -1090,6 +1093,7 @@
 				13E8EF3327C9375F00307F9A /* DatePicker_InForm.swift in Sources */,
 				13E8EF4027C94B6B00307F9A /* DisclosureGroup_Nested.swift in Sources */,
 				13E8EF4B27CA9B2200307F9A /* Form_ListRowInset.swift in Sources */,
+				135294F727E7172C00B29311 /* TabView_Badge.swift in Sources */,
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
 				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
 				13CC9D4627D85F20007E9F33 /* Picker_Menu.swift in Sources */,
