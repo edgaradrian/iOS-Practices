@@ -12,6 +12,8 @@ struct Text_Formatting: View {
     
     var body: some View {
         VStack(spacing: 10) {
+            HeaderView(titulo: "Text", subtitulo: "Formatting", description: "Más modificadores pueden escuchar a una variable @State para determinar si están activos o no.")
+            
             Text("Bold").bold()
             Text("Italic").italic()
             Text("Strikethrough").strikethrough()
@@ -24,6 +26,7 @@ struct Text_Formatting: View {
                 .underline(modifierActive, color: .cyan)
             Toggle("Modificadores activos", isOn: $modifierActive)
         }
+        .padding()
     }
 }
 
