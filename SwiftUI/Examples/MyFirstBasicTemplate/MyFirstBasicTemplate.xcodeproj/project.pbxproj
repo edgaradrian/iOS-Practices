@@ -45,6 +45,7 @@
 		13552C4227EC745E00727B21 /* Text_Weights_TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4127EC745E00727B21 /* Text_Weights_TextStyles.swift */; };
 		13552C4427EC763600727B21 /* Text_FontDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4327EC763600727B21 /* Text_FontDesign.swift */; };
 		13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4527EC782700727B21 /* Text_Formatting.swift */; };
+		13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4727EC7A5700727B21 /* Text_AllowsTightening.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -270,6 +271,7 @@
 		13552C4127EC745E00727B21 /* Text_Weights_TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Weights_TextStyles.swift; sourceTree = "<group>"; };
 		13552C4327EC763600727B21 /* Text_FontDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_FontDesign.swift; sourceTree = "<group>"; };
 		13552C4527EC782700727B21 /* Text_Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Formatting.swift; sourceTree = "<group>"; };
+		13552C4727EC7A5700727B21 /* Text_AllowsTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_AllowsTightening.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -541,6 +543,7 @@
 				13552C4127EC745E00727B21 /* Text_Weights_TextStyles.swift */,
 				13552C4327EC763600727B21 /* Text_FontDesign.swift */,
 				13552C4527EC782700727B21 /* Text_Formatting.swift */,
+				13552C4727EC7A5700727B21 /* Text_AllowsTightening.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1220,6 +1223,7 @@
 				1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */,
 				13552C3C27EC6AE100727B21 /* Text_LineLimit.swift in Sources */,
 				1383E5CC27DAFCDA00C12E4D /* ScrollView_Intro.swift in Sources */,
+				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
 				13CC9D2A27D5AAF8007E9F33 /* NavigationLink_WithList.swift in Sources */,
 				13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */,
