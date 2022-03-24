@@ -41,6 +41,7 @@
 		1352950327E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352950227E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */; };
 		13552C3C27EC6AE100727B21 /* Text_LineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C3B27EC6AE100727B21 /* Text_LineLimit.swift */; };
 		13552C3E27EC6CC400727B21 /* Text_TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C3D27EC6CC400727B21 /* Text_TextStyles.swift */; };
+		13552C4027EC728600727B21 /* Text_Weights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C3F27EC728600727B21 /* Text_Weights.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -262,6 +263,7 @@
 		1352950227E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexDisplayMode.swift; sourceTree = "<group>"; };
 		13552C3B27EC6AE100727B21 /* Text_LineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LineLimit.swift; sourceTree = "<group>"; };
 		13552C3D27EC6CC400727B21 /* Text_TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TextStyles.swift; sourceTree = "<group>"; };
+		13552C3F27EC728600727B21 /* Text_Weights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Weights.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -529,6 +531,7 @@
 			children = (
 				13552C3B27EC6AE100727B21 /* Text_LineLimit.swift */,
 				13552C3D27EC6CC400727B21 /* Text_TextStyles.swift */,
+				13552C3F27EC728600727B21 /* Text_Weights.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1107,6 +1110,7 @@
 				13CC9D4227D85699007E9F33 /* Picker_RowsWithImages.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
 				13CC9CFF27D0A0B5007E9F33 /* Menu_InsideMenu.swift in Sources */,
+				13552C4027EC728600727B21 /* Text_Weights.swift in Sources */,
 				134CB34A27DF7D05002BFADE /* SecureField_Customizations.swift in Sources */,
 				135294DD27E1ED9800B29311 /* Slider_Tint.swift in Sources */,
 				13E8EF5D27CAD45D00307F9A /* Label_WithImages.swift in Sources */,
