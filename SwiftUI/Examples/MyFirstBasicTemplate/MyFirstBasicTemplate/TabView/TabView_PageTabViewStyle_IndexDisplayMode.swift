@@ -31,7 +31,17 @@ struct TabView_PageTabViewStyle_IndexDisplayMode: View {
             
         }
         .font(.title)
-        .tabViewStyle(.page(indexDisplayMode: .never))
+        .tabViewStyle(.page(indexDisplayMode: .never
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           ))
     }
 }
 
