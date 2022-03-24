@@ -44,6 +44,7 @@
 		13552C4027EC728600727B21 /* Text_Weights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C3F27EC728600727B21 /* Text_Weights.swift */; };
 		13552C4227EC745E00727B21 /* Text_Weights_TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4127EC745E00727B21 /* Text_Weights_TextStyles.swift */; };
 		13552C4427EC763600727B21 /* Text_FontDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4327EC763600727B21 /* Text_FontDesign.swift */; };
+		13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4527EC782700727B21 /* Text_Formatting.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -268,6 +269,7 @@
 		13552C3F27EC728600727B21 /* Text_Weights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Weights.swift; sourceTree = "<group>"; };
 		13552C4127EC745E00727B21 /* Text_Weights_TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Weights_TextStyles.swift; sourceTree = "<group>"; };
 		13552C4327EC763600727B21 /* Text_FontDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_FontDesign.swift; sourceTree = "<group>"; };
+		13552C4527EC782700727B21 /* Text_Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Formatting.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -538,6 +540,7 @@
 				13552C3F27EC728600727B21 /* Text_Weights.swift */,
 				13552C4127EC745E00727B21 /* Text_Weights_TextStyles.swift */,
 				13552C4327EC763600727B21 /* Text_FontDesign.swift */,
+				13552C4527EC782700727B21 /* Text_Formatting.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1251,6 +1254,7 @@
 				13CC9D2427D35D71007E9F33 /* NavigationLink_UINavigationBarAppearance.swift in Sources */,
 				13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */,
 				13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */,
+				13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
 				13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */,
