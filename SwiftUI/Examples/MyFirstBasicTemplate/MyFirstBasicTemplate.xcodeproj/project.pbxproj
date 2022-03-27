@@ -49,6 +49,7 @@
 		13552C4A27F10D9A00727B21 /* Text_MinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4927F10D9A00727B21 /* Text_MinimumScaleFactor.swift */; };
 		13552C4C27F10F8F00727B21 /* Text_LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4B27F10F8F00727B21 /* Text_LineSpacing.swift */; };
 		13552C4E27F1121C00727B21 /* Text_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4D27F1121C00727B21 /* Text_Alignment.swift */; };
+		13552C5027F1143500727B21 /* Text_TruncationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4F27F1143500727B21 /* Text_TruncationMode.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -278,6 +279,7 @@
 		13552C4927F10D9A00727B21 /* Text_MinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_MinimumScaleFactor.swift; sourceTree = "<group>"; };
 		13552C4B27F10F8F00727B21 /* Text_LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LineSpacing.swift; sourceTree = "<group>"; };
 		13552C4D27F1121C00727B21 /* Text_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Alignment.swift; sourceTree = "<group>"; };
+		13552C4F27F1143500727B21 /* Text_TruncationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TruncationMode.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -553,6 +555,7 @@
 				13552C4927F10D9A00727B21 /* Text_MinimumScaleFactor.swift */,
 				13552C4B27F10F8F00727B21 /* Text_LineSpacing.swift */,
 				13552C4D27F1121C00727B21 /* Text_Alignment.swift */,
+				13552C4F27F1143500727B21 /* Text_TruncationMode.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1236,6 +1239,7 @@
 				1383E5CC27DAFCDA00C12E4D /* ScrollView_Intro.swift in Sources */,
 				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
+				13552C5027F1143500727B21 /* Text_TruncationMode.swift in Sources */,
 				13CC9D2A27D5AAF8007E9F33 /* NavigationLink_WithList.swift in Sources */,
 				13E8EF7B27CBF76C00307F9A /* List_ListRowBackground.swift in Sources */,
 				1352950327E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */,
