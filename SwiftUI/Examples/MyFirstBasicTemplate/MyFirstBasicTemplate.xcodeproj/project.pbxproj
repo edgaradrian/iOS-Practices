@@ -50,6 +50,7 @@
 		13552C4C27F10F8F00727B21 /* Text_LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4B27F10F8F00727B21 /* Text_LineSpacing.swift */; };
 		13552C4E27F1121C00727B21 /* Text_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4D27F1121C00727B21 /* Text_Alignment.swift */; };
 		13552C5027F1143500727B21 /* Text_TruncationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C4F27F1143500727B21 /* Text_TruncationMode.swift */; };
+		13552C5227F1165500727B21 /* Text_CombiningModifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C5127F1165500727B21 /* Text_CombiningModifiedText.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -280,6 +281,7 @@
 		13552C4B27F10F8F00727B21 /* Text_LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LineSpacing.swift; sourceTree = "<group>"; };
 		13552C4D27F1121C00727B21 /* Text_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Alignment.swift; sourceTree = "<group>"; };
 		13552C4F27F1143500727B21 /* Text_TruncationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TruncationMode.swift; sourceTree = "<group>"; };
+		13552C5127F1165500727B21 /* Text_CombiningModifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CombiningModifiedText.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -556,6 +558,7 @@
 				13552C4B27F10F8F00727B21 /* Text_LineSpacing.swift */,
 				13552C4D27F1121C00727B21 /* Text_Alignment.swift */,
 				13552C4F27F1143500727B21 /* Text_TruncationMode.swift */,
+				13552C5127F1165500727B21 /* Text_CombiningModifiedText.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1086,6 +1089,7 @@
 				13552C3E27EC6CC400727B21 /* Text_TextStyles.swift in Sources */,
 				13FB4D4327BC997900B0E8C9 /* ZStack_Intro.swift in Sources */,
 				135294D927E1E65800B29311 /* Slider_Customization.swift in Sources */,
+				13552C5227F1165500727B21 /* Text_CombiningModifiedText.swift in Sources */,
 				135294E427E57E5700B29311 /* Stepper_Range.swift in Sources */,
 				13CC9D1E27D3561A007E9F33 /* NavigationLink_Intro.swift in Sources */,
 				13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */,
