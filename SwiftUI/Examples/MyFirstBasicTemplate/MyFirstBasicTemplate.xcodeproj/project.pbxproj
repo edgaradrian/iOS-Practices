@@ -93,6 +93,7 @@
 		1392029C27C0B3450078A01D /* GeometryReader_Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392029B27C0B3450078A01D /* GeometryReader_Positioning.swift */; };
 		13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */; };
 		13B8BBF827F4CD8E004797DD /* Text_CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */; };
+		13B8BC0027F4D1B7004797DD /* Text_ImportedFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */; };
 		13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */; };
 		13CC9CA227CD6BD5007E9F33 /* List_ListStyle_Automatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */; };
 		13CC9CA427CD6F89007E9F33 /* List_GroupedListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */; };
@@ -328,6 +329,10 @@
 		1392029B27C0B3450078A01D /* GeometryReader_Positioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_Positioning.swift; sourceTree = "<group>"; };
 		13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LayoutPriority.swift; sourceTree = "<group>"; };
 		13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CustomFonts.swift; sourceTree = "<group>"; };
+		13B8BBFC27F4D0A8004797DD /* Pirate of the Seaside Bubbles.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pirate of the Seaside Bubbles.ttf"; sourceTree = "<group>"; };
+		13B8BBFD27F4D0B5004797DD /* Pirate of the Seaside.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pirate of the Seaside.ttf"; sourceTree = "<group>"; };
+		13B8BBFE27F4D139004797DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ImportedFonts.swift; sourceTree = "<group>"; };
 		13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_WithChildren.swift; sourceTree = "<group>"; };
 		13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListStyle_Automatic.swift; sourceTree = "<group>"; };
 		13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_GroupedListStyle.swift; sourceTree = "<group>"; };
@@ -568,6 +573,7 @@
 				13552C5327F117F500727B21 /* Text_BaselineOffset.swift */,
 				13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */,
 				13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */,
+				13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -591,6 +597,8 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				13B8BBFE27F4D139004797DD /* Info.plist */,
+				13B8BBF927F4D07A004797DD /* Fonts */,
 				13552C3A27EC6A8200727B21 /* Text */,
 				135294E927E5870A00B29311 /* TabView */,
 				135294DE27E302F700B29311 /* Stepper */,
@@ -701,6 +709,15 @@
 				13E8EEDA27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift */,
 			);
 			path = GeometryReader;
+			sourceTree = "<group>";
+		};
+		13B8BBF927F4D07A004797DD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13B8BBFD27F4D0B5004797DD /* Pirate of the Seaside.ttf */,
+				13B8BBFC27F4D0A8004797DD /* Pirate of the Seaside Bubbles.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		13CC9CF627CF576B007E9F33 /* Menu */ = {
@@ -1179,6 +1196,7 @@
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
 				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
 				13CC9D4627D85F20007E9F33 /* Picker_Menu.swift in Sources */,
+				13B8BC0027F4D1B7004797DD /* Text_ImportedFonts.swift in Sources */,
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
 				135294E227E57A9B00B29311 /* Stepper_LabelHidden.swift in Sources */,
@@ -1444,6 +1462,7 @@
 				DEVELOPMENT_TEAM = Q537G68YQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFirstBasicTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1473,6 +1492,7 @@
 				DEVELOPMENT_TEAM = Q537G68YQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFirstBasicTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
