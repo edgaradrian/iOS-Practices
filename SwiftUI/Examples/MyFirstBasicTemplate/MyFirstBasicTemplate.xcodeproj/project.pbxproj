@@ -95,6 +95,7 @@
 		13B8BBF827F4CD8E004797DD /* Text_CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */; };
 		13B8BC0027F4D1B7004797DD /* Text_ImportedFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */; };
 		13B8BC0227F4D525004797DD /* Text_CapitalLetterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BC0127F4D525004797DD /* Text_CapitalLetterOptions.swift */; };
+		13B8BC0427F4D89D004797DD /* Text_Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BC0327F4D89D004797DD /* Text_Tracking.swift */; };
 		13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */; };
 		13CC9CA227CD6BD5007E9F33 /* List_ListStyle_Automatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */; };
 		13CC9CA427CD6F89007E9F33 /* List_GroupedListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */; };
@@ -335,6 +336,7 @@
 		13B8BBFE27F4D139004797DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ImportedFonts.swift; sourceTree = "<group>"; };
 		13B8BC0127F4D525004797DD /* Text_CapitalLetterOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CapitalLetterOptions.swift; sourceTree = "<group>"; };
+		13B8BC0327F4D89D004797DD /* Text_Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Tracking.swift; sourceTree = "<group>"; };
 		13CC9C9F27CD48BC007E9F33 /* List_WithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_WithChildren.swift; sourceTree = "<group>"; };
 		13CC9CA127CD6BD5007E9F33 /* List_ListStyle_Automatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListStyle_Automatic.swift; sourceTree = "<group>"; };
 		13CC9CA327CD6F89007E9F33 /* List_GroupedListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_GroupedListStyle.swift; sourceTree = "<group>"; };
@@ -577,6 +579,7 @@
 				13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */,
 				13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */,
 				13B8BC0127F4D525004797DD /* Text_CapitalLetterOptions.swift */,
+				13B8BC0327F4D89D004797DD /* Text_Tracking.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1203,6 +1206,7 @@
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
 				135294E227E57A9B00B29311 /* Stepper_LabelHidden.swift in Sources */,
+				13B8BC0427F4D89D004797DD /* Text_Tracking.swift in Sources */,
 				13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */,
 				13CC9D0527D0AE8B007E9F33 /* Menu_MaxItems.swift in Sources */,
 				13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */,
