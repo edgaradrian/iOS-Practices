@@ -15,7 +15,7 @@ struct DescView: View {
         Text(description)
             .frame(maxWidth: .infinity)
             .font(.title)
-            .foregroundColor(.black)
+            .foregroundColor(.white)
             .padding()
             .background(backColor)
         
