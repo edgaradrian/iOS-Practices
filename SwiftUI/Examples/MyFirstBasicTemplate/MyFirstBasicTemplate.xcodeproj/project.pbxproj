@@ -53,6 +53,7 @@
 		13552C5227F1165500727B21 /* Text_CombiningModifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C5127F1165500727B21 /* Text_CombiningModifiedText.swift */; };
 		13552C5427F117F500727B21 /* Text_BaselineOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13552C5327F117F500727B21 /* Text_BaselineOffset.swift */; };
 		1356244E27F651B900C9EF73 /* Text_DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356244D27F651B900C9EF73 /* Text_DateFormatting.swift */; };
+		1356245027F654C800C9EF73 /* Text_DateFormat_Specific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356244F27F654C800C9EF73 /* Text_DateFormat_Specific.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -300,6 +301,7 @@
 		13552C5127F1165500727B21 /* Text_CombiningModifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CombiningModifiedText.swift; sourceTree = "<group>"; };
 		13552C5327F117F500727B21 /* Text_BaselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_BaselineOffset.swift; sourceTree = "<group>"; };
 		1356244D27F651B900C9EF73 /* Text_DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_DateFormatting.swift; sourceTree = "<group>"; };
+		1356244F27F654C800C9EF73 /* Text_DateFormat_Specific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_DateFormat_Specific.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -610,6 +612,7 @@
 				13B8BC1327F64B56004797DD /* Text_TextSelection.swift */,
 				13B8BC1527F64EAF004797DD /* Text_Forrmat.swift */,
 				1356244D27F651B900C9EF73 /* Text_DateFormatting.swift */,
+				1356244F27F654C800C9EF73 /* Text_DateFormat_Specific.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1136,6 +1139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E8EF1A27C7E5C500307F9A /* Button_FloatingActionButton.swift in Sources */,
+				1356245027F654C800C9EF73 /* Text_DateFormat_Specific.swift in Sources */,
 				13E8EF3E27C949A600307F9A /* DisclosureGroup_WithCustomLabel.swift in Sources */,
 				13B8BC1427F64B56004797DD /* Text_TextSelection.swift in Sources */,
 				13E8EEF727C59BC000307F9A /* LazyVGrid_FixedSize.swift in Sources */,
