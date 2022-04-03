@@ -83,6 +83,7 @@
 		1383E5CE27DB021200C12E4D /* ScrollView_SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5CD27DB021200C12E4D /* ScrollView_SafeAreaInset.swift */; };
 		1383E5D027DB04F000C12E4D /* ScrollView_Horizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5CF27DB04F000C12E4D /* ScrollView_Horizontal.swift */; };
 		1383E5D227DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5D127DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift */; };
+		1388946627F94FFA00D288FA /* Text_TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946527F94FFA00D288FA /* Text_TimeFormatting.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -332,6 +333,7 @@
 		1383E5CD27DB021200C12E4D /* ScrollView_SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_SafeAreaInset.swift; sourceTree = "<group>"; };
 		1383E5CF27DB04F000C12E4D /* ScrollView_Horizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Horizontal.swift; sourceTree = "<group>"; };
 		1383E5D127DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Horizontal_SafeAreaInset.swift; sourceTree = "<group>"; };
+		1388946527F94FFA00D288FA /* Text_TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TimeFormatting.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -613,6 +615,7 @@
 				13B8BC1527F64EAF004797DD /* Text_Forrmat.swift */,
 				1356244D27F651B900C9EF73 /* Text_DateFormatting.swift */,
 				1356244F27F654C800C9EF73 /* Text_DateFormat_Specific.swift */,
+				1388946527F94FFA00D288FA /* Text_TimeFormatting.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1152,6 +1155,7 @@
 				13E8EF6D27CBE86100307F9A /* List_WithData.swift in Sources */,
 				13E8EF6F27CBE9EB00307F9A /* List_CustomRows.swift in Sources */,
 				1383E5D027DB04F000C12E4D /* ScrollView_Horizontal.swift in Sources */,
+				1388946627F94FFA00D288FA /* Text_TimeFormatting.swift in Sources */,
 				1356244E27F651B900C9EF73 /* Text_DateFormatting.swift in Sources */,
 				13CC9D1027D20A6C007E9F33 /* Navigation_DisplayMode.swift in Sources */,
 				13552C3E27EC6CC400727B21 /* Text_TextStyles.swift in Sources */,
