@@ -89,6 +89,7 @@
 		1388946C27F9591400D288FA /* Text_PersonNameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946B27F9591400D288FA /* Text_PersonNameComponents.swift */; };
 		1388946E27F95C8D00D288FA /* Text_ListFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946D27F95C8D00D288FA /* Text_ListFormatting.swift */; };
 		1388947027F95F1000D288FA /* Text_AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946F27F95F1000D288FA /* Text_AttributedString.swift */; };
+		1388947327F960D400D288FA /* TextEditor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388947227F960D400D288FA /* TextEditor_Intro.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -344,6 +345,7 @@
 		1388946B27F9591400D288FA /* Text_PersonNameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_PersonNameComponents.swift; sourceTree = "<group>"; };
 		1388946D27F95C8D00D288FA /* Text_ListFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ListFormatting.swift; sourceTree = "<group>"; };
 		1388946F27F95F1000D288FA /* Text_AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_AttributedString.swift; sourceTree = "<group>"; };
+		1388947227F960D400D288FA /* TextEditor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Intro.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -654,6 +656,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1388947127F960B500D288FA /* TextEditor */,
 				13B8BBFE27F4D139004797DD /* Info.plist */,
 				13B8BBF927F4D07A004797DD /* Fonts */,
 				13552C3A27EC6A8200727B21 /* Text */,
@@ -741,6 +744,14 @@
 				1383E5D127DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		1388947127F960B500D288FA /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1388947227F960D400D288FA /* TextEditor_Intro.swift */,
+			);
+			path = TextEditor;
 			sourceTree = "<group>";
 		};
 		1392028B27BE07E60078A01D /* Spacer */ = {
@@ -1404,6 +1415,7 @@
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
 				13552C4A27F10D9A00727B21 /* Text_MinimumScaleFactor.swift in Sources */,
 				135294FD27E71D1F00B29311 /* TabView_UITabBarAppearance.swift in Sources */,
+				1388947327F960D400D288FA /* TextEditor_Intro.swift in Sources */,
 				13CC9D3A27D6637D007E9F33 /* Picker_Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
