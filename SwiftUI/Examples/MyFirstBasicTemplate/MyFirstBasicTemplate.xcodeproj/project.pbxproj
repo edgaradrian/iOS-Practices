@@ -87,6 +87,7 @@
 		1388946827F9528B00D288FA /* Text_Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946727F9528B00D288FA /* Text_Measurement.swift */; };
 		1388946A27F9565900D288FA /* Text_Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946927F9565900D288FA /* Text_Currency.swift */; };
 		1388946C27F9591400D288FA /* Text_PersonNameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946B27F9591400D288FA /* Text_PersonNameComponents.swift */; };
+		1388946E27F95C8D00D288FA /* Text_ListFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946D27F95C8D00D288FA /* Text_ListFormatting.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -340,6 +341,7 @@
 		1388946727F9528B00D288FA /* Text_Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Measurement.swift; sourceTree = "<group>"; };
 		1388946927F9565900D288FA /* Text_Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Currency.swift; sourceTree = "<group>"; };
 		1388946B27F9591400D288FA /* Text_PersonNameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_PersonNameComponents.swift; sourceTree = "<group>"; };
+		1388946D27F95C8D00D288FA /* Text_ListFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ListFormatting.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -625,6 +627,7 @@
 				1388946727F9528B00D288FA /* Text_Measurement.swift */,
 				1388946927F9565900D288FA /* Text_Currency.swift */,
 				1388946B27F9591400D288FA /* Text_PersonNameComponents.swift */,
+				1388946D27F95C8D00D288FA /* Text_ListFormatting.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -1293,6 +1296,7 @@
 				135294D727E1E30500B29311 /* Slider_RangeOfValues.swift in Sources */,
 				135294E827E5853600B29311 /* Stepper_Colors.swift in Sources */,
 				134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */,
+				1388946E27F95C8D00D288FA /* Text_ListFormatting.swift in Sources */,
 				13E8EF2A27C9271100307F9A /* ColorPicker_OpacityOption.swift in Sources */,
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
 				13CC9D4427D85A86007E9F33 /* Picker_BindingToData.swift in Sources */,
