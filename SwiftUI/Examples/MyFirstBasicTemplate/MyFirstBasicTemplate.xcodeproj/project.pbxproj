@@ -75,6 +75,7 @@
 		1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54427B70A9800695795 /* HStack_Spacing.swift */; };
 		1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D54627B84E3900695795 /* HStack_Alignment.swift */; };
 		137B73E827FA46500027E61E /* TextEditor_LineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73E727FA46500027E61E /* TextEditor_LineLimit.swift */; };
+		137B73EA27FA4AB70027E61E /* TextEditor_LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73E927FA4AB70027E61E /* TextEditor_LineSpacing.swift */; };
 		1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */; };
 		1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */; };
 		1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */; };
@@ -332,6 +333,7 @@
 		1362D54427B70A9800695795 /* HStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Spacing.swift; sourceTree = "<group>"; };
 		1362D54627B84E3900695795 /* HStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Alignment.swift; sourceTree = "<group>"; };
 		137B73E727FA46500027E61E /* TextEditor_LineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_LineLimit.swift; sourceTree = "<group>"; };
+		137B73E927FA4AB70027E61E /* TextEditor_LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_LineSpacing.swift; sourceTree = "<group>"; };
 		1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_ShowingProgress.swift; sourceTree = "<group>"; };
 		1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
 		1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
@@ -753,6 +755,7 @@
 			children = (
 				1388947227F960D400D288FA /* TextEditor_Intro.swift */,
 				137B73E727FA46500027E61E /* TextEditor_LineLimit.swift */,
+				137B73E927FA4AB70027E61E /* TextEditor_LineSpacing.swift */,
 			);
 			path = TextEditor;
 			sourceTree = "<group>";
@@ -1201,6 +1204,7 @@
 				13E8EF2D27C9293C00307F9A /* DatePicker_Intro.swift in Sources */,
 				1383E5D227DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */,
 				13CC9D0727D0AFFB007E9F33 /* Menu_OtherViewsWithin.swift in Sources */,
+				137B73EA27FA4AB70027E61E /* TextEditor_LineSpacing.swift in Sources */,
 				13E8EEF127C4C18700307F9A /* LazyVGrid_Introduction.swift in Sources */,
 				13E8EEE027C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift in Sources */,
 				13E8EF4927CA971C00307F9A /* Form_RowBackgroundImage.swift in Sources */,
