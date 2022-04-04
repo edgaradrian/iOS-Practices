@@ -79,6 +79,7 @@
 		137B73EC27FA4E530027E61E /* TextEditor_CustomizingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73EB27FA4E530027E61E /* TextEditor_CustomizingText.swift */; };
 		137B73EE27FA4FFB0027E61E /* TextEditor_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73ED27FA4FFB0027E61E /* TextEditor_Alignment.swift */; };
 		137B73F027FB892E0027E61E /* TextEditor_DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73EF27FB892E0027E61E /* TextEditor_DismissKeyboard.swift */; };
+		137B73F227FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73F127FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift */; };
 		1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */; };
 		1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */; };
 		1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */; };
@@ -340,6 +341,7 @@
 		137B73EB27FA4E530027E61E /* TextEditor_CustomizingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_CustomizingText.swift; sourceTree = "<group>"; };
 		137B73ED27FA4FFB0027E61E /* TextEditor_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Alignment.swift; sourceTree = "<group>"; };
 		137B73EF27FB892E0027E61E /* TextEditor_DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_DismissKeyboard.swift; sourceTree = "<group>"; };
+		137B73F127FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_ShowingProgress.swift; sourceTree = "<group>"; };
 		1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
 		1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
@@ -765,6 +767,7 @@
 				137B73EB27FA4E530027E61E /* TextEditor_CustomizingText.swift */,
 				137B73ED27FA4FFB0027E61E /* TextEditor_Alignment.swift */,
 				137B73EF27FB892E0027E61E /* TextEditor_DismissKeyboard.swift */,
+				137B73F127FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift */,
 			);
 			path = TextEditor;
 			sourceTree = "<group>";
@@ -1230,6 +1233,7 @@
 				13EDD09A27DD638A005B4112 /* Navigation_Searchable_Search.swift in Sources */,
 				13552C4427EC763600727B21 /* Text_FontDesign.swift in Sources */,
 				13CC9D4027D84DF9007E9F33 /* Picker_Customized.swift in Sources */,
+				137B73F227FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */,
 				1388946A27F9565900D288FA /* Text_Currency.swift in Sources */,
 				13B8BC1027F6449F004797DD /* Text_Markdown.swift in Sources */,
