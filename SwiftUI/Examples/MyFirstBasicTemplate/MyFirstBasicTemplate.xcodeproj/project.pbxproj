@@ -82,6 +82,7 @@
 		137B73F227FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73F127FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift */; };
 		137B73F527FB8E7B0027E61E /* TextField_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73F427FB8E7B0027E61E /* TextField_Intro.swift */; };
 		137B73F727FB905C0027E61E /* TextField_Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73F627FB905C0027E61E /* TextField_Placeholder.swift */; };
+		137B73F927FB91E20027E61E /* TextField_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73F827FB91E20027E61E /* TextField_Alignment.swift */; };
 		1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */; };
 		1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */; };
 		1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */; };
@@ -346,6 +347,7 @@
 		137B73F127FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		137B73F427FB8E7B0027E61E /* TextField_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Intro.swift; sourceTree = "<group>"; };
 		137B73F627FB905C0027E61E /* TextField_Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Placeholder.swift; sourceTree = "<group>"; };
+		137B73F827FB91E20027E61E /* TextField_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Alignment.swift; sourceTree = "<group>"; };
 		1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_ShowingProgress.swift; sourceTree = "<group>"; };
 		1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
 		1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
@@ -757,6 +759,7 @@
 			children = (
 				137B73F427FB8E7B0027E61E /* TextField_Intro.swift */,
 				137B73F627FB905C0027E61E /* TextField_Placeholder.swift */,
+				137B73F827FB91E20027E61E /* TextField_Alignment.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1311,6 +1314,7 @@
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
 				135294E227E57A9B00B29311 /* Stepper_LabelHidden.swift in Sources */,
 				13B8BC0427F4D89D004797DD /* Text_Tracking.swift in Sources */,
+				137B73F927FB91E20027E61E /* TextField_Alignment.swift in Sources */,
 				13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */,
 				13CC9D0527D0AE8B007E9F33 /* Menu_MaxItems.swift in Sources */,
 				13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */,
