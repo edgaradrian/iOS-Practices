@@ -77,6 +77,7 @@
 		137B73E827FA46500027E61E /* TextEditor_LineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73E727FA46500027E61E /* TextEditor_LineLimit.swift */; };
 		137B73EA27FA4AB70027E61E /* TextEditor_LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73E927FA4AB70027E61E /* TextEditor_LineSpacing.swift */; };
 		137B73EC27FA4E530027E61E /* TextEditor_CustomizingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73EB27FA4E530027E61E /* TextEditor_CustomizingText.swift */; };
+		137B73EE27FA4FFB0027E61E /* TextEditor_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B73ED27FA4FFB0027E61E /* TextEditor_Alignment.swift */; };
 		1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */; };
 		1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */; };
 		1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */; };
@@ -336,6 +337,7 @@
 		137B73E727FA46500027E61E /* TextEditor_LineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_LineLimit.swift; sourceTree = "<group>"; };
 		137B73E927FA4AB70027E61E /* TextEditor_LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_LineSpacing.swift; sourceTree = "<group>"; };
 		137B73EB27FA4E530027E61E /* TextEditor_CustomizingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_CustomizingText.swift; sourceTree = "<group>"; };
+		137B73ED27FA4FFB0027E61E /* TextEditor_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Alignment.swift; sourceTree = "<group>"; };
 		1383E5C027DACE9600C12E4D /* ProgressView_ShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_ShowingProgress.swift; sourceTree = "<group>"; };
 		1383E5C227DAD17600C12E4D /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
 		1383E5C427DAD2DB00C12E4D /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
@@ -759,6 +761,7 @@
 				137B73E727FA46500027E61E /* TextEditor_LineLimit.swift */,
 				137B73E927FA4AB70027E61E /* TextEditor_LineSpacing.swift */,
 				137B73EB27FA4E530027E61E /* TextEditor_CustomizingText.swift */,
+				137B73ED27FA4FFB0027E61E /* TextEditor_Alignment.swift */,
 			);
 			path = TextEditor;
 			sourceTree = "<group>";
@@ -1419,6 +1422,7 @@
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
 				13CC9D4C27D86318007E9F33 /* ProgressView_Intro.swift in Sources */,
 				13E8EF5627CAA92E00307F9A /* GroupBox_AsCards.swift in Sources */,
+				137B73EE27FA4FFB0027E61E /* TextEditor_Alignment.swift in Sources */,
 				1383E5C927DAF75900C12E4D /* ProgressView_Tint.swift in Sources */,
 				13EDD0A527DD896C005B4112 /* SecureField_Intro.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
