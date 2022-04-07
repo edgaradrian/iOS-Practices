@@ -101,6 +101,7 @@
 		1388947027F95F1000D288FA /* Text_AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388946F27F95F1000D288FA /* Text_AttributedString.swift */; };
 		1388947327F960D400D288FA /* TextEditor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388947227F960D400D288FA /* TextEditor_Intro.swift */; };
 		13917F5B27FF28B300CFA872 /* TextField_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F5A27FF28B300CFA872 /* TextField_Customizing.swift */; };
+		13917F5D27FF2DEB00CFA872 /* TextField_Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F5C27FF2DEB00CFA872 /* TextField_Border.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -368,6 +369,7 @@
 		1388946F27F95F1000D288FA /* Text_AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_AttributedString.swift; sourceTree = "<group>"; };
 		1388947227F960D400D288FA /* TextEditor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Intro.swift; sourceTree = "<group>"; };
 		13917F5A27FF28B300CFA872 /* TextField_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Customizing.swift; sourceTree = "<group>"; };
+		13917F5C27FF2DEB00CFA872 /* TextField_Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Border.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -766,6 +768,7 @@
 				137B73F827FB91E20027E61E /* TextField_Alignment.swift */,
 				137B73FA27FB94F80027E61E /* TextField_FontSize.swift */,
 				13917F5A27FF28B300CFA872 /* TextField_Customizing.swift */,
+				13917F5C27FF2DEB00CFA872 /* TextField_Border.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1221,6 +1224,7 @@
 				13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */,
 				13E8EF6D27CBE86100307F9A /* List_WithData.swift in Sources */,
 				13E8EF6F27CBE9EB00307F9A /* List_CustomRows.swift in Sources */,
+				13917F5D27FF2DEB00CFA872 /* TextField_Border.swift in Sources */,
 				1383E5D027DB04F000C12E4D /* ScrollView_Horizontal.swift in Sources */,
 				1388946627F94FFA00D288FA /* Text_TimeFormatting.swift in Sources */,
 				1356244E27F651B900C9EF73 /* Text_DateFormatting.swift in Sources */,
