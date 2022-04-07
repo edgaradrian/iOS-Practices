@@ -106,6 +106,7 @@
 		13917F6127FF36FE00CFA872 /* TextField_CustomComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6027FF36FE00CFA872 /* TextField_CustomComposition.swift */; };
 		13917F6327FF3B9F00CFA872 /* TextField_KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6227FF3B9F00CFA872 /* TextField_KeyboardType.swift */; };
 		13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6427FF3EA700CFA872 /* TextField_Autocorrection.swift */; };
+		13917F6727FF408200CFA872 /* TextField_Disabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6627FF408200CFA872 /* TextField_Disabled.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -378,6 +379,7 @@
 		13917F6027FF36FE00CFA872 /* TextField_CustomComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_CustomComposition.swift; sourceTree = "<group>"; };
 		13917F6227FF3B9F00CFA872 /* TextField_KeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_KeyboardType.swift; sourceTree = "<group>"; };
 		13917F6427FF3EA700CFA872 /* TextField_Autocorrection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Autocorrection.swift; sourceTree = "<group>"; };
+		13917F6627FF408200CFA872 /* TextField_Disabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Disabled.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -781,6 +783,7 @@
 				13917F6027FF36FE00CFA872 /* TextField_CustomComposition.swift */,
 				13917F6227FF3B9F00CFA872 /* TextField_KeyboardType.swift */,
 				13917F6427FF3EA700CFA872 /* TextField_Autocorrection.swift */,
+				13917F6627FF408200CFA872 /* TextField_Disabled.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1341,6 +1344,7 @@
 				13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */,
 				13CC9D0527D0AE8B007E9F33 /* Menu_MaxItems.swift in Sources */,
 				13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */,
+				13917F6727FF408200CFA872 /* TextField_Disabled.swift in Sources */,
 				13E8EEF327C5965200307F9A /* LazyVGrid_RowSpacing.swift in Sources */,
 				1362D53027B5216900695795 /* VStack_Intro.swift in Sources */,
 				13E8EF6627CAE70A00307F9A /* Link_Intro.swift in Sources */,
