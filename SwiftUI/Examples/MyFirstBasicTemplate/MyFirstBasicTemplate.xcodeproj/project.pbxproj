@@ -112,6 +112,7 @@
 		13917F6D2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6C2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift */; };
 		13917F6F2800ADF700CFA872 /* TextField_OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6E2800ADF700CFA872 /* TextField_OnChange.swift */; };
 		13917F712800AF7000CFA872 /* TextField_OnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F702800AF7000CFA872 /* TextField_OnSubmit.swift */; };
+		13917F732800C5A700CFA872 /* TextField_FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F722800C5A700CFA872 /* TextField_FocusState.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -390,6 +391,7 @@
 		13917F6C2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		13917F6E2800ADF700CFA872 /* TextField_OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_OnChange.swift; sourceTree = "<group>"; };
 		13917F702800AF7000CFA872 /* TextField_OnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_OnSubmit.swift; sourceTree = "<group>"; };
+		13917F722800C5A700CFA872 /* TextField_FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_FocusState.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -799,6 +801,7 @@
 				13917F6C2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift */,
 				13917F6E2800ADF700CFA872 /* TextField_OnChange.swift */,
 				13917F702800AF7000CFA872 /* TextField_OnSubmit.swift */,
+				13917F722800C5A700CFA872 /* TextField_FocusState.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1433,6 +1436,7 @@
 				13CC9D3027D65A0F007E9F33 /* NavigationLink_InToolbarWorkaround.swift in Sources */,
 				13CC9D0327D0AB24007E9F33 /* Menu_MenuPosition.swift in Sources */,
 				13E8EEDE27C2B77800307F9A /* LazyHGrid_Intro.swift in Sources */,
+				13917F732800C5A700CFA872 /* TextField_FocusState.swift in Sources */,
 				13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */,
