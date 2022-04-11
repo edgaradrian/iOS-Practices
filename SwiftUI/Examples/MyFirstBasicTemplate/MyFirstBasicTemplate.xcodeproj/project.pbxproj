@@ -118,6 +118,7 @@
 		13917F792804671300CFA872 /* TextField_NumberTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F782804671300CFA872 /* TextField_NumberTypes.swift */; };
 		13917F7C28046B7300CFA872 /* Toggle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F7B28046B7300CFA872 /* Toggle_Intro.swift */; };
 		13917F7E28046F3000CFA872 /* Toggle_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F7D28046F3000CFA872 /* Toggle_Color.swift */; };
+		13917F80280470F000CFA872 /* Toggle_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F7F280470F000CFA872 /* Toggle_Tint.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -402,6 +403,7 @@
 		13917F782804671300CFA872 /* TextField_NumberTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_NumberTypes.swift; sourceTree = "<group>"; };
 		13917F7B28046B7300CFA872 /* Toggle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_Intro.swift; sourceTree = "<group>"; };
 		13917F7D28046F3000CFA872 /* Toggle_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_Color.swift; sourceTree = "<group>"; };
+		13917F7F280470F000CFA872 /* Toggle_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_Tint.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -850,6 +852,7 @@
 			children = (
 				13917F7B28046B7300CFA872 /* Toggle_Intro.swift */,
 				13917F7D28046F3000CFA872 /* Toggle_Color.swift */,
+				13917F7F280470F000CFA872 /* Toggle_Tint.swift */,
 			);
 			path = Toggle;
 			sourceTree = "<group>";
@@ -1329,6 +1332,7 @@
 				13E8EEF527C5992F00307F9A /* LazyVGrid_Columns.swift in Sources */,
 				134CB35327DF87C9002BFADE /* SegmentedControl_NoSelected.swift in Sources */,
 				13CC9CE327CF3C19007E9F33 /* List_SafeAreaInset_ScrollView.swift in Sources */,
+				13917F80280470F000CFA872 /* Toggle_Tint.swift in Sources */,
 				13CC9CF827CF577D007E9F33 /* Menu_Intro.swift in Sources */,
 				13CC9CE927CF404D007E9F33 /* List_ListSectionSeparator.swift in Sources */,
 				13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */,
