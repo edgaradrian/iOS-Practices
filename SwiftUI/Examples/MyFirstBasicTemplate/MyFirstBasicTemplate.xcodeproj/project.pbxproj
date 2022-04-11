@@ -113,6 +113,7 @@
 		13917F6F2800ADF700CFA872 /* TextField_OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F6E2800ADF700CFA872 /* TextField_OnChange.swift */; };
 		13917F712800AF7000CFA872 /* TextField_OnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F702800AF7000CFA872 /* TextField_OnSubmit.swift */; };
 		13917F732800C5A700CFA872 /* TextField_FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F722800C5A700CFA872 /* TextField_FocusState.swift */; };
+		13917F75280460F600CFA872 /* TextField_FocusState_WithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F74280460F600CFA872 /* TextField_FocusState_WithEnum.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -392,6 +393,7 @@
 		13917F6E2800ADF700CFA872 /* TextField_OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_OnChange.swift; sourceTree = "<group>"; };
 		13917F702800AF7000CFA872 /* TextField_OnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_OnSubmit.swift; sourceTree = "<group>"; };
 		13917F722800C5A700CFA872 /* TextField_FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_FocusState.swift; sourceTree = "<group>"; };
+		13917F74280460F600CFA872 /* TextField_FocusState_WithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_FocusState_WithEnum.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -802,6 +804,7 @@
 				13917F6E2800ADF700CFA872 /* TextField_OnChange.swift */,
 				13917F702800AF7000CFA872 /* TextField_OnSubmit.swift */,
 				13917F722800C5A700CFA872 /* TextField_FocusState.swift */,
+				13917F74280460F600CFA872 /* TextField_FocusState_WithEnum.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1295,6 +1298,7 @@
 				13EDD09A27DD638A005B4112 /* Navigation_Searchable_Search.swift in Sources */,
 				13552C4427EC763600727B21 /* Text_FontDesign.swift in Sources */,
 				13CC9D4027D84DF9007E9F33 /* Picker_Customized.swift in Sources */,
+				13917F75280460F600CFA872 /* TextField_FocusState_WithEnum.swift in Sources */,
 				137B73F227FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */,
 				1388946A27F9565900D288FA /* Text_Currency.swift in Sources */,
