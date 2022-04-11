@@ -117,6 +117,7 @@
 		13917F772804642500CFA872 /* TextField_PersonNameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F762804642500CFA872 /* TextField_PersonNameComponents.swift */; };
 		13917F792804671300CFA872 /* TextField_NumberTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F782804671300CFA872 /* TextField_NumberTypes.swift */; };
 		13917F7C28046B7300CFA872 /* Toggle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F7B28046B7300CFA872 /* Toggle_Intro.swift */; };
+		13917F7E28046F3000CFA872 /* Toggle_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13917F7D28046F3000CFA872 /* Toggle_Color.swift */; };
 		1392028827BE02730078A01D /* ZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028727BE02730078A01D /* ZStack_Layering.swift */; };
 		1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028927BE04FC0078A01D /* ZStack_Aligning.swift */; };
 		1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392028C27BE08010078A01D /* Spacer_Intro.swift */; };
@@ -400,6 +401,7 @@
 		13917F762804642500CFA872 /* TextField_PersonNameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_PersonNameComponents.swift; sourceTree = "<group>"; };
 		13917F782804671300CFA872 /* TextField_NumberTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_NumberTypes.swift; sourceTree = "<group>"; };
 		13917F7B28046B7300CFA872 /* Toggle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_Intro.swift; sourceTree = "<group>"; };
+		13917F7D28046F3000CFA872 /* Toggle_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_Color.swift; sourceTree = "<group>"; };
 		1392028727BE02730078A01D /* ZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Layering.swift; sourceTree = "<group>"; };
 		1392028927BE04FC0078A01D /* ZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Aligning.swift; sourceTree = "<group>"; };
 		1392028C27BE08010078A01D /* Spacer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Intro.swift; sourceTree = "<group>"; };
@@ -847,6 +849,7 @@
 			isa = PBXGroup;
 			children = (
 				13917F7B28046B7300CFA872 /* Toggle_Intro.swift */,
+				13917F7D28046F3000CFA872 /* Toggle_Color.swift */,
 			);
 			path = Toggle;
 			sourceTree = "<group>";
@@ -1385,6 +1388,7 @@
 				135294E227E57A9B00B29311 /* Stepper_LabelHidden.swift in Sources */,
 				13B8BC0427F4D89D004797DD /* Text_Tracking.swift in Sources */,
 				137B73F927FB91E20027E61E /* TextField_Alignment.swift in Sources */,
+				13917F7E28046F3000CFA872 /* Toggle_Color.swift in Sources */,
 				13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */,
 				13CC9D0527D0AE8B007E9F33 /* Menu_MaxItems.swift in Sources */,
 				13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */,
