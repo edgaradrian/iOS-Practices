@@ -137,6 +137,7 @@
 		139ABCD4280A0C5C009E2C47 /* CircularShapes_Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCD3280A0C5C009E2C47 /* CircularShapes_Stroke.swift */; };
 		139ABCD6280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCD5280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift */; };
 		139ABCD8280DA66E009E2C47 /* CircularShapes_Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCD7280DA66E009E2C47 /* CircularShapes_Sizing.swift */; };
+		139ABCDA280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCD9280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift */; };
 		13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */; };
 		13B8BBF827F4CD8E004797DD /* Text_CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */; };
 		13B8BC0027F4D1B7004797DD /* Text_ImportedFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */; };
@@ -430,6 +431,7 @@
 		139ABCD3280A0C5C009E2C47 /* CircularShapes_Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Stroke.swift; sourceTree = "<group>"; };
 		139ABCD5280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_StrokeBorder.swift; sourceTree = "<group>"; };
 		139ABCD7280DA66E009E2C47 /* CircularShapes_Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Sizing.swift; sourceTree = "<group>"; };
+		139ABCD9280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_SizeModifier.swift; sourceTree = "<group>"; };
 		13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LayoutPriority.swift; sourceTree = "<group>"; };
 		13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CustomFonts.swift; sourceTree = "<group>"; };
 		13B8BBFC27F4D0A8004797DD /* Pirate of the Seaside Bubbles.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pirate of the Seaside Bubbles.ttf"; sourceTree = "<group>"; };
@@ -893,6 +895,7 @@
 				139ABCD3280A0C5C009E2C47 /* CircularShapes_Stroke.swift */,
 				139ABCD5280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift */,
 				139ABCD7280DA66E009E2C47 /* CircularShapes_Sizing.swift */,
+				139ABCD9280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift */,
 			);
 			path = CircularShapes;
 			sourceTree = "<group>";
@@ -1496,6 +1499,7 @@
 				135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */,
 				13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */,
 				139ABCD6280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift in Sources */,
+				139ABCDA280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift in Sources */,
 				13917F5B27FF28B300CFA872 /* TextField_Customizing.swift in Sources */,
 				13E8EF0E27C6F27B00307F9A /* Button_Intro.swift in Sources */,
 				13E8EF6327CAE55000307F9A /* Label_HideShowComponents.swift in Sources */,
