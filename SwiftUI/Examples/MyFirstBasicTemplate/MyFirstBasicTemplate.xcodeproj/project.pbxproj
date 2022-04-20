@@ -145,6 +145,7 @@
 		139ABCE5280DB7A5009E2C47 /* Color_AsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCE4280DB7A5009E2C47 /* Color_AsBackground.swift */; };
 		139ABCE7280F37DD009E2C47 /* Color_Light_Dark_Modes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCE6280F37DD009E2C47 /* Color_Light_Dark_Modes.swift */; };
 		139ABCE9280F3981009E2C47 /* Color_OtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCE8280F3981009E2C47 /* Color_OtherSystemColors.swift */; };
+		139ABCEB281071FC009E2C47 /* Color_SecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCEA281071FC009E2C47 /* Color_SecondaryStacking.swift */; };
 		13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */; };
 		13B8BBF827F4CD8E004797DD /* Text_CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */; };
 		13B8BC0027F4D1B7004797DD /* Text_ImportedFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */; };
@@ -446,6 +447,7 @@
 		139ABCE4280DB7A5009E2C47 /* Color_AsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_AsBackground.swift; sourceTree = "<group>"; };
 		139ABCE6280F37DD009E2C47 /* Color_Light_Dark_Modes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Light_Dark_Modes.swift; sourceTree = "<group>"; };
 		139ABCE8280F3981009E2C47 /* Color_OtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_OtherSystemColors.swift; sourceTree = "<group>"; };
+		139ABCEA281071FC009E2C47 /* Color_SecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_SecondaryStacking.swift; sourceTree = "<group>"; };
 		13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LayoutPriority.swift; sourceTree = "<group>"; };
 		13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CustomFonts.swift; sourceTree = "<group>"; };
 		13B8BBFC27F4D0A8004797DD /* Pirate of the Seaside Bubbles.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pirate of the Seaside Bubbles.ttf"; sourceTree = "<group>"; };
@@ -950,6 +952,7 @@
 				139ABCE4280DB7A5009E2C47 /* Color_AsBackground.swift */,
 				139ABCE6280F37DD009E2C47 /* Color_Light_Dark_Modes.swift */,
 				139ABCE8280F3981009E2C47 /* Color_OtherSystemColors.swift */,
+				139ABCEA281071FC009E2C47 /* Color_SecondaryStacking.swift */,
 			);
 			path = Color;
 			sourceTree = "<group>";
@@ -1544,6 +1547,7 @@
 				13E8EF5927CAABBD00307F9A /* Label_Problem.swift in Sources */,
 				13E8EEEE27C4BC5D00307F9A /* LazyHGrid_VerticalAlignment.swift in Sources */,
 				1392028D27BE08010078A01D /* Spacer_Intro.swift in Sources */,
+				139ABCEB281071FC009E2C47 /* Color_SecondaryStacking.swift in Sources */,
 				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				13E8EF6B27CB079D00307F9A /* List_WithStaticViews.swift in Sources */,
 				13CC9D1427D20F2B007E9F33 /* Navigation_NavBarItems.swift in Sources */,
