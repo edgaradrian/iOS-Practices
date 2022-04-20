@@ -149,6 +149,7 @@
 		139ABCED2810754F009E2C47 /* Color_ColorMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCEC2810754F009E2C47 /* Color_ColorMultiply.swift */; };
 		139ABCEF28107794009E2C47 /* Color_OpacityAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCEE28107794009E2C47 /* Color_OpacityAlpha.swift */; };
 		139ABCF128107A02009E2C47 /* Color_ColorInvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCF028107A02009E2C47 /* Color_ColorInvert.swift */; };
+		139ABCF428107C5B009E2C47 /* Divider_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139ABCF328107C5B009E2C47 /* Divider_Intro.swift */; };
 		13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */; };
 		13B8BBF827F4CD8E004797DD /* Text_CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */; };
 		13B8BC0027F4D1B7004797DD /* Text_ImportedFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8BBFF27F4D1B7004797DD /* Text_ImportedFonts.swift */; };
@@ -454,6 +455,7 @@
 		139ABCEC2810754F009E2C47 /* Color_ColorMultiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_ColorMultiply.swift; sourceTree = "<group>"; };
 		139ABCEE28107794009E2C47 /* Color_OpacityAlpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_OpacityAlpha.swift; sourceTree = "<group>"; };
 		139ABCF028107A02009E2C47 /* Color_ColorInvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_ColorInvert.swift; sourceTree = "<group>"; };
+		139ABCF328107C5B009E2C47 /* Divider_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider_Intro.swift; sourceTree = "<group>"; };
 		13B8BBF527F4CC08004797DD /* Text_LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LayoutPriority.swift; sourceTree = "<group>"; };
 		13B8BBF727F4CD8E004797DD /* Text_CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CustomFonts.swift; sourceTree = "<group>"; };
 		13B8BBFC27F4D0A8004797DD /* Pirate of the Seaside Bubbles.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pirate of the Seaside Bubbles.ttf"; sourceTree = "<group>"; };
@@ -754,6 +756,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				139ABCF228107C3C009E2C47 /* Divider */,
 				139ABCE1280DB52C009E2C47 /* Color */,
 				13917F8628047B9600CFA872 /* CircularShapes */,
 				13917F832804780300CFA872 /* Canvas */,
@@ -964,6 +967,14 @@
 				139ABCF028107A02009E2C47 /* Color_ColorInvert.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		139ABCF228107C3C009E2C47 /* Divider */ = {
+			isa = PBXGroup;
+			children = (
+				139ABCF328107C5B009E2C47 /* Divider_Intro.swift */,
+			);
+			path = Divider;
 			sourceTree = "<group>";
 		};
 		13B8BBF927F4D07A004797DD /* Fonts */ = {
@@ -1502,6 +1513,7 @@
 				13E8EF3127C9360500307F9A /* DatePicker_DisplayedComponents.swift in Sources */,
 				13B8BC1627F64EAF004797DD /* Text_Forrmat.swift in Sources */,
 				13CC9CA627CD74CB007E9F33 /* List_ListStyle_SideBar.swift in Sources */,
+				139ABCF428107C5B009E2C47 /* Divider_Intro.swift in Sources */,
 				13EDD0A227DD784E005B4112 /* Navigation_Filter_Grid.swift in Sources */,
 				13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */,
 				13E8EF4F27CAA23300307F9A /* Form_WithDisclosureGroup.swift in Sources */,
