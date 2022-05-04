@@ -59,6 +59,7 @@
 		13613AB12821AA36007B4606 /* Image_SymbolsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AB02821AA36007B4606 /* Image_SymbolsIntro.swift */; };
 		13613AB32821ACF7007B4606 /* Image_SymbolSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AB22821ACF7007B4606 /* Image_SymbolSizing.swift */; };
 		13613AB52821C1F1007B4606 /* Image_FromSymbolsWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AB42821C1F1007B4606 /* Image_FromSymbolsWithColor.swift */; };
+		13613AB7282201FB007B4606 /* Image_SymbolVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AB6282201FB007B4606 /* Image_SymbolVariant.swift */; };
 		1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */; };
 		1362D51C27B2B88F00695795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362D51B27B2B88F00695795 /* ContentView.swift */; };
 		1362D51E27B2B89100695795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1362D51D27B2B89100695795 /* Assets.xcassets */; };
@@ -374,6 +375,7 @@
 		13613AB02821AA36007B4606 /* Image_SymbolsIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolsIntro.swift; sourceTree = "<group>"; };
 		13613AB22821ACF7007B4606 /* Image_SymbolSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolSizing.swift; sourceTree = "<group>"; };
 		13613AB42821C1F1007B4606 /* Image_FromSymbolsWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_FromSymbolsWithColor.swift; sourceTree = "<group>"; };
+		13613AB6282201FB007B4606 /* Image_SymbolVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolVariant.swift; sourceTree = "<group>"; };
 		1362D51627B2B88F00695795 /* MyFirstBasicTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstBasicTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1362D51927B2B88F00695795 /* MyFirstBasicTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstBasicTemplateApp.swift; sourceTree = "<group>"; };
 		1362D51B27B2B88F00695795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1019,6 +1021,7 @@
 				13613AB02821AA36007B4606 /* Image_SymbolsIntro.swift */,
 				13613AB22821ACF7007B4606 /* Image_SymbolSizing.swift */,
 				13613AB42821C1F1007B4606 /* Image_FromSymbolsWithColor.swift */,
+				13613AB6282201FB007B4606 /* Image_SymbolVariant.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1514,6 +1517,7 @@
 				137B73F527FB8E7B0027E61E /* TextField_Intro.swift in Sources */,
 				139ABCE7280F37DD009E2C47 /* Color_Light_Dark_Modes.swift in Sources */,
 				13917F6327FF3B9F00CFA872 /* TextField_KeyboardType.swift in Sources */,
+				13613AB7282201FB007B4606 /* Image_SymbolVariant.swift in Sources */,
 				13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */,
 				13E8EF3727C93E4600307F9A /* DatePicker_CustomSelector.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
