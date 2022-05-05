@@ -64,6 +64,7 @@
 		135A33CC282426D90073B2C5 /* Path_Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A33CB282426D90073B2C5 /* Path_Curve.swift */; };
 		135A33CE282427C10073B2C5 /* CurvedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A33CD282427C10073B2C5 /* CurvedShape.swift */; };
 		135A33D028242D380073B2C5 /* RoundedBottomRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A33CF28242D380073B2C5 /* RoundedBottomRectangle.swift */; };
+		135A33D228242E750073B2C5 /* Path_QuadCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A33D128242E750073B2C5 /* Path_QuadCurve.swift */; };
 		13613AAD2821A25E007B4606 /* Image_ScaledMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AAC2821A25E007B4606 /* Image_ScaledMetric.swift */; };
 		13613AAF2821A4C6007B4606 /* Image_ClipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AAE2821A4C6007B4606 /* Image_ClipShape.swift */; };
 		13613AB12821AA36007B4606 /* Image_SymbolsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13613AB02821AA36007B4606 /* Image_SymbolsIntro.swift */; };
@@ -390,6 +391,7 @@
 		135A33CB282426D90073B2C5 /* Path_Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_Curve.swift; sourceTree = "<group>"; };
 		135A33CD282427C10073B2C5 /* CurvedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedShape.swift; sourceTree = "<group>"; };
 		135A33CF28242D380073B2C5 /* RoundedBottomRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBottomRectangle.swift; sourceTree = "<group>"; };
+		135A33D128242E750073B2C5 /* Path_QuadCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_QuadCurve.swift; sourceTree = "<group>"; };
 		13613AAC2821A25E007B4606 /* Image_ScaledMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_ScaledMetric.swift; sourceTree = "<group>"; };
 		13613AAE2821A4C6007B4606 /* Image_ClipShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_ClipShape.swift; sourceTree = "<group>"; };
 		13613AB02821AA36007B4606 /* Image_SymbolsIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolsIntro.swift; sourceTree = "<group>"; };
@@ -788,6 +790,7 @@
 				135A33CB282426D90073B2C5 /* Path_Curve.swift */,
 				135A33CD282427C10073B2C5 /* CurvedShape.swift */,
 				135A33CF28242D380073B2C5 /* RoundedBottomRectangle.swift */,
+				135A33D128242E750073B2C5 /* Path_QuadCurve.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1457,6 +1460,7 @@
 				13917F6D2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift in Sources */,
 				13E8EF3E27C949A600307F9A /* DisclosureGroup_WithCustomLabel.swift in Sources */,
 				13B8BC1427F64B56004797DD /* Text_TextSelection.swift in Sources */,
+				135A33D228242E750073B2C5 /* Path_QuadCurve.swift in Sources */,
 				13E8EEF727C59BC000307F9A /* LazyVGrid_FixedSize.swift in Sources */,
 				13CC9D1627D2122A007E9F33 /* NavigationView_BackButtonHidden.swift in Sources */,
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
