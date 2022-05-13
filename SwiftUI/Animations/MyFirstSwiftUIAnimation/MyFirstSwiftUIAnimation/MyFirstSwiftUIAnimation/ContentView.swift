@@ -17,6 +17,7 @@ struct ContentView: View {
                 .scaleEffect(0.5)
                 .foregroundColor(colours[currentOffset])
                 .animation(.default, value: self.currentOffset)
+                .offset(x: offsets[currentOffset].x, y: offsets[currentOffset].y)
         }
         .onAppear {
             
@@ -43,4 +44,13 @@ let colours: [Color] = [
     Color.purple,
     Color.pink,
     Color.cyan
+]
+
+let offsets: [CGPoint] = [
+    CGPoint(x: 0, y: 0),
+    CGPoint(x: 80, y: 0),
+    CGPoint(x: 80, y: -80),
+    CGPoint(x: -80, y: -80),
+    CGPoint(x: -80, y: 0),
+    CGPoint(x: 0, y: 0)
 ]
