@@ -26,7 +26,7 @@ struct PackerView: View {
                 GeometryReader { geometry in
                     Image("greenbay")
                         .resizable()
-                        .position(x: self.zoomed ? 190 : 200, y: self.zoomed ? 30 : 220)
+                        .position(x: self.zoomed ? geometry.frame(in: .local).midX : 200, y: self.zoomed ? 30 : 220)
                         .scaleEffect(self.zoomed ? 1 : 0.33)
                         .rotationEffect(self.zoomed ? Angle.degrees(90) : Angle.degrees(0))
                         .shadow(radius: 10)
