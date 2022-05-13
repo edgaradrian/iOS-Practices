@@ -23,15 +23,18 @@ struct PackerView: View {
                     Spacer()
                 }
                 
-                Image("greenbay")
-                    .resizable()
-                    .position(x: self.zoomed ? 190 : 200, y: self.zoomed ? 30 : 220)
-                    .scaleEffect(self.zoomed ? 1 : 0.33)
-                    .shadow(radius: 10)
-                    .animation(.default, value: self.zoomed)
-                    .onTapGesture {
-                        self.zoomed.toggle()
-                    }
+                GeometryReader { geometry in
+                    Image("greenbay")
+                        .resizable()
+                        .position(x: self.zoomed ? 190 : 200, y: self.zoomed ? 30 : 220)
+                        .scaleEffect(self.zoomed ? 1 : 0.33)
+                        .rotationEffect(self.zoomed ? Angle.degrees(90) : Angle.degrees(0))
+                        .shadow(radius: 10)
+                        .animation(.default, value: self.zoomed)
+                        .onTapGesture {
+                            self.zoomed.toggle()
+                        }
+                }
                 
             }
             .background(Color(red: 0.1, green: 0.1, blue: 0.1))
