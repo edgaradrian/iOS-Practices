@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct PackerView: View {
+    @State private var zoomed = false
+    
     var body: some View {
         VStack(spacing: 0) {
             StadiumImage(name: "Lambeau")
@@ -23,9 +25,13 @@ struct PackerView: View {
                 
                 Image("greenbay")
                     .resizable()
-                    .position(x: 200, y: 220)
-                    .scaleEffect(0.33)
+                    .position(x: self.zoomed ? 190 : 200, y: self.zoomed ? 30 : 220)
+                    .scaleEffect(self.zoomed ? 1 : 0.33)
                     .shadow(radius: 10)
+                    .animation(.default, value: self.zoomed)
+                    .onTapGesture {
+                        self.zoomed.toggle()
+                    }
                 
             }
             .background(Color(red: 0.1, green: 0.1, blue: 0.1))
