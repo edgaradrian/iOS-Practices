@@ -29,6 +29,6 @@ struct PackerTitle: View {
 
 struct PackerTitle_Previews: PreviewProvider {
     static var previews: some View {
-        PackerTitle(title: "Green Bay Packers", caption: "Wisconsin")
+        PackerTitle(title: "Green Bay Packers", caption: "")
     }
 }
