@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var colour = Color.cyan
+    
     var body: some View {
         ZStack {
             Circle()
                 .scaleEffect(0.5)
-                .foregroundColor(.cyan)
+                .foregroundColor(colour)
         }
         .onAppear {
-            
+            delay(seconds: 2) {
+                self.colour = .yellow
+            }
         }
     }
 }
