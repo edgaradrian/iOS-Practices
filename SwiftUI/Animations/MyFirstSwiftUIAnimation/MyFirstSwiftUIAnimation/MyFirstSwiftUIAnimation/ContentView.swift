@@ -15,6 +15,7 @@ struct ContentView: View {
             Circle()
                 .scaleEffect(0.5)
                 .foregroundColor(colour)
+                .animation(.default, value: colour)
         }
         .onAppear {
             delay(seconds: 2) {
