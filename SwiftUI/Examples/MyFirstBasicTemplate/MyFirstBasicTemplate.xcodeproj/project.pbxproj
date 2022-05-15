@@ -336,6 +336,7 @@
 		5C02E63728316C4F005AB138 /* HalfCircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */; };
 		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
+		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -672,6 +673,7 @@
 		5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleProgress.swift; sourceTree = "<group>"; };
 		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -806,6 +808,7 @@
 				5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */,
 				5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */,
 				5C02E63A28318359005AB138 /* RoundedCorners.swift */,
+				5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1755,6 +1758,7 @@
 				13CC9D2627D360FA007E9F33 /* NavigationLink_WithIsActive.swift in Sources */,
 				13E8EF6827CB048900307F9A /* Link_Customization.swift in Sources */,
 				13CC9D2227D35BD7007E9F33 /* Navigationlink_CustomBackground.swift in Sources */,
+				5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */,
 				13CC9CE727CF3EDF007E9F33 /* List_ListRowSeparator.swift in Sources */,
 				1392028F27BEB5990078A01D /* Spacer_MinimumLength.swift in Sources */,
 				13E8EEE627C4B26F00307F9A /* LazyHGrid_FlexibleHeight.swift in Sources */,
