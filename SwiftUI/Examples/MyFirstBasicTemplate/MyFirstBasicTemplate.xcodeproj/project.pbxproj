@@ -333,6 +333,7 @@
 		13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */; };
 		5C02E633283165D3005AB138 /* DomeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E632283165D3005AB138 /* DomeShape.swift */; };
 		5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E634283166A8005AB138 /* Path_RelativeArc.swift */; };
+		5C02E63728316C4F005AB138 /* HalfCircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -666,6 +667,7 @@
 		13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_BackgroundSolution.swift; sourceTree = "<group>"; };
 		5C02E632283165D3005AB138 /* DomeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeShape.swift; sourceTree = "<group>"; };
 		5C02E634283166A8005AB138 /* Path_RelativeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc.swift; sourceTree = "<group>"; };
+		5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -797,6 +799,7 @@
 				135A33D128242E750073B2C5 /* Path_QuadCurve.swift */,
 				5C02E632283165D3005AB138 /* DomeShape.swift */,
 				5C02E634283166A8005AB138 /* Path_RelativeArc.swift */,
+				5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1622,6 +1625,7 @@
 				13CC9CA627CD74CB007E9F33 /* List_ListStyle_SideBar.swift in Sources */,
 				139ABCF428107C5B009E2C47 /* Divider_Intro.swift in Sources */,
 				13EDD0A227DD784E005B4112 /* Navigation_Filter_Grid.swift in Sources */,
+				5C02E63728316C4F005AB138 /* HalfCircleProgress.swift in Sources */,
 				139ABCFE28190B49009E2C47 /* Image_FromAssetCatalog.swift in Sources */,
 				13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */,
 				13E8EF4F27CAA23300307F9A /* Form_WithDisclosureGroup.swift in Sources */,
