@@ -334,6 +334,7 @@
 		5C02E633283165D3005AB138 /* DomeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E632283165D3005AB138 /* DomeShape.swift */; };
 		5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E634283166A8005AB138 /* Path_RelativeArc.swift */; };
 		5C02E63728316C4F005AB138 /* HalfCircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */; };
+		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -668,6 +669,7 @@
 		5C02E632283165D3005AB138 /* DomeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeShape.swift; sourceTree = "<group>"; };
 		5C02E634283166A8005AB138 /* Path_RelativeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc.swift; sourceTree = "<group>"; };
 		5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleProgress.swift; sourceTree = "<group>"; };
+		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -800,6 +802,7 @@
 				5C02E632283165D3005AB138 /* DomeShape.swift */,
 				5C02E634283166A8005AB138 /* Path_RelativeArc.swift */,
 				5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */,
+				5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1741,6 +1744,7 @@
 				135294ED27E588E000B29311 /* TabView_TabItems.swift in Sources */,
 				135A33CC282426D90073B2C5 /* Path_Curve.swift in Sources */,
 				13CC9D2027D358E1007E9F33 /* NavigationLink_Customization.swift in Sources */,
+				5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */,
 				13CC9CA827CD7638007E9F33 /* List_HeaderFooter_Intro.swift in Sources */,
 				139ABCF128107A02009E2C47 /* Color_ColorInvert.swift in Sources */,
 				13CC9CA227CD6BD5007E9F33 /* List_ListStyle_Automatic.swift in Sources */,
