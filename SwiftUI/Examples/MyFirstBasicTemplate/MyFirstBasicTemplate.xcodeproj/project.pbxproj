@@ -331,6 +331,7 @@
 		13FB4D4527BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4427BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift */; };
 		13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4627BD681400B0E8C9 /* ZStack_Background_Problem.swift */; };
 		13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */; };
+		5C02E633283165D3005AB138 /* DomeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E632283165D3005AB138 /* DomeShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -662,6 +663,7 @@
 		13FB4D4427BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_IgnoresSafeArea.swift; sourceTree = "<group>"; };
 		13FB4D4627BD681400B0E8C9 /* ZStack_Background_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Background_Problem.swift; sourceTree = "<group>"; };
 		13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_BackgroundSolution.swift; sourceTree = "<group>"; };
+		5C02E632283165D3005AB138 /* DomeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -791,6 +793,7 @@
 				135A33CD282427C10073B2C5 /* CurvedShape.swift */,
 				135A33CF28242D380073B2C5 /* RoundedBottomRectangle.swift */,
 				135A33D128242E750073B2C5 /* Path_QuadCurve.swift */,
+				5C02E632283165D3005AB138 /* DomeShape.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1492,6 +1495,7 @@
 				13917F772804642500CFA872 /* TextField_PersonNameComponents.swift in Sources */,
 				13E8EF2D27C9293C00307F9A /* DatePicker_Intro.swift in Sources */,
 				1383E5D227DB095300C12E4D /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */,
+				5C02E633283165D3005AB138 /* DomeShape.swift in Sources */,
 				13CC9D0727D0AFFB007E9F33 /* Menu_OtherViewsWithin.swift in Sources */,
 				137B73EA27FA4AB70027E61E /* TextEditor_LineSpacing.swift in Sources */,
 				13E8EEF127C4C18700307F9A /* LazyVGrid_Introduction.swift in Sources */,
