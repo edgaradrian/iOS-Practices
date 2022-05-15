@@ -332,6 +332,7 @@
 		13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4627BD681400B0E8C9 /* ZStack_Background_Problem.swift */; };
 		13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */; };
 		5C02E633283165D3005AB138 /* DomeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E632283165D3005AB138 /* DomeShape.swift */; };
+		5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E634283166A8005AB138 /* Path_RelativeArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -664,6 +665,7 @@
 		13FB4D4627BD681400B0E8C9 /* ZStack_Background_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Background_Problem.swift; sourceTree = "<group>"; };
 		13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_BackgroundSolution.swift; sourceTree = "<group>"; };
 		5C02E632283165D3005AB138 /* DomeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeShape.swift; sourceTree = "<group>"; };
+		5C02E634283166A8005AB138 /* Path_RelativeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -794,6 +796,7 @@
 				135A33CF28242D380073B2C5 /* RoundedBottomRectangle.swift */,
 				135A33D128242E750073B2C5 /* Path_QuadCurve.swift */,
 				5C02E632283165D3005AB138 /* DomeShape.swift */,
+				5C02E634283166A8005AB138 /* Path_RelativeArc.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1729,6 +1732,7 @@
 				13E8EF4327C9511500307F9A /* Form_Intro.swift in Sources */,
 				13E8EF7127CBEEBF00307F9A /* List_MoveRow.swift in Sources */,
 				13E8EF1027C6F67100307F9A /* Button_TextModifiers.swift in Sources */,
+				5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */,
 				134CB35527DF8AE4002BFADE /* Segmented_Colors.swift in Sources */,
 				135294ED27E588E000B29311 /* TabView_TabItems.swift in Sources */,
 				135A33CC282426D90073B2C5 /* Path_Curve.swift in Sources */,
