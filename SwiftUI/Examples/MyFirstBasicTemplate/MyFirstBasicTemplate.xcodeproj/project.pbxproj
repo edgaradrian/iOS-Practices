@@ -339,6 +339,7 @@
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
+		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -678,6 +679,7 @@
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
+		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1413,6 +1415,7 @@
 			children = (
 				5C9A965928329D9600769839 /* Rectangular_Intro.swift */,
 				5C9A965B28329F7600769839 /* Rectangular_Colors.swift */,
+				5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */,
 			);
 			path = RectangularShapes;
 			sourceTree = "<group>";
@@ -1793,6 +1796,7 @@
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
 				5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */,
+				5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */,
 				13B8BC0C27F4E6F2004797DD /* Text_ScaledMetric_RelativeTo.swift in Sources */,
 				13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */,
 				135294EB27E5874C00B29311 /* TabView_Intro.swift in Sources */,
