@@ -337,6 +337,7 @@
 		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
+		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -674,6 +675,7 @@
 		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
+		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -832,6 +834,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5C9A965828329C2F00769839 /* RectangularShapes */,
 				135A33C4282389040073B2C5 /* Path */,
 				139ABCFC28190B0D009E2C47 /* Image */,
 				139ABCF7281905C7009E2C47 /* Group */,
@@ -1403,6 +1406,14 @@
 			path = ZStack;
 			sourceTree = "<group>";
 		};
+		5C9A965828329C2F00769839 /* RectangularShapes */ = {
+			isa = PBXGroup;
+			children = (
+				5C9A965928329D9600769839 /* Rectangular_Intro.swift */,
+			);
+			path = RectangularShapes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1777,6 +1788,7 @@
 				13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
+				5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */,
 				13B8BC0C27F4E6F2004797DD /* Text_ScaledMetric_RelativeTo.swift in Sources */,
 				13E8EF7527CBF2B700307F9A /* List_Selection_Single.swift in Sources */,
 				135294EB27E5874C00B29311 /* TabView_Intro.swift in Sources */,
