@@ -338,6 +338,7 @@
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
+		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -676,6 +677,7 @@
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
+		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1410,6 +1412,7 @@
 			isa = PBXGroup;
 			children = (
 				5C9A965928329D9600769839 /* Rectangular_Intro.swift */,
+				5C9A965B28329F7600769839 /* Rectangular_Colors.swift */,
 			);
 			path = RectangularShapes;
 			sourceTree = "<group>";
@@ -1598,6 +1601,7 @@
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
 				13CC9CF327CF54BB007E9F33 /* List_SwipeActions_Options.swift in Sources */,
 				1383E5CE27DB021200C12E4D /* ScrollView_SafeAreaInset.swift in Sources */,
+				5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */,
 				13E8EF1227C7CCC900307F9A /* Button_EffectModifiers.swift in Sources */,
 				1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
