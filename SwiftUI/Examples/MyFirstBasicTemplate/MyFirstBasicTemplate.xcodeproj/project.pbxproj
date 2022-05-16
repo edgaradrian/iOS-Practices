@@ -340,6 +340,7 @@
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
+		5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -680,6 +681,7 @@
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
+		5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_StrokeBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1416,6 +1418,7 @@
 				5C9A965928329D9600769839 /* Rectangular_Intro.swift */,
 				5C9A965B28329F7600769839 /* Rectangular_Colors.swift */,
 				5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */,
+				5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */,
 			);
 			path = RectangularShapes;
 			sourceTree = "<group>";
@@ -1760,6 +1763,7 @@
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
 				13E8EEFF27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift in Sources */,
+				5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */,
 				134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */,
 				13E8EF4327C9511500307F9A /* Form_Intro.swift in Sources */,
 				13E8EF7127CBEEBF00307F9A /* List_MoveRow.swift in Sources */,
