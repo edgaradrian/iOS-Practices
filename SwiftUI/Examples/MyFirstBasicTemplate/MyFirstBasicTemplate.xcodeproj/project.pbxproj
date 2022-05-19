@@ -348,6 +348,7 @@
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
 		5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */; };
 		5C9A96622832ECB400769839 /* RectangularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */; };
+		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -696,6 +697,7 @@
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
 		5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_StrokeBorder.swift; sourceTree = "<group>"; };
 		5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_SizeModifier.swift; sourceTree = "<group>"; };
+		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1441,6 +1443,7 @@
 			isa = PBXGroup;
 			children = (
 				5C3C16CD2834220700660834 /* AngularGradient_Introduction.swift */,
+				5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */,
 			);
 			path = AngularGradient;
 			sourceTree = "<group>";
@@ -1863,6 +1866,7 @@
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13917F8A2807444F00CFA872 /* Capsule_RoundedCornerStyle.swift in Sources */,
 				13B8BC0227F4D525004797DD /* Text_CapitalLetterOptions.swift in Sources */,
+				5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */,
 				135294F127E58C9E00B29311 /* TabView_Navigating.swift in Sources */,
 				13E8EF0627C6E74F00307F9A /* ScrollViewReader_Anchor.swift in Sources */,
 				13552C4A27F10D9A00727B21 /* Text_MinimumScaleFactor.swift in Sources */,
