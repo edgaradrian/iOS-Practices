@@ -349,6 +349,7 @@
 		5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */; };
 		5C9A96622832ECB400769839 /* RectangularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
+		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -698,6 +699,7 @@
 		5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_StrokeBorder.swift; sourceTree = "<group>"; };
 		5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_SizeModifier.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
+		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1444,6 +1446,7 @@
 			children = (
 				5C3C16CD2834220700660834 /* AngularGradient_Introduction.swift */,
 				5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */,
+				5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */,
 			);
 			path = AngularGradient;
 			sourceTree = "<group>";
@@ -1634,6 +1637,7 @@
 				13CC9D4227D85699007E9F33 /* Picker_RowsWithImages.swift in Sources */,
 				1362D53827B6C00000695795 /* LazyVStack_Intro.swift in Sources */,
 				13CC9CFF27D0A0B5007E9F33 /* Menu_InsideMenu.swift in Sources */,
+				5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */,
 				13552C4027EC728600727B21 /* Text_Weights.swift in Sources */,
 				134CB34A27DF7D05002BFADE /* SecureField_Customizations.swift in Sources */,
 				135294DD27E1ED9800B29311 /* Slider_Tint.swift in Sources */,
