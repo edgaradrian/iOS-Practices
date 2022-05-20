@@ -345,6 +345,7 @@
 		5C3C16CE2834220700660834 /* AngularGradient_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16CD2834220700660834 /* AngularGradient_Introduction.swift */; };
 		5C5C891B2837CF4F0078FE4D /* EllipticalGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */; };
 		5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */; };
+		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -699,6 +700,7 @@
 		5C3C16CD2834220700660834 /* AngularGradient_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_Introduction.swift; sourceTree = "<group>"; };
 		5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_Intro.swift; sourceTree = "<group>"; };
 		5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
+		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1466,6 +1468,7 @@
 			children = (
 				5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */,
 				5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */,
+				5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */,
 			);
 			path = EllipticalGradient;
 			sourceTree = "<group>";
@@ -1738,6 +1741,7 @@
 				13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */,
 				13E8EF4F27CAA23300307F9A /* Form_WithDisclosureGroup.swift in Sources */,
 				1392029C27C0B3450078A01D /* GeometryReader_Positioning.swift in Sources */,
+				5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */,
 				13E8EF2827C9254B00307F9A /* ColorPicker_Intro.swift in Sources */,
 				13EDD09C27DD6966005B4112 /* Navigation_Searchable_Cancel.swift in Sources */,
 				13B8BC0E27F4EEF0004797DD /* Text_WrappingImages.swift in Sources */,
