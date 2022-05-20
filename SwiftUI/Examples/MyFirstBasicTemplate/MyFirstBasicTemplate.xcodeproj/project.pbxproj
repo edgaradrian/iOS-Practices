@@ -350,6 +350,7 @@
 		5C9A96622832ECB400769839 /* RectangularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
+		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -700,6 +701,7 @@
 		5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_SizeModifier.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
+		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -858,6 +860,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5CFFB805283710B3000D28EF /* ConicGradient */,
 				5C3C16CC283421D300660834 /* AngularGradient */,
 				5C3C16C928341DEB00660834 /* Inset */,
 				5C9A965828329C2F00769839 /* RectangularShapes */,
@@ -1466,6 +1469,14 @@
 			path = RectangularShapes;
 			sourceTree = "<group>";
 		};
+		5CFFB805283710B3000D28EF /* ConicGradient */ = {
+			isa = PBXGroup;
+			children = (
+				5CFFB806283711E5000D28EF /* Conic_Intro.swift */,
+			);
+			path = ConicGradient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1545,6 +1556,7 @@
 				13E8EEF727C59BC000307F9A /* LazyVGrid_FixedSize.swift in Sources */,
 				13CC9D1627D2122A007E9F33 /* NavigationView_BackButtonHidden.swift in Sources */,
 				1362D51C27B2B88F00695795 /* ContentView.swift in Sources */,
+				5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */,
 				13E8EF5427CAA6DA00307F9A /* GroupBox_WithLabel.swift in Sources */,
 				13CC9CF527CF5659007E9F33 /* List_Badges.swift in Sources */,
 				139ABCD8280DA66E009E2C47 /* CircularShapes_Sizing.swift in Sources */,
