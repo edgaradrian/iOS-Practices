@@ -351,6 +351,7 @@
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
+		5CFFB80928371522000D28EF /* ConicGradient_Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80828371522000D28EF /* ConicGradient_Angle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -702,6 +703,7 @@
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
+		5CFFB80828371522000D28EF /* ConicGradient_Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConicGradient_Angle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1473,6 +1475,7 @@
 			isa = PBXGroup;
 			children = (
 				5CFFB806283711E5000D28EF /* Conic_Intro.swift */,
+				5CFFB80828371522000D28EF /* ConicGradient_Angle.swift */,
 			);
 			path = ConicGradient;
 			sourceTree = "<group>";
@@ -1658,6 +1661,7 @@
 				137B73F527FB8E7B0027E61E /* TextField_Intro.swift in Sources */,
 				139ABCE7280F37DD009E2C47 /* Color_Light_Dark_Modes.swift in Sources */,
 				13917F6327FF3B9F00CFA872 /* TextField_KeyboardType.swift in Sources */,
+				5CFFB80928371522000D28EF /* ConicGradient_Angle.swift in Sources */,
 				13613AB7282201FB007B4606 /* Image_SymbolVariant.swift in Sources */,
 				13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */,
 				13E8EF3727C93E4600307F9A /* DatePicker_CustomSelector.swift in Sources */,
