@@ -337,6 +337,7 @@
 		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
+		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C3C16C22833EF9600660834 /* Rectangular_Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16C12833EF9600660834 /* Rectangular_Trim.swift */; };
 		5C3C16C42833F4E700660834 /* RoundedRectangle_CornerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16C32833F4E700660834 /* RoundedRectangle_CornerSize.swift */; };
 		5C3C16C62834035200660834 /* Rectangular_WithControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16C52834035200660834 /* Rectangular_WithControls.swift */; };
@@ -693,6 +694,7 @@
 		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
+		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C3C16C12833EF9600660834 /* Rectangular_Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Trim.swift; sourceTree = "<group>"; };
 		5C3C16C32833F4E700660834 /* RoundedRectangle_CornerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangle_CornerSize.swift; sourceTree = "<group>"; };
 		5C3C16C52834035200660834 /* Rectangular_WithControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_WithControls.swift; sourceTree = "<group>"; };
@@ -870,6 +872,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5C37503F283D77B100909046 /* LinearGradient */,
 				5C5C89202837E1A80078FE4D /* ImagePaint */,
 				5C5C89192837CF070078FE4D /* EllipticalGradient */,
 				5CFFB805283710B3000D28EF /* ConicGradient */,
@@ -1447,6 +1450,14 @@
 			path = ZStack;
 			sourceTree = "<group>";
 		};
+		5C37503F283D77B100909046 /* LinearGradient */ = {
+			isa = PBXGroup;
+			children = (
+				5C375040283D77D000909046 /* LinearGradient_Intro.swift */,
+			);
+			path = LinearGradient;
+			sourceTree = "<group>";
+		};
 		5C3C16C928341DEB00660834 /* Inset */ = {
 			isa = PBXGroup;
 			children = (
@@ -1755,6 +1766,7 @@
 				1392029C27C0B3450078A01D /* GeometryReader_Positioning.swift in Sources */,
 				5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */,
 				13E8EF2827C9254B00307F9A /* ColorPicker_Intro.swift in Sources */,
+				5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */,
 				13EDD09C27DD6966005B4112 /* Navigation_Searchable_Cancel.swift in Sources */,
 				13B8BC0E27F4EEF0004797DD /* Text_WrappingImages.swift in Sources */,
 				13917F5F27FF320000CFA872 /* TextField_CustomPlaceholder.swift in Sources */,
