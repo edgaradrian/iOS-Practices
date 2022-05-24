@@ -341,6 +341,7 @@
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
 		5C375047283D851E00909046 /* LinearGradient_CustomDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375046283D851E00909046 /* LinearGradient_CustomDirection.swift */; };
+		5C375049283D879700909046 /* LinearGradient_ColorLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375048283D879700909046 /* LinearGradient_ColorLocation.swift */; };
 		5C3C16C22833EF9600660834 /* Rectangular_Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16C12833EF9600660834 /* Rectangular_Trim.swift */; };
 		5C3C16C42833F4E700660834 /* RoundedRectangle_CornerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16C32833F4E700660834 /* RoundedRectangle_CornerSize.swift */; };
 		5C3C16C62834035200660834 /* Rectangular_WithControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C16C52834035200660834 /* Rectangular_WithControls.swift */; };
@@ -701,6 +702,7 @@
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
 		5C375046283D851E00909046 /* LinearGradient_CustomDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_CustomDirection.swift; sourceTree = "<group>"; };
+		5C375048283D879700909046 /* LinearGradient_ColorLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_ColorLocation.swift; sourceTree = "<group>"; };
 		5C3C16C12833EF9600660834 /* Rectangular_Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Trim.swift; sourceTree = "<group>"; };
 		5C3C16C32833F4E700660834 /* RoundedRectangle_CornerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangle_CornerSize.swift; sourceTree = "<group>"; };
 		5C3C16C52834035200660834 /* Rectangular_WithControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_WithControls.swift; sourceTree = "<group>"; };
@@ -1463,6 +1465,7 @@
 				5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */,
 				5C375044283D824F00909046 /* LinearGradient_Direction.swift */,
 				5C375046283D851E00909046 /* LinearGradient_CustomDirection.swift */,
+				5C375048283D879700909046 /* LinearGradient_ColorLocation.swift */,
 			);
 			path = LinearGradient;
 			sourceTree = "<group>";
@@ -1775,6 +1778,7 @@
 				139ABCFE28190B49009E2C47 /* Image_FromAssetCatalog.swift in Sources */,
 				13FB4D3727B9C8DC00B0E8C9 /* HStack_TextAlignment_FirstLast.swift in Sources */,
 				13E8EF4F27CAA23300307F9A /* Form_WithDisclosureGroup.swift in Sources */,
+				5C375049283D879700909046 /* LinearGradient_ColorLocation.swift in Sources */,
 				1392029C27C0B3450078A01D /* GeometryReader_Positioning.swift in Sources */,
 				5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */,
 				13E8EF2827C9254B00307F9A /* ColorPicker_Intro.swift in Sources */,
