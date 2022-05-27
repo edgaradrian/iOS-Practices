@@ -358,6 +358,7 @@
 		5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */; };
 		5C9A96622832ECB400769839 /* RectangularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */; };
 		5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */; };
+		5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
@@ -720,6 +721,7 @@
 		5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_StrokeBorder.swift; sourceTree = "<group>"; };
 		5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_SizeModifier.swift; sourceTree = "<group>"; };
 		5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Intro.swift; sourceTree = "<group>"; };
+		5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PresentedByBool.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
@@ -1537,6 +1539,7 @@
 			isa = PBXGroup;
 			children = (
 				5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */,
+				5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */,
 			);
 			path = ActionSheet;
 			sourceTree = "<group>";
@@ -1827,6 +1830,7 @@
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
 				13CC9D4427D85A86007E9F33 /* Picker_BindingToData.swift in Sources */,
 				13CC9CE127CF3A74007E9F33 /* List_SafeAreaInset.swift in Sources */,
+				5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */,
 				1392029A27C0B1170078A01D /* GeometryReader_GettingSize.swift in Sources */,
 				13E8EF5B27CAD2AE00307F9A /* Label_Solution.swift in Sources */,
 				1352950127E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */,
