@@ -357,6 +357,7 @@
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
 		5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */; };
 		5C9A96622832ECB400769839 /* RectangularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */; };
+		5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
@@ -718,6 +719,7 @@
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
 		5C9A965F2832A6BA00769839 /* Rectangular_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_StrokeBorder.swift; sourceTree = "<group>"; };
 		5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_SizeModifier.swift; sourceTree = "<group>"; };
+		5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Intro.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
@@ -880,6 +882,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5CC8866F28417B91000F6111 /* ControlsModifiers */,
 				5C37503F283D77B100909046 /* LinearGradient */,
 				5C5C89202837E1A80078FE4D /* ImagePaint */,
 				5C5C89192837CF070078FE4D /* EllipticalGradient */,
@@ -1522,6 +1525,22 @@
 			path = RectangularShapes;
 			sourceTree = "<group>";
 		};
+		5CC8866F28417B91000F6111 /* ControlsModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8867028417BAE000F6111 /* ActionSheet */,
+			);
+			path = ControlsModifiers;
+			sourceTree = "<group>";
+		};
+		5CC8867028417BAE000F6111 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
 		5CFFB805283710B3000D28EF /* ConicGradient */ = {
 			isa = PBXGroup;
 			children = (
@@ -1924,6 +1943,7 @@
 				13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */,
 				13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */,
 				13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */,
+				5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
 				5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */,
