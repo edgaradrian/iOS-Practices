@@ -361,6 +361,7 @@
 		5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */; };
 		5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */; };
 		5CC886782841A683000F6111 /* ActionSheet_ChangeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886772841A683000F6111 /* ActionSheet_ChangeBack.swift */; };
+		5CC8867A2841ABC4000F6111 /* ActionSheet_Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
@@ -726,6 +727,7 @@
 		5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PresentedByBool.swift; sourceTree = "<group>"; };
 		5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PassDataInto.swift; sourceTree = "<group>"; };
 		5CC886772841A683000F6111 /* ActionSheet_ChangeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_ChangeBack.swift; sourceTree = "<group>"; };
+		5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Buttons.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
@@ -1546,6 +1548,7 @@
 				5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */,
 				5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */,
 				5CC886772841A683000F6111 /* ActionSheet_ChangeBack.swift */,
+				5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */,
 			);
 			path = ActionSheet;
 			sourceTree = "<group>";
@@ -1884,6 +1887,7 @@
 				13E8EEDE27C2B77800307F9A /* LazyHGrid_Intro.swift in Sources */,
 				13917F732800C5A700CFA872 /* TextField_FocusState.swift in Sources */,
 				139ABCED2810754F009E2C47 /* Color_ColorMultiply.swift in Sources */,
+				5CC8867A2841ABC4000F6111 /* ActionSheet_Buttons.swift in Sources */,
 				13E8EED927C2ACC900307F9A /* GeometryReader_MinMidMax.swift in Sources */,
 				1362D51A27B2B88F00695795 /* MyFirstBasicTemplateApp.swift in Sources */,
 				13613AAF2821A4C6007B4606 /* Image_ClipShape.swift in Sources */,
