@@ -362,6 +362,7 @@
 		5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */; };
 		5CC886782841A683000F6111 /* ActionSheet_ChangeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886772841A683000F6111 /* ActionSheet_ChangeBack.swift */; };
 		5CC8867A2841ABC4000F6111 /* ActionSheet_Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */; };
+		5CFA5C8328450F680006333C /* Alerts_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C8228450F680006333C /* Alerts_Intro.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
@@ -728,6 +729,7 @@
 		5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PassDataInto.swift; sourceTree = "<group>"; };
 		5CC886772841A683000F6111 /* ActionSheet_ChangeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_ChangeBack.swift; sourceTree = "<group>"; };
 		5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Buttons.swift; sourceTree = "<group>"; };
+		5CFA5C8228450F680006333C /* Alerts_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Intro.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
@@ -1536,6 +1538,7 @@
 		5CC8866F28417B91000F6111 /* ControlsModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5CFA5C8128450F4E0006333C /* Alert */,
 				5CC8867028417BAE000F6111 /* ActionSheet */,
 			);
 			path = ControlsModifiers;
@@ -1551,6 +1554,14 @@
 				5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */,
 			);
 			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		5CFA5C8128450F4E0006333C /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA5C8228450F680006333C /* Alerts_Intro.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 		5CFFB805283710B3000D28EF /* ConicGradient */ = {
@@ -1911,6 +1922,7 @@
 				1352950327E72B0D00B29311 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */,
 				13917F6127FF36FE00CFA872 /* TextField_CustomComposition.swift in Sources */,
 				13E8EF1627C7DD5000307F9A /* Button_WithSFSymbols.swift in Sources */,
+				5CFA5C8328450F680006333C /* Alerts_Intro.swift in Sources */,
 				13B8BC0627F4D9AB004797DD /* Text_ShowingDates.swift in Sources */,
 				135294F327E713A700B29311 /* TabView_Colors.swift in Sources */,
 				13917F792804671300CFA872 /* TextField_NumberTypes.swift in Sources */,
