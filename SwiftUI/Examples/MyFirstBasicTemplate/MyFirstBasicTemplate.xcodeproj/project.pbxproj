@@ -364,6 +364,7 @@
 		5CC8867A2841ABC4000F6111 /* ActionSheet_Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */; };
 		5CFA5C8328450F680006333C /* Alerts_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C8228450F680006333C /* Alerts_Intro.swift */; };
 		5CFA5C85284511660006333C /* Alerts_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C84284511650006333C /* Alerts_Message.swift */; };
+		5CFA5C872845158D0006333C /* Alerts_Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C862845158D0006333C /* Alerts_Action.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
@@ -732,6 +733,7 @@
 		5CC886792841ABC4000F6111 /* ActionSheet_Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Buttons.swift; sourceTree = "<group>"; };
 		5CFA5C8228450F680006333C /* Alerts_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Intro.swift; sourceTree = "<group>"; };
 		5CFA5C84284511650006333C /* Alerts_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Message.swift; sourceTree = "<group>"; };
+		5CFA5C862845158D0006333C /* Alerts_Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Action.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
@@ -1563,6 +1565,7 @@
 			children = (
 				5CFA5C8228450F680006333C /* Alerts_Intro.swift */,
 				5CFA5C84284511650006333C /* Alerts_Message.swift */,
+				5CFA5C862845158D0006333C /* Alerts_Action.swift */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -1788,6 +1791,7 @@
 				135294F727E7172C00B29311 /* TabView_Badge.swift in Sources */,
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
 				139ABCF62810826C009E2C47 /* Divider_Customization.swift in Sources */,
+				5CFA5C872845158D0006333C /* Alerts_Action.swift in Sources */,
 				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
 				139ABCDE280DB0C2009E2C47 /* Circles_Trim_SolidShapes.swift in Sources */,
 				13CC9D4627D85F20007E9F33 /* Picker_Menu.swift in Sources */,
