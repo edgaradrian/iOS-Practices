@@ -367,6 +367,7 @@
 		5CFA5C872845158D0006333C /* Alerts_Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C862845158D0006333C /* Alerts_Action.swift */; };
 		5CFA5C8928451B360006333C /* Alerts_ButtonRoles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C8828451B360006333C /* Alerts_ButtonRoles.swift */; };
 		5CFA5C8B28451E230006333C /* Alerts_UsingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C8A28451E230006333C /* Alerts_UsingData.swift */; };
+		5CFA5C8E284521130006333C /* ConfirmationDialog_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C8D284521130006333C /* ConfirmationDialog_Intro.swift */; };
 		5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */; };
 		5CFFB80428370CED000D28EF /* AngularGradient_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */; };
 		5CFFB807283711E5000D28EF /* Conic_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFB806283711E5000D28EF /* Conic_Intro.swift */; };
@@ -738,6 +739,7 @@
 		5CFA5C862845158D0006333C /* Alerts_Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Action.swift; sourceTree = "<group>"; };
 		5CFA5C8828451B360006333C /* Alerts_ButtonRoles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ButtonRoles.swift; sourceTree = "<group>"; };
 		5CFA5C8A28451E230006333C /* Alerts_UsingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_UsingData.swift; sourceTree = "<group>"; };
+		5CFA5C8D284521130006333C /* ConfirmationDialog_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Intro.swift; sourceTree = "<group>"; };
 		5CFFB8012837093C000D28EF /* AngularGradient_InCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_InCircles.swift; sourceTree = "<group>"; };
 		5CFFB80328370CED000D28EF /* AngularGradient_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_OnOtherControls.swift; sourceTree = "<group>"; };
 		5CFFB806283711E5000D28EF /* Conic_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Intro.swift; sourceTree = "<group>"; };
@@ -1546,6 +1548,7 @@
 		5CC8866F28417B91000F6111 /* ControlsModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5CFA5C8C284520F10006333C /* ConfirmationDialog */,
 				5CFA5C8128450F4E0006333C /* Alert */,
 				5CC8867028417BAE000F6111 /* ActionSheet */,
 			);
@@ -1574,6 +1577,14 @@
 				5CFA5C8A28451E230006333C /* Alerts_UsingData.swift */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		5CFA5C8C284520F10006333C /* ConfirmationDialog */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA5C8D284521130006333C /* ConfirmationDialog_Intro.swift */,
+			);
+			path = ConfirmationDialog;
 			sourceTree = "<group>";
 		};
 		5CFFB805283710B3000D28EF /* ConicGradient */ = {
@@ -1927,6 +1938,7 @@
 				1383E5CC27DAFCDA00C12E4D /* ScrollView_Intro.swift in Sources */,
 				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
+				5CFA5C8E284521130006333C /* ConfirmationDialog_Intro.swift in Sources */,
 				5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */,
 				13B8BC0827F4DE9E004797DD /* Text_TextCase.swift in Sources */,
 				13552C5027F1143500727B21 /* Text_TruncationMode.swift in Sources */,
