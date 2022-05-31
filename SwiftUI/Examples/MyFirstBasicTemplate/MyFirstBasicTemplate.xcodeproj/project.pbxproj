@@ -337,6 +337,7 @@
 		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
+		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
 		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
@@ -709,6 +710,7 @@
 		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
+		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
 		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
@@ -1583,6 +1585,7 @@
 			isa = PBXGroup;
 			children = (
 				5CFA5C8D284521130006333C /* ConfirmationDialog_Intro.swift */,
+				5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */,
 			);
 			path = ConfirmationDialog;
 			sourceTree = "<group>";
@@ -1777,6 +1780,7 @@
 				13552C4027EC728600727B21 /* Text_Weights.swift in Sources */,
 				134CB34A27DF7D05002BFADE /* SecureField_Customizations.swift in Sources */,
 				135294DD27E1ED9800B29311 /* Slider_Tint.swift in Sources */,
+				5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */,
 				5C375047283D851E00909046 /* LinearGradient_CustomDirection.swift in Sources */,
 				13E8EF5D27CAD45D00307F9A /* Label_WithImages.swift in Sources */,
 				1362D54527B70A9800695795 /* HStack_Spacing.swift in Sources */,
