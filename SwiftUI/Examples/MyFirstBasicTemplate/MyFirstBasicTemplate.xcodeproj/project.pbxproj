@@ -338,6 +338,7 @@
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
+		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
@@ -711,6 +712,7 @@
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
+		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
@@ -1586,6 +1588,7 @@
 			children = (
 				5CFA5C8D284521130006333C /* ConfirmationDialog_Intro.swift */,
 				5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */,
+				5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */,
 			);
 			path = ConfirmationDialog;
 			sourceTree = "<group>";
@@ -1910,6 +1913,7 @@
 				13E8EF0E27C6F27B00307F9A /* Button_Intro.swift in Sources */,
 				13E8EF6327CAE55000307F9A /* Label_HideShowComponents.swift in Sources */,
 				13552C4E27F1121C00727B21 /* Text_Alignment.swift in Sources */,
+				5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */,
 				13CC9D3827D661D4007E9F33 /* Picker_Sections.swift in Sources */,
 				13FB4D4527BD65D000B0E8C9 /* ZStack_IgnoresSafeArea.swift in Sources */,
 				13E8EF5927CAABBD00307F9A /* Label_Problem.swift in Sources */,
