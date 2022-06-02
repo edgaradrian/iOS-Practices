@@ -358,6 +358,7 @@
 		5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */; };
 		5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */; };
 		5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326372848FE64000F3411 /* Popover_FromBool.swift */; };
+		5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -736,6 +737,7 @@
 		5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint_Intro.swift; sourceTree = "<group>"; };
 		5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopups_Intro.swift; sourceTree = "<group>"; };
 		5C9326372848FE64000F3411 /* Popover_FromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover_FromBool.swift; sourceTree = "<group>"; };
+		5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentingWithBool.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1567,6 +1569,14 @@
 			path = Popover;
 			sourceTree = "<group>";
 		};
+		5C932639284901F5000F3411 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
 		5C9A965828329C2F00769839 /* RectangularShapes */ = {
 			isa = PBXGroup;
 			children = (
@@ -1585,6 +1595,7 @@
 		5CC8866F28417B91000F6111 /* ControlsModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C932639284901F5000F3411 /* Sheet */,
 				5C9326362848FE00000F3411 /* Popover */,
 				5C9326332848F751000F3411 /* CustomPopups */,
 				5C25E5442846E36C00E9333B /* ContextMenu */,
@@ -2014,6 +2025,7 @@
 				13E8EF4327C9511500307F9A /* Form_Intro.swift in Sources */,
 				13E8EF7127CBEEBF00307F9A /* List_MoveRow.swift in Sources */,
 				13E8EF1027C6F67100307F9A /* Button_TextModifiers.swift in Sources */,
+				5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */,
 				5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */,
 				134CB35527DF8AE4002BFADE /* Segmented_Colors.swift in Sources */,
 				135294ED27E588E000B29311 /* TabView_TabItems.swift in Sources */,
