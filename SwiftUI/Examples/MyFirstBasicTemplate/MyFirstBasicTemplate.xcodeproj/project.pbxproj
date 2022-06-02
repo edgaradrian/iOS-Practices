@@ -359,6 +359,7 @@
 		5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */; };
 		5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326372848FE64000F3411 /* Popover_FromBool.swift */; };
 		5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */; };
+		5C93263D284905A8000F3411 /* Sheet_Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -738,6 +739,7 @@
 		5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopups_Intro.swift; sourceTree = "<group>"; };
 		5C9326372848FE64000F3411 /* Popover_FromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover_FromBool.swift; sourceTree = "<group>"; };
 		5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentingWithBool.swift; sourceTree = "<group>"; };
+		5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_Identifiable.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1573,6 +1575,7 @@
 			isa = PBXGroup;
 			children = (
 				5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */,
+				5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */,
 			);
 			path = Sheet;
 			sourceTree = "<group>";
@@ -1997,6 +2000,7 @@
 				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
 				5CFA5C8E284521130006333C /* ConfirmationDialog_Intro.swift in Sources */,
+				5C93263D284905A8000F3411 /* Sheet_Identifiable.swift in Sources */,
 				5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */,
 				13B8BC0827F4DE9E004797DD /* Text_TextCase.swift in Sources */,
 				13552C5027F1143500727B21 /* Text_TruncationMode.swift in Sources */,
