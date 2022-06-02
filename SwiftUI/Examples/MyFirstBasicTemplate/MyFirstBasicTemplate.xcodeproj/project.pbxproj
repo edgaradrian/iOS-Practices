@@ -360,6 +360,7 @@
 		5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326372848FE64000F3411 /* Popover_FromBool.swift */; };
 		5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */; };
 		5C93263D284905A8000F3411 /* Sheet_Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */; };
+		5C93263F284908AE000F3411 /* Sheet_SwipeDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263E284908AE000F3411 /* Sheet_SwipeDisabled.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -740,6 +741,7 @@
 		5C9326372848FE64000F3411 /* Popover_FromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover_FromBool.swift; sourceTree = "<group>"; };
 		5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentingWithBool.swift; sourceTree = "<group>"; };
 		5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_Identifiable.swift; sourceTree = "<group>"; };
+		5C93263E284908AE000F3411 /* Sheet_SwipeDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisabled.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1576,6 +1578,7 @@
 			children = (
 				5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */,
 				5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */,
+				5C93263E284908AE000F3411 /* Sheet_SwipeDisabled.swift */,
 			);
 			path = Sheet;
 			sourceTree = "<group>";
@@ -1810,6 +1813,7 @@
 				13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */,
 				13917F6928009BA100CFA872 /* TextField_OnEditingChanged.swift in Sources */,
 				13E8EF2327C7F23F00307F9A /* Button_Role.swift in Sources */,
+				5C93263F284908AE000F3411 /* Sheet_SwipeDisabled.swift in Sources */,
 				134CB35C27DF9B5C002BFADE /* SignInWithAppleButton_SizeChanges.swift in Sources */,
 				13552C4C27F10F8F00727B21 /* Text_LineSpacing.swift in Sources */,
 				13E8EEE227C4AF3D00307F9A /* LazyHGrid_Rows.swift in Sources */,
