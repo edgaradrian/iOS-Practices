@@ -357,6 +357,7 @@
 		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
 		5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
+		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */; };
 		5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326372848FE64000F3411 /* Popover_FromBool.swift */; };
 		5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */; };
@@ -739,6 +740,7 @@
 		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
 		5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint_Intro.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
+		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopups_Intro.swift; sourceTree = "<group>"; };
 		5C9326372848FE64000F3411 /* Popover_FromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover_FromBool.swift; sourceTree = "<group>"; };
 		5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentingWithBool.swift; sourceTree = "<group>"; };
@@ -1559,6 +1561,14 @@
 			path = ImagePaint;
 			sourceTree = "<group>";
 		};
+		5C90BB57284AE037001E4119 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				5C90BB58284AE056001E4119 /* StatusBarHidden.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
 		5C9326332848F751000F3411 /* CustomPopups */ = {
 			isa = PBXGroup;
 			children = (
@@ -1604,6 +1614,7 @@
 		5CC8866F28417B91000F6111 /* ControlsModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C90BB57284AE037001E4119 /* StatusBar */,
 				5C932639284901F5000F3411 /* Sheet */,
 				5C9326362848FE00000F3411 /* Popover */,
 				5C9326332848F751000F3411 /* CustomPopups */,
@@ -1785,6 +1796,7 @@
 				135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */,
 				1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */,
 				13E8EEEA27C4B6B400307F9A /* LazyHGrid_RowSpacing.swift in Sources */,
+				5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */,
 				135A33D028242D380073B2C5 /* RoundedBottomRectangle.swift in Sources */,
 				139ABCEF28107794009E2C47 /* Color_OpacityAlpha.swift in Sources */,
 				13E8EF4727CA93B100307F9A /* Form_ListRowBackground.swift in Sources */,
