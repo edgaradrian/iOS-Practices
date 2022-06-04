@@ -356,6 +356,7 @@
 		5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */; };
 		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
 		5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */; };
+		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */; };
 		5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326372848FE64000F3411 /* Popover_FromBool.swift */; };
 		5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */; };
@@ -737,6 +738,7 @@
 		5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
 		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
 		5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint_Intro.swift; sourceTree = "<group>"; };
+		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopups_Intro.swift; sourceTree = "<group>"; };
 		5C9326372848FE64000F3411 /* Popover_FromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover_FromBool.swift; sourceTree = "<group>"; };
 		5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentingWithBool.swift; sourceTree = "<group>"; };
@@ -1579,6 +1581,7 @@
 				5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */,
 				5C93263C284905A8000F3411 /* Sheet_Identifiable.swift */,
 				5C93263E284908AE000F3411 /* Sheet_SwipeDisabled.swift */,
+				5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */,
 			);
 			path = Sheet;
 			sourceTree = "<group>";
@@ -2070,6 +2073,7 @@
 				5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */,
 				1362D52A27B2D22700695795 /* Shapes.swift in Sources */,
 				13E8EF1C27C7EA6A00307F9A /* Button_ButtonStyle.swift in Sources */,
+				5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */,
 				5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */,
 				5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */,
 				13B8BC0C27F4E6F2004797DD /* Text_ScaledMetric_RelativeTo.swift in Sources */,
