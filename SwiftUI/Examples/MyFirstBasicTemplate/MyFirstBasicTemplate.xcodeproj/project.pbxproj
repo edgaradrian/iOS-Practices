@@ -359,6 +359,7 @@
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
+		5C90BB5E284AE3D9001E4119 /* Toolbar_InlineNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5D284AE3D9001E4119 /* Toolbar_InlineNavBar.swift */; };
 		5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */; };
 		5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9326372848FE64000F3411 /* Popover_FromBool.swift */; };
 		5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */; };
@@ -743,6 +744,7 @@
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
+		5C90BB5D284AE3D9001E4119 /* Toolbar_InlineNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_InlineNavBar.swift; sourceTree = "<group>"; };
 		5C9326342848F92C000F3411 /* CustomPopups_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopups_Intro.swift; sourceTree = "<group>"; };
 		5C9326372848FE64000F3411 /* Popover_FromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover_FromBool.swift; sourceTree = "<group>"; };
 		5C93263A28490223000F3411 /* Sheet_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentingWithBool.swift; sourceTree = "<group>"; };
@@ -1575,6 +1577,7 @@
 			isa = PBXGroup;
 			children = (
 				5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */,
+				5C90BB5D284AE3D9001E4119 /* Toolbar_InlineNavBar.swift */,
 			);
 			path = Toolbar;
 			sourceTree = "<group>";
@@ -1766,6 +1769,7 @@
 				13CC9CF527CF5659007E9F33 /* List_Badges.swift in Sources */,
 				139ABCD8280DA66E009E2C47 /* CircularShapes_Sizing.swift in Sources */,
 				13917F7C28046B7300CFA872 /* Toggle_Intro.swift in Sources */,
+				5C90BB5E284AE3D9001E4119 /* Toolbar_InlineNavBar.swift in Sources */,
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
 				13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */,
 				13E8EF6D27CBE86100307F9A /* List_WithData.swift in Sources */,
