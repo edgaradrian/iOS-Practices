@@ -372,6 +372,7 @@
 		5C9A96622832ECB400769839 /* RectangularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */; };
 		5CA828BF284BC64F0016C50A /* Toolbar_Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828BE284BC64F0016C50A /* Toolbar_Location.swift */; };
 		5CA828C1284BC8E20016C50A /* ToolbarItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */; };
+		5CA828C3284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */; };
 		5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */; };
 		5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */; };
 		5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */; };
@@ -759,6 +760,7 @@
 		5C9A96612832ECB400769839 /* RectangularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_SizeModifier.swift; sourceTree = "<group>"; };
 		5CA828BE284BC64F0016C50A /* Toolbar_Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Location.swift; sourceTree = "<group>"; };
 		5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemGroup.swift; sourceTree = "<group>"; };
+		5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_PrincipalPlacement.swift; sourceTree = "<group>"; };
 		5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Intro.swift; sourceTree = "<group>"; };
 		5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PresentedByBool.swift; sourceTree = "<group>"; };
 		5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PassDataInto.swift; sourceTree = "<group>"; };
@@ -1584,6 +1586,7 @@
 				5C90BB5D284AE3D9001E4119 /* Toolbar_InlineNavBar.swift */,
 				5CA828BE284BC64F0016C50A /* Toolbar_Location.swift */,
 				5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */,
+				5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */,
 			);
 			path = Toolbar;
 			sourceTree = "<group>";
@@ -2044,6 +2047,7 @@
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
 				5CFA5C8E284521130006333C /* ConfirmationDialog_Intro.swift in Sources */,
 				5C93263D284905A8000F3411 /* Sheet_Identifiable.swift in Sources */,
+				5CA828C3284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift in Sources */,
 				5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */,
 				13B8BC0827F4DE9E004797DD /* Text_TextCase.swift in Sources */,
 				13552C5027F1143500727B21 /* Text_TruncationMode.swift in Sources */,
