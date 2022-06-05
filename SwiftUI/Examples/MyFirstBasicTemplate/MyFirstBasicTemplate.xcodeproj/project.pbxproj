@@ -373,6 +373,7 @@
 		5CA828BF284BC64F0016C50A /* Toolbar_Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828BE284BC64F0016C50A /* Toolbar_Location.swift */; };
 		5CA828C1284BC8E20016C50A /* ToolbarItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */; };
 		5CA828C3284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */; };
+		5CA828C5284C49C40016C50A /* Toolbar_OnModalSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA828C4284C49C40016C50A /* Toolbar_OnModalSheets.swift */; };
 		5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */; };
 		5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */; };
 		5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */; };
@@ -761,6 +762,7 @@
 		5CA828BE284BC64F0016C50A /* Toolbar_Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Location.swift; sourceTree = "<group>"; };
 		5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemGroup.swift; sourceTree = "<group>"; };
 		5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_PrincipalPlacement.swift; sourceTree = "<group>"; };
+		5CA828C4284C49C40016C50A /* Toolbar_OnModalSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnModalSheets.swift; sourceTree = "<group>"; };
 		5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Intro.swift; sourceTree = "<group>"; };
 		5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PresentedByBool.swift; sourceTree = "<group>"; };
 		5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PassDataInto.swift; sourceTree = "<group>"; };
@@ -1587,6 +1589,7 @@
 				5CA828BE284BC64F0016C50A /* Toolbar_Location.swift */,
 				5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */,
 				5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */,
+				5CA828C4284C49C40016C50A /* Toolbar_OnModalSheets.swift */,
 			);
 			path = Toolbar;
 			sourceTree = "<group>";
@@ -1896,6 +1899,7 @@
 				13E8EF1227C7CCC900307F9A /* Button_EffectModifiers.swift in Sources */,
 				1383E5C327DAD17600C12E4D /* ProgressView_Total.swift in Sources */,
 				1362D53227B5230B00695795 /* VStack_Nesting.swift in Sources */,
+				5CA828C5284C49C40016C50A /* Toolbar_OnModalSheets.swift in Sources */,
 				13E8EEFD27C6199000307F9A /* LazyVGrid_ColumnSpacing.swift in Sources */,
 				13CC9CEF27CF504C007E9F33 /* List_Refreshable.swift in Sources */,
 				1362D54327B7039200695795 /* HStack_Intro.swift in Sources */,
