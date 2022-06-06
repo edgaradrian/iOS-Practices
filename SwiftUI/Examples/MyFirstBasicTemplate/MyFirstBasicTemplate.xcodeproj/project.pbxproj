@@ -341,6 +341,7 @@
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
 		5C16137D284E62D700A56BE6 /* AlignmentGuide_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */; };
+		5C16137F284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */; };
 		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
 		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
@@ -734,6 +735,7 @@
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
 		5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide_Intro.swift; sourceTree = "<group>"; };
+		5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide_ComparedWithOffset.swift; sourceTree = "<group>"; };
 		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
 		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
@@ -1536,6 +1538,7 @@
 			isa = PBXGroup;
 			children = (
 				5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */,
+				5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */,
 			);
 			path = AlignmentGuide;
 			sourceTree = "<group>";
@@ -1844,6 +1847,7 @@
 				13E8EEF127C4C18700307F9A /* LazyVGrid_Introduction.swift in Sources */,
 				13613AB32821ACF7007B4606 /* Image_SymbolSizing.swift in Sources */,
 				13E8EEE027C4ADC200307F9A /* LazyHGrid_ColumnSpacing.swift in Sources */,
+				5C16137F284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift in Sources */,
 				13E8EF4927CA971C00307F9A /* Form_RowBackgroundImage.swift in Sources */,
 				13E8EEFB27C5A0ED00307F9A /* LazyVGrid_AdaptiveWidth.swift in Sources */,
 				13CC9CED27CF4DB3007E9F33 /* List_ListSectionSeparatorTint.swift in Sources */,
