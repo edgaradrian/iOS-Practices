@@ -339,6 +339,7 @@
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
+		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
 		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
 		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
@@ -730,6 +731,7 @@
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
+		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
 		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
 		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
@@ -1596,6 +1598,7 @@
 				5CA828C4284C49C40016C50A /* Toolbar_OnModalSheets.swift */,
 				5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */,
 				5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */,
+				5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */,
 			);
 			path = Toolbar;
 			sourceTree = "<group>";
@@ -2033,6 +2036,7 @@
 				139ABCEB281071FC009E2C47 /* Color_SecondaryStacking.swift in Sources */,
 				1362D54727B84E3900695795 /* HStack_Alignment.swift in Sources */,
 				5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */,
+				5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */,
 				13E8EF6B27CB079D00307F9A /* List_WithStaticViews.swift in Sources */,
 				13CC9D1427D20F2B007E9F33 /* Navigation_NavBarItems.swift in Sources */,
 				13E8EF2527C7FA3800307F9A /* Button_ButtonBorderShape.swift in Sources */,
