@@ -337,6 +337,7 @@
 		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
+		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
 		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
@@ -726,6 +727,7 @@
 		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
+		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
 		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
@@ -1590,6 +1592,7 @@
 				5CA828C0284BC8E20016C50A /* ToolbarItemGroup.swift */,
 				5CA828C2284BCBE30016C50A /* Toolbar_PrincipalPlacement.swift */,
 				5CA828C4284C49C40016C50A /* Toolbar_OnModalSheets.swift */,
+				5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */,
 			);
 			path = Toolbar;
 			sourceTree = "<group>";
@@ -2112,6 +2115,7 @@
 				135A33C3282385BA0073B2C5 /* Image_UsingMaterials.swift in Sources */,
 				13CC9D2427D35D71007E9F33 /* NavigationLink_UINavigationBarAppearance.swift in Sources */,
 				13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */,
+				5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */,
 				13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */,
 				13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */,
 				5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */,
