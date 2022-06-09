@@ -384,6 +384,7 @@
 		5CA869C4285235AF008EE5FC /* Background_Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C3285235AF008EE5FC /* Background_Content.swift */; };
 		5CA869C628523777008EE5FC /* Background_TabViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C528523777008EE5FC /* Background_TabViewBackground.swift */; };
 		5CA869C828523AC1008EE5FC /* Background_Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C728523AC1008EE5FC /* Background_Materials.swift */; };
+		5CA869CA28523DED008EE5FC /* Background_Hierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */; };
 		5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */; };
 		5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */; };
 		5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */; };
@@ -786,6 +787,7 @@
 		5CA869C3285235AF008EE5FC /* Background_Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Content.swift; sourceTree = "<group>"; };
 		5CA869C528523777008EE5FC /* Background_TabViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_TabViewBackground.swift; sourceTree = "<group>"; };
 		5CA869C728523AC1008EE5FC /* Background_Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Materials.swift; sourceTree = "<group>"; };
+		5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Hierarchical.swift; sourceTree = "<group>"; };
 		5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Intro.swift; sourceTree = "<group>"; };
 		5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PresentedByBool.swift; sourceTree = "<group>"; };
 		5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PassDataInto.swift; sourceTree = "<group>"; };
@@ -1731,6 +1733,7 @@
 				5CA869C3285235AF008EE5FC /* Background_Content.swift */,
 				5CA869C528523777008EE5FC /* Background_TabViewBackground.swift */,
 				5CA869C728523AC1008EE5FC /* Background_Materials.swift */,
+				5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */,
 			);
 			path = Background;
 			sourceTree = "<group>";
@@ -2042,6 +2045,7 @@
 				13917F5F27FF320000CFA872 /* TextField_CustomPlaceholder.swift in Sources */,
 				13CC9D2C27D64F0C007E9F33 /* NavigationLink_WithListNoBar.swift in Sources */,
 				5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */,
+				5CA869CA28523DED008EE5FC /* Background_Hierarchical.swift in Sources */,
 				13E8EF6127CAE39000307F9A /* Label_Colors.swift in Sources */,
 				13CC9CAE27CD7E36007E9F33 /* List_ListItemTint.swift in Sources */,
 				13917F8828047BBD00CFA872 /* CircularShapes_Intro.swift in Sources */,
