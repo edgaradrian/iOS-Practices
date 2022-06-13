@@ -399,6 +399,7 @@
 		5CD0FD5B284FBD88004949A5 /* AspectRatio_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0FD5A284FBD88004949A5 /* AspectRatio_Intro.swift */; };
 		5CD0FD5E284FC73F004949A5 /* Background_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0FD5D284FC73F004949A5 /* Background_Intro.swift */; };
 		5CD0FD60284FC961004949A5 /* Background_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0FD5F284FC961004949A5 /* Background_Gradients.swift */; };
+		5CF58E4A2857A2D500B6FE1F /* FullScreenCover_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF58E492857A2D500B6FE1F /* FullScreenCover_Intro.swift */; };
 		5CFA5C8328450F680006333C /* Alerts_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C8228450F680006333C /* Alerts_Intro.swift */; };
 		5CFA5C85284511660006333C /* Alerts_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C84284511650006333C /* Alerts_Message.swift */; };
 		5CFA5C872845158D0006333C /* Alerts_Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA5C862845158D0006333C /* Alerts_Action.swift */; };
@@ -808,6 +809,7 @@
 		5CD0FD5A284FBD88004949A5 /* AspectRatio_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatio_Intro.swift; sourceTree = "<group>"; };
 		5CD0FD5D284FC73F004949A5 /* Background_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Intro.swift; sourceTree = "<group>"; };
 		5CD0FD5F284FC961004949A5 /* Background_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Gradients.swift; sourceTree = "<group>"; };
+		5CF58E492857A2D500B6FE1F /* FullScreenCover_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_Intro.swift; sourceTree = "<group>"; };
 		5CFA5C8228450F680006333C /* Alerts_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Intro.swift; sourceTree = "<group>"; };
 		5CFA5C84284511650006333C /* Alerts_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Message.swift; sourceTree = "<group>"; };
 		5CFA5C862845158D0006333C /* Alerts_Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Action.swift; sourceTree = "<group>"; };
@@ -1559,6 +1561,7 @@
 		5C16137A284E60AD00A56BE6 /* LayoutModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5CF58E482857A2B100B6FE1F /* FullScreenCover */,
 				5CC008EB2853B9B600674ACB /* FixedSize */,
 				5CC008E62853ACBA00674ACB /* CoordinateSpace */,
 				5CD0FD5C284FC71D004949A5 /* Background */,
@@ -1772,6 +1775,14 @@
 			path = Background;
 			sourceTree = "<group>";
 		};
+		5CF58E482857A2B100B6FE1F /* FullScreenCover */ = {
+			isa = PBXGroup;
+			children = (
+				5CF58E492857A2D500B6FE1F /* FullScreenCover_Intro.swift */,
+			);
+			path = FullScreenCover;
+			sourceTree = "<group>";
+		};
 		5CFA5C8128450F4E0006333C /* Alert */ = {
 			isa = PBXGroup;
 			children = (
@@ -1939,6 +1950,7 @@
 				5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */,
 				135A33D028242D380073B2C5 /* RoundedBottomRectangle.swift in Sources */,
 				139ABCEF28107794009E2C47 /* Color_OpacityAlpha.swift in Sources */,
+				5CF58E4A2857A2D500B6FE1F /* FullScreenCover_Intro.swift in Sources */,
 				13E8EF4727CA93B100307F9A /* Form_ListRowBackground.swift in Sources */,
 				13E8EF1E27C7EC0C00307F9A /* Button_ControlSize.swift in Sources */,
 				13FB4D4027BC949200B0E8C9 /* LazyHStack_WithScrolling.swift in Sources */,
