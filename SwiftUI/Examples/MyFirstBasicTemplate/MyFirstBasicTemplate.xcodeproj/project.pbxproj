@@ -361,6 +361,7 @@
 		5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */; };
 		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
 		5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */; };
+		5C625484285BC0F100169591 /* Frame_Min_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C625483285BC0F100169591 /* Frame_Min_Max.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -774,6 +775,7 @@
 		5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
 		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
 		5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint_Intro.swift; sourceTree = "<group>"; };
+		5C625483285BC0F100169591 /* Frame_Min_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Min_Max.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1796,6 +1798,7 @@
 				5CF58E4C2857A88900B6FE1F /* Frame_FixedSizes.swift */,
 				5CF58E4E2857AD1D00B6FE1F /* Frame_ControlShapes.swift */,
 				5CF58E502857AEBA00B6FE1F /* Frame_Alignment.swift */,
+				5C625483285BC0F100169591 /* Frame_Min_Max.swift */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -2180,6 +2183,7 @@
 				5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */,
 				5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */,
 				13E8EF6B27CB079D00307F9A /* List_WithStaticViews.swift in Sources */,
+				5C625484285BC0F100169591 /* Frame_Min_Max.swift in Sources */,
 				13CC9D1427D20F2B007E9F33 /* Navigation_NavBarItems.swift in Sources */,
 				13E8EF2527C7FA3800307F9A /* Button_ButtonBorderShape.swift in Sources */,
 				13552C4227EC745E00727B21 /* Text_Weights_TextStyles.swift in Sources */,
