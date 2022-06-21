@@ -343,6 +343,7 @@
 		5C16137D284E62D700A56BE6 /* AlignmentGuide_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */; };
 		5C16137F284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */; };
 		5C25B916286164A2001F2FB5 /* Edges_Landscape_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B915286164A2001F2FB5 /* Edges_Landscape_After.swift */; };
+		5C25B91828616870001F2FB5 /* Edges_KeyboardRegion_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B91728616870001F2FB5 /* Edges_KeyboardRegion_Before.swift */; };
 		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
 		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
@@ -762,6 +763,7 @@
 		5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide_Intro.swift; sourceTree = "<group>"; };
 		5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide_ComparedWithOffset.swift; sourceTree = "<group>"; };
 		5C25B915286164A2001F2FB5 /* Edges_Landscape_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_Landscape_After.swift; sourceTree = "<group>"; };
+		5C25B91728616870001F2FB5 /* Edges_KeyboardRegion_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_KeyboardRegion_Before.swift; sourceTree = "<group>"; };
 		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
 		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
@@ -1655,6 +1657,7 @@
 				5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */,
 				5C5090F3285C40A100495648 /* Edges_Intro.swift */,
 				5C25B915286164A2001F2FB5 /* Edges_Landscape_After.swift */,
+				5C25B91728616870001F2FB5 /* Edges_KeyboardRegion_Before.swift */,
 			);
 			path = IgnoresSafeArea;
 			sourceTree = "<group>";
@@ -2195,6 +2198,7 @@
 				135A33C12822E3D90073B2C5 /* Image_UsingGradients.swift in Sources */,
 				5C9326382848FE64000F3411 /* Popover_FromBool.swift in Sources */,
 				1392029127BEB9670078A01D /* Spacer_RelativeSpacing.swift in Sources */,
+				5C25B91828616870001F2FB5 /* Edges_KeyboardRegion_Before.swift in Sources */,
 				135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */,
 				139ABCDC280DAE31009E2C47 /* CircularShapes_Trim.swift in Sources */,
 				13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */,
