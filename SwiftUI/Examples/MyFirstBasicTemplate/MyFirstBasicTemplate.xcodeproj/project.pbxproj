@@ -342,6 +342,7 @@
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
 		5C16137D284E62D700A56BE6 /* AlignmentGuide_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */; };
 		5C16137F284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */; };
+		5C25B916286164A2001F2FB5 /* Edges_Landscape_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25B915286164A2001F2FB5 /* Edges_Landscape_After.swift */; };
 		5C25E5412846DE0600E9333B /* ConfirmationDialog_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */; };
 		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
@@ -760,6 +761,7 @@
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
 		5C16137C284E62D700A56BE6 /* AlignmentGuide_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide_Intro.swift; sourceTree = "<group>"; };
 		5C16137E284E66B400A56BE6 /* AlignmentGuide_ComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide_ComparedWithOffset.swift; sourceTree = "<group>"; };
+		5C25B915286164A2001F2FB5 /* Edges_Landscape_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_Landscape_After.swift; sourceTree = "<group>"; };
 		5C25E5402846DE0600E9333B /* ConfirmationDialog_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_Title.swift; sourceTree = "<group>"; };
 		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
@@ -1652,6 +1654,7 @@
 			children = (
 				5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */,
 				5C5090F3285C40A100495648 /* Edges_Intro.swift */,
+				5C25B915286164A2001F2FB5 /* Edges_Landscape_After.swift */,
 			);
 			path = IgnoresSafeArea;
 			sourceTree = "<group>";
@@ -2325,6 +2328,7 @@
 				13CC9CA427CD6F89007E9F33 /* List_GroupedListStyle.swift in Sources */,
 				13E8EF3C27C945BE00307F9A /* DisclosureGroup_Color.swift in Sources */,
 				1362D53A27B6CC9700695795 /* LazyVStack_Alignment.swift in Sources */,
+				5C25B916286164A2001F2FB5 /* Edges_Landscape_After.swift in Sources */,
 				13CC9D4C27D86318007E9F33 /* ProgressView_Intro.swift in Sources */,
 				13E8EF5627CAA92E00307F9A /* GroupBox_AsCards.swift in Sources */,
 				137B73EE27FA4FFB0027E61E /* TextEditor_Alignment.swift in Sources */,
