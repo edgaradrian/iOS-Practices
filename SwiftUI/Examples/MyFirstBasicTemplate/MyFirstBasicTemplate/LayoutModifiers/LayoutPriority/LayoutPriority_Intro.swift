@@ -24,7 +24,7 @@ struct LayoutPriority_Intro: View {
                     Text("Aaron Rodgers")
                         .font(.title)
                 }
-                Text("Green Bay Packers. Green Bay Packers. Green Bay PAckers,")
+                Text("Green Bay Packers. Green Bay Packers. Green Bay Packers.")
                     .font(.body)
             }
             .padding()
