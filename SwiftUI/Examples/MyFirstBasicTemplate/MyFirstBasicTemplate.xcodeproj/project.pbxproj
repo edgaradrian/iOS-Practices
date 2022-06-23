@@ -385,6 +385,8 @@
 		5C950C9128645AC500B203CD /* Overlay_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9028645AC500B203CD /* Overlay_Images.swift */; };
 		5C950C9328645C3500B203CD /* Overlay_ImagesAndButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9228645C3500B203CD /* Overlay_ImagesAndButtons.swift */; };
 		5C950C9628645E6100B203CD /* Padding_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9528645E6100B203CD /* Padding_Intro.swift */; };
+		5C950C9828645FE500B203CD /* Padding_Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9728645FE500B203CD /* Padding_Length.swift */; };
+		5C950C9A2864608200B203CD /* Padding_HorizontalVerticalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C992864608200B203CD /* Padding_HorizontalVerticalInsets.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -813,6 +815,8 @@
 		5C950C9028645AC500B203CD /* Overlay_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Images.swift; sourceTree = "<group>"; };
 		5C950C9228645C3500B203CD /* Overlay_ImagesAndButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_ImagesAndButtons.swift; sourceTree = "<group>"; };
 		5C950C9528645E6100B203CD /* Padding_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_Intro.swift; sourceTree = "<group>"; };
+		5C950C9728645FE500B203CD /* Padding_Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_Length.swift; sourceTree = "<group>"; };
+		5C950C992864608200B203CD /* Padding_HorizontalVerticalInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_HorizontalVerticalInsets.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1783,6 +1787,8 @@
 			isa = PBXGroup;
 			children = (
 				5C950C9528645E6100B203CD /* Padding_Intro.swift */,
+				5C950C9728645FE500B203CD /* Padding_Length.swift */,
+				5C950C992864608200B203CD /* Padding_HorizontalVerticalInsets.swift */,
 			);
 			path = Padding;
 			sourceTree = "<group>";
@@ -2001,6 +2007,7 @@
 				13E8EF3E27C949A600307F9A /* DisclosureGroup_WithCustomLabel.swift in Sources */,
 				13B8BC1427F64B56004797DD /* Text_TextSelection.swift in Sources */,
 				5C950C9628645E6100B203CD /* Padding_Intro.swift in Sources */,
+				5C950C9828645FE500B203CD /* Padding_Length.swift in Sources */,
 				5C950C9328645C3500B203CD /* Overlay_ImagesAndButtons.swift in Sources */,
 				5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */,
 				135A33D228242E750073B2C5 /* Path_QuadCurve.swift in Sources */,
@@ -2405,6 +2412,7 @@
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13917F8A2807444F00CFA872 /* Capsule_RoundedCornerStyle.swift in Sources */,
 				13B8BC0227F4D525004797DD /* Text_CapitalLetterOptions.swift in Sources */,
+				5C950C9A2864608200B203CD /* Padding_HorizontalVerticalInsets.swift in Sources */,
 				5CD0FD5B284FBD88004949A5 /* AspectRatio_Intro.swift in Sources */,
 				5CFFB8022837093C000D28EF /* AngularGradient_InCircles.swift in Sources */,
 				135294F127E58C9E00B29311 /* TabView_Navigating.swift in Sources */,
