@@ -13,7 +13,6 @@ struct Overlay_Intro: View {
             .opacity(0.4)
             .overlay(
                 HeaderView(titulo: "Superposición", subtitulo: "Introducción", description: "Aquí la vista del cabecero de sobrepone al color para así poner un fondo.")
-            
             )
     }
 }
