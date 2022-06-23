@@ -387,6 +387,8 @@
 		5C950C9628645E6100B203CD /* Padding_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9528645E6100B203CD /* Padding_Intro.swift */; };
 		5C950C9828645FE500B203CD /* Padding_Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9728645FE500B203CD /* Padding_Length.swift */; };
 		5C950C9A2864608200B203CD /* Padding_HorizontalVerticalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C992864608200B203CD /* Padding_HorizontalVerticalInsets.swift */; };
+		5C950C9C2864612A00B203CD /* Padding_OtherInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9B2864612A00B203CD /* Padding_OtherInsets.swift */; };
+		5C950C9E2864631800B203CD /* Padding_Custom_Edge_Inset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9D2864631800B203CD /* Padding_Custom_Edge_Inset.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -817,6 +819,8 @@
 		5C950C9528645E6100B203CD /* Padding_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_Intro.swift; sourceTree = "<group>"; };
 		5C950C9728645FE500B203CD /* Padding_Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_Length.swift; sourceTree = "<group>"; };
 		5C950C992864608200B203CD /* Padding_HorizontalVerticalInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_HorizontalVerticalInsets.swift; sourceTree = "<group>"; };
+		5C950C9B2864612A00B203CD /* Padding_OtherInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_OtherInsets.swift; sourceTree = "<group>"; };
+		5C950C9D2864631800B203CD /* Padding_Custom_Edge_Inset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_Custom_Edge_Inset.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1789,6 +1793,8 @@
 				5C950C9528645E6100B203CD /* Padding_Intro.swift */,
 				5C950C9728645FE500B203CD /* Padding_Length.swift */,
 				5C950C992864608200B203CD /* Padding_HorizontalVerticalInsets.swift */,
+				5C950C9B2864612A00B203CD /* Padding_OtherInsets.swift */,
+				5C950C9D2864631800B203CD /* Padding_Custom_Edge_Inset.swift */,
 			);
 			path = Padding;
 			sourceTree = "<group>";
@@ -2216,6 +2222,7 @@
 				5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */,
 				13EDD09C27DD6966005B4112 /* Navigation_Searchable_Cancel.swift in Sources */,
 				13B8BC0E27F4EEF0004797DD /* Text_WrappingImages.swift in Sources */,
+				5C950C9C2864612A00B203CD /* Padding_OtherInsets.swift in Sources */,
 				13917F5F27FF320000CFA872 /* TextField_CustomPlaceholder.swift in Sources */,
 				13CC9D2C27D64F0C007E9F33 /* NavigationLink_WithListNoBar.swift in Sources */,
 				5C9326352848F92C000F3411 /* CustomPopups_Intro.swift in Sources */,
@@ -2306,6 +2313,7 @@
 				5C5090F4285C40A100495648 /* Edges_Intro.swift in Sources */,
 				13613AAF2821A4C6007B4606 /* Image_ClipShape.swift in Sources */,
 				1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */,
+				5C950C9E2864631800B203CD /* Padding_Custom_Edge_Inset.swift in Sources */,
 				137B73EC27FA4E530027E61E /* TextEditor_CustomizingText.swift in Sources */,
 				1383E5C727DAD80100C12E4D /* ProgressView_Customizing.swift in Sources */,
 				1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */,
