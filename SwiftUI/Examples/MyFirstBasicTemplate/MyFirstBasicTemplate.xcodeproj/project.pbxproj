@@ -373,6 +373,7 @@
 		5C5ED191286CDDA600CA3202 /* Border_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED190286CDDA600CA3202 /* Border_Gradients.swift */; };
 		5C5ED194286CE0E900CA3202 /* Brightness_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED193286CE0E900CA3202 /* Brightness_Intro.swift */; };
 		5C5ED197286CE43A00CA3202 /* Clipped_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED196286CE43A00CA3202 /* Clipped_Intro.swift */; };
+		5C5ED19A286CE71300CA3202 /* ClipShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED199286CE71300CA3202 /* ClipShape_Intro.swift */; };
 		5C625484285BC0F100169591 /* Frame_Min_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C625483285BC0F100169591 /* Frame_Min_Max.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
@@ -823,6 +824,7 @@
 		5C5ED190286CDDA600CA3202 /* Border_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border_Gradients.swift; sourceTree = "<group>"; };
 		5C5ED193286CE0E900CA3202 /* Brightness_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brightness_Intro.swift; sourceTree = "<group>"; };
 		5C5ED196286CE43A00CA3202 /* Clipped_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipped_Intro.swift; sourceTree = "<group>"; };
+		5C5ED199286CE71300CA3202 /* ClipShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipShape_Intro.swift; sourceTree = "<group>"; };
 		5C625483285BC0F100169591 /* Frame_Min_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Min_Max.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
@@ -1773,6 +1775,14 @@
 			path = Clipped;
 			sourceTree = "<group>";
 		};
+		5C5ED198286CE6F900CA3202 /* ClipShape */ = {
+			isa = PBXGroup;
+			children = (
+				5C5ED199286CE71300CA3202 /* ClipShape_Intro.swift */,
+			);
+			path = ClipShape;
+			sourceTree = "<group>";
+		};
 		5C90BB57284AE037001E4119 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1910,6 +1920,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C5ED198286CE6F900CA3202 /* ClipShape */,
 				5C5ED195286CE3F200CA3202 /* Clipped */,
 				5C5ED192286CE0C400CA3202 /* Brightness */,
 				5C9F9983286B94860076D49A /* Border */,
@@ -2416,6 +2427,7 @@
 				5CE94A4D286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift in Sources */,
 				1392029127BEB9670078A01D /* Spacer_RelativeSpacing.swift in Sources */,
 				5C25B91828616870001F2FB5 /* Edges_KeyboardRegion_Before.swift in Sources */,
+				5C5ED19A286CE71300CA3202 /* ClipShape_Intro.swift in Sources */,
 				135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */,
 				139ABCDC280DAE31009E2C47 /* CircularShapes_Trim.swift in Sources */,
 				13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */,
