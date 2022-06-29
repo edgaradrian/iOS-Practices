@@ -372,6 +372,7 @@
 		5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */; };
 		5C5ED191286CDDA600CA3202 /* Border_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED190286CDDA600CA3202 /* Border_Gradients.swift */; };
 		5C5ED194286CE0E900CA3202 /* Brightness_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED193286CE0E900CA3202 /* Brightness_Intro.swift */; };
+		5C5ED197286CE43A00CA3202 /* Clipped_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ED196286CE43A00CA3202 /* Clipped_Intro.swift */; };
 		5C625484285BC0F100169591 /* Frame_Min_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C625483285BC0F100169591 /* Frame_Min_Max.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
@@ -821,6 +822,7 @@
 		5C5C89212837E1C20078FE4D /* ImagePaint_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint_Intro.swift; sourceTree = "<group>"; };
 		5C5ED190286CDDA600CA3202 /* Border_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border_Gradients.swift; sourceTree = "<group>"; };
 		5C5ED193286CE0E900CA3202 /* Brightness_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brightness_Intro.swift; sourceTree = "<group>"; };
+		5C5ED196286CE43A00CA3202 /* Clipped_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipped_Intro.swift; sourceTree = "<group>"; };
 		5C625483285BC0F100169591 /* Frame_Min_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Min_Max.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
@@ -1763,6 +1765,14 @@
 			path = Brightness;
 			sourceTree = "<group>";
 		};
+		5C5ED195286CE3F200CA3202 /* Clipped */ = {
+			isa = PBXGroup;
+			children = (
+				5C5ED196286CE43A00CA3202 /* Clipped_Intro.swift */,
+			);
+			path = Clipped;
+			sourceTree = "<group>";
+		};
 		5C90BB57284AE037001E4119 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1900,6 +1910,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C5ED195286CE3F200CA3202 /* Clipped */,
 				5C5ED192286CE0C400CA3202 /* Brightness */,
 				5C9F9983286B94860076D49A /* Border */,
 				5C9F997E286B8CB40076D49A /* Blur */,
@@ -2312,6 +2323,7 @@
 				13CC9D3627D66018007E9F33 /* Picker_Intro.swift in Sources */,
 				13CC9D0527D0AE8B007E9F33 /* Menu_MaxItems.swift in Sources */,
 				139ABCFB2819085E009E2C47 /* Group_SharedModifiers.swift in Sources */,
+				5C5ED197286CE43A00CA3202 /* Clipped_Intro.swift in Sources */,
 				5C950C8C2863CC9000B203CD /* Offset_Intro.swift in Sources */,
 				13E8EF5F27CAE00900307F9A /* Label_ListItemTint.swift in Sources */,
 				13917F6727FF408200CFA872 /* TextField_Disabled.swift in Sources */,
