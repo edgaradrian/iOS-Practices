@@ -377,6 +377,7 @@
 		5C625484285BC0F100169591 /* Frame_Min_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C625483285BC0F100169591 /* Frame_Min_Max.swift */; };
 		5C67486B286E24A900A07E1B /* ColorInvert_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67486A286E24A900A07E1B /* ColorInvert_WithPhotos.swift */; };
 		5C67486E286E287000A07E1B /* ColorMultiply_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67486D286E287000A07E1B /* ColorMultiply_Intro.swift */; };
+		5C674871286E2EC700A07E1B /* ContentShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -831,6 +832,7 @@
 		5C625483285BC0F100169591 /* Frame_Min_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Min_Max.swift; sourceTree = "<group>"; };
 		5C67486A286E24A900A07E1B /* ColorInvert_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInvert_WithPhotos.swift; sourceTree = "<group>"; };
 		5C67486D286E287000A07E1B /* ColorMultiply_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiply_Intro.swift; sourceTree = "<group>"; };
+		5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Intro.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1797,6 +1799,14 @@
 			path = ColorMultiply;
 			sourceTree = "<group>";
 		};
+		5C67486F286E2EA500A07E1B /* ContentShape */ = {
+			isa = PBXGroup;
+			children = (
+				5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */,
+			);
+			path = ContentShape;
+			sourceTree = "<group>";
+		};
 		5C90BB57284AE037001E4119 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1934,6 +1944,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C67486F286E2EA500A07E1B /* ContentShape */,
 				5C67486C286E284200A07E1B /* ColorMultiply */,
 				5CC9783C286E0BC800A472DB /* ColorInvert */,
 				5C5ED198286CE6F900CA3202 /* ClipShape */,
@@ -2418,6 +2429,7 @@
 				13CC9CEB27CF4BA4007E9F33 /* List_ListRowSeparatorTint.swift in Sources */,
 				135294D727E1E30500B29311 /* Slider_RangeOfValues.swift in Sources */,
 				5CF58E4D2857A88900B6FE1F /* Frame_FixedSizes.swift in Sources */,
+				5C674871286E2EC700A07E1B /* ContentShape_Intro.swift in Sources */,
 				5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */,
 				13613AB12821AA36007B4606 /* Image_SymbolsIntro.swift in Sources */,
 				135294E827E5853600B29311 /* Stepper_Colors.swift in Sources */,
