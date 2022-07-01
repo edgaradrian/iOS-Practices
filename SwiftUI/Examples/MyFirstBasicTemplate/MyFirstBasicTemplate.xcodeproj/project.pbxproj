@@ -379,6 +379,7 @@
 		5C67486E286E287000A07E1B /* ColorMultiply_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67486D286E287000A07E1B /* ColorMultiply_Intro.swift */; };
 		5C674871286E2EC700A07E1B /* ContentShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */; };
 		5C719A91286F8AAD00209A78 /* ContentShape_Kinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */; };
+		5C719A94286F916200209A78 /* Contrast_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A93286F916200209A78 /* Contrast_Intro.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -835,6 +836,7 @@
 		5C67486D286E287000A07E1B /* ColorMultiply_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiply_Intro.swift; sourceTree = "<group>"; };
 		5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Intro.swift; sourceTree = "<group>"; };
 		5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Kinds.swift; sourceTree = "<group>"; };
+		5C719A93286F916200209A78 /* Contrast_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_Intro.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1810,6 +1812,14 @@
 			path = ContentShape;
 			sourceTree = "<group>";
 		};
+		5C719A92286F914C00209A78 /* Contrast */ = {
+			isa = PBXGroup;
+			children = (
+				5C719A93286F916200209A78 /* Contrast_Intro.swift */,
+			);
+			path = Contrast;
+			sourceTree = "<group>";
+		};
 		5C90BB57284AE037001E4119 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1947,6 +1957,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C719A92286F914C00209A78 /* Contrast */,
 				5C67486F286E2EA500A07E1B /* ContentShape */,
 				5C67486C286E284200A07E1B /* ColorMultiply */,
 				5CC9783C286E0BC800A472DB /* ColorInvert */,
@@ -2606,6 +2617,7 @@
 				1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */,
 				13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */,
 				13E8EF4D27CA9E0A00307F9A /* Form_WithControls.swift in Sources */,
+				5C719A94286F916200209A78 /* Contrast_Intro.swift in Sources */,
 				134CB35827DF9110002BFADE /* SignInWithApple_Intro.swift in Sources */,
 				13CC9CA427CD6F89007E9F33 /* List_GroupedListStyle.swift in Sources */,
 				13E8EF3C27C945BE00307F9A /* DisclosureGroup_Color.swift in Sources */,
