@@ -381,6 +381,7 @@
 		5C719A91286F8AAD00209A78 /* ContentShape_Kinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */; };
 		5C719A94286F916200209A78 /* Contrast_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A93286F916200209A78 /* Contrast_Intro.swift */; };
 		5C719A96286F95E200209A78 /* Contrast_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A95286F95E200209A78 /* Contrast_WithPhotos.swift */; };
+		5C719A99286F97C700209A78 /* CornerRadious_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -839,6 +840,7 @@
 		5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Kinds.swift; sourceTree = "<group>"; };
 		5C719A93286F916200209A78 /* Contrast_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_Intro.swift; sourceTree = "<group>"; };
 		5C719A95286F95E200209A78 /* Contrast_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_WithPhotos.swift; sourceTree = "<group>"; };
+		5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadious_Intro.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1823,6 +1825,14 @@
 			path = Contrast;
 			sourceTree = "<group>";
 		};
+		5C719A97286F97AA00209A78 /* CornerRadious */ = {
+			isa = PBXGroup;
+			children = (
+				5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */,
+			);
+			path = CornerRadious;
+			sourceTree = "<group>";
+		};
 		5C90BB57284AE037001E4119 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1960,6 +1970,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C719A97286F97AA00209A78 /* CornerRadious */,
 				5C719A92286F914C00209A78 /* Contrast */,
 				5C67486F286E2EA500A07E1B /* ContentShape */,
 				5C67486C286E284200A07E1B /* ColorMultiply */,
@@ -2453,6 +2464,7 @@
 				13613AB12821AA36007B4606 /* Image_SymbolsIntro.swift in Sources */,
 				135294E827E5853600B29311 /* Stepper_Colors.swift in Sources */,
 				5CC008EA2853AFF500674ACB /* CoordinateSpace_Intro.swift in Sources */,
+				5C719A99286F97C700209A78 /* CornerRadious_Intro.swift in Sources */,
 				135A33C828238BC50073B2C5 /* MyDivider.swift in Sources */,
 				134CB34C27DF808A002BFADE /* SecureField_CustomizationLayers.swift in Sources */,
 				1388946E27F95C8D00D288FA /* Text_ListFormatting.swift in Sources */,
