@@ -378,6 +378,7 @@
 		5C67486B286E24A900A07E1B /* ColorInvert_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67486A286E24A900A07E1B /* ColorInvert_WithPhotos.swift */; };
 		5C67486E286E287000A07E1B /* ColorMultiply_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67486D286E287000A07E1B /* ColorMultiply_Intro.swift */; };
 		5C674871286E2EC700A07E1B /* ContentShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */; };
+		5C719A91286F8AAD00209A78 /* ContentShape_Kinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -833,6 +834,7 @@
 		5C67486A286E24A900A07E1B /* ColorInvert_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInvert_WithPhotos.swift; sourceTree = "<group>"; };
 		5C67486D286E287000A07E1B /* ColorMultiply_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiply_Intro.swift; sourceTree = "<group>"; };
 		5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Intro.swift; sourceTree = "<group>"; };
+		5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Kinds.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1803,6 +1805,7 @@
 			isa = PBXGroup;
 			children = (
 				5C674870286E2EC700A07E1B /* ContentShape_Intro.swift */,
+				5C719A90286F8AAD00209A78 /* ContentShape_Kinds.swift */,
 			);
 			path = ContentShape;
 			sourceTree = "<group>";
@@ -2275,6 +2278,7 @@
 				13552C5427F117F500727B21 /* Text_BaselineOffset.swift in Sources */,
 				13E8EEF527C5992F00307F9A /* LazyVGrid_Columns.swift in Sources */,
 				134CB35327DF87C9002BFADE /* SegmentedControl_NoSelected.swift in Sources */,
+				5C719A91286F8AAD00209A78 /* ContentShape_Kinds.swift in Sources */,
 				13CC9CE327CF3C19007E9F33 /* List_SafeAreaInset_ScrollView.swift in Sources */,
 				13917F80280470F000CFA872 /* Toggle_Tint.swift in Sources */,
 				13CC9CF827CF577D007E9F33 /* Menu_Intro.swift in Sources */,
