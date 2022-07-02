@@ -426,6 +426,7 @@
 		5CB78AEF2866140B0047B046 /* Position_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB78AEE2866140A0047B046 /* Position_GeometryReader.swift */; };
 		5CB78AF2286621BD0047B046 /* ZIndex_Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB78AF1286621BD0047B046 /* ZIndex_Order.swift */; };
 		5CB78AF6286628280047B046 /* AccentColor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB78AF5286628280047B046 /* AccentColor_Intro.swift */; };
+		5CB814DC2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814DB2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift */; };
 		5CC008E82853ACE600674ACB /* PurpleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008E72853ACE600674ACB /* PurpleCircle.swift */; };
 		5CC008EA2853AFF500674ACB /* CoordinateSpace_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008E92853AFF500674ACB /* CoordinateSpace_Intro.swift */; };
 		5CC008ED2853B9CF00674ACB /* FixedSize_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008EC2853B9CF00674ACB /* FixedSize_Intro.swift */; };
@@ -885,6 +886,7 @@
 		5CB78AEE2866140A0047B046 /* Position_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position_GeometryReader.swift; sourceTree = "<group>"; };
 		5CB78AF1286621BD0047B046 /* ZIndex_Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIndex_Order.swift; sourceTree = "<group>"; };
 		5CB78AF5286628280047B046 /* AccentColor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_Intro.swift; sourceTree = "<group>"; };
+		5CB814DB2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius_FullyRoundedSides.swift; sourceTree = "<group>"; };
 		5CC008E72853ACE600674ACB /* PurpleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCircle.swift; sourceTree = "<group>"; };
 		5CC008E92853AFF500674ACB /* CoordinateSpace_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpace_Intro.swift; sourceTree = "<group>"; };
 		5CC008EC2853B9CF00674ACB /* FixedSize_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSize_Intro.swift; sourceTree = "<group>"; };
@@ -1829,6 +1831,7 @@
 			isa = PBXGroup;
 			children = (
 				5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */,
+				5CB814DB2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift */,
 			);
 			path = CornerRadious;
 			sourceTree = "<group>";
@@ -2361,6 +2364,7 @@
 				13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */,
 				13E8EF3727C93E4600307F9A /* DatePicker_CustomSelector.swift in Sources */,
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
+				5CB814DC2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift in Sources */,
 				5CC008E82853ACE600674ACB /* PurpleCircle.swift in Sources */,
 				13CC9CF327CF54BB007E9F33 /* List_SwipeActions_Options.swift in Sources */,
 				1383E5CE27DB021200C12E4D /* ScrollView_SafeAreaInset.swift in Sources */,
