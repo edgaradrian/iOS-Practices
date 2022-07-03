@@ -387,6 +387,7 @@
 		5C88032A287239CE00FADEEF /* ForegroundStyle_Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */; };
 		5C88032C28723C2100FADEEF /* ForegroundStyle_Hierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88032B28723C2100FADEEF /* ForegroundStyle_Hierarchical.swift */; };
 		5C88032E28723F5D00FADEEF /* ForegroundStyle_HierarchicalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88032D28723F5D00FADEEF /* ForegroundStyle_HierarchicalColor.swift */; };
+		5C8803302872423A00FADEEF /* ForegroundStyle_Semantic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88032F2872423A00FADEEF /* ForegroundStyle_Semantic.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -854,6 +855,7 @@
 		5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Materials.swift; sourceTree = "<group>"; };
 		5C88032B28723C2100FADEEF /* ForegroundStyle_Hierarchical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Hierarchical.swift; sourceTree = "<group>"; };
 		5C88032D28723F5D00FADEEF /* ForegroundStyle_HierarchicalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_HierarchicalColor.swift; sourceTree = "<group>"; };
+		5C88032F2872423A00FADEEF /* ForegroundStyle_Semantic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Semantic.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1858,6 +1860,7 @@
 				5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */,
 				5C88032B28723C2100FADEEF /* ForegroundStyle_Hierarchical.swift */,
 				5C88032D28723F5D00FADEEF /* ForegroundStyle_HierarchicalColor.swift */,
+				5C88032F2872423A00FADEEF /* ForegroundStyle_Semantic.swift */,
 			);
 			path = ForegroundStyle;
 			sourceTree = "<group>";
@@ -2596,6 +2599,7 @@
 				13552C3C27EC6AE100727B21 /* Text_LineLimit.swift in Sources */,
 				5C3C16CE2834220700660834 /* AngularGradient_Introduction.swift in Sources */,
 				137B73F727FB905C0027E61E /* TextField_Placeholder.swift in Sources */,
+				5C8803302872423A00FADEEF /* ForegroundStyle_Semantic.swift in Sources */,
 				1383E5CC27DAFCDA00C12E4D /* ScrollView_Intro.swift in Sources */,
 				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
