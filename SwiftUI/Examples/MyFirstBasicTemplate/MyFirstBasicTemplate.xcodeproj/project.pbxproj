@@ -382,6 +382,7 @@
 		5C719A94286F916200209A78 /* Contrast_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A93286F916200209A78 /* Contrast_Intro.swift */; };
 		5C719A96286F95E200209A78 /* Contrast_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A95286F95E200209A78 /* Contrast_WithPhotos.swift */; };
 		5C719A99286F97C700209A78 /* CornerRadious_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */; };
+		5C880326287234A700FADEEF /* ForegroundStyle_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */; };
 		5C90BB56284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */; };
 		5C90BB59284AE056001E4119 /* StatusBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB58284AE056001E4119 /* StatusBarHidden.swift */; };
 		5C90BB5C284AE22F001E4119 /* Toolbar_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */; };
@@ -844,6 +845,7 @@
 		5C719A93286F916200209A78 /* Contrast_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_Intro.swift; sourceTree = "<group>"; };
 		5C719A95286F95E200209A78 /* Contrast_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_WithPhotos.swift; sourceTree = "<group>"; };
 		5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadious_Intro.swift; sourceTree = "<group>"; };
+		5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Colors.swift; sourceTree = "<group>"; };
 		5C90BB55284ADDEB001E4119 /* Sheet_SwipeDisableWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_SwipeDisableWithBool.swift; sourceTree = "<group>"; };
 		5C90BB58284AE056001E4119 /* StatusBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarHidden.swift; sourceTree = "<group>"; };
 		5C90BB5B284AE22F001E4119 /* Toolbar_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Intro.swift; sourceTree = "<group>"; };
@@ -1840,6 +1842,14 @@
 			path = CornerRadious;
 			sourceTree = "<group>";
 		};
+		5C8803242872347600FADEEF /* ForegroundStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */,
+			);
+			path = ForegroundStyle;
+			sourceTree = "<group>";
+		};
 		5C90BB57284AE037001E4119 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1977,6 +1987,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C8803242872347600FADEEF /* ForegroundStyle */,
 				5CB814E02870ED9F0062E802 /* ForegroundColor */,
 				5CB814DD2870D9240062E802 /* DrawingGroup */,
 				5C719A97286F97AA00209A78 /* CornerRadious */,
@@ -2356,6 +2367,7 @@
 				13E8EED727C2A7D000307F9A /* GeometryReader_GettingCoordinates.swift in Sources */,
 				1362D53E27B6ED4800695795 /* LazyVStack_Player.swift in Sources */,
 				13CC9D3C27D664CB007E9F33 /* Picker_ProgrammaticSelection.swift in Sources */,
+				5C880326287234A700FADEEF /* ForegroundStyle_Colors.swift in Sources */,
 				13CC9D1227D20C46007E9F33 /* NavigationView_BarHidden.swift in Sources */,
 				5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */,
 				13CC9D2827D365D3007E9F33 /* NavigationLink_WithIsActivePop.swift in Sources */,
