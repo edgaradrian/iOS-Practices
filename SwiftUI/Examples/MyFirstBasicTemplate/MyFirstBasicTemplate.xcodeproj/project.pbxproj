@@ -407,6 +407,7 @@
 		5C950C9C2864612A00B203CD /* Padding_OtherInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9B2864612A00B203CD /* Padding_OtherInsets.swift */; };
 		5C950C9E2864631800B203CD /* Padding_Custom_Edge_Inset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C950C9D2864631800B203CD /* Padding_Custom_Edge_Inset.swift */; };
 		5C95581428763367000CA515 /* LuminanceToAlpha_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95581328763367000CA515 /* LuminanceToAlpha_Intro.swift */; };
+		5C95581728763AAB000CA515 /* Mask_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95581628763AAB000CA515 /* Mask_Intro.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -880,6 +881,7 @@
 		5C950C9B2864612A00B203CD /* Padding_OtherInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_OtherInsets.swift; sourceTree = "<group>"; };
 		5C950C9D2864631800B203CD /* Padding_Custom_Edge_Inset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding_Custom_Edge_Inset.swift; sourceTree = "<group>"; };
 		5C95581328763367000CA515 /* LuminanceToAlpha_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuminanceToAlpha_Intro.swift; sourceTree = "<group>"; };
+		5C95581628763AAB000CA515 /* Mask_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_Intro.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1974,6 +1976,14 @@
 			path = LuminanceToAlpha;
 			sourceTree = "<group>";
 		};
+		5C95581528763A91000CA515 /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				5C95581628763AAB000CA515 /* Mask_Intro.swift */,
+			);
+			path = Mask;
+			sourceTree = "<group>";
+		};
 		5C9A965828329C2F00769839 /* RectangularShapes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2038,6 +2048,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C95581528763A91000CA515 /* Mask */,
 				5C9558122876333F000CA515 /* LuminanceToAlpha */,
 				5CB679B42874D51100080FCD /* HueRotation */,
 				5CB679AF2874CDC500080FCD /* GrayScale */,
@@ -2602,6 +2613,7 @@
 				13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */,
 				139ABCD6280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift in Sources */,
 				139ABCDA280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift in Sources */,
+				5C95581728763AAB000CA515 /* Mask_Intro.swift in Sources */,
 				13917F5B27FF28B300CFA872 /* TextField_Customizing.swift in Sources */,
 				13E8EF0E27C6F27B00307F9A /* Button_Intro.swift in Sources */,
 				13E8EF6327CAE55000307F9A /* Label_HideShowComponents.swift in Sources */,
