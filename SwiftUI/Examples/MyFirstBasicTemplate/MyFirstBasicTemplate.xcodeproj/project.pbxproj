@@ -385,6 +385,7 @@
 		5C719A99286F97C700209A78 /* CornerRadious_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */; };
 		5C81270F287A044E00494CF6 /* Rotation3DEffect_XAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81270E287A044E00494CF6 /* Rotation3DEffect_XAxis.swift */; };
 		5C812711287A084D00494CF6 /* Rotation3DEffect_YAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812710287A084D00494CF6 /* Rotation3DEffect_YAxis.swift */; };
+		5C812713287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */; };
 		5C880326287234A700FADEEF /* ForegroundStyle_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */; };
 		5C8803282872372F00FADEEF /* ForegroundStyle_Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8803272872372F00FADEEF /* ForegroundStyle_Gradient.swift */; };
 		5C88032A287239CE00FADEEF /* ForegroundStyle_Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */; };
@@ -869,6 +870,7 @@
 		5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadious_Intro.swift; sourceTree = "<group>"; };
 		5C81270E287A044E00494CF6 /* Rotation3DEffect_XAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_XAxis.swift; sourceTree = "<group>"; };
 		5C812710287A084D00494CF6 /* Rotation3DEffect_YAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_YAxis.swift; sourceTree = "<group>"; };
+		5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_ZAxis.swift; sourceTree = "<group>"; };
 		5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Colors.swift; sourceTree = "<group>"; };
 		5C8803272872372F00FADEEF /* ForegroundStyle_Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Gradient.swift; sourceTree = "<group>"; };
 		5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Materials.swift; sourceTree = "<group>"; };
@@ -1889,6 +1891,7 @@
 			children = (
 				5C81270E287A044E00494CF6 /* Rotation3DEffect_XAxis.swift */,
 				5C812710287A084D00494CF6 /* Rotation3DEffect_YAxis.swift */,
+				5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */,
 			);
 			path = Rotation3DEffect;
 			sourceTree = "<group>";
@@ -2727,6 +2730,7 @@
 				1383E5CC27DAFCDA00C12E4D /* ScrollView_Intro.swift in Sources */,
 				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
+				5C812713287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift in Sources */,
 				5CFA5C8E284521130006333C /* ConfirmationDialog_Intro.swift in Sources */,
 				5C93263D284905A8000F3411 /* Sheet_Identifiable.swift in Sources */,
 				5CB78AEB2865FEC10047B046 /* Position_Intro.swift in Sources */,
