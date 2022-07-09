@@ -389,6 +389,7 @@
 		5C812715287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812714287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift */; };
 		5C812717287A0D8800494CF6 /* Rotation3D_XYAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812716287A0D8800494CF6 /* Rotation3D_XYAxes.swift */; };
 		5C812719287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812718287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift */; };
+		5C81271C287A1A2000494CF6 /* Saturation_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81271B287A1A2000494CF6 /* Saturation_Intro.swift */; };
 		5C880326287234A700FADEEF /* ForegroundStyle_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */; };
 		5C8803282872372F00FADEEF /* ForegroundStyle_Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8803272872372F00FADEEF /* ForegroundStyle_Gradient.swift */; };
 		5C88032A287239CE00FADEEF /* ForegroundStyle_Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */; };
@@ -877,6 +878,7 @@
 		5C812714287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_Anchors.swift; sourceTree = "<group>"; };
 		5C812716287A0D8800494CF6 /* Rotation3D_XYAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3D_XYAxes.swift; sourceTree = "<group>"; };
 		5C812718287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_MultipleAxes.swift; sourceTree = "<group>"; };
+		5C81271B287A1A2000494CF6 /* Saturation_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saturation_Intro.swift; sourceTree = "<group>"; };
 		5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Colors.swift; sourceTree = "<group>"; };
 		5C8803272872372F00FADEEF /* ForegroundStyle_Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Gradient.swift; sourceTree = "<group>"; };
 		5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Materials.swift; sourceTree = "<group>"; };
@@ -1905,6 +1907,14 @@
 			path = Rotation3DEffect;
 			sourceTree = "<group>";
 		};
+		5C81271A287A1A0400494CF6 /* Saturation */ = {
+			isa = PBXGroup;
+			children = (
+				5C81271B287A1A2000494CF6 /* Saturation_Intro.swift */,
+			);
+			path = Saturation;
+			sourceTree = "<group>";
+		};
 		5C8803242872347600FADEEF /* ForegroundStyle */ = {
 			isa = PBXGroup;
 			children = (
@@ -2092,6 +2102,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C81271A287A1A0400494CF6 /* Saturation */,
 				5C81270D287A03B900494CF6 /* Rotation3DEffect */,
 				5CD89CF728776D980059BCE4 /* RotationEffect */,
 				5CD89CF4287769160059BCE4 /* PreferredColorSchema */,
@@ -2388,6 +2399,7 @@
 				5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */,
 				5C719A96286F95E200209A78 /* Contrast_WithPhotos.swift in Sources */,
 				13917F6D2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift in Sources */,
+				5C81271C287A1A2000494CF6 /* Saturation_Intro.swift in Sources */,
 				13E8EF3E27C949A600307F9A /* DisclosureGroup_WithCustomLabel.swift in Sources */,
 				13B8BC1427F64B56004797DD /* Text_TextSelection.swift in Sources */,
 				5C950C9628645E6100B203CD /* Padding_Intro.swift in Sources */,
