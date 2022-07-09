@@ -388,6 +388,7 @@
 		5C812713287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */; };
 		5C812715287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812714287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift */; };
 		5C812717287A0D8800494CF6 /* Rotation3D_XYAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812716287A0D8800494CF6 /* Rotation3D_XYAxes.swift */; };
+		5C812719287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812718287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift */; };
 		5C880326287234A700FADEEF /* ForegroundStyle_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */; };
 		5C8803282872372F00FADEEF /* ForegroundStyle_Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8803272872372F00FADEEF /* ForegroundStyle_Gradient.swift */; };
 		5C88032A287239CE00FADEEF /* ForegroundStyle_Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */; };
@@ -875,6 +876,7 @@
 		5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_ZAxis.swift; sourceTree = "<group>"; };
 		5C812714287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_Anchors.swift; sourceTree = "<group>"; };
 		5C812716287A0D8800494CF6 /* Rotation3D_XYAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3D_XYAxes.swift; sourceTree = "<group>"; };
+		5C812718287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_MultipleAxes.swift; sourceTree = "<group>"; };
 		5C880325287234A700FADEEF /* ForegroundStyle_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Colors.swift; sourceTree = "<group>"; };
 		5C8803272872372F00FADEEF /* ForegroundStyle_Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Gradient.swift; sourceTree = "<group>"; };
 		5C880329287239CE00FADEEF /* ForegroundStyle_Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyle_Materials.swift; sourceTree = "<group>"; };
@@ -1898,6 +1900,7 @@
 				5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */,
 				5C812714287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift */,
 				5C812716287A0D8800494CF6 /* Rotation3D_XYAxes.swift */,
+				5C812718287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift */,
 			);
 			path = Rotation3DEffect;
 			sourceTree = "<group>";
@@ -2380,6 +2383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E8EF1A27C7E5C500307F9A /* Button_FloatingActionButton.swift in Sources */,
+				5C812719287A173A00494CF6 /* Rotation3DEffect_MultipleAxes.swift in Sources */,
 				1356245027F654C800C9EF73 /* Text_DateFormat_Specific.swift in Sources */,
 				5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */,
 				5C719A96286F95E200209A78 /* Contrast_WithPhotos.swift in Sources */,
