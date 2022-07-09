@@ -9,31 +9,31 @@ import SwiftUI
 
 struct Rotation_Anchor: View {
     
-    @State private var degrees = -25.0
-    
     var body: some View {
-        VStack(spacing: 20) {
-            HeaderView(titulo: "Efecto de Rotación", subtitulo: "Anclas", description: "El ancla es el punto en donde la rotación gira. Por defecto es el centro")
-            
-            Text("Se muestran los marcos")
-            
-            VStack(spacing: 60) {
-                Text(".topLeading")
-                    .rotationEffect(Angle(degrees: -45), anchor: .topLeading)
-                    .border(Color.red)
+        ScrollView {
+            VStack(spacing: 20) {
+                HeaderView(titulo: "Efecto de Rotación", subtitulo: "Anclas", description: "El ancla es el punto en donde la rotación gira. Por defecto es el centro")
                 
-                Text(".center")
-                    .rotationEffect(Angle(degrees: -45), anchor: .center)
-                    .border(Color.red)
+                Text("Se muestran los marcos")
                 
-                Text(".bottomTrailing")
-                    .rotationEffect(Angle(degrees: -45), anchor: .bottomTrailing)
-                    .border(Color.red)
+                VStack(spacing: 60) {
+                    Text(".topLeading")
+                        .rotationEffect(Angle(degrees: -45), anchor: .topLeading)
+                        .border(Color.red)
+                    
+                    Text(".center")
+                        .rotationEffect(Angle(degrees: -45), anchor: .center)
+                        .border(Color.red)
+                    
+                    Text(".bottomTrailing")
+                        .rotationEffect(Angle(degrees: -45), anchor: .bottomTrailing)
+                        .border(Color.red)
+                    
+                }
+                .font(.largeTitle)
                 
+                Spacer()
             }
-            .font(.largeTitle)
-            
-            Spacer()
         }
     }
 }
