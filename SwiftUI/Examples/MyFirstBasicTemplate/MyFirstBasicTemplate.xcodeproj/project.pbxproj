@@ -370,6 +370,7 @@
 		5C544DC0287F4E0B00BEA952 /* Saturation_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DBF287F4E0B00BEA952 /* Saturation_WithPhotos.swift */; };
 		5C544DC3287F50E900BEA952 /* Scale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DC2287F50E900BEA952 /* Scale_Intro.swift */; };
 		5C544DC5287F6D2000BEA952 /* Scale_ContentNotFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DC4287F6D2000BEA952 /* Scale_ContentNotFrame.swift */; };
+		5C544DC7287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DC6287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift */; };
 		5C5C891B2837CF4F0078FE4D /* EllipticalGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */; };
 		5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */; };
 		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
@@ -862,6 +863,7 @@
 		5C544DBF287F4E0B00BEA952 /* Saturation_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saturation_WithPhotos.swift; sourceTree = "<group>"; };
 		5C544DC2287F50E900BEA952 /* Scale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale_Intro.swift; sourceTree = "<group>"; };
 		5C544DC4287F6D2000BEA952 /* Scale_ContentNotFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale_ContentNotFrame.swift; sourceTree = "<group>"; };
+		5C544DC6287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect_OnXYAxes.swift; sourceTree = "<group>"; };
 		5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_Intro.swift; sourceTree = "<group>"; };
 		5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
 		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
@@ -1828,6 +1830,7 @@
 			children = (
 				5C544DC2287F50E900BEA952 /* Scale_Intro.swift */,
 				5C544DC4287F6D2000BEA952 /* Scale_ContentNotFrame.swift */,
+				5C544DC6287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift */,
 			);
 			path = ScaleEffect;
 			sourceTree = "<group>";
@@ -2438,6 +2441,7 @@
 				13917F7C28046B7300CFA872 /* Toggle_Intro.swift in Sources */,
 				5C90BB5E284AE3D9001E4119 /* Toolbar_InlineNavBar.swift in Sources */,
 				1362D52E27B49B6E00695795 /* SomeViewsPushOut.swift in Sources */,
+				5C544DC7287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift in Sources */,
 				13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */,
 				13E8EF6D27CBE86100307F9A /* List_WithData.swift in Sources */,
 				13E8EF6F27CBE9EB00307F9A /* List_CustomRows.swift in Sources */,
