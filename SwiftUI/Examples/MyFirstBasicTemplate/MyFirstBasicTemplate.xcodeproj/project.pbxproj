@@ -368,6 +368,7 @@
 		5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */; };
 		5C5090F4285C40A100495648 /* Edges_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F3285C40A100495648 /* Edges_Intro.swift */; };
 		5C544DC0287F4E0B00BEA952 /* Saturation_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DBF287F4E0B00BEA952 /* Saturation_WithPhotos.swift */; };
+		5C544DC3287F50E900BEA952 /* Scale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DC2287F50E900BEA952 /* Scale_Intro.swift */; };
 		5C5C891B2837CF4F0078FE4D /* EllipticalGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */; };
 		5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */; };
 		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
@@ -858,6 +859,7 @@
 		5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_SafeAreas_Vertical.swift; sourceTree = "<group>"; };
 		5C5090F3285C40A100495648 /* Edges_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_Intro.swift; sourceTree = "<group>"; };
 		5C544DBF287F4E0B00BEA952 /* Saturation_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saturation_WithPhotos.swift; sourceTree = "<group>"; };
+		5C544DC2287F50E900BEA952 /* Scale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale_Intro.swift; sourceTree = "<group>"; };
 		5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_Intro.swift; sourceTree = "<group>"; };
 		5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
 		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
@@ -1819,6 +1821,14 @@
 			path = IgnoresSafeArea;
 			sourceTree = "<group>";
 		};
+		5C544DC1287F50B800BEA952 /* ScaleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				5C544DC2287F50E900BEA952 /* Scale_Intro.swift */,
+			);
+			path = ScaleEffect;
+			sourceTree = "<group>";
+		};
 		5C5C89192837CF070078FE4D /* EllipticalGradient */ = {
 			isa = PBXGroup;
 			children = (
@@ -2105,6 +2115,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C544DC1287F50B800BEA952 /* ScaleEffect */,
 				5C81271A287A1A0400494CF6 /* Saturation */,
 				5C81270D287A03B900494CF6 /* Rotation3DEffect */,
 				5CD89CF728776D980059BCE4 /* RotationEffect */,
@@ -2445,6 +2456,7 @@
 				5C25E5482846E65600E9333B /* ContextMenu_ConditionallyShowing.swift in Sources */,
 				13CC9D1E27D3561A007E9F33 /* NavigationLink_Intro.swift in Sources */,
 				13CC9CA027CD48BC007E9F33 /* List_WithChildren.swift in Sources */,
+				5C544DC3287F50E900BEA952 /* Scale_Intro.swift in Sources */,
 				5CB78AED28660D5F0047B046 /* Position_Coordinates.swift in Sources */,
 				1388947027F95F1000D288FA /* Text_AttributedString.swift in Sources */,
 				13917F712800AF7000CFA872 /* TextField_OnSubmit.swift in Sources */,
