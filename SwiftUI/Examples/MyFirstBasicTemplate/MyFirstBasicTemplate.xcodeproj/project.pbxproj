@@ -462,6 +462,7 @@
 		5CC008F12853C2DD00674ACB /* FixedSize_TextRuncated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008F02853C2DD00674ACB /* FixedSize_TextRuncated.swift */; };
 		5CC0C82A28808F6A0007F3CE /* ScaleEffect_Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0C82928808F6A0007F3CE /* ScaleEffect_Flip.swift */; };
 		5CC0C82C288095030007F3CE /* ScaleEffect_Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0C82B288095030007F3CE /* ScaleEffect_Anchor.swift */; };
+		5CC0C82F28809A110007F3CE /* Shadow_Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0C82E28809A110007F3CE /* Shadow_Radius.swift */; };
 		5CC8867228417C0F000F6111 /* ActionSheet_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */; };
 		5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */; };
 		5CC8867628418247000F6111 /* ActionSheet_PassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */; };
@@ -957,6 +958,7 @@
 		5CC008F02853C2DD00674ACB /* FixedSize_TextRuncated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSize_TextRuncated.swift; sourceTree = "<group>"; };
 		5CC0C82928808F6A0007F3CE /* ScaleEffect_Flip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect_Flip.swift; sourceTree = "<group>"; };
 		5CC0C82B288095030007F3CE /* ScaleEffect_Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect_Anchor.swift; sourceTree = "<group>"; };
+		5CC0C82E28809A110007F3CE /* Shadow_Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_Radius.swift; sourceTree = "<group>"; };
 		5CC8867128417C0F000F6111 /* ActionSheet_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Intro.swift; sourceTree = "<group>"; };
 		5CC8867328417FE2000F6111 /* ActionSheet_PresentedByBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PresentedByBool.swift; sourceTree = "<group>"; };
 		5CC8867528418247000F6111 /* ActionSheet_PassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_PassDataInto.swift; sourceTree = "<group>"; };
@@ -2127,6 +2129,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5CC0C82D288099CC0007F3CE /* Shadow */,
 				5C544DC1287F50B800BEA952 /* ScaleEffect */,
 				5C81271A287A1A0400494CF6 /* Saturation */,
 				5C81270D287A03B900494CF6 /* Rotation3DEffect */,
@@ -2200,6 +2203,14 @@
 				5CC008F02853C2DD00674ACB /* FixedSize_TextRuncated.swift */,
 			);
 			path = FixedSize;
+			sourceTree = "<group>";
+		};
+		5CC0C82D288099CC0007F3CE /* Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0C82E28809A110007F3CE /* Shadow_Radius.swift */,
+			);
+			path = Shadow;
 			sourceTree = "<group>";
 		};
 		5CC8866F28417B91000F6111 /* ControlsModifiers */ = {
@@ -2639,6 +2650,7 @@
 				13E8EEE827C4B49F00307F9A /* LazyHGrid_AdaptiveItems.swift in Sources */,
 				135A33CA282420C60073B2C5 /* Path_Triangles.swift in Sources */,
 				5C950C9128645AC500B203CD /* Overlay_Images.swift in Sources */,
+				5CC0C82F28809A110007F3CE /* Shadow_Radius.swift in Sources */,
 				13E8EEEC27C4B85A00307F9A /* LazyHGrid_RowAndColumnSpacing.swift in Sources */,
 				13613AAD2821A25E007B4606 /* Image_ScaledMetric.swift in Sources */,
 				13E8EF5227CAA53300307F9A /* GroupBox_Intro.swift in Sources */,
