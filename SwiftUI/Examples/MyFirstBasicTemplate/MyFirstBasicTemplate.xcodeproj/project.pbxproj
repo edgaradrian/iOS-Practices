@@ -372,6 +372,7 @@
 		5C544DC5287F6D2000BEA952 /* Scale_ContentNotFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DC4287F6D2000BEA952 /* Scale_ContentNotFrame.swift */; };
 		5C544DC7287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C544DC6287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift */; };
 		5C5AF26D2881EC9F00B3CFF1 /* Shadow_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AF26C2881EC9F00B3CFF1 /* Shadow_Offset.swift */; };
+		5C5AF26F2881F14300B3CFF1 /* Shadow_OrderMatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AF26E2881F14300B3CFF1 /* Shadow_OrderMatters.swift */; };
 		5C5C891B2837CF4F0078FE4D /* EllipticalGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */; };
 		5C5C891D2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */; };
 		5C5C891F2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */; };
@@ -871,6 +872,7 @@
 		5C544DC4287F6D2000BEA952 /* Scale_ContentNotFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale_ContentNotFrame.swift; sourceTree = "<group>"; };
 		5C544DC6287F70D800BEA952 /* ScaleEffect_OnXYAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect_OnXYAxes.swift; sourceTree = "<group>"; };
 		5C5AF26C2881EC9F00B3CFF1 /* Shadow_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_Offset.swift; sourceTree = "<group>"; };
+		5C5AF26E2881F14300B3CFF1 /* Shadow_OrderMatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_OrderMatters.swift; sourceTree = "<group>"; };
 		5C5C891A2837CF4F0078FE4D /* EllipticalGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_Intro.swift; sourceTree = "<group>"; };
 		5C5C891C2837D8ED0078FE4D /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
 		5C5C891E2837DED20078FE4D /* EllipticalGradient_RadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_RadiusFraction.swift; sourceTree = "<group>"; };
@@ -2218,6 +2220,7 @@
 				5CC0C8302880B36A0007F3CE /* Shadow_Colors.swift */,
 				5CC0C8322880B77C0007F3CE /* Shadow_OnDifferentViews.swift */,
 				5C5AF26C2881EC9F00B3CFF1 /* Shadow_Offset.swift */,
+				5C5AF26E2881F14300B3CFF1 /* Shadow_OrderMatters.swift */,
 			);
 			path = Shadow;
 			sourceTree = "<group>";
@@ -2638,6 +2641,7 @@
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
 				139ABCF62810826C009E2C47 /* Divider_Customization.swift in Sources */,
 				5CFA5C872845158D0006333C /* Alerts_Action.swift in Sources */,
+				5C5AF26F2881F14300B3CFF1 /* Shadow_OrderMatters.swift in Sources */,
 				13E8EF2127C7EFAC00307F9A /* Button_Tint.swift in Sources */,
 				139ABCDE280DB0C2009E2C47 /* Circles_Trim_SolidShapes.swift in Sources */,
 				13CC9D4627D85F20007E9F33 /* Picker_Menu.swift in Sources */,
