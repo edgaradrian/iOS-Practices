@@ -351,6 +351,7 @@
 		5C25E5432846E0F200E9333B /* ConfirmationDialog_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */; };
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
 		5C25E5482846E65600E9333B /* ContextMenu_ConditionallyShowing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */; };
+		5C30A832288368550042CDCD /* Shadow_DepressedEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */; };
 		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
@@ -853,6 +854,7 @@
 		5C25E5422846E0F200E9333B /* ConfirmationDialog_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog_CancelButton.swift; sourceTree = "<group>"; };
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
 		5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_ConditionallyShowing.swift; sourceTree = "<group>"; };
+		5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_DepressedEffect.swift; sourceTree = "<group>"; };
 		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
@@ -2227,6 +2229,7 @@
 				5C5AF26E2881F14300B3CFF1 /* Shadow_OrderMatters.swift */,
 				5C5AF2702881F63B00B3CFF1 /* Shadow_OpacityAndShadows.swift */,
 				5C5AF2722881FB0A00B3CFF1 /* Shadow_RaisedEffect.swift */,
+				5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */,
 			);
 			path = Shadow;
 			sourceTree = "<group>";
@@ -2612,6 +2615,7 @@
 				13917F6327FF3B9F00CFA872 /* TextField_KeyboardType.swift in Sources */,
 				5CFFB80928371522000D28EF /* ConicGradient_Angle.swift in Sources */,
 				5C88032A287239CE00FADEEF /* ForegroundStyle_Materials.swift in Sources */,
+				5C30A832288368550042CDCD /* Shadow_DepressedEffect.swift in Sources */,
 				13613AB7282201FB007B4606 /* Image_SymbolVariant.swift in Sources */,
 				5C9F9980286B8DC00076D49A /* Blur_Intro.swift in Sources */,
 				13E8EF0127C622BA00307F9A /* LazyVGrid_HorizontalAlignment.swift in Sources */,

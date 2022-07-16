@@ -72,11 +72,15 @@ struct Shadow_RaisedEffect: View {
                         Image(systemName: "lightbulb")
                     }
                     .frame(width: 80, height: 80)
+                    .background(
+                        Color.cyan
+                            .opacity(0.4)
+                    )
                     .overlay(
                         RoundedRectangle(cornerRadius: 20, style: .continuous)
                             .stroke(Color.cyan
                                 .opacity(0.4), lineWidth: 4)
-                            .shadow(color: .white, radius: 3, x: 4, y: 4)
+                            .shadow(color: .white, radius: 4, x: 4, y: 4)
                     )
                     .overlay(
                         RoundedRectangle(cornerRadius: 20, style: .continuous)
