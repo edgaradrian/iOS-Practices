@@ -398,6 +398,7 @@
 		5C719A94286F916200209A78 /* Contrast_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A93286F916200209A78 /* Contrast_Intro.swift */; };
 		5C719A96286F95E200209A78 /* Contrast_WithPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A95286F95E200209A78 /* Contrast_WithPhotos.swift */; };
 		5C719A99286F97C700209A78 /* CornerRadious_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */; };
+		5C776205288384DA004E5143 /* ButtonStyle_Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C776204288384DA004E5143 /* ButtonStyle_Default.swift */; };
 		5C81270F287A044E00494CF6 /* Rotation3DEffect_XAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81270E287A044E00494CF6 /* Rotation3DEffect_XAxis.swift */; };
 		5C812711287A084D00494CF6 /* Rotation3DEffect_YAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812710287A084D00494CF6 /* Rotation3DEffect_YAxis.swift */; };
 		5C812713287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */; };
@@ -907,6 +908,7 @@
 		5C719A93286F916200209A78 /* Contrast_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_Intro.swift; sourceTree = "<group>"; };
 		5C719A95286F95E200209A78 /* Contrast_WithPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contrast_WithPhotos.swift; sourceTree = "<group>"; };
 		5C719A98286F97C700209A78 /* CornerRadious_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadious_Intro.swift; sourceTree = "<group>"; };
+		5C776204288384DA004E5143 /* ButtonStyle_Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Default.swift; sourceTree = "<group>"; };
 		5C81270E287A044E00494CF6 /* Rotation3DEffect_XAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_XAxis.swift; sourceTree = "<group>"; };
 		5C812710287A084D00494CF6 /* Rotation3DEffect_YAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_YAxis.swift; sourceTree = "<group>"; };
 		5C812712287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffect_ZAxis.swift; sourceTree = "<group>"; };
@@ -1176,6 +1178,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5C30A8402883846B0042CDCD /* CustomStyling */,
 				5CB78AF3286624D30047B046 /* EffectModifiers */,
 				5C16137A284E60AD00A56BE6 /* LayoutModifiers */,
 				5CC8866F28417B91000F6111 /* ControlsModifiers */,
@@ -1817,6 +1820,22 @@
 				5C30A83E2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift */,
 			);
 			path = TransformEffect;
+			sourceTree = "<group>";
+		};
+		5C30A8402883846B0042CDCD /* CustomStyling */ = {
+			isa = PBXGroup;
+			children = (
+				5C30A841288384790042CDCD /* ButtonStyle */,
+			);
+			path = CustomStyling;
+			sourceTree = "<group>";
+		};
+		5C30A841288384790042CDCD /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5C776204288384DA004E5143 /* ButtonStyle_Default.swift */,
+			);
+			path = ButtonStyle;
 			sourceTree = "<group>";
 		};
 		5C37503F283D77B100909046 /* LinearGradient */ = {
@@ -2616,6 +2635,7 @@
 				5C880326287234A700FADEEF /* ForegroundStyle_Colors.swift in Sources */,
 				13CC9D1227D20C46007E9F33 /* NavigationView_BarHidden.swift in Sources */,
 				5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */,
+				5C776205288384DA004E5143 /* ButtonStyle_Default.swift in Sources */,
 				13CC9D2827D365D3007E9F33 /* NavigationLink_WithIsActivePop.swift in Sources */,
 				1392029627BEBFCF0078A01D /* GeometryReader_Alignment.swift in Sources */,
 				5C5ED194286CE0E900CA3202 /* Brightness_Intro.swift in Sources */,
