@@ -1,5 +1,5 @@
 //
-//  TransformEffect_Translation.swift
+//  TransformEffect_ComparedWithOffset.swift
 //  MyFirstBasicTemplate
 //
 //  Created by Edgar Adrián on 16/07/22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct TransformEffect_Translation: View {
+struct TransformEffect_ComparedWithOffset: View {
     
     @State private var applyEffect = false
     
     var body: some View {
         VStack(spacing: 20) {
             
-            HeaderView(titulo: "Efecto de transformación", subtitulo: "Traslado", description: "Usar el efecto de la transformación para aplicar traslado.")
+            HeaderView(titulo: "Efecto de transformación", subtitulo: "Traslado", description: "Con el modificador de offset se tiene el mismo efecto.")
             
             Spacer()
             
@@ -25,7 +25,7 @@ struct TransformEffect_Translation: View {
             Image(systemName: "paperplane.fill")
                 .font(.largeTitle)
                 .foregroundColor(.blue)
-                .transformEffect(applyEffect ? CGAffineTransform(translationX: 140, y: -140) : .identity)
+                .offset(applyEffect ? CGSize(width: 140, height: -140) : CGSize.zero)
             
             Spacer()
             
@@ -53,10 +53,11 @@ struct TransformEffect_Translation: View {
             
         }
     }
+    
 }
 
-struct TransformEffect_Translation_Previews: PreviewProvider {
+struct TransformEffect_ComparedWithOffset_Previews: PreviewProvider {
     static var previews: some View {
-        TransformEffect_Translation()
+        TransformEffect_ComparedWithOffset()
     }
 }

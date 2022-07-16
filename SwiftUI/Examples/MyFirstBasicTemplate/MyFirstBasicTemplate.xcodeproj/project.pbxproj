@@ -353,6 +353,7 @@
 		5C25E5482846E65600E9333B /* ContextMenu_ConditionallyShowing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */; };
 		5C30A832288368550042CDCD /* Shadow_DepressedEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */; };
 		5C30A83528836E5E0042CDCD /* TransformEffect_Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */; };
+		5C30A8372883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */; };
 		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
@@ -857,6 +858,7 @@
 		5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_ConditionallyShowing.swift; sourceTree = "<group>"; };
 		5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_DepressedEffect.swift; sourceTree = "<group>"; };
 		5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_Translation.swift; sourceTree = "<group>"; };
+		5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_ComparedWithOffset.swift; sourceTree = "<group>"; };
 		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
@@ -1800,6 +1802,7 @@
 			isa = PBXGroup;
 			children = (
 				5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */,
+				5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */,
 			);
 			path = TransformEffect;
 			sourceTree = "<group>";
@@ -2903,6 +2906,7 @@
 				13EDD0A027DD74C0005B4112 /* Navigation_Searchable_Filter.swift in Sources */,
 				5CFA5C85284511660006333C /* Alerts_Message.swift in Sources */,
 				135A33C6282389180073B2C5 /* Path_Intro.swift in Sources */,
+				5C30A8372883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift in Sources */,
 				13E8EF7327CBF0B800307F9A /* List_Delete.swift in Sources */,
 				13917F822804734C00CFA872 /* Toggle_ToggleStyle.swift in Sources */,
 				137B73E827FA46500027E61E /* TextEditor_LineLimit.swift in Sources */,
