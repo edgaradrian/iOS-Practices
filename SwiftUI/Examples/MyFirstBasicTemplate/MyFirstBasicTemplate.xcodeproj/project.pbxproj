@@ -357,6 +357,7 @@
 		5C30A8392883745F0042CDCD /* TransformEffect_Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A8382883745F0042CDCD /* TransformEffect_Rotation.swift */; };
 		5C30A83B28837E420042CDCD /* TransformEffect_ComparedRotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83A28837E420042CDCD /* TransformEffect_ComparedRotationEffect.swift */; };
 		5C30A83D288380CA0042CDCD /* TransformEffect_Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83C288380CA0042CDCD /* TransformEffect_Scale.swift */; };
+		5C30A83F2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83E2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift */; };
 		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
@@ -865,6 +866,7 @@
 		5C30A8382883745F0042CDCD /* TransformEffect_Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_Rotation.swift; sourceTree = "<group>"; };
 		5C30A83A28837E420042CDCD /* TransformEffect_ComparedRotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_ComparedRotationEffect.swift; sourceTree = "<group>"; };
 		5C30A83C288380CA0042CDCD /* TransformEffect_Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_Scale.swift; sourceTree = "<group>"; };
+		5C30A83E2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_ComparedScaleEffect.swift; sourceTree = "<group>"; };
 		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
@@ -1812,6 +1814,7 @@
 				5C30A8382883745F0042CDCD /* TransformEffect_Rotation.swift */,
 				5C30A83A28837E420042CDCD /* TransformEffect_ComparedRotationEffect.swift */,
 				5C30A83C288380CA0042CDCD /* TransformEffect_Scale.swift */,
+				5C30A83E2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift */,
 			);
 			path = TransformEffect;
 			sourceTree = "<group>";
@@ -2578,6 +2581,7 @@
 				135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */,
 				1388946A27F9565900D288FA /* Text_Currency.swift in Sources */,
 				13B8BC1027F6449F004797DD /* Text_Markdown.swift in Sources */,
+				5C30A83F2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift in Sources */,
 				139ABCE9280F3981009E2C47 /* Color_OtherSystemColors.swift in Sources */,
 				13613AB52821C1F1007B4606 /* Image_FromSymbolsWithColor.swift in Sources */,
 				13552C5427F117F500727B21 /* Text_BaselineOffset.swift in Sources */,
