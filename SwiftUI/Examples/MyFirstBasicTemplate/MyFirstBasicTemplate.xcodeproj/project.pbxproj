@@ -352,6 +352,7 @@
 		5C25E5462846E3A700E9333B /* ContextMenu_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */; };
 		5C25E5482846E65600E9333B /* ContextMenu_ConditionallyShowing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */; };
 		5C30A832288368550042CDCD /* Shadow_DepressedEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */; };
+		5C30A83528836E5E0042CDCD /* TransformEffect_Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */; };
 		5C375041283D77D000909046 /* LinearGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375040283D77D000909046 /* LinearGradient_Intro.swift */; };
 		5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */; };
 		5C375045283D824F00909046 /* LinearGradient_Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C375044283D824F00909046 /* LinearGradient_Direction.swift */; };
@@ -855,6 +856,7 @@
 		5C25E5452846E3A700E9333B /* ContextMenu_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_Introduction.swift; sourceTree = "<group>"; };
 		5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_ConditionallyShowing.swift; sourceTree = "<group>"; };
 		5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_DepressedEffect.swift; sourceTree = "<group>"; };
+		5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_Translation.swift; sourceTree = "<group>"; };
 		5C375040283D77D000909046 /* LinearGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Intro.swift; sourceTree = "<group>"; };
 		5C375042283D7A7D00909046 /* LinearGradient_OnShapesControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_OnShapesControls.swift; sourceTree = "<group>"; };
 		5C375044283D824F00909046 /* LinearGradient_Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_Direction.swift; sourceTree = "<group>"; };
@@ -1794,6 +1796,14 @@
 			path = ContextMenu;
 			sourceTree = "<group>";
 		};
+		5C30A83328836E210042CDCD /* TransformEffect */ = {
+			isa = PBXGroup;
+			children = (
+				5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */,
+			);
+			path = TransformEffect;
+			sourceTree = "<group>";
+		};
 		5C37503F283D77B100909046 /* LinearGradient */ = {
 			isa = PBXGroup;
 			children = (
@@ -2143,6 +2153,7 @@
 		5CB78AF3286624D30047B046 /* EffectModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				5C30A83328836E210042CDCD /* TransformEffect */,
 				5CC0C82D288099CC0007F3CE /* Shadow */,
 				5C544DC1287F50B800BEA952 /* ScaleEffect */,
 				5C81271A287A1A0400494CF6 /* Saturation */,
@@ -2742,6 +2753,7 @@
 				13E8EF1827C7DFA600307F9A /* Button_WithImages.swift in Sources */,
 				5C812717287A0D8800494CF6 /* Rotation3D_XYAxes.swift in Sources */,
 				13CC9D4427D85A86007E9F33 /* Picker_BindingToData.swift in Sources */,
+				5C30A83528836E5E0042CDCD /* TransformEffect_Translation.swift in Sources */,
 				5CB679B82874D9EA00080FCD /* HueRotation_Images.swift in Sources */,
 				13CC9CE127CF3A74007E9F33 /* List_SafeAreaInset.swift in Sources */,
 				5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */,
