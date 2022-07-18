@@ -341,6 +341,7 @@
 		5C0E5BE528861AD700FCDFEB /* ButtonStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */; };
 		5C0E5BE728861E6C00FCDFEB /* NewOutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */; };
 		5C0E5BE928861F6000FCDFEB /* ButtonStyle_PropertyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE828861F6000FCDFEB /* ButtonStyle_PropertyValues.swift */; };
+		5C0E5BEB288625FA00FCDFEB /* ButtonStyle_Inherence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BEA288625FA00FCDFEB /* ButtonStyle_Inherence.swift */; };
 		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
@@ -855,6 +856,7 @@
 		5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Intro.swift; sourceTree = "<group>"; };
 		5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C0E5BE828861F6000FCDFEB /* ButtonStyle_PropertyValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_PropertyValues.swift; sourceTree = "<group>"; };
+		5C0E5BEA288625FA00FCDFEB /* ButtonStyle_Inherence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Inherence.swift; sourceTree = "<group>"; };
 		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
@@ -1854,6 +1856,7 @@
 				5C776204288384DA004E5143 /* ButtonStyle_Default.swift */,
 				5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */,
 				5C0E5BE828861F6000FCDFEB /* ButtonStyle_PropertyValues.swift */,
+				5C0E5BEA288625FA00FCDFEB /* ButtonStyle_Inherence.swift */,
 			);
 			path = ButtonStyle;
 			sourceTree = "<group>";
@@ -2937,6 +2940,7 @@
 				13E8EF1027C6F67100307F9A /* Button_TextModifiers.swift in Sources */,
 				5C25B91A28616B60001F2FB5 /* Edges_KeyboardRegion_After.swift in Sources */,
 				5C93263B28490223000F3411 /* Sheet_PresentingWithBool.swift in Sources */,
+				5C0E5BEB288625FA00FCDFEB /* ButtonStyle_Inherence.swift in Sources */,
 				5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */,
 				134CB35527DF8AE4002BFADE /* Segmented_Colors.swift in Sources */,
 				5CA869C228523327008EE5FC /* Background_Default.swift in Sources */,
