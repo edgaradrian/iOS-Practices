@@ -339,6 +339,7 @@
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 		5C0E5BE3288617DA00FCDFEB /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */; };
 		5C0E5BE528861AD700FCDFEB /* ButtonStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */; };
+		5C0E5BE728861E6C00FCDFEB /* NewOutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */; };
 		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
@@ -851,6 +852,7 @@
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 		5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Intro.swift; sourceTree = "<group>"; };
+		5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
@@ -1768,6 +1770,7 @@
 			isa = PBXGroup;
 			children = (
 				5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */,
+				5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -2611,6 +2614,7 @@
 				139ABCD4280A0C5C009E2C47 /* CircularShapes_Stroke.swift in Sources */,
 				137B73F227FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				139ABCE0280DB378009E2C47 /* CircularShapesWithButtons.swift in Sources */,
+				5C0E5BE728861E6C00FCDFEB /* NewOutlineButtonStyle.swift in Sources */,
 				5C9F9985286B949A0076D49A /* Border_Intro.swift in Sources */,
 				135294FB27E71AF700B29311 /* TabView_PreventBackground.swift in Sources */,
 				1388946A27F9565900D288FA /* Text_Currency.swift in Sources */,
