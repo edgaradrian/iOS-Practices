@@ -13,10 +13,12 @@ struct OnlineButtonStyle: ButtonStyle {
         
         configuration.label
             .padding()
+            .foregroundColor(.red)
             .background(
                 Capsule()
                     .strokeBorder(Color.blue, lineWidth: 2)
             )
+            
         
     }//makeBody
     
