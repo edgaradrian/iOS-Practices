@@ -340,6 +340,7 @@
 		5C0E5BE3288617DA00FCDFEB /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */; };
 		5C0E5BE528861AD700FCDFEB /* ButtonStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */; };
 		5C0E5BE728861E6C00FCDFEB /* NewOutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */; };
+		5C0E5BE928861F6000FCDFEB /* ButtonStyle_PropertyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE828861F6000FCDFEB /* ButtonStyle_PropertyValues.swift */; };
 		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
@@ -853,6 +854,7 @@
 		5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Intro.swift; sourceTree = "<group>"; };
 		5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOutlineButtonStyle.swift; sourceTree = "<group>"; };
+		5C0E5BE828861F6000FCDFEB /* ButtonStyle_PropertyValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_PropertyValues.swift; sourceTree = "<group>"; };
 		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
@@ -1851,6 +1853,7 @@
 			children = (
 				5C776204288384DA004E5143 /* ButtonStyle_Default.swift */,
 				5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */,
+				5C0E5BE828861F6000FCDFEB /* ButtonStyle_PropertyValues.swift */,
 			);
 			path = ButtonStyle;
 			sourceTree = "<group>";
@@ -2760,6 +2763,7 @@
 				13B8BC1627F64EAF004797DD /* Text_Forrmat.swift in Sources */,
 				13CC9CA627CD74CB007E9F33 /* List_ListStyle_SideBar.swift in Sources */,
 				139ABCF428107C5B009E2C47 /* Divider_Intro.swift in Sources */,
+				5C0E5BE928861F6000FCDFEB /* ButtonStyle_PropertyValues.swift in Sources */,
 				13EDD0A227DD784E005B4112 /* Navigation_Filter_Grid.swift in Sources */,
 				5C02E63728316C4F005AB138 /* HalfCircleProgress.swift in Sources */,
 				139ABCFE28190B49009E2C47 /* Image_FromAssetCatalog.swift in Sources */,
