@@ -14,6 +14,7 @@ struct OnlineButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .foregroundColor(.red)
+            .opacity(configuration.isPressed ? 0.3 : 1)
             .background(
                 Capsule()
                     .strokeBorder(Color.blue, lineWidth: 2)
