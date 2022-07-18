@@ -344,6 +344,7 @@
 		5C0E5BEB288625FA00FCDFEB /* ButtonStyle_Inherence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BEA288625FA00FCDFEB /* ButtonStyle_Inherence.swift */; };
 		5C0E5BEE2886288200FCDFEB /* DatePickerStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BED2886288200FCDFEB /* DatePickerStyle_Intro.swift */; };
 		5C0E5BF028862A0F00FCDFEB /* DatePickerStyle_Compact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BEF28862A0F00FCDFEB /* DatePickerStyle_Compact.swift */; };
+		5C0E5BF228862A9B00FCDFEB /* DatePickerStyle_Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BF128862A9B00FCDFEB /* DatePickerStyle_Wheel.swift */; };
 		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
@@ -861,6 +862,7 @@
 		5C0E5BEA288625FA00FCDFEB /* ButtonStyle_Inherence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Inherence.swift; sourceTree = "<group>"; };
 		5C0E5BED2886288200FCDFEB /* DatePickerStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyle_Intro.swift; sourceTree = "<group>"; };
 		5C0E5BEF28862A0F00FCDFEB /* DatePickerStyle_Compact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyle_Compact.swift; sourceTree = "<group>"; };
+		5C0E5BF128862A9B00FCDFEB /* DatePickerStyle_Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyle_Wheel.swift; sourceTree = "<group>"; };
 		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
@@ -1788,6 +1790,7 @@
 			children = (
 				5C0E5BED2886288200FCDFEB /* DatePickerStyle_Intro.swift */,
 				5C0E5BEF28862A0F00FCDFEB /* DatePickerStyle_Compact.swift */,
+				5C0E5BF128862A9B00FCDFEB /* DatePickerStyle_Wheel.swift */,
 			);
 			path = DatePickerStyle;
 			sourceTree = "<group>";
@@ -2655,6 +2658,7 @@
 				5CFA5C8928451B360006333C /* Alerts_ButtonRoles.swift in Sources */,
 				5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */,
 				13B8BBF627F4CC08004797DD /* Text_LayoutPriority.swift in Sources */,
+				5C0E5BF228862A9B00FCDFEB /* DatePickerStyle_Wheel.swift in Sources */,
 				13917F6928009BA100CFA872 /* TextField_OnEditingChanged.swift in Sources */,
 				13E8EF2327C7F23F00307F9A /* Button_Role.swift in Sources */,
 				5C93263F284908AE000F3411 /* Sheet_SwipeDisabled.swift in Sources */,
