@@ -337,6 +337,7 @@
 		5C02E63928316DE9005AB138 /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */; };
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
+		5C0E5BE3288617DA00FCDFEB /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */; };
 		5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */; };
 		5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */; };
 		5C161379284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */; };
@@ -847,6 +848,7 @@
 		5C02E63828316DE9005AB138 /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
+		5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C161374284E56EA00A56BE6 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		5C161376284E59F700A56BE6 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		5C161378284E5D9C00A56BE6 /* Toolbar_ControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_ControlGroup.swift; sourceTree = "<group>"; };
@@ -1760,6 +1762,14 @@
 			path = ZStack;
 			sourceTree = "<group>";
 		};
+		5C0E5BE1288617BF00FCDFEB /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		5C16137A284E60AD00A56BE6 /* LayoutModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1825,6 +1835,7 @@
 		5C30A8402883846B0042CDCD /* CustomStyling */ = {
 			isa = PBXGroup;
 			children = (
+				5C0E5BE1288617BF00FCDFEB /* Styles */,
 				5C30A841288384790042CDCD /* ButtonStyle */,
 			);
 			path = CustomStyling;
@@ -2798,6 +2809,7 @@
 				5CC8867428417FE2000F6111 /* ActionSheet_PresentedByBool.swift in Sources */,
 				1392029A27C0B1170078A01D /* GeometryReader_GettingSize.swift in Sources */,
 				13E8EF5B27CAD2AE00307F9A /* Label_Solution.swift in Sources */,
+				5C0E5BE3288617DA00FCDFEB /* OutlineButtonStyle.swift in Sources */,
 				5CA828C1284BC8E20016C50A /* ToolbarItemGroup.swift in Sources */,
 				1352950127E724CD00B29311 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */,
 				13E8EF7727CBF58000307F9A /* List_Selection_Multiple.swift in Sources */,
