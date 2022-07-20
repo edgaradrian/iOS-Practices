@@ -463,6 +463,7 @@
 		5CA869C828523AC1008EE5FC /* Background_Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C728523AC1008EE5FC /* Background_Materials.swift */; };
 		5CA869CA28523DED008EE5FC /* Background_Hierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */; };
 		5CA869CC28523FF5008EE5FC /* Background_HierarchicalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869CB28523FF5008EE5FC /* Background_HierarchicalColor.swift */; };
+		5CAB004F28877ECB00AC8425 /* DatePickerStyle_Graphical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB004E28877ECA00AC8425 /* DatePickerStyle_Graphical.swift */; };
 		5CB679B12874CDE600080FCD /* Grayscale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */; };
 		5CB679B32874D1FE00080FCD /* Grayscale_withImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */; };
 		5CB679B62874D56900080FCD /* HueRotation_MoreColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */; };
@@ -981,6 +982,7 @@
 		5CA869C728523AC1008EE5FC /* Background_Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Materials.swift; sourceTree = "<group>"; };
 		5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Hierarchical.swift; sourceTree = "<group>"; };
 		5CA869CB28523FF5008EE5FC /* Background_HierarchicalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_HierarchicalColor.swift; sourceTree = "<group>"; };
+		5CAB004E28877ECA00AC8425 /* DatePickerStyle_Graphical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyle_Graphical.swift; sourceTree = "<group>"; };
 		5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_Intro.swift; sourceTree = "<group>"; };
 		5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_withImages.swift; sourceTree = "<group>"; };
 		5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotation_MoreColors.swift; sourceTree = "<group>"; };
@@ -1791,6 +1793,7 @@
 				5C0E5BED2886288200FCDFEB /* DatePickerStyle_Intro.swift */,
 				5C0E5BEF28862A0F00FCDFEB /* DatePickerStyle_Compact.swift */,
 				5C0E5BF128862A9B00FCDFEB /* DatePickerStyle_Wheel.swift */,
+				5CAB004E28877ECA00AC8425 /* DatePickerStyle_Graphical.swift */,
 			);
 			path = DatePickerStyle;
 			sourceTree = "<group>";
@@ -2873,6 +2876,7 @@
 				139ABCDC280DAE31009E2C47 /* CircularShapes_Trim.swift in Sources */,
 				13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */,
 				139ABCD6280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift in Sources */,
+				5CAB004F28877ECB00AC8425 /* DatePickerStyle_Graphical.swift in Sources */,
 				139ABCDA280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift in Sources */,
 				5C95581728763AAB000CA515 /* Mask_Intro.swift in Sources */,
 				13917F5B27FF28B300CFA872 /* TextField_Customizing.swift in Sources */,
