@@ -464,6 +464,7 @@
 		5CA869CA28523DED008EE5FC /* Background_Hierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */; };
 		5CA869CC28523FF5008EE5FC /* Background_HierarchicalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA869CB28523FF5008EE5FC /* Background_HierarchicalColor.swift */; };
 		5CAB004F28877ECB00AC8425 /* DatePickerStyle_Graphical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB004E28877ECA00AC8425 /* DatePickerStyle_Graphical.swift */; };
+		5CAB00512887809900AC8425 /* CenteredGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB00502887809900AC8425 /* CenteredGroupBoxStyle.swift */; };
 		5CB679B12874CDE600080FCD /* Grayscale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */; };
 		5CB679B32874D1FE00080FCD /* Grayscale_withImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */; };
 		5CB679B62874D56900080FCD /* HueRotation_MoreColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */; };
@@ -983,6 +984,7 @@
 		5CA869C928523DED008EE5FC /* Background_Hierarchical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Hierarchical.swift; sourceTree = "<group>"; };
 		5CA869CB28523FF5008EE5FC /* Background_HierarchicalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_HierarchicalColor.swift; sourceTree = "<group>"; };
 		5CAB004E28877ECA00AC8425 /* DatePickerStyle_Graphical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyle_Graphical.swift; sourceTree = "<group>"; };
+		5CAB00502887809900AC8425 /* CenteredGroupBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredGroupBoxStyle.swift; sourceTree = "<group>"; };
 		5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_Intro.swift; sourceTree = "<group>"; };
 		5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_withImages.swift; sourceTree = "<group>"; };
 		5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotation_MoreColors.swift; sourceTree = "<group>"; };
@@ -1783,6 +1785,7 @@
 			children = (
 				5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */,
 				5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */,
+				5CAB00502887809900AC8425 /* CenteredGroupBoxStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -2620,6 +2623,7 @@
 				135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */,
 				1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */,
 				13E8EEEA27C4B6B400307F9A /* LazyHGrid_RowSpacing.swift in Sources */,
+				5CAB00512887809900AC8425 /* CenteredGroupBoxStyle.swift in Sources */,
 				5CA869C4285235AF008EE5FC /* Background_Content.swift in Sources */,
 				5CB679B62874D56900080FCD /* HueRotation_MoreColors.swift in Sources */,
 				5C544DC5287F6D2000BEA952 /* Scale_ContentNotFrame.swift in Sources */,
