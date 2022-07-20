@@ -467,6 +467,7 @@
 		5CAB00512887809900AC8425 /* CenteredGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB00502887809900AC8425 /* CenteredGroupBoxStyle.swift */; };
 		5CAB0054288783A100AC8425 /* GroupBoxStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB0053288783A100AC8425 /* GroupBoxStyle_Intro.swift */; };
 		5CAB00562887872A00AC8425 /* VerticalLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB00552887872A00AC8425 /* VerticalLabelStyle.swift */; };
+		5CAB00592887899A00AC8425 /* LabelStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB00582887899A00AC8425 /* LabelStyle_Intro.swift */; };
 		5CB679B12874CDE600080FCD /* Grayscale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */; };
 		5CB679B32874D1FE00080FCD /* Grayscale_withImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */; };
 		5CB679B62874D56900080FCD /* HueRotation_MoreColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */; };
@@ -989,6 +990,7 @@
 		5CAB00502887809900AC8425 /* CenteredGroupBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredGroupBoxStyle.swift; sourceTree = "<group>"; };
 		5CAB0053288783A100AC8425 /* GroupBoxStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxStyle_Intro.swift; sourceTree = "<group>"; };
 		5CAB00552887872A00AC8425 /* VerticalLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLabelStyle.swift; sourceTree = "<group>"; };
+		5CAB00582887899A00AC8425 /* LabelStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle_Intro.swift; sourceTree = "<group>"; };
 		5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_Intro.swift; sourceTree = "<group>"; };
 		5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_withImages.swift; sourceTree = "<group>"; };
 		5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotation_MoreColors.swift; sourceTree = "<group>"; };
@@ -1871,6 +1873,7 @@
 		5C30A8402883846B0042CDCD /* CustomStyling */ = {
 			isa = PBXGroup;
 			children = (
+				5CAB00572887895C00AC8425 /* LabelStyle */,
 				5CAB00522887838300AC8425 /* GroupBoxStyle */,
 				5C0E5BEC2886284800FCDFEB /* DatePickerStyle */,
 				5C0E5BE1288617BF00FCDFEB /* Styles */,
@@ -2216,6 +2219,14 @@
 				5CAB0053288783A100AC8425 /* GroupBoxStyle_Intro.swift */,
 			);
 			path = GroupBoxStyle;
+			sourceTree = "<group>";
+		};
+		5CAB00572887895C00AC8425 /* LabelStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5CAB00582887899A00AC8425 /* LabelStyle_Intro.swift */,
+			);
+			path = LabelStyle;
 			sourceTree = "<group>";
 		};
 		5CB679AF2874CDC500080FCD /* GrayScale */ = {
@@ -2735,6 +2746,7 @@
 				1362D53627B5287500695795 /* VStack_Aligment.swift in Sources */,
 				5CB814DC2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift in Sources */,
 				5CC008E82853ACE600674ACB /* PurpleCircle.swift in Sources */,
+				5CAB00592887899A00AC8425 /* LabelStyle_Intro.swift in Sources */,
 				13CC9CF327CF54BB007E9F33 /* List_SwipeActions_Options.swift in Sources */,
 				1383E5CE27DB021200C12E4D /* ScrollView_SafeAreaInset.swift in Sources */,
 				5C95581B28764268000CA515 /* Mask_Positioning.swift in Sources */,
