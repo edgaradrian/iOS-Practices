@@ -12,7 +12,7 @@ struct CenteredGroupBoxStyle: GroupBoxStyle {
     var backColor = Color.clear
     
     func makeBody(configuration: Configuration) -> some View {
-        VStack(spacing: 5) {
+        HStack(spacing: 5) {
             configuration.label
                 .font(.body.lowercaseSmallCaps().weight(.bold))
                 .foregroundColor(.secondary)
