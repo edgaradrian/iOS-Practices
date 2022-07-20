@@ -469,6 +469,7 @@
 		5CAB00562887872A00AC8425 /* VerticalLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB00552887872A00AC8425 /* VerticalLabelStyle.swift */; };
 		5CAB00592887899A00AC8425 /* LabelStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB00582887899A00AC8425 /* LabelStyle_Intro.swift */; };
 		5CAB005C28878CCF00AC8425 /* ListStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB005B28878CCF00AC8425 /* ListStyle_Intro.swift */; };
+		5CAB005E2887A29900AC8425 /* ListBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB005D2887A29900AC8425 /* ListBackground.swift */; };
 		5CB679B12874CDE600080FCD /* Grayscale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */; };
 		5CB679B32874D1FE00080FCD /* Grayscale_withImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */; };
 		5CB679B62874D56900080FCD /* HueRotation_MoreColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */; };
@@ -993,6 +994,7 @@
 		5CAB00552887872A00AC8425 /* VerticalLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLabelStyle.swift; sourceTree = "<group>"; };
 		5CAB00582887899A00AC8425 /* LabelStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle_Intro.swift; sourceTree = "<group>"; };
 		5CAB005B28878CCF00AC8425 /* ListStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStyle_Intro.swift; sourceTree = "<group>"; };
+		5CAB005D2887A29900AC8425 /* ListBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBackground.swift; sourceTree = "<group>"; };
 		5CB679B02874CDE600080FCD /* Grayscale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_Intro.swift; sourceTree = "<group>"; };
 		5CB679B22874D1FE00080FCD /* Grayscale_withImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_withImages.swift; sourceTree = "<group>"; };
 		5CB679B52874D56900080FCD /* HueRotation_MoreColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotation_MoreColors.swift; sourceTree = "<group>"; };
@@ -1795,6 +1797,7 @@
 				5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */,
 				5CAB00502887809900AC8425 /* CenteredGroupBoxStyle.swift */,
 				5CAB00552887872A00AC8425 /* VerticalLabelStyle.swift */,
+				5CAB005D2887A29900AC8425 /* ListBackground.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -2953,6 +2956,7 @@
 				5C5090EF285C145F00495648 /* Hidden_Intro.swift in Sources */,
 				5CF58E4F2857AD1D00B6FE1F /* Frame_ControlShapes.swift in Sources */,
 				5C5090F4285C40A100495648 /* Edges_Intro.swift in Sources */,
+				5CAB005E2887A29900AC8425 /* ListBackground.swift in Sources */,
 				13613AAF2821A4C6007B4606 /* Image_ClipShape.swift in Sources */,
 				1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */,
 				5C950C9E2864631800B203CD /* Padding_Custom_Edge_Inset.swift in Sources */,
