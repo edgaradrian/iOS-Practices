@@ -1,5 +1,5 @@
 //
-//  NavigationViewStyle_Intro.swift
+//  NavigationViewStyle_Stack.swift
 //  MyFirstBasicTemplate
 //
 //  Created by Edgar Adrián on 20/07/22.
@@ -7,10 +7,9 @@
 
 import SwiftUI
 
-struct NavigationViewStyle_Intro: View {
+struct NavigationViewStyle_Stack: View {
     var body: some View {
         NavigationView {
-            
             VStack(spacing: 25) {
                 Image(systemName: "globe")
                     .font(.largeTitle)
@@ -30,14 +29,13 @@ struct NavigationViewStyle_Intro: View {
             .background(
                 Color.clear
             )
-            
         }
+        .navigationViewStyle(.stack)
     }
 }
 
-struct NavigationViewStyle_Intro_Previews: PreviewProvider {
+struct NavigationViewStyle_Stack_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationViewStyle_Intro()
-            .previewInterfaceOrientation(.portrait)
+        NavigationViewStyle_Stack()
     }
 }
