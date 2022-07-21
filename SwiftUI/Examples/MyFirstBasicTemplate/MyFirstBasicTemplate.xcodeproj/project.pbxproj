@@ -382,6 +382,7 @@
 		5C4714472889D4530094C76D /* CyanTextToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4714462889D4530094C76D /* CyanTextToggleStyle.swift */; };
 		5C47144A2889D5310094C76D /* ToggleStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4714492889D5310094C76D /* ToggleStyle_Intro.swift */; };
 		5C47144C2889D6840094C76D /* ToggleStyle_CustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47144B2889D6840094C76D /* ToggleStyle_CustomStyle.swift */; };
+		5C47144E2889D8780094C76D /* CheckMarkToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47144D2889D8780094C76D /* CheckMarkToggleStyle.swift */; };
 		5C48FC3B285BC47900248639 /* Frame_PullInToPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */; };
 		5C5090EF285C145F00495648 /* Hidden_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090EE285C145F00495648 /* Hidden_Intro.swift */; };
 		5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */; };
@@ -921,6 +922,7 @@
 		5C4714462889D4530094C76D /* CyanTextToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyanTextToggleStyle.swift; sourceTree = "<group>"; };
 		5C4714492889D5310094C76D /* ToggleStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyle_Intro.swift; sourceTree = "<group>"; };
 		5C47144B2889D6840094C76D /* ToggleStyle_CustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyle_CustomStyle.swift; sourceTree = "<group>"; };
+		5C47144D2889D8780094C76D /* CheckMarkToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkToggleStyle.swift; sourceTree = "<group>"; };
 		5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_PullInToPushOut.swift; sourceTree = "<group>"; };
 		5C5090EE285C145F00495648 /* Hidden_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_Intro.swift; sourceTree = "<group>"; };
 		5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_SafeAreas_Vertical.swift; sourceTree = "<group>"; };
@@ -1829,6 +1831,7 @@
 				5C974D6A2888D54000FEA88A /* BorderMenuStyle.swift */,
 				5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */,
 				5C4714462889D4530094C76D /* CyanTextToggleStyle.swift */,
+				5C47144D2889D8780094C76D /* CheckMarkToggleStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -2685,6 +2688,7 @@
 				5C950C9328645C3500B203CD /* Overlay_ImagesAndButtons.swift in Sources */,
 				5C375043283D7A7D00909046 /* LinearGradient_OnShapesControls.swift in Sources */,
 				5CE94A52286A49F600DBE180 /* BlendMode_Setup.swift in Sources */,
+				5C47144E2889D8780094C76D /* CheckMarkToggleStyle.swift in Sources */,
 				135A33D228242E750073B2C5 /* Path_QuadCurve.swift in Sources */,
 				5C0E5BE528861AD700FCDFEB /* ButtonStyle_Intro.swift in Sources */,
 				5C544DC0287F4E0B00BEA952 /* Saturation_WithPhotos.swift in Sources */,
