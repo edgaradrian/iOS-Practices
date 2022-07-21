@@ -450,6 +450,7 @@
 		5C974D772888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D762888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift */; };
 		5C974D7A2888ECD000FEA88A /* PickerStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D792888ECD000FEA88A /* PickerStyle_Intro.swift */; };
 		5C974D7C2888F4EB00FEA88A /* MeasureProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */; };
+		5C974D7F2888F9BF00FEA88A /* ProgressViewStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D7E2888F9BF00FEA88A /* ProgressViewStyle_Intro.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -984,6 +985,7 @@
 		5C974D762888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyle_DoubleColumn.swift; sourceTree = "<group>"; };
 		5C974D792888ECD000FEA88A /* PickerStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyle_Intro.swift; sourceTree = "<group>"; };
 		5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureProgressViewStyle.swift; sourceTree = "<group>"; };
+		5C974D7E2888F9BF00FEA88A /* ProgressViewStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyle_Intro.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1898,6 +1900,7 @@
 		5C30A8402883846B0042CDCD /* CustomStyling */ = {
 			isa = PBXGroup;
 			children = (
+				5C974D7D2888F9A000FEA88A /* ProgressViewStyle */,
 				5C974D782888ECBA00FEA88A /* PickerStyle */,
 				5C974D6F2888D92D00FEA88A /* NavigationViewStyle */,
 				5C974D6C2888D67800FEA88A /* MenuStyle */,
@@ -2232,6 +2235,14 @@
 				5C974D792888ECD000FEA88A /* PickerStyle_Intro.swift */,
 			);
 			path = PickerStyle;
+			sourceTree = "<group>";
+		};
+		5C974D7D2888F9A000FEA88A /* ProgressViewStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5C974D7E2888F9BF00FEA88A /* ProgressViewStyle_Intro.swift */,
+			);
+			path = ProgressViewStyle;
 			sourceTree = "<group>";
 		};
 		5C9A965828329C2F00769839 /* RectangularShapes */ = {
@@ -2714,6 +2725,7 @@
 				13E8EF4527CA8EED00307F9A /* Form_HeaderAndFooters.swift in Sources */,
 				135294FF27E7227500B29311 /* TabView_PageTabViewStyle.swift in Sources */,
 				1383E5C127DACE9600C12E4D /* ProgressView_ShowingProgress.swift in Sources */,
+				5C974D7F2888F9BF00FEA88A /* ProgressViewStyle_Intro.swift in Sources */,
 				13E8EEEA27C4B6B400307F9A /* LazyHGrid_RowSpacing.swift in Sources */,
 				5CAB00512887809900AC8425 /* CenteredGroupBoxStyle.swift in Sources */,
 				5CA869C4285235AF008EE5FC /* Background_Content.swift in Sources */,
