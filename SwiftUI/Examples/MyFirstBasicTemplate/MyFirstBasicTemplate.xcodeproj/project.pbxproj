@@ -449,6 +449,7 @@
 		5C974D752888DD8700FEA88A /* NavigationViewStyle_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D742888DD8700FEA88A /* NavigationViewStyle_Stack.swift */; };
 		5C974D772888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D762888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift */; };
 		5C974D7A2888ECD000FEA88A /* PickerStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D792888ECD000FEA88A /* PickerStyle_Intro.swift */; };
+		5C974D7C2888F4EB00FEA88A /* MeasureProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */; };
 		5C9A965A28329D9600769839 /* Rectangular_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965928329D9600769839 /* Rectangular_Intro.swift */; };
 		5C9A965C28329F7600769839 /* Rectangular_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965B28329F7600769839 /* Rectangular_Colors.swift */; };
 		5C9A965E2832A32E00769839 /* RectangularShapes_Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */; };
@@ -982,6 +983,7 @@
 		5C974D742888DD8700FEA88A /* NavigationViewStyle_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyle_Stack.swift; sourceTree = "<group>"; };
 		5C974D762888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyle_DoubleColumn.swift; sourceTree = "<group>"; };
 		5C974D792888ECD000FEA88A /* PickerStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyle_Intro.swift; sourceTree = "<group>"; };
+		5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureProgressViewStyle.swift; sourceTree = "<group>"; };
 		5C9A965928329D9600769839 /* Rectangular_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Intro.swift; sourceTree = "<group>"; };
 		5C9A965B28329F7600769839 /* Rectangular_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_Colors.swift; sourceTree = "<group>"; };
 		5C9A965D2832A32E00769839 /* RectangularShapes_Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularShapes_Strokes.swift; sourceTree = "<group>"; };
@@ -1815,6 +1817,7 @@
 				5CAB00552887872A00AC8425 /* VerticalLabelStyle.swift */,
 				5CAB005D2887A29900AC8425 /* ListBackground.swift */,
 				5C974D6A2888D54000FEA88A /* BorderMenuStyle.swift */,
+				5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -2751,6 +2754,7 @@
 				13CC9CF827CF577D007E9F33 /* Menu_Intro.swift in Sources */,
 				13CC9CE927CF404D007E9F33 /* List_ListSectionSeparator.swift in Sources */,
 				5C161377284E59F700A56BE6 /* Toolbar_OnKeyboard.swift in Sources */,
+				5C974D7C2888F4EB00FEA88A /* MeasureProgressViewStyle.swift in Sources */,
 				13917F852804782700CFA872 /* Canvas_Introduction.swift in Sources */,
 				5CFA5C8928451B360006333C /* Alerts_ButtonRoles.swift in Sources */,
 				5C5C89222837E1C20078FE4D /* ImagePaint_Intro.swift in Sources */,
