@@ -388,6 +388,7 @@
 		5C4714542889DDAF0094C76D /* ToggleStyle_NewSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4714532889DDAF0094C76D /* ToggleStyle_NewSwitch.swift */; };
 		5C4714572889DFA90094C76D /* TextBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4714562889DFA90094C76D /* TextBanner.swift */; };
 		5C4714592889E0900094C76D /* CustomStyling_WithViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4714582889E0900094C76D /* CustomStyling_WithViewModifier.swift */; };
+		5C47145C2889E2E60094C76D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47145B2889E2E60094C76D /* View+Extensions.swift */; };
 		5C48FC3B285BC47900248639 /* Frame_PullInToPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */; };
 		5C5090EF285C145F00495648 /* Hidden_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090EE285C145F00495648 /* Hidden_Intro.swift */; };
 		5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */; };
@@ -933,6 +934,7 @@
 		5C4714532889DDAF0094C76D /* ToggleStyle_NewSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyle_NewSwitch.swift; sourceTree = "<group>"; };
 		5C4714562889DFA90094C76D /* TextBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBanner.swift; sourceTree = "<group>"; };
 		5C4714582889E0900094C76D /* CustomStyling_WithViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyling_WithViewModifier.swift; sourceTree = "<group>"; };
+		5C47145B2889E2E60094C76D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_PullInToPushOut.swift; sourceTree = "<group>"; };
 		5C5090EE285C145F00495648 /* Hidden_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_Intro.swift; sourceTree = "<group>"; };
 		5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_SafeAreas_Vertical.swift; sourceTree = "<group>"; };
@@ -1923,6 +1925,7 @@
 		5C30A8402883846B0042CDCD /* CustomStyling */ = {
 			isa = PBXGroup;
 			children = (
+				5C47145A2889E2C50094C76D /* Extensions */,
 				5C4714552889DF5D0094C76D /* ViewModifiers */,
 				5C4714482889D4ED0094C76D /* ToggleStyle */,
 				5C4714432889D1450094C76D /* TextFieldStyle */,
@@ -2008,6 +2011,14 @@
 				5C4714562889DFA90094C76D /* TextBanner.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		5C47145A2889E2C50094C76D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C47145B2889E2E60094C76D /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5C5090ED285C144900495648 /* Hidden */ = {
@@ -3049,6 +3060,7 @@
 				5CAB00602887A62E00AC8425 /* ListStyle_ListBackgroundColor.swift in Sources */,
 				5C25B91828616870001F2FB5 /* Edges_KeyboardRegion_Before.swift in Sources */,
 				5C5ED19A286CE71300CA3202 /* ClipShape_Intro.swift in Sources */,
+				5C47145C2889E2E60094C76D /* View+Extensions.swift in Sources */,
 				135294D527E1DC3800B29311 /* Slider_Intro.swift in Sources */,
 				139ABCDC280DAE31009E2C47 /* CircularShapes_Trim.swift in Sources */,
 				13917F6527FF3EA700CFA872 /* TextField_Autocorrection.swift in Sources */,
