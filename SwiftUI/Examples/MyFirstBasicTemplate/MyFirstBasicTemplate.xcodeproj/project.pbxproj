@@ -384,6 +384,7 @@
 		5C47144C2889D6840094C76D /* ToggleStyle_CustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47144B2889D6840094C76D /* ToggleStyle_CustomStyle.swift */; };
 		5C47144E2889D8780094C76D /* CheckMarkToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47144D2889D8780094C76D /* CheckMarkToggleStyle.swift */; };
 		5C4714502889DAD70094C76D /* ToggleStyle_isOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47144F2889DAD70094C76D /* ToggleStyle_isOn.swift */; };
+		5C4714522889DBF90094C76D /* ColoredToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4714512889DBF90094C76D /* ColoredToggleStyle.swift */; };
 		5C48FC3B285BC47900248639 /* Frame_PullInToPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */; };
 		5C5090EF285C145F00495648 /* Hidden_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090EE285C145F00495648 /* Hidden_Intro.swift */; };
 		5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */; };
@@ -925,6 +926,7 @@
 		5C47144B2889D6840094C76D /* ToggleStyle_CustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyle_CustomStyle.swift; sourceTree = "<group>"; };
 		5C47144D2889D8780094C76D /* CheckMarkToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkToggleStyle.swift; sourceTree = "<group>"; };
 		5C47144F2889DAD70094C76D /* ToggleStyle_isOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyle_isOn.swift; sourceTree = "<group>"; };
+		5C4714512889DBF90094C76D /* ColoredToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredToggleStyle.swift; sourceTree = "<group>"; };
 		5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_PullInToPushOut.swift; sourceTree = "<group>"; };
 		5C5090EE285C145F00495648 /* Hidden_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_Intro.swift; sourceTree = "<group>"; };
 		5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_SafeAreas_Vertical.swift; sourceTree = "<group>"; };
@@ -1834,6 +1836,7 @@
 				5C974D7B2888F4EB00FEA88A /* MeasureProgressViewStyle.swift */,
 				5C4714462889D4530094C76D /* CyanTextToggleStyle.swift */,
 				5C47144D2889D8780094C76D /* CheckMarkToggleStyle.swift */,
+				5C4714512889DBF90094C76D /* ColoredToggleStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -3071,6 +3074,7 @@
 				1392029827C0AFC10078A01D /* GeometryReader_Layers.swift in Sources */,
 				5C950C9E2864631800B203CD /* Padding_Custom_Edge_Inset.swift in Sources */,
 				137B73EC27FA4E530027E61E /* TextEditor_CustomizingText.swift in Sources */,
+				5C4714522889DBF90094C76D /* ColoredToggleStyle.swift in Sources */,
 				1383E5C727DAD80100C12E4D /* ProgressView_Customizing.swift in Sources */,
 				5C812715287A0B2700494CF6 /* Rotation3DEffect_Anchors.swift in Sources */,
 				1392029427BEBE780078A01D /* GeometryReader_Intro.swift in Sources */,
