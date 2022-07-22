@@ -391,6 +391,7 @@
 		5C47145C2889E2E60094C76D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47145B2889E2E60094C76D /* View+Extensions.swift */; };
 		5C4714602889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47145F2889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift */; };
 		5C48FC3B285BC47900248639 /* Frame_PullInToPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */; };
+		5C4D9627288B6113002E461D /* CustomStyling_ManyControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D9626288B6113002E461D /* CustomStyling_ManyControls.swift */; };
 		5C5090EF285C145F00495648 /* Hidden_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090EE285C145F00495648 /* Hidden_Intro.swift */; };
 		5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */; };
 		5C5090F4285C40A100495648 /* Edges_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F3285C40A100495648 /* Edges_Intro.swift */; };
@@ -938,6 +939,7 @@
 		5C47145B2889E2E60094C76D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5C47145F2889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyling_DifferentWaysToApply.swift; sourceTree = "<group>"; };
 		5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_PullInToPushOut.swift; sourceTree = "<group>"; };
+		5C4D9626288B6113002E461D /* CustomStyling_ManyControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyling_ManyControls.swift; sourceTree = "<group>"; };
 		5C5090EE285C145F00495648 /* Hidden_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_Intro.swift; sourceTree = "<group>"; };
 		5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_SafeAreas_Vertical.swift; sourceTree = "<group>"; };
 		5C5090F3285C40A100495648 /* Edges_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_Intro.swift; sourceTree = "<group>"; };
@@ -1943,6 +1945,7 @@
 				5C30A841288384790042CDCD /* ButtonStyle */,
 				5C4714582889E0900094C76D /* CustomStyling_WithViewModifier.swift */,
 				5C47145F2889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift */,
+				5C4D9626288B6113002E461D /* CustomStyling_ManyControls.swift */,
 			);
 			path = CustomStyling;
 			sourceTree = "<group>";
@@ -3200,6 +3203,7 @@
 				13CC9D0A27D0B2D5007E9F33 /* Navigation_Intro.swift in Sources */,
 				135A33C3282385BA0073B2C5 /* Image_UsingMaterials.swift in Sources */,
 				13CC9D2427D35D71007E9F33 /* NavigationLink_UINavigationBarAppearance.swift in Sources */,
+				5C4D9627288B6113002E461D /* CustomStyling_ManyControls.swift in Sources */,
 				5C88032E28723F5D00FADEEF /* ForegroundStyle_HierarchicalColor.swift in Sources */,
 				13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */,
 				5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */,
