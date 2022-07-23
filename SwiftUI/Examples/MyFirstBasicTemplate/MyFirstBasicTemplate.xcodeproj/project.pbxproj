@@ -392,6 +392,7 @@
 		5C4714602889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47145F2889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift */; };
 		5C48FC3B285BC47900248639 /* Frame_PullInToPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */; };
 		5C4D9627288B6113002E461D /* CustomStyling_ManyControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D9626288B6113002E461D /* CustomStyling_ManyControls.swift */; };
+		5C4D9629288B6547002E461D /* Shape+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4D9628288B6547002E461D /* Shape+Extensions.swift */; };
 		5C5090EF285C145F00495648 /* Hidden_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090EE285C145F00495648 /* Hidden_Intro.swift */; };
 		5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */; };
 		5C5090F4285C40A100495648 /* Edges_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5090F3285C40A100495648 /* Edges_Intro.swift */; };
@@ -940,6 +941,7 @@
 		5C47145F2889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyling_DifferentWaysToApply.swift; sourceTree = "<group>"; };
 		5C48FC3A285BC47900248639 /* Frame_PullInToPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_PullInToPushOut.swift; sourceTree = "<group>"; };
 		5C4D9626288B6113002E461D /* CustomStyling_ManyControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyling_ManyControls.swift; sourceTree = "<group>"; };
+		5C4D9628288B6547002E461D /* Shape+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape+Extensions.swift"; sourceTree = "<group>"; };
 		5C5090EE285C145F00495648 /* Hidden_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_Intro.swift; sourceTree = "<group>"; };
 		5C5090F1285C212C00495648 /* Edges_SafeAreas_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_SafeAreas_Vertical.swift; sourceTree = "<group>"; };
 		5C5090F3285C40A100495648 /* Edges_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges_Intro.swift; sourceTree = "<group>"; };
@@ -2023,6 +2025,7 @@
 			isa = PBXGroup;
 			children = (
 				5C47145B2889E2E60094C76D /* View+Extensions.swift */,
+				5C4D9628288B6547002E461D /* Shape+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -3155,6 +3158,7 @@
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
 				13E8EEFF27C61D5B00307F9A /* LazyVGrid_ColumnAndRowSpacing.swift in Sources */,
+				5C4D9629288B6547002E461D /* Shape+Extensions.swift in Sources */,
 				5C9A96602832A6BA00769839 /* Rectangular_StrokeBorder.swift in Sources */,
 				134CB35A27DF960F002BFADE /* SignInWithAppleButton_Customizing.swift in Sources */,
 				13E8EF4327C9511500307F9A /* Form_Intro.swift in Sources */,
