@@ -542,6 +542,7 @@
 		5CF48233288F47C9008FCE81 /* Resizable_AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48232288F47C9008FCE81 /* Resizable_AspectRatio.swift */; };
 		5CF48235288F4AE1008FCE81 /* Resizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48234288F4AE1008FCE81 /* Resizable.swift */; };
 		5CF48238288F4DDC008FCE81 /* SymbolImageScale_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48237288F4DDC008FCE81 /* SymbolImageScale_Intro.swift */; };
+		5CF4823C288F5610008FCE81 /* DragGesture_OnChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4823B288F5610008FCE81 /* DragGesture_OnChanged.swift */; };
 		5CF58E4A2857A2D500B6FE1F /* FullScreenCover_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF58E492857A2D500B6FE1F /* FullScreenCover_Intro.swift */; };
 		5CF58E4D2857A88900B6FE1F /* Frame_FixedSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF58E4C2857A88900B6FE1F /* Frame_FixedSizes.swift */; };
 		5CF58E4F2857AD1D00B6FE1F /* Frame_ControlShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF58E4E2857AD1D00B6FE1F /* Frame_ControlShapes.swift */; };
@@ -1098,6 +1099,7 @@
 		5CF48232288F47C9008FCE81 /* Resizable_AspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable_AspectRatio.swift; sourceTree = "<group>"; };
 		5CF48234288F4AE1008FCE81 /* Resizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable.swift; sourceTree = "<group>"; };
 		5CF48237288F4DDC008FCE81 /* SymbolImageScale_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolImageScale_Intro.swift; sourceTree = "<group>"; };
+		5CF4823B288F5610008FCE81 /* DragGesture_OnChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_OnChanged.swift; sourceTree = "<group>"; };
 		5CF58E492857A2D500B6FE1F /* FullScreenCover_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_Intro.swift; sourceTree = "<group>"; };
 		5CF58E4C2857A88900B6FE1F /* Frame_FixedSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_FixedSizes.swift; sourceTree = "<group>"; };
 		5CF58E4E2857AD1D00B6FE1F /* Frame_ControlShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_ControlShapes.swift; sourceTree = "<group>"; };
@@ -1270,6 +1272,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5CF48239288F557D008FCE81 /* Gestures */,
 				5C4D962C288B9E33002E461D /* ImageModifiers */,
 				5C30A8402883846B0042CDCD /* CustomStyling */,
 				5CB78AF3286624D30047B046 /* EffectModifiers */,
@@ -2657,6 +2660,22 @@
 			path = "SymbolImageScale ";
 			sourceTree = "<group>";
 		};
+		5CF48239288F557D008FCE81 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4823A288F5587008FCE81 /* DragGesture */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		5CF4823A288F5587008FCE81 /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4823B288F5610008FCE81 /* DragGesture_OnChanged.swift */,
+			);
+			path = DragGesture;
+			sourceTree = "<group>";
+		};
 		5CF58E482857A2B100B6FE1F /* FullScreenCover */ = {
 			isa = PBXGroup;
 			children = (
@@ -3311,6 +3330,7 @@
 				5C88032C28723C2100FADEEF /* ForegroundStyle_Hierarchical.swift in Sources */,
 				5C67486B286E24A900A07E1B /* ColorInvert_WithPhotos.swift in Sources */,
 				13EDD0A527DD896C005B4112 /* SecureField_Intro.swift in Sources */,
+				5CF4823C288F5610008FCE81 /* DragGesture_OnChanged.swift in Sources */,
 				13FB4D3327B8524500B0E8C9 /* HStack_TextAlignment.swift in Sources */,
 				13917F8A2807444F00CFA872 /* Capsule_RoundedCornerStyle.swift in Sources */,
 				5C81270F287A044E00494CF6 /* Rotation3DEffect_XAxis.swift in Sources */,
