@@ -340,6 +340,7 @@
 		5C0A25EE28909BFA00DA0EA9 /* DragGesture_Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25ED28909BFA00DA0EA9 /* DragGesture_Updating.swift */; };
 		5C0A25F02890A00F00DA0EA9 /* DragGesture_OnEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25EF2890A00F00DA0EA9 /* DragGesture_OnEnded.swift */; };
 		5C0A25F22890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25F12890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift */; };
+		5C0A25F42890A8F700DA0EA9 /* DragGesture_MinimumDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25F32890A8F700DA0EA9 /* DragGesture_MinimumDistance.swift */; };
 		5C0E5BE3288617DA00FCDFEB /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */; };
 		5C0E5BE528861AD700FCDFEB /* ButtonStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */; };
 		5C0E5BE728861E6C00FCDFEB /* NewOutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */; };
@@ -900,6 +901,7 @@
 		5C0A25ED28909BFA00DA0EA9 /* DragGesture_Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Updating.swift; sourceTree = "<group>"; };
 		5C0A25EF2890A00F00DA0EA9 /* DragGesture_OnEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_OnEnded.swift; sourceTree = "<group>"; };
 		5C0A25F12890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_LimitToXOrY.swift; sourceTree = "<group>"; };
+		5C0A25F32890A8F700DA0EA9 /* DragGesture_MinimumDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_MinimumDistance.swift; sourceTree = "<group>"; };
 		5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Intro.swift; sourceTree = "<group>"; };
 		5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOutlineButtonStyle.swift; sourceTree = "<group>"; };
@@ -2681,6 +2683,7 @@
 				5C0A25ED28909BFA00DA0EA9 /* DragGesture_Updating.swift */,
 				5C0A25EF2890A00F00DA0EA9 /* DragGesture_OnEnded.swift */,
 				5C0A25F12890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift */,
+				5C0A25F32890A8F700DA0EA9 /* DragGesture_MinimumDistance.swift */,
 			);
 			path = DragGesture;
 			sourceTree = "<group>";
@@ -3171,6 +3174,7 @@
 				139ABCD6280A0E9B009E2C47 /* CircularShapes_StrokeBorder.swift in Sources */,
 				5CAB004F28877ECB00AC8425 /* DatePickerStyle_Graphical.swift in Sources */,
 				139ABCDA280DAA9E009E2C47 /* CircularShapes_SizeModifier.swift in Sources */,
+				5C0A25F42890A8F700DA0EA9 /* DragGesture_MinimumDistance.swift in Sources */,
 				5C95581728763AAB000CA515 /* Mask_Intro.swift in Sources */,
 				13917F5B27FF28B300CFA872 /* TextField_Customizing.swift in Sources */,
 				13E8EF0E27C6F27B00307F9A /* Button_Intro.swift in Sources */,
