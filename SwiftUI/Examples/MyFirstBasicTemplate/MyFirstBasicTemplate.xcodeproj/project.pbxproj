@@ -338,6 +338,8 @@
 		5C02E63B28318359005AB138 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63A28318359005AB138 /* RoundedCorners.swift */; };
 		5C02E63D283185C4005AB138 /* Path_CGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */; };
 		5C0A25EE28909BFA00DA0EA9 /* DragGesture_Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25ED28909BFA00DA0EA9 /* DragGesture_Updating.swift */; };
+		5C0A25F02890A00F00DA0EA9 /* DragGesture_OnEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25EF2890A00F00DA0EA9 /* DragGesture_OnEnded.swift */; };
+		5C0A25F22890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A25F12890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift */; };
 		5C0E5BE3288617DA00FCDFEB /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */; };
 		5C0E5BE528861AD700FCDFEB /* ButtonStyle_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */; };
 		5C0E5BE728861E6C00FCDFEB /* NewOutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */; };
@@ -896,6 +898,8 @@
 		5C02E63A28318359005AB138 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		5C02E63C283185C4005AB138 /* Path_CGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CGPathToPath.swift; sourceTree = "<group>"; };
 		5C0A25ED28909BFA00DA0EA9 /* DragGesture_Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Updating.swift; sourceTree = "<group>"; };
+		5C0A25EF2890A00F00DA0EA9 /* DragGesture_OnEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_OnEnded.swift; sourceTree = "<group>"; };
+		5C0A25F12890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_LimitToXOrY.swift; sourceTree = "<group>"; };
 		5C0E5BE2288617DA00FCDFEB /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
 		5C0E5BE428861AD700FCDFEB /* ButtonStyle_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_Intro.swift; sourceTree = "<group>"; };
 		5C0E5BE628861E6C00FCDFEB /* NewOutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOutlineButtonStyle.swift; sourceTree = "<group>"; };
@@ -2675,6 +2679,8 @@
 			children = (
 				5CF4823B288F5610008FCE81 /* DragGesture_OnChanged.swift */,
 				5C0A25ED28909BFA00DA0EA9 /* DragGesture_Updating.swift */,
+				5C0A25EF2890A00F00DA0EA9 /* DragGesture_OnEnded.swift */,
+				5C0A25F12890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift */,
 			);
 			path = DragGesture;
 			sourceTree = "<group>";
@@ -3139,6 +3145,7 @@
 				139ABCE5280DB7A5009E2C47 /* Color_AsBackground.swift in Sources */,
 				13E8EEDB27C2B51A00307F9A /* GeometryReader_SafeAreaInsets.swift in Sources */,
 				5C4714572889DFA90094C76D /* TextBanner.swift in Sources */,
+				5C0A25F22890A29D00DA0EA9 /* DragGesture_LimitToXOrY.swift in Sources */,
 				1362D52827B2CB7400695795 /* HeaderView.swift in Sources */,
 				13917F6F2800ADF700CFA872 /* TextField_OnChange.swift in Sources */,
 				13CC9CAC27CD7C2E007E9F33 /* List_HeaderFooter_Sidebar.swift in Sources */,
@@ -3299,6 +3306,7 @@
 				5C4D9627288B6113002E461D /* CustomStyling_ManyControls.swift in Sources */,
 				5C88032E28723F5D00FADEEF /* ForegroundStyle_HierarchicalColor.swift in Sources */,
 				13CC9D3327D65E67007E9F33 /* OutlineGroup_Intro.swift in Sources */,
+				5C0A25F02890A00F00DA0EA9 /* DragGesture_OnEnded.swift in Sources */,
 				5C161375284E56EA00A56BE6 /* Toolbar_Menu.swift in Sources */,
 				13FB4D3927BC7CD400B0E8C9 /* HStack_Customizing.swift in Sources */,
 				13552C4627EC782700727B21 /* Text_Formatting.swift in Sources */,
