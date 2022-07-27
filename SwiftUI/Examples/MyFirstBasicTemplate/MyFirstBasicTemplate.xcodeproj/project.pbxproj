@@ -514,6 +514,7 @@
 		5CB814DC2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814DB2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift */; };
 		5CB814DF2870D9410062E802 /* DrawingGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814DE2870D9410062E802 /* DrawingGroup_Intro.swift */; };
 		5CB814E22870EF090062E802 /* ForegroundColor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814E12870EF090062E802 /* ForegroundColor_Intro.swift */; };
+		5CBCF17E2891E1A40048F66F /* MagnificationGesture_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCF17D2891E1A40048F66F /* MagnificationGesture_Info.swift */; };
 		5CC008E82853ACE600674ACB /* PurpleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008E72853ACE600674ACB /* PurpleCircle.swift */; };
 		5CC008EA2853AFF500674ACB /* CoordinateSpace_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008E92853AFF500674ACB /* CoordinateSpace_Intro.swift */; };
 		5CC008ED2853B9CF00674ACB /* FixedSize_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC008EC2853B9CF00674ACB /* FixedSize_Intro.swift */; };
@@ -1076,6 +1077,7 @@
 		5CB814DB2870D0B70062E802 /* CornerRadius_FullyRoundedSides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius_FullyRoundedSides.swift; sourceTree = "<group>"; };
 		5CB814DE2870D9410062E802 /* DrawingGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGroup_Intro.swift; sourceTree = "<group>"; };
 		5CB814E12870EF090062E802 /* ForegroundColor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundColor_Intro.swift; sourceTree = "<group>"; };
+		5CBCF17D2891E1A40048F66F /* MagnificationGesture_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_Info.swift; sourceTree = "<group>"; };
 		5CC008E72853ACE600674ACB /* PurpleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleCircle.swift; sourceTree = "<group>"; };
 		5CC008E92853AFF500674ACB /* CoordinateSpace_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpace_Intro.swift; sourceTree = "<group>"; };
 		5CC008EC2853B9CF00674ACB /* FixedSize_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSize_Intro.swift; sourceTree = "<group>"; };
@@ -2530,6 +2532,14 @@
 			path = ForegroundColor;
 			sourceTree = "<group>";
 		};
+		5CBCF17C2891E16F0048F66F /* MagnificationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5CBCF17D2891E1A40048F66F /* MagnificationGesture_Info.swift */,
+			);
+			path = MagnificationGesture;
+			sourceTree = "<group>";
+		};
 		5CC008E62853ACBA00674ACB /* CoordinateSpace */ = {
 			isa = PBXGroup;
 			children = (
@@ -2681,6 +2691,7 @@
 		5CF48239288F557D008FCE81 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
+				5CBCF17C2891E16F0048F66F /* MagnificationGesture */,
 				5C0A25F52890AD0400DA0EA9 /* LongPress */,
 				5CF4823A288F5587008FCE81 /* DragGesture */,
 			);
@@ -2929,6 +2940,7 @@
 				5C4714602889E40C0094C76D /* CustomStyling_DifferentWaysToApply.swift in Sources */,
 				13CC9D4027D84DF9007E9F33 /* Picker_Customized.swift in Sources */,
 				13917F75280460F600CFA872 /* TextField_FocusState_WithEnum.swift in Sources */,
+				5CBCF17E2891E1A40048F66F /* MagnificationGesture_Info.swift in Sources */,
 				139ABCD4280A0C5C009E2C47 /* CircularShapes_Stroke.swift in Sources */,
 				137B73F227FB8BAE0027E61E /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				139ABCE0280DB378009E2C47 /* CircularShapesWithButtons.swift in Sources */,
