@@ -332,6 +332,7 @@
 		13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4627BD681400B0E8C9 /* ZStack_Background_Problem.swift */; };
 		13FB4D4927BD695000B0E8C9 /* ZStack_BackgroundSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */; };
 		5C02E01B2892DDC100FB042F /* OnPreferenceChange_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E01A2892DDC100FB042F /* OnPreferenceChange_Intro.swift */; };
+		5C02E01D2892DF1800FB042F /* Preference_ReduceFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E01C2892DF1800FB042F /* Preference_ReduceFunction.swift */; };
 		5C02E633283165D3005AB138 /* DomeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E632283165D3005AB138 /* DomeShape.swift */; };
 		5C02E635283166A8005AB138 /* Path_RelativeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E634283166A8005AB138 /* Path_RelativeArc.swift */; };
 		5C02E63728316C4F005AB138 /* HalfCircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */; };
@@ -903,6 +904,7 @@
 		13FB4D4627BD681400B0E8C9 /* ZStack_Background_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Background_Problem.swift; sourceTree = "<group>"; };
 		13FB4D4827BD694F00B0E8C9 /* ZStack_BackgroundSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_BackgroundSolution.swift; sourceTree = "<group>"; };
 		5C02E01A2892DDC100FB042F /* OnPreferenceChange_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnPreferenceChange_Intro.swift; sourceTree = "<group>"; };
+		5C02E01C2892DF1800FB042F /* Preference_ReduceFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preference_ReduceFunction.swift; sourceTree = "<group>"; };
 		5C02E632283165D3005AB138 /* DomeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeShape.swift; sourceTree = "<group>"; };
 		5C02E634283166A8005AB138 /* Path_RelativeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc.swift; sourceTree = "<group>"; };
 		5C02E63628316C4F005AB138 /* HalfCircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleProgress.swift; sourceTree = "<group>"; };
@@ -2031,6 +2033,7 @@
 			children = (
 				5C2DCA352892DAAB00630A0E /* PreferenceKey_Intro.swift */,
 				5C02E01A2892DDC100FB042F /* OnPreferenceChange_Intro.swift */,
+				5C02E01C2892DF1800FB042F /* Preference_ReduceFunction.swift */,
 			);
 			path = Preference;
 			sourceTree = "<group>";
@@ -3156,6 +3159,7 @@
 				1362D52C27B494FA00695795 /* SomeViewsPullIn.swift in Sources */,
 				13FB4D3C27BC873500B0E8C9 /* LazyHStack_Intro.swift in Sources */,
 				135294E227E57A9B00B29311 /* Stepper_LabelHidden.swift in Sources */,
+				5C02E01D2892DF1800FB042F /* Preference_ReduceFunction.swift in Sources */,
 				13B8BC0427F4D89D004797DD /* Text_Tracking.swift in Sources */,
 				137B73F927FB91E20027E61E /* TextField_Alignment.swift in Sources */,
 				13917F7E28046F3000CFA872 /* Toggle_Color.swift in Sources */,
