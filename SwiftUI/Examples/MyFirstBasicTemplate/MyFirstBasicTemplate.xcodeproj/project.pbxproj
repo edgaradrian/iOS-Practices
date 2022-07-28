@@ -370,6 +370,7 @@
 		5C2DCA2C2892C2AB00630A0E /* SimultaneousGesture_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DCA2B2892C2AB00630A0E /* SimultaneousGesture_Intro.swift */; };
 		5C2DCA2F2892C98D00630A0E /* SequenceGesture_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DCA2E2892C98D00630A0E /* SequenceGesture_Example.swift */; };
 		5C2DCA322892D43C00630A0E /* HighPriorityGesture_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DCA312892D43C00630A0E /* HighPriorityGesture_Before.swift */; };
+		5C2DCA362892DAAB00630A0E /* PreferenceKey_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DCA352892DAAB00630A0E /* PreferenceKey_Intro.swift */; };
 		5C30A832288368550042CDCD /* Shadow_DepressedEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */; };
 		5C30A83528836E5E0042CDCD /* TransformEffect_Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */; };
 		5C30A8372883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */; };
@@ -939,6 +940,7 @@
 		5C2DCA2B2892C2AB00630A0E /* SimultaneousGesture_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGesture_Intro.swift; sourceTree = "<group>"; };
 		5C2DCA2E2892C98D00630A0E /* SequenceGesture_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGesture_Example.swift; sourceTree = "<group>"; };
 		5C2DCA312892D43C00630A0E /* HighPriorityGesture_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighPriorityGesture_Before.swift; sourceTree = "<group>"; };
+		5C2DCA352892DAAB00630A0E /* PreferenceKey_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey_Intro.swift; sourceTree = "<group>"; };
 		5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_DepressedEffect.swift; sourceTree = "<group>"; };
 		5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_Translation.swift; sourceTree = "<group>"; };
 		5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_ComparedWithOffset.swift; sourceTree = "<group>"; };
@@ -1296,6 +1298,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5C2DCA332892DA7B00630A0E /* OtherModifiers */,
 				5CF48239288F557D008FCE81 /* Gestures */,
 				5C4D962C288B9E33002E461D /* ImageModifiers */,
 				5C30A8402883846B0042CDCD /* CustomStyling */,
@@ -2011,6 +2014,22 @@
 				5C2DCA312892D43C00630A0E /* HighPriorityGesture_Before.swift */,
 			);
 			path = HighPriorityGesture;
+			sourceTree = "<group>";
+		};
+		5C2DCA332892DA7B00630A0E /* OtherModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5C2DCA342892DA8400630A0E /* Preference */,
+			);
+			path = OtherModifiers;
+			sourceTree = "<group>";
+		};
+		5C2DCA342892DA8400630A0E /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				5C2DCA352892DAAB00630A0E /* PreferenceKey_Intro.swift */,
+			);
+			path = Preference;
 			sourceTree = "<group>";
 		};
 		5C30A83328836E210042CDCD /* TransformEffect */ = {
@@ -3123,6 +3142,7 @@
 				5C30A83B28837E420042CDCD /* TransformEffect_ComparedRotationEffect.swift in Sources */,
 				135294F727E7172C00B29311 /* TabView_Badge.swift in Sources */,
 				13FB4D3E27BC92A300B0E8C9 /* LazyHStack_Alignment.swift in Sources */,
+				5C2DCA362892DAAB00630A0E /* PreferenceKey_Intro.swift in Sources */,
 				139ABCF62810826C009E2C47 /* Divider_Customization.swift in Sources */,
 				5CFA5C872845158D0006333C /* Alerts_Action.swift in Sources */,
 				5C5AF26F2881F14300B3CFF1 /* Shadow_OrderMatters.swift in Sources */,
