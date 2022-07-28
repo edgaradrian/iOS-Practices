@@ -366,6 +366,7 @@
 		5C25E5482846E65600E9333B /* ContextMenu_ConditionallyShowing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */; };
 		5C2AEB8B2891E63E003DD067 /* RotationGesture_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2AEB8A2891E63E003DD067 /* RotationGesture_Intro.swift */; };
 		5C2AEB8E2891F71C003DD067 /* TapGesture_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2AEB8D2891F71C003DD067 /* TapGesture_Intro.swift */; };
+		5C2DCA292892BBE600630A0E /* CustomGesture_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DCA282892BBE600630A0E /* CustomGesture_Intro.swift */; };
 		5C30A832288368550042CDCD /* Shadow_DepressedEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */; };
 		5C30A83528836E5E0042CDCD /* TransformEffect_Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */; };
 		5C30A8372883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */; };
@@ -931,6 +932,7 @@
 		5C25E5472846E65600E9333B /* ContextMenu_ConditionallyShowing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_ConditionallyShowing.swift; sourceTree = "<group>"; };
 		5C2AEB8A2891E63E003DD067 /* RotationGesture_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_Intro.swift; sourceTree = "<group>"; };
 		5C2AEB8D2891F71C003DD067 /* TapGesture_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesture_Intro.swift; sourceTree = "<group>"; };
+		5C2DCA282892BBE600630A0E /* CustomGesture_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGesture_Intro.swift; sourceTree = "<group>"; };
 		5C30A831288368550042CDCD /* Shadow_DepressedEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_DepressedEffect.swift; sourceTree = "<group>"; };
 		5C30A83428836E5E0042CDCD /* TransformEffect_Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_Translation.swift; sourceTree = "<group>"; };
 		5C30A8362883722D0042CDCD /* TransformEffect_ComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEffect_ComparedWithOffset.swift; sourceTree = "<group>"; };
@@ -1973,6 +1975,14 @@
 			path = TapGesture;
 			sourceTree = "<group>";
 		};
+		5C2AEB8F2891FDD0003DD067 /* ExclusiveGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5C2DCA282892BBE600630A0E /* CustomGesture_Intro.swift */,
+			);
+			path = ExclusiveGesture;
+			sourceTree = "<group>";
+		};
 		5C30A83328836E210042CDCD /* TransformEffect */ = {
 			isa = PBXGroup;
 			children = (
@@ -2711,6 +2721,7 @@
 		5CF48239288F557D008FCE81 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
+				5C2AEB8F2891FDD0003DD067 /* ExclusiveGesture */,
 				5C2AEB8C2891F6F4003DD067 /* TapGesture */,
 				5C2AEB892891E621003DD067 /* RotationGesture */,
 				5CBCF17C2891E16F0048F66F /* MagnificationGesture */,
@@ -3064,6 +3075,7 @@
 				13CC9CE527CF3D3D007E9F33 /* List_BIndingWithinList.swift in Sources */,
 				13EDD09E27DD6B50005B4112 /* Searchable_DismissSearch.swift in Sources */,
 				5C30A8392883745F0042CDCD /* TransformEffect_Rotation.swift in Sources */,
+				5C2DCA292892BBE600630A0E /* CustomGesture_Intro.swift in Sources */,
 				5C974D772888DEA500FEA88A /* NavigationViewStyle_DoubleColumn.swift in Sources */,
 				13917F8C2807466400CFA872 /* CircularShapes_Color.swift in Sources */,
 				5CD89CEE28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift in Sources */,
