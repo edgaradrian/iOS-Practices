@@ -545,6 +545,7 @@
 		5CD0FD60284FC961004949A5 /* Background_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0FD5F284FC961004949A5 /* Background_Gradients.swift */; };
 		5CD7B5F328970E450038D077 /* Preference_WidestTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5F228970E450038D077 /* Preference_WidestTextView.swift */; };
 		5CD7B5F62897143C0038D077 /* Redacted_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5F52897143C0038D077 /* Redacted_Intro.swift */; };
+		5CD7B5F8289716980038D077 /* Redacted_OtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5F7289716980038D077 /* Redacted_OtherViews.swift */; };
 		5CD89CEE28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CED28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift */; };
 		5CD89CF1287762760059BCE4 /* Opacity_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CF0287762760059BCE4 /* Opacity_Intro.swift */; };
 		5CD89CF3287766FF0059BCE4 /* Opacity_Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CF2287766FF0059BCE4 /* Opacity_Layers.swift */; };
@@ -1119,6 +1120,7 @@
 		5CD0FD5F284FC961004949A5 /* Background_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Gradients.swift; sourceTree = "<group>"; };
 		5CD7B5F228970E450038D077 /* Preference_WidestTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preference_WidestTextView.swift; sourceTree = "<group>"; };
 		5CD7B5F52897143C0038D077 /* Redacted_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redacted_Intro.swift; sourceTree = "<group>"; };
+		5CD7B5F7289716980038D077 /* Redacted_OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redacted_OtherViews.swift; sourceTree = "<group>"; };
 		5CD89CED28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_WithShapesAndPaddings.swift; sourceTree = "<group>"; };
 		5CD89CF0287762760059BCE4 /* Opacity_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity_Intro.swift; sourceTree = "<group>"; };
 		5CD89CF2287766FF0059BCE4 /* Opacity_Layers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity_Layers.swift; sourceTree = "<group>"; };
@@ -2730,6 +2732,7 @@
 			isa = PBXGroup;
 			children = (
 				5CD7B5F52897143C0038D077 /* Redacted_Intro.swift */,
+				5CD7B5F7289716980038D077 /* Redacted_OtherViews.swift */,
 			);
 			path = Redacted;
 			sourceTree = "<group>";
@@ -3241,6 +3244,7 @@
 				13E8EF3527C9396500307F9A /* DatePicker_Customizing.swift in Sources */,
 				5CE94A4B286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift in Sources */,
 				5C2DCA322892D43C00630A0E /* HighPriorityGesture_Before.swift in Sources */,
+				5CD7B5F8289716980038D077 /* Redacted_OtherViews.swift in Sources */,
 				13CC9D0E27D20816007E9F33 /* Navigation_BackgroundColor.swift in Sources */,
 				5C5090F2285C212C00495648 /* Edges_SafeAreas_Vertical.swift in Sources */,
 				139ABCF92819060E009E2C47 /* Group_Intro.swift in Sources */,
