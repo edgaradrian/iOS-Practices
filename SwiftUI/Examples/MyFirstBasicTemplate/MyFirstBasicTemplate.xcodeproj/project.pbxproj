@@ -548,6 +548,8 @@
 		5CD7B5F8289716980038D077 /* Redacted_OtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5F7289716980038D077 /* Redacted_OtherViews.swift */; };
 		5CD7B5FA28971C370038D077 /* Redacted_MoreViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5F928971C370038D077 /* Redacted_MoreViews.swift */; };
 		5CD7B5FC28971E400038D077 /* Redacted_Unredacted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5FB28971E400038D077 /* Redacted_Unredacted.swift */; };
+		5CD7B600289720950038D077 /* VideoPlayer_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7B5FF289720950038D077 /* VideoPlayer_Intro.swift */; };
+		5CD7B602289724830038D077 /* XMen.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5CD7B601289724830038D077 /* XMen.mov */; };
 		5CD89CEE28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CED28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift */; };
 		5CD89CF1287762760059BCE4 /* Opacity_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CF0287762760059BCE4 /* Opacity_Intro.swift */; };
 		5CD89CF3287766FF0059BCE4 /* Opacity_Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CF2287766FF0059BCE4 /* Opacity_Layers.swift */; };
@@ -1125,6 +1127,8 @@
 		5CD7B5F7289716980038D077 /* Redacted_OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redacted_OtherViews.swift; sourceTree = "<group>"; };
 		5CD7B5F928971C370038D077 /* Redacted_MoreViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redacted_MoreViews.swift; sourceTree = "<group>"; };
 		5CD7B5FB28971E400038D077 /* Redacted_Unredacted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redacted_Unredacted.swift; sourceTree = "<group>"; };
+		5CD7B5FF289720950038D077 /* VideoPlayer_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer_Intro.swift; sourceTree = "<group>"; };
+		5CD7B601289724830038D077 /* XMen.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = XMen.mov; sourceTree = "<group>"; };
 		5CD89CED28775FF40059BCE4 /* Mask_WithShapesAndPaddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_WithShapesAndPaddings.swift; sourceTree = "<group>"; };
 		5CD89CF0287762760059BCE4 /* Opacity_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity_Intro.swift; sourceTree = "<group>"; };
 		5CD89CF2287766FF0059BCE4 /* Opacity_Layers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity_Layers.swift; sourceTree = "<group>"; };
@@ -1312,6 +1316,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5CD7B5FD289720050038D077 /* ImportingViews */,
 				5C2DCA332892DA7B00630A0E /* OtherModifiers */,
 				5CF48239288F557D008FCE81 /* Gestures */,
 				5C4D962C288B9E33002E461D /* ImageModifiers */,
@@ -2743,6 +2748,23 @@
 			path = Redacted;
 			sourceTree = "<group>";
 		};
+		5CD7B5FD289720050038D077 /* ImportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7B5FE2897201C0038D077 /* AVKit */,
+			);
+			path = ImportingViews;
+			sourceTree = "<group>";
+		};
+		5CD7B5FE2897201C0038D077 /* AVKit */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7B601289724830038D077 /* XMen.mov */,
+				5CD7B5FF289720950038D077 /* VideoPlayer_Intro.swift */,
+			);
+			path = AVKit;
+			sourceTree = "<group>";
+		};
 		5CD89CEF2877625B0059BCE4 /* Opacity */ = {
 			isa = PBXGroup;
 			children = (
@@ -2934,6 +2956,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1362D52127B2B89100695795 /* Preview Assets.xcassets in Resources */,
+				5CD7B602289724830038D077 /* XMen.mov in Resources */,
 				1362D51E27B2B89100695795 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3479,6 +3502,7 @@
 				135294EB27E5874C00B29311 /* TabView_Intro.swift in Sources */,
 				1383E5C527DAD2DB00C12E4D /* ProgressView_CurrentValue.swift in Sources */,
 				13FB4D4727BD681400B0E8C9 /* ZStack_Background_Problem.swift in Sources */,
+				5CD7B600289720950038D077 /* VideoPlayer_Intro.swift in Sources */,
 				13E8EF4D27CA9E0A00307F9A /* Form_WithControls.swift in Sources */,
 				5C719A94286F916200209A78 /* Contrast_Intro.swift in Sources */,
 				5C0A25EE28909BFA00DA0EA9 /* DragGesture_Updating.swift in Sources */,
