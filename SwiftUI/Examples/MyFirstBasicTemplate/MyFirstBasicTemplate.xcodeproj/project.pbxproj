@@ -564,6 +564,7 @@
 		5CEF07EA28982D37006D299A /* VideoPlayer_Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF07E928982D37006D299A /* VideoPlayer_Overlay.swift */; };
 		5CEF07ED28983008006D299A /* MapKit_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF07EC28983008006D299A /* MapKit_Intro.swift */; };
 		5CEF07EF289832A8006D299A /* Maps_Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF07EE289832A8006D299A /* Maps_Location.swift */; };
+		5CEF07F1289837FB006D299A /* Maps_Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF07F0289837FB006D299A /* Maps_Zoom.swift */; };
 		5CF48231288F4631008FCE81 /* Resizable_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48230288F4631008FCE81 /* Resizable_Intro.swift */; };
 		5CF48233288F47C9008FCE81 /* Resizable_AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48232288F47C9008FCE81 /* Resizable_AspectRatio.swift */; };
 		5CF48235288F4AE1008FCE81 /* Resizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48234288F4AE1008FCE81 /* Resizable.swift */; };
@@ -1147,6 +1148,7 @@
 		5CEF07E928982D37006D299A /* VideoPlayer_Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer_Overlay.swift; sourceTree = "<group>"; };
 		5CEF07EC28983008006D299A /* MapKit_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit_Intro.swift; sourceTree = "<group>"; };
 		5CEF07EE289832A8006D299A /* Maps_Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_Location.swift; sourceTree = "<group>"; };
+		5CEF07F0289837FB006D299A /* Maps_Zoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_Zoom.swift; sourceTree = "<group>"; };
 		5CF48230288F4631008FCE81 /* Resizable_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable_Intro.swift; sourceTree = "<group>"; };
 		5CF48232288F47C9008FCE81 /* Resizable_AspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable_AspectRatio.swift; sourceTree = "<group>"; };
 		5CF48234288F4AE1008FCE81 /* Resizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable.swift; sourceTree = "<group>"; };
@@ -2816,6 +2818,7 @@
 			children = (
 				5CEF07EC28983008006D299A /* MapKit_Intro.swift */,
 				5CEF07EE289832A8006D299A /* Maps_Location.swift */,
+				5CEF07F0289837FB006D299A /* Maps_Zoom.swift */,
 			);
 			path = MapKit;
 			sourceTree = "<group>";
@@ -3445,6 +3448,7 @@
 				13E8EF1427C7D8EE00307F9A /* Button_WithBorders.swift in Sources */,
 				1388946C27F9591400D288FA /* Text_PersonNameComponents.swift in Sources */,
 				137B73FB27FB94F80027E61E /* TextField_FontSize.swift in Sources */,
+				5CEF07F1289837FB006D299A /* Maps_Zoom.swift in Sources */,
 				13B8BC0A27F4E370004797DD /* Text_ScaledMetric.swift in Sources */,
 				1392028A27BE04FC0078A01D /* ZStack_Aligning.swift in Sources */,
 				1362D54027B6F9CE00695795 /* LazyVStack_HeaderView.swift in Sources */,
