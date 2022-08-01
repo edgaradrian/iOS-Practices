@@ -558,6 +558,7 @@
 		5CE59B7C28985E36000ABF1A /* StoreKit_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59B7B28985E36000ABF1A /* StoreKit_Intro.swift */; };
 		5CE59B802898615C000ABF1A /* Accessibility_Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59B7F2898615C000ABF1A /* Accessibility_Testing.swift */; };
 		5CE59B822898661F000ABF1A /* Accessibility_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59B812898661F000ABF1A /* Accessibility_Images.swift */; };
+		5CE59B8428986BA6000ABF1A /* Accessibility_Punctuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59B8328986BA6000ABF1A /* Accessibility_Punctuation.swift */; };
 		5CE94A4B286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4A286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift */; };
 		5CE94A4D286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4C286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift */; };
 		5CE94A4F286A471C00DBE180 /* AccentColor_ColorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4E286A471C00DBE180 /* AccentColor_ColorProperty.swift */; };
@@ -1145,6 +1146,7 @@
 		5CE59B7B28985E36000ABF1A /* StoreKit_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKit_Intro.swift; sourceTree = "<group>"; };
 		5CE59B7F2898615C000ABF1A /* Accessibility_Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_Testing.swift; sourceTree = "<group>"; };
 		5CE59B812898661F000ABF1A /* Accessibility_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_Images.swift; sourceTree = "<group>"; };
+		5CE59B8328986BA6000ABF1A /* Accessibility_Punctuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_Punctuation.swift; sourceTree = "<group>"; };
 		5CE94A4A286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ComparedToForegroundColor.swift; sourceTree = "<group>"; };
 		5CE94A4C286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_AppliedToParentViews.swift; sourceTree = "<group>"; };
 		5CE94A4E286A471C00DBE180 /* AccentColor_ColorProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ColorProperty.swift; sourceTree = "<group>"; };
@@ -2833,6 +2835,7 @@
 			children = (
 				5CE59B7F2898615C000ABF1A /* Accessibility_Testing.swift */,
 				5CE59B812898661F000ABF1A /* Accessibility_Images.swift */,
+				5CE59B8328986BA6000ABF1A /* Accessibility_Punctuation.swift */,
 			);
 			path = VoiceOver;
 			sourceTree = "<group>";
@@ -3453,6 +3456,7 @@
 				137B73F727FB905C0027E61E /* TextField_Placeholder.swift in Sources */,
 				5C8803302872423A00FADEEF /* ForegroundStyle_Semantic.swift in Sources */,
 				1383E5CC27DAFCDA00C12E4D /* ScrollView_Intro.swift in Sources */,
+				5CE59B8428986BA6000ABF1A /* Accessibility_Punctuation.swift in Sources */,
 				13552C4827EC7A5700727B21 /* Text_AllowsTightening.swift in Sources */,
 				13CC9D2E27D65826007E9F33 /* NavigationLink_InToolbarItem.swift in Sources */,
 				5C812713287A09BF00494CF6 /* Rotation3DEffect_ZAxis.swift in Sources */,
