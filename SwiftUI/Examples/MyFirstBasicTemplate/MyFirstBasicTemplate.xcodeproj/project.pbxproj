@@ -560,6 +560,8 @@
 		5CE94A4F286A471C00DBE180 /* AccentColor_ColorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4E286A471C00DBE180 /* AccentColor_ColorProperty.swift */; };
 		5CE94A52286A49F600DBE180 /* BlendMode_Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A51286A49F600DBE180 /* BlendMode_Setup.swift */; };
 		5CE94A54286A4FF300DBE180 /* BlendMode_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A53286A4FF300DBE180 /* BlendMode_Intro.swift */; };
+		5CEF07E828982A2F006D299A /* VideoPlayer_FromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF07E728982A2F006D299A /* VideoPlayer_FromURL.swift */; };
+		5CEF07EA28982D37006D299A /* VideoPlayer_Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF07E928982D37006D299A /* VideoPlayer_Overlay.swift */; };
 		5CF48231288F4631008FCE81 /* Resizable_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48230288F4631008FCE81 /* Resizable_Intro.swift */; };
 		5CF48233288F47C9008FCE81 /* Resizable_AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48232288F47C9008FCE81 /* Resizable_AspectRatio.swift */; };
 		5CF48235288F4AE1008FCE81 /* Resizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48234288F4AE1008FCE81 /* Resizable.swift */; };
@@ -1139,6 +1141,8 @@
 		5CE94A4E286A471C00DBE180 /* AccentColor_ColorProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ColorProperty.swift; sourceTree = "<group>"; };
 		5CE94A51286A49F600DBE180 /* BlendMode_Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendMode_Setup.swift; sourceTree = "<group>"; };
 		5CE94A53286A4FF300DBE180 /* BlendMode_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendMode_Intro.swift; sourceTree = "<group>"; };
+		5CEF07E728982A2F006D299A /* VideoPlayer_FromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer_FromURL.swift; sourceTree = "<group>"; };
+		5CEF07E928982D37006D299A /* VideoPlayer_Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer_Overlay.swift; sourceTree = "<group>"; };
 		5CF48230288F4631008FCE81 /* Resizable_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable_Intro.swift; sourceTree = "<group>"; };
 		5CF48232288F47C9008FCE81 /* Resizable_AspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable_AspectRatio.swift; sourceTree = "<group>"; };
 		5CF48234288F4AE1008FCE81 /* Resizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resizable.swift; sourceTree = "<group>"; };
@@ -2761,6 +2765,8 @@
 			children = (
 				5CD7B601289724830038D077 /* XMen.mov */,
 				5CD7B5FF289720950038D077 /* VideoPlayer_Intro.swift */,
+				5CEF07E728982A2F006D299A /* VideoPlayer_FromURL.swift */,
+				5CEF07E928982D37006D299A /* VideoPlayer_Overlay.swift */,
 			);
 			path = AVKit;
 			sourceTree = "<group>";
@@ -2976,6 +2982,7 @@
 				13917F6D2800A1B700CFA872 /* TextField_KeyboardSafeArea.swift in Sources */,
 				5C81271C287A1A2000494CF6 /* Saturation_Intro.swift in Sources */,
 				13E8EF3E27C949A600307F9A /* DisclosureGroup_WithCustomLabel.swift in Sources */,
+				5CEF07EA28982D37006D299A /* VideoPlayer_Overlay.swift in Sources */,
 				13B8BC1427F64B56004797DD /* Text_TextSelection.swift in Sources */,
 				5C950C9628645E6100B203CD /* Padding_Intro.swift in Sources */,
 				5C950C9828645FE500B203CD /* Padding_Length.swift in Sources */,
@@ -3520,6 +3527,7 @@
 				137B73EE27FA4FFB0027E61E /* TextEditor_Alignment.swift in Sources */,
 				1383E5C927DAF75900C12E4D /* ProgressView_Tint.swift in Sources */,
 				5C88032C28723C2100FADEEF /* ForegroundStyle_Hierarchical.swift in Sources */,
+				5CEF07E828982A2F006D299A /* VideoPlayer_FromURL.swift in Sources */,
 				5C67486B286E24A900A07E1B /* ColorInvert_WithPhotos.swift in Sources */,
 				13EDD0A527DD896C005B4112 /* SecureField_Intro.swift in Sources */,
 				5CF4823C288F5610008FCE81 /* DragGesture_OnChanged.swift in Sources */,
