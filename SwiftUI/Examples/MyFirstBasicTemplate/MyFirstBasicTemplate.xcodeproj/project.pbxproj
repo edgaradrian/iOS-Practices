@@ -556,6 +556,7 @@
 		5CD89CF6287769570059BCE4 /* PreferredColorSchema_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CF5287769570059BCE4 /* PreferredColorSchema_Intro.swift */; };
 		5CD89CF928776DB50059BCE4 /* RotationEffect_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD89CF828776DB50059BCE4 /* RotationEffect_Intro.swift */; };
 		5CE59B7C28985E36000ABF1A /* StoreKit_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59B7B28985E36000ABF1A /* StoreKit_Intro.swift */; };
+		5CE59B802898615C000ABF1A /* Accessibility_Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59B7F2898615C000ABF1A /* Accessibility_Testing.swift */; };
 		5CE94A4B286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4A286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift */; };
 		5CE94A4D286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4C286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift */; };
 		5CE94A4F286A471C00DBE180 /* AccentColor_ColorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE94A4E286A471C00DBE180 /* AccentColor_ColorProperty.swift */; };
@@ -1141,6 +1142,7 @@
 		5CD89CF5287769570059BCE4 /* PreferredColorSchema_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredColorSchema_Intro.swift; sourceTree = "<group>"; };
 		5CD89CF828776DB50059BCE4 /* RotationEffect_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffect_Intro.swift; sourceTree = "<group>"; };
 		5CE59B7B28985E36000ABF1A /* StoreKit_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKit_Intro.swift; sourceTree = "<group>"; };
+		5CE59B7F2898615C000ABF1A /* Accessibility_Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_Testing.swift; sourceTree = "<group>"; };
 		5CE94A4A286A393000DBE180 /* AccentColor_ComparedToForegroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ComparedToForegroundColor.swift; sourceTree = "<group>"; };
 		5CE94A4C286A3ED400DBE180 /* AccentColor_AppliedToParentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_AppliedToParentViews.swift; sourceTree = "<group>"; };
 		5CE94A4E286A471C00DBE180 /* AccentColor_ColorProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ColorProperty.swift; sourceTree = "<group>"; };
@@ -1328,6 +1330,7 @@
 		1362D51827B2B88F00695795 /* MyFirstBasicTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5CE59B7D289860EF000ABF1A /* Accessibility */,
 				5CD7B5FD289720050038D077 /* ImportingViews */,
 				5C2DCA332892DA7B00630A0E /* OtherModifiers */,
 				5CF48239288F557D008FCE81 /* Gestures */,
@@ -2815,6 +2818,22 @@
 			path = StoreKit;
 			sourceTree = "<group>";
 		};
+		5CE59B7D289860EF000ABF1A /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				5CE59B7E28986101000ABF1A /* VoiceOver */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		5CE59B7E28986101000ABF1A /* VoiceOver */ = {
+			isa = PBXGroup;
+			children = (
+				5CE59B7F2898615C000ABF1A /* Accessibility_Testing.swift */,
+			);
+			path = VoiceOver;
+			sourceTree = "<group>";
+		};
 		5CE94A50286A49DB00DBE180 /* BlendMode */ = {
 			isa = PBXGroup;
 			children = (
@@ -3125,6 +3144,7 @@
 				1388946A27F9565900D288FA /* Text_Currency.swift in Sources */,
 				13B8BC1027F6449F004797DD /* Text_Markdown.swift in Sources */,
 				5C30A83F2883826D0042CDCD /* TransformEffect_ComparedScaleEffect.swift in Sources */,
+				5CE59B802898615C000ABF1A /* Accessibility_Testing.swift in Sources */,
 				139ABCE9280F3981009E2C47 /* Color_OtherSystemColors.swift in Sources */,
 				13613AB52821C1F1007B4606 /* Image_FromSymbolsWithColor.swift in Sources */,
 				13552C5427F117F500727B21 /* Text_BaselineOffset.swift in Sources */,

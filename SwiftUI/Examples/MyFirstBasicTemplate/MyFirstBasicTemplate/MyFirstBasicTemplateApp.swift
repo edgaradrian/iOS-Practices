@@ -11,7 +11,7 @@ import SwiftUI
 struct MyFirstBasicTemplateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Accessibility_Testing()
         }
     }
 }
