@@ -57,7 +57,7 @@ struct ContentView: View {
                 }
             }
             
-            .navigationBarTitle("Restaurant")
+            .navigationBarTitle("Restaurantes")
             
         }
         
