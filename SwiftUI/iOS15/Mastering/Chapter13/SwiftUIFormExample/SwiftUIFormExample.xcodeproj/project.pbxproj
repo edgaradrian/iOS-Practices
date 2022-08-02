@@ -12,6 +12,7 @@
 		5C381C482899C97E00F36E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C381C472899C97E00F36E37 /* Assets.xcassets */; };
 		5C381C4B2899C97E00F36E37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C381C4A2899C97E00F36E37 /* Preview Assets.xcassets */; };
 		5C381C532899CA2C00F36E37 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C381C522899CA2C00F36E37 /* Restaurant.swift */; };
+		5C381C562899CD9000F36E37 /* RestaurantBasicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C381C552899CD9000F36E37 /* RestaurantBasicRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5C381C472899C97E00F36E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C381C4A2899C97E00F36E37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C381C522899CA2C00F36E37 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		5C381C552899CD9000F36E37 /* RestaurantBasicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBasicRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		5C381C422899C97D00F36E37 /* SwiftUIFormExample */ = {
 			isa = PBXGroup;
 			children = (
+				5C381C542899CD1100F36E37 /* Views */,
 				5C381C512899CA1B00F36E37 /* Models */,
 				5C381C432899C97D00F36E37 /* SwiftUIFormExampleApp.swift */,
 				5C381C452899C97D00F36E37 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				5C381C522899CA2C00F36E37 /* Restaurant.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5C381C542899CD1100F36E37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C381C552899CD9000F36E37 /* RestaurantBasicRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				5C381C462899C97D00F36E37 /* ContentView.swift in Sources */,
 				5C381C442899C97D00F36E37 /* SwiftUIFormExampleApp.swift in Sources */,
+				5C381C562899CD9000F36E37 /* RestaurantBasicRow.swift in Sources */,
 				5C381C532899CA2C00F36E37 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
