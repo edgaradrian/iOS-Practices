@@ -58,7 +58,6 @@
 				5C381C542899CD1100F36E37 /* Views */,
 				5C381C512899CA1B00F36E37 /* Models */,
 				5C381C432899C97D00F36E37 /* SwiftUIFormExampleApp.swift */,
-				5C381C452899C97D00F36E37 /* ContentView.swift */,
 				5C381C472899C97E00F36E37 /* Assets.xcassets */,
 				5C381C492899C97E00F36E37 /* Preview Content */,
 			);
@@ -76,6 +75,7 @@
 		5C381C512899CA1B00F36E37 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5C381C452899C97D00F36E37 /* ContentView.swift */,
 				5C381C522899CA2C00F36E37 /* Restaurant.swift */,
 			);
 			path = Models;
