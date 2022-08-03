@@ -10,8 +10,8 @@ import SwiftUI
 struct SettingView: View {
     
     @Environment(\.presentationMode) var presentationMode
-    private var displayOrders = ["Alfabéticamente", "Favoritos primero", "Registrados primero"]
-    @State private var selectedOrder = 0
+    
+    @State private var selectedOrder = DisplayOrderType.alphabetichal
     @State private var showCheckInOnly = false
     @State private var maxPriceLevel = 5
     
@@ -20,8 +20,8 @@ struct SettingView: View {
             Form {
                 Section(header: Text("PREFERENCIA DE ORDEN")) {
                     Picker(selection: $selectedOrder) {
-                        ForEach(0 ..< displayOrders.count, id: \.self) {
-                            Text(self.displayOrders[$0])
+                        ForEach(DisplayOrderType.allCases, id: \.self) { orderType in
+                            Text(orderType.text)
                         }
                     } label: {
                         Text("Ordenas por")
