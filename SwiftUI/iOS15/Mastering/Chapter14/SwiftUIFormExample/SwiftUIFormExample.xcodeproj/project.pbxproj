@@ -15,6 +15,7 @@
 		5C381C562899CD9000F36E37 /* RestaurantBasicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C381C552899CD9000F36E37 /* RestaurantBasicRow.swift */; };
 		5C381C582899D6E700F36E37 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C381C572899D6E700F36E37 /* SettingView.swift */; };
 		5CEE4F07289ADFDF008E100A /* DisplayOrderTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE4F06289ADFDF008E100A /* DisplayOrderTypeEnum.swift */; };
+		5CEE4F0D289B3F3F008E100A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE4F0C289B3F3F008E100A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5C381C552899CD9000F36E37 /* RestaurantBasicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBasicRow.swift; sourceTree = "<group>"; };
 		5C381C572899D6E700F36E37 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		5CEE4F06289ADFDF008E100A /* DisplayOrderTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOrderTypeEnum.swift; sourceTree = "<group>"; };
+		5CEE4F0C289B3F3F008E100A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		5C381C422899C97D00F36E37 /* SwiftUIFormExample */ = {
 			isa = PBXGroup;
 			children = (
+				5CEE4F0B289B3F32008E100A /* Common */,
 				5CEE4F05289ADFC9008E100A /* Enums */,
 				5C381C542899CD1100F36E37 /* Views */,
 				5C381C512899CA1B00F36E37 /* Models */,
@@ -101,6 +104,14 @@
 				5CEE4F06289ADFDF008E100A /* DisplayOrderTypeEnum.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		5CEE4F0B289B3F32008E100A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE4F0C289B3F3F008E100A /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				5C381C462899C97D00F36E37 /* ContentView.swift in Sources */,
 				5C381C582899D6E700F36E37 /* SettingView.swift in Sources */,
 				5C381C442899C97D00F36E37 /* SwiftUIFormExampleApp.swift in Sources */,
+				5CEE4F0D289B3F3F008E100A /* Constants.swift in Sources */,
 				5C381C562899CD9000F36E37 /* RestaurantBasicRow.swift in Sources */,
 				5C381C532899CA2C00F36E37 /* Restaurant.swift in Sources */,
 			);
