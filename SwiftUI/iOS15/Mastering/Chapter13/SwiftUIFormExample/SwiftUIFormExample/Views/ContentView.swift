@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var selectedRestaurant: Restaurant?
     
     @State var restaurants = restaurantes
+    @State private var showSettings = false
     
     var body: some View {
         NavigationView {
@@ -58,6 +59,21 @@ struct ContentView: View {
             }
             
             .navigationBarTitle("Restaurantes")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        self.showSettings = true
+                    } label: {
+                        Image(systemName: "gear")
+                            .font(.title3)
+                            .foregroundColor(.black)
+                    }
+
+                }
+            }
+            .sheet(isPresented: $showSettings) {
+                SettingView()
+            }
             
         }
         
