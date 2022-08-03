@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct SettingView: View {
+    
+    private var displayOrders = ["Alfabéticamente", "Favoritos primero", "Registrados primero"]
+    @State private var selectedOrder = 0
+    
     var body: some View {
         NavigationView {
             Form {
                 Section(header: Text("PREFERENCIA DE ORDEN")) {
-                    Text("Mostrar orden")
+                    Picker(selection: $selectedOrder) {
+                        ForEach(0 ..< displayOrders.count, id: \.self) {
+                            Text(self.displayOrders[$0])
+                        }
+                    } label: {
+                        Text("Ordenas por")
+                    }
+
                 }
                 
                 Section {
