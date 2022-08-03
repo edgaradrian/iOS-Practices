@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+
     @State private var selectedRestaurant: Restaurant?
     
     @State var restaurants = restaurantes

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingView: View {
     
+    @Environment(\.presentationMode) var presentationMode
     private var displayOrders = ["Alfabéticamente", "Favoritos primero", "Registrados primero"]
     @State private var selectedOrder = 0
     @State private var showCheckInOnly = false
@@ -56,6 +57,24 @@ struct SettingView: View {
                 
             }
             .navigationTitle("Ajustes")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        self.presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Text("Cancelar")
+                    }
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        self.presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Text("Aceptar")
+                    }
+
+                }
+            }
         }
     }
 }
