@@ -36,6 +36,5 @@ final class SettingStore: ObservableObject {
             Defaults.set(maxPriceLevel, forKey: PARAMETTER_PREFERENCES_MAX_PRICE)
         }
     }//maxPriceLevel
-
     
 }//SettingStore

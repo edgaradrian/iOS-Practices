@@ -36,5 +36,15 @@ enum DisplayOrderType: Int, CaseIterable {
         }
     }
     
+    func predicate() -> ((Restaurant, Restaurant) -> Bool) {
+        switch self {
+        case .alphabetichal:
+            return { $0.name < $1.name }
+        case .favoriteFirst:
+            return { $0.isFavorite && !$1.isFavorite }
+        case .checkInFirst:
+            return { $0.isCheckIn && !$1.isCheckIn }
+        }
+    }//predicate
     
 }//enumv DisplayOrderType

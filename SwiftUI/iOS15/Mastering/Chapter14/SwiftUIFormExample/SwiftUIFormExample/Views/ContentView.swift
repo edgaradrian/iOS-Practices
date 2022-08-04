@@ -19,41 +19,43 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(restaurants) { restaurant in
-                    RestaurantBasicRow(restaurant: restaurant)
-                        .contextMenu {
-                            
-                            Button(action: {
-                                self.checkIn(item: restaurant)
-                            }) {
-                                HStack {
-                                    Text("Check-in")
-                                    Image(systemName: "checkmark.seal.fill")
-                                }
-                            }
-                            
-                            Button(action: {
-                                self.delete(item: restaurant)
-                            }) {
-                                HStack {
-                                    Text("Delete")
-                                    Image(systemName: "trash")
-                                }
-                            }
-                            
-                            Button(action: {
-                                self.setFavorite(item: restaurant)
+                ForEach(restaurants.sorted(by: self.settingStore.displayOrder.predicate())) { restaurant in
+                    if self.shouldShow(restaurant: restaurant) {
+                        RestaurantBasicRow(restaurant: restaurant)
+                            .contextMenu {
                                 
-                            }) {
-                                HStack {
-                                    Text("Favorite")
-                                    Image(systemName: "star")
+                                Button(action: {
+                                    self.checkIn(item: restaurant)
+                                }) {
+                                    HStack {
+                                        Text("Check-in")
+                                        Image(systemName: "checkmark.seal.fill")
+                                    }
+                                }
+                                
+                                Button(action: {
+                                    self.delete(item: restaurant)
+                                }) {
+                                    HStack {
+                                        Text("Delete")
+                                        Image(systemName: "trash")
+                                    }
+                                }
+                                
+                                Button(action: {
+                                    self.setFavorite(item: restaurant)
+                                    
+                                }) {
+                                    HStack {
+                                        Text("Favorite")
+                                        Image(systemName: "star")
+                                    }
                                 }
                             }
-                        }
-                        .onTapGesture {
-                            self.selectedRestaurant = restaurant
-                        }
+                            .onTapGesture {
+                                self.selectedRestaurant = restaurant
+                            }
+                    }
                 }
                 .onDelete { (indexSet) in
                     self.restaurants.remove(atOffsets: indexSet)
@@ -99,6 +101,12 @@ struct ContentView: View {
             self.restaurants[index].isCheckIn.toggle()
         }
     }//checkIn
+    
+    private func shouldShow(restaurant: Restaurant) -> Bool {
+        
+        return (!self.settingStore.showCheckInOnly || restaurant.isCheckIn) && (restaurant.priceLevel <= self.settingStore.maxPriceLevel)
+        
+    }//shouldShow
 
 }//ContentView
 
