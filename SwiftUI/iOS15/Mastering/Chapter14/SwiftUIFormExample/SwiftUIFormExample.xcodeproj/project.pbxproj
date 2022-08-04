@@ -16,6 +16,7 @@
 		5C381C582899D6E700F36E37 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C381C572899D6E700F36E37 /* SettingView.swift */; };
 		5CEE4F07289ADFDF008E100A /* DisplayOrderTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE4F06289ADFDF008E100A /* DisplayOrderTypeEnum.swift */; };
 		5CEE4F0D289B3F3F008E100A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE4F0C289B3F3F008E100A /* Constants.swift */; };
+		5CEE4F10289B4055008E100A /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE4F0F289B4055008E100A /* SettingStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5C381C572899D6E700F36E37 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		5CEE4F06289ADFDF008E100A /* DisplayOrderTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOrderTypeEnum.swift; sourceTree = "<group>"; };
 		5CEE4F0C289B3F3F008E100A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5CEE4F0F289B4055008E100A /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		5C381C422899C97D00F36E37 /* SwiftUIFormExample */ = {
 			isa = PBXGroup;
 			children = (
+				5CEE4F0E289B403D008E100A /* Config */,
 				5CEE4F0B289B3F32008E100A /* Common */,
 				5CEE4F05289ADFC9008E100A /* Enums */,
 				5C381C542899CD1100F36E37 /* Views */,
@@ -112,6 +115,14 @@
 				5CEE4F0C289B3F3F008E100A /* Constants.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		5CEE4F0E289B403D008E100A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE4F0F289B4055008E100A /* SettingStore.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEE4F10289B4055008E100A /* SettingStore.swift in Sources */,
 				5CEE4F07289ADFDF008E100A /* DisplayOrderTypeEnum.swift in Sources */,
 				5C381C462899C97D00F36E37 /* ContentView.swift in Sources */,
 				5C381C582899D6E700F36E37 /* SettingView.swift in Sources */,
