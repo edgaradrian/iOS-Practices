@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import Combine
 
-final class SettingStore {
+final class SettingStore: ObservableObject {
     
     init() {
         Defaults.register(defaults:
@@ -18,19 +19,19 @@ final class SettingStore {
         )
     }//init
     
-    var showCheckInOnly: Bool = Defaults.bool(forKey: PARAMETTER_PREFERENCES_CHECKIN) {
+    @Published var showCheckInOnly: Bool = Defaults.bool(forKey: PARAMETTER_PREFERENCES_CHECKIN) {
         didSet {
             Defaults.set(showCheckInOnly, forKey: PARAMETTER_PREFERENCES_CHECKIN)
         }
     }//showCheckInOnly
     
-    var displayOrder: DisplayOrderType = DisplayOrderType(type: Defaults.integer(forKey: PARAMETTER_PREFERENCES_DISPLAY_ORDER)) {
+    @Published var displayOrder: DisplayOrderType = DisplayOrderType(type: Defaults.integer(forKey: PARAMETTER_PREFERENCES_DISPLAY_ORDER)) {
         didSet {
             Defaults.set(displayOrder.rawValue, forKey: PARAMETTER_PREFERENCES_DISPLAY_ORDER)
         }
     }//displayOrder
     
-    var maxPriceLevel: Int = Defaults.integer(forKey: PARAMETTER_PREFERENCES_MAX_PRICE) {
+    @Published var maxPriceLevel: Int = Defaults.integer(forKey: PARAMETTER_PREFERENCES_MAX_PRICE) {
         didSet {
             Defaults.set(maxPriceLevel, forKey: PARAMETTER_PREFERENCES_MAX_PRICE)
         }
