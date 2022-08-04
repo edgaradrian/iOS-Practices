@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var restaurants = restaurantes
     @State private var showSettings = false
     
-    var settingStore: SettingStore
+    @EnvironmentObject var settingStore: SettingStore
     
     var body: some View {
         NavigationView {
@@ -74,7 +74,7 @@ struct ContentView: View {
                 }
             }
             .sheet(isPresented: $showSettings) {
-                SettingView(settingStore: self.settingStore)
+                SettingView().environmentObject(self.settingStore)
             }
             
         }
@@ -104,6 +104,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(settingStore: SettingStore())
+        ContentView().environmentObject(SettingStore())
     }
 }
