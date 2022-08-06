@@ -13,6 +13,7 @@
 		5C182442289C1A6300C769DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C182441289C1A6300C769DC /* Preview Assets.xcassets */; };
 		5C182449289C1AC600C769DC /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C182448289C1AC600C769DC /* FormField.swift */; };
 		5C18244C289C1E9500C769DC /* RequirementText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18244B289C1E9500C769DC /* RequirementText.swift */; };
+		5CC37BA0289DE792006CCB2D /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC37B9F289DE792006CCB2D /* UserRegistrationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5C182441289C1A6300C769DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C182448289C1AC600C769DC /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
 		5C18244B289C1E9500C769DC /* RequirementText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementText.swift; sourceTree = "<group>"; };
+		5CC37B9F289DE792006CCB2D /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		5C182439289C1A6200C769DC /* SwiftUIFormRegistration */ = {
 			isa = PBXGroup;
 			children = (
+				5CC37B9E289DE776006CCB2D /* ModelView */,
 				5C18244A289C1E7000C769DC /* Views */,
 				5C18243A289C1A6200C769DC /* SwiftUIFormRegistrationApp.swift */,
 				5C18243E289C1A6300C769DC /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				5C18244B289C1E9500C769DC /* RequirementText.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5CC37B9E289DE776006CCB2D /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				5CC37B9F289DE792006CCB2D /* UserRegistrationViewModel.swift */,
+			);
+			path = ModelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC37BA0289DE792006CCB2D /* UserRegistrationViewModel.swift in Sources */,
 				5C182449289C1AC600C769DC /* FormField.swift in Sources */,
 				5C18243D289C1A6200C769DC /* ContentView.swift in Sources */,
 				5C18244C289C1E9500C769DC /* RequirementText.swift in Sources */,
