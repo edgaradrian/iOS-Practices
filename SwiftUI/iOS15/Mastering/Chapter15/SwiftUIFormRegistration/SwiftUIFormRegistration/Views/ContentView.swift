@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var username = ""
-    @State private var password = ""
-    @State private var passwordConfirm = ""
+    @ObservedObject private var userRegistrationViewModel = UserRegistrationViewModel()
     
     var body: some View {
         VStack {
@@ -20,19 +18,19 @@ struct ContentView: View {
                 .bold()
                 .padding(.bottom, 30)
             
-            FormField(fieldValue: $username, fieldName: "Nombre de usuario")
-            RequirementText(text: "Un mínimo de 4 carácteres")
+            FormField(fieldValue: $userRegistrationViewModel.username, fieldName: "Nombre de usuario")
+            RequirementText(iconColor: userRegistrationViewModel.isUsernameLengthValid ? Color.secondary : Color.orange, text: "Un mínimo de 4 carácteres", isStrikeThrough: userRegistrationViewModel.isUsernameLengthValid)
                 .padding()
             
-            FormField(fieldValue: $password, fieldName: "Contraseña", isSecure: true)
+            FormField(fieldValue: $userRegistrationViewModel.password, fieldName: "Contraseña", isSecure: true)
             VStack {
-                RequirementText(iconName: "lock.open", text: "Un mínimo de 4 carácteres", isStrikeThrough: false)
-                RequirementText(iconName: "lock.open", text: "Una mayúscula", isStrikeThrough: false)
+                RequirementText(iconName: "lock.open", iconColor: userRegistrationViewModel.isPasswordLengthValid ? Color.secondary : Color.orange, text: "Un mínimo de 4 carácteres", isStrikeThrough: userRegistrationViewModel.isPasswordLengthValid)
+                RequirementText(iconName: "lock.open", iconColor: userRegistrationViewModel.isPasswordCapitalLetter ? Color.secondary : Color.orange, text: "Una mayúscula", isStrikeThrough: userRegistrationViewModel.isPasswordCapitalLetter)
             }
             .padding()
             
-            FormField(fieldValue: $passwordConfirm, fieldName: "Confirmar Contraseña", isSecure: true)
-            RequirementText(text: "Las contraseñas no coincide", isStrikeThrough: false)
+            FormField(fieldValue: $userRegistrationViewModel.passwordConfirm, fieldName: "Confirmar Contraseña", isSecure: true)
+            RequirementText(iconColor: userRegistrationViewModel.isPasswordConfirmValid ? Color.secondary : Color.orange, text: "Las contraseñas no coincide", isStrikeThrough: userRegistrationViewModel.isPasswordConfirmValid)
                 .padding()
                 .padding(.bottom, 50)
             
