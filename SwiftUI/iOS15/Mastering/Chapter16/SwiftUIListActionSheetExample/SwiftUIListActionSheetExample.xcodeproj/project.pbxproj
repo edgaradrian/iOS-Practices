@@ -12,6 +12,7 @@
 		5C51E572289EB78F00BABE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C51E571289EB78F00BABE3B /* Assets.xcassets */; };
 		5C51E575289EB78F00BABE3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C51E574289EB78F00BABE3B /* Preview Assets.xcassets */; };
 		5C51E57D289EB7DA00BABE3B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51E57C289EB7DA00BABE3B /* Restaurant.swift */; };
+		5C51E580289EBC1A00BABE3B /* BasicRowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51E57F289EBC1A00BABE3B /* BasicRowImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5C51E571289EB78F00BABE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C51E574289EB78F00BABE3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C51E57C289EB7DA00BABE3B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		5C51E57F289EBC1A00BABE3B /* BasicRowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRowImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,9 @@
 		5C51E56C289EB78E00BABE3B /* SwiftUIListActionSheetExample */ = {
 			isa = PBXGroup;
 			children = (
+				5C51E57E289EB9DC00BABE3B /* View */,
 				5C51E57B289EB7B900BABE3B /* Model */,
 				5C51E56D289EB78E00BABE3B /* SwiftUIListActionSheetExampleApp.swift */,
-				5C51E56F289EB78E00BABE3B /* ContentView.swift */,
 				5C51E571289EB78F00BABE3B /* Assets.xcassets */,
 				5C51E573289EB78F00BABE3B /* Preview Content */,
 			);
@@ -76,6 +78,15 @@
 				5C51E57C289EB7DA00BABE3B /* Restaurant.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5C51E57E289EB9DC00BABE3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C51E56F289EB78E00BABE3B /* ContentView.swift */,
+				5C51E57F289EBC1A00BABE3B /* BasicRowImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				5C51E570289EB78E00BABE3B /* ContentView.swift in Sources */,
 				5C51E56E289EB78E00BABE3B /* SwiftUIListActionSheetExampleApp.swift in Sources */,
 				5C51E57D289EB7DA00BABE3B /* Restaurant.swift in Sources */,
+				5C51E580289EBC1A00BABE3B /* BasicRowImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
