@@ -37,6 +37,25 @@ struct ContentView: View {
             List {
                 ForEach(restaurants) { restaurant in
                     BasicRowImage(restaurant: restaurant)
+                        .contextMenu {
+                            
+                            Button(action: {
+                                self.delete(restaurant: restaurant)
+                            }) {
+                                HStack {
+                                    Text("Borrar")
+                                    Image(systemName: "trash")
+                                }
+                            }
+                            
+                            Button(action: {}) {
+                                HStack {
+                                    Text("Favorito")
+                                    Image(systemName: "star")
+                                }
+                            }
+                            
+                        }
                 }
                 .onDelete { index in
                     self.restaurants.remove(atOffsets: index)
@@ -45,7 +64,17 @@ struct ContentView: View {
             .listStyle(.plain)
             .navigationTitle(Text("Restaurantes"))
         }
-    }
+    }//var body
+    
+    private func delete(restaurant: Restaurant) {
+        
+        if let index = self.restaurants.firstIndex(where: {
+            $0.id == restaurant.id
+        }) {
+            self.restaurants.remove(at: index)
+        }
+        
+    }//delete
 
 }//ContentView
 
