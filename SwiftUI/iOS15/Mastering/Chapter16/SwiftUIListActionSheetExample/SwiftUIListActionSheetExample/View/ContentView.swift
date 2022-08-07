@@ -48,7 +48,9 @@ struct ContentView: View {
                                 }
                             }
                             
-                            Button(action: {}) {
+                            Button(action: {
+                                self.setFavorite(restaurant: restaurant)
+                            }) {
                                 HStack {
                                     Text("Favorito")
                                     Image(systemName: "star")
@@ -76,6 +78,14 @@ struct ContentView: View {
         
     }//delete
 
+    private func setFavorite(restaurant: Restaurant) {
+        if let index = self.restaurants.firstIndex(where: {
+            $0.id == restaurant.id
+        }) {
+            self.restaurants[index].isFavorite.toggle()
+        }
+    }//setFavorite
+    
 }//ContentView
 
 struct ContentView_Previews: PreviewProvider {
