@@ -14,6 +14,7 @@
 		5C25D93A28A2B89000D916E8 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D93928A2B89000D916E8 /* ContentView2.swift */; };
 		5C25D93C28A2C1CA00D916E8 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */; };
 		5C25D93F28A2C78A00D916E8 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D93E28A2C78A00D916E8 /* DragState.swift */; };
+		5C25D94128A2F00000D916E8 /* RefactoringGestureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D94028A2F00000D916E8 /* RefactoringGestureState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5C25D93928A2B89000D916E8 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		5C25D93E28A2C78A00D916E8 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		5C25D94028A2F00000D916E8 /* RefactoringGestureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringGestureState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				5C0A85CA28A1E59000E701DA /* Preview Content */,
 				5C25D93928A2B89000D916E8 /* ContentView2.swift */,
 				5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */,
+				5C25D94028A2F00000D916E8 /* RefactoringGestureState.swift */,
 			);
 			path = SwiftUIGesturesExample;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C25D94128A2F00000D916E8 /* RefactoringGestureState.swift in Sources */,
 				5C25D93A28A2B89000D916E8 /* ContentView2.swift in Sources */,
 				5C25D93F28A2C78A00D916E8 /* DragState.swift in Sources */,
 				5C0A85C728A1E58F00E701DA /* ContentView.swift in Sources */,
