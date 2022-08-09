@@ -25,6 +25,11 @@ struct BasicRowImage: View {
                     .foregroundColor(.yellow)
             }
             
+            if restaurant.isCheckIn {
+                Image(systemName: "checkmark.seal.fill")
+                    .foregroundColor(.orange)
+            }
+            
         }
     }
 }//BasicRowImage
