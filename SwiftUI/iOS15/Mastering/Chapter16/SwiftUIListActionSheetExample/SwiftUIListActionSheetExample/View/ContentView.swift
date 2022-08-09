@@ -32,6 +32,10 @@ struct ContentView: View {
                    Restaurant(name: "CASK Pub and Kitchen", image: "caskpubkitchen")
     ]
     
+    @State private var showActionSheet = false
+    
+    @State private var selectedRestaurant: Restaurant?
+    
     var body: some View {
         NavigationView {
             List {
@@ -56,6 +60,27 @@ struct ContentView: View {
                                     Image(systemName: "star")
                                 }
                             }
+                            
+                        }
+                        .onTapGesture {
+                            self.showActionSheet.toggle()
+                            self.selectedRestaurant = restaurant
+                        }
+                        .confirmationDialog(Text("¿Qué deseas hacer?"), isPresented: $showActionSheet) {
+                         
+                            Button("Marcar como favorito", role: .none) {
+                                if let selectedRestaurant = self.selectedRestaurant {
+                                    self.setFavorite(restaurant: selectedRestaurant)
+                                }
+                            }//Favorito
+                            
+                            Button("Borrar", role: .destructive) {
+                                if let selectedRestaurant = self.selectedRestaurant {
+                                    self.delete(restaurant: selectedRestaurant)
+                                }
+                            }//Borrar
+                            
+                            Button("Cancelar", role: .cancel, action: {})
                             
                         }
                 }
