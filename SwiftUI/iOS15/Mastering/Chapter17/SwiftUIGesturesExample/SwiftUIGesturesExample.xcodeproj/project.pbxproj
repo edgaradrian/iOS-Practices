@@ -12,6 +12,7 @@
 		5C0A85C928A1E59000E701DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A85C828A1E59000E701DA /* Assets.xcassets */; };
 		5C0A85CC28A1E59000E701DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A85CB28A1E59000E701DA /* Preview Assets.xcassets */; };
 		5C25D93A28A2B89000D916E8 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D93928A2B89000D916E8 /* ContentView2.swift */; };
+		5C25D93C28A2C1CA00D916E8 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5C0A85C828A1E59000E701DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C0A85CB28A1E59000E701DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C25D93928A2B89000D916E8 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				5C0A85C828A1E59000E701DA /* Assets.xcassets */,
 				5C0A85CA28A1E59000E701DA /* Preview Content */,
 				5C25D93928A2B89000D916E8 /* ContentView2.swift */,
+				5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */,
 			);
 			path = SwiftUIGesturesExample;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				5C25D93A28A2B89000D916E8 /* ContentView2.swift in Sources */,
 				5C0A85C728A1E58F00E701DA /* ContentView.swift in Sources */,
+				5C25D93C28A2C1CA00D916E8 /* ContentView3.swift in Sources */,
 				5C0A85C528A1E58F00E701DA /* SwiftUIGesturesExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
