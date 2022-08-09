@@ -19,7 +19,7 @@ struct ContentView: View {
                 .animation(.easeInOut, value: wasTapped)
                 .foregroundColor(.yellow)
                 .gesture(
-                    TapGesture()
+                    LongPressGesture(minimumDuration: 1.0)
                         .onEnded({ _ in
                             self.wasTapped.toggle()
                         })
