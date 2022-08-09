@@ -61,6 +61,15 @@ struct ContentView: View {
                                 }
                             }
                             
+                            Button(action: {
+                                self.setCheckIn(restaurant: restaurant)
+                            }) {
+                                HStack {
+                                    Text("Registrado")
+                                    Image(systemName: "checkmark.seal.fill")
+                                }
+                            }
+                            
                         }
                         .onTapGesture {
                             self.showActionSheet.toggle()
@@ -68,11 +77,17 @@ struct ContentView: View {
                         }
                         .confirmationDialog(Text("¿Qué deseas hacer?"), isPresented: $showActionSheet) {
                          
-                            Button("Marcar como favorito", role: .none) {
+                            Button((self.selectedRestaurant?.isFavorite ?? false) ? "Desmarcar como favorito" : "Marcar como favorito", role: .none) {
                                 if let selectedRestaurant = self.selectedRestaurant {
                                     self.setFavorite(restaurant: selectedRestaurant)
                                 }
                             }//Favorito
+                            
+                            Button("Marcar como registrado", role: .none) {
+                                if let selectedRestaurant = self.selectedRestaurant {
+                                    self.setCheckIn(restaurant: selectedRestaurant)
+                                }
+                            }//Registrado
                             
                             Button("Borrar", role: .destructive) {
                                 if let selectedRestaurant = self.selectedRestaurant {
@@ -110,6 +125,14 @@ struct ContentView: View {
             self.restaurants[index].isFavorite.toggle()
         }
     }//setFavorite
+    
+    private func setCheckIn(restaurant: Restaurant) {
+        if let index = self.restaurants.firstIndex(where: {
+            $0.id == restaurant.id
+        }) {
+            self.restaurants[index].isCheckIn.toggle()
+        }
+    }
     
 }//ContentView
 
