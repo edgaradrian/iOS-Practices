@@ -15,6 +15,8 @@ struct ContentView: View {
         VStack {
             Image(systemName: "star.circle.fill")
                 .font(.system(size: 300))
+                .scaleEffect(wasTapped ? 0.5 : 1)
+                .animation(.easeInOut, value: wasTapped)
                 .foregroundColor(.yellow)
                 .gesture(
                     TapGesture()
