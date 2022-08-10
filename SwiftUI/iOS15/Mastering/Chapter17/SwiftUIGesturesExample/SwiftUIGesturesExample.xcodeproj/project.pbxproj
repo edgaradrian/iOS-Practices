@@ -16,6 +16,7 @@
 		5C25D93F28A2C78A00D916E8 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D93E28A2C78A00D916E8 /* DragState.swift */; };
 		5C25D94128A2F00000D916E8 /* RefactoringGestureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D94028A2F00000D916E8 /* RefactoringGestureState.swift */; };
 		5C25D94328A2F3B000D916E8 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D94228A2F3B000D916E8 /* DraggableView.swift */; };
+		5C25D94728A33F9B00D916E8 /* ExerciseMagnificentGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C25D94628A33F9B00D916E8 /* ExerciseMagnificentGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5C25D93E28A2C78A00D916E8 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 		5C25D94028A2F00000D916E8 /* RefactoringGestureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringGestureState.swift; sourceTree = "<group>"; };
 		5C25D94228A2F3B000D916E8 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		5C25D94628A33F9B00D916E8 /* ExerciseMagnificentGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseMagnificentGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				5C25D93B28A2C1CA00D916E8 /* ContentView3.swift */,
 				5C25D94028A2F00000D916E8 /* RefactoringGestureState.swift */,
 				5C25D94228A2F3B000D916E8 /* DraggableView.swift */,
+				5C25D94628A33F9B00D916E8 /* ExerciseMagnificentGesture.swift */,
 			);
 			path = SwiftUIGesturesExample;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				5C25D93F28A2C78A00D916E8 /* DragState.swift in Sources */,
 				5C0A85C728A1E58F00E701DA /* ContentView.swift in Sources */,
 				5C25D93C28A2C1CA00D916E8 /* ContentView3.swift in Sources */,
+				5C25D94728A33F9B00D916E8 /* ExerciseMagnificentGesture.swift in Sources */,
 				5C0A85C528A1E58F00E701DA /* SwiftUIGesturesExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
