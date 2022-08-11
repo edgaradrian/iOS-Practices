@@ -29,6 +29,13 @@ struct ContentView: View {
             }
             
             if showDetail {
+                
+                BlankView(color: .black)
+                    .opacity(0.5)
+                    .onTapGesture {
+                        self.showDetail = false
+                    }
+                
                 if let selectedRestaurant = selectedRestaurant {
                     RestaurantDetailView(restaurant: selectedRestaurant)
                         .transition(.move(edge: .bottom))
