@@ -8,15 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showDetail = false
+    @State private var selectedRestaurant: Restaurant?
+    
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(restaurants) { restaurant in
-                    BasicImageRow(restaurant: restaurant)
+        ZStack {
+            NavigationView {
+                List {
+                    ForEach(restaurants) { restaurant in
+                        BasicImageRow(restaurant: restaurant)
+                            .onTapGesture {
+                                self.showDetail = true
+                                self.selectedRestaurant = restaurant
+                            }
+                    }
+                }
+                .listStyle(.plain)
+                .navigationBarTitle("Restaurantes")
+            }
+            
+            if showDetail {
+                if let selectedRestaurant = selectedRestaurant {
+                    RestaurantDetailView(restaurant: selectedRestaurant)
+                        .transition(.move(edge: .bottom))
                 }
             }
-            .listStyle(.plain)
-            .navigationBarTitle("Restaurantes")
         }
     }//body
 }//ContentView
