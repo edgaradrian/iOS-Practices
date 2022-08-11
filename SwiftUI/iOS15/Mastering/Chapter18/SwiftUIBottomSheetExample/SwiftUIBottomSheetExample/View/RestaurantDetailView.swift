@@ -27,7 +27,7 @@ struct RestaurantDetailView: View {
             .background(Color.white)
             .cornerRadius(10, antialiased: true)
         }
-        
+        .offset(y: 300)
         
     }//body
 
