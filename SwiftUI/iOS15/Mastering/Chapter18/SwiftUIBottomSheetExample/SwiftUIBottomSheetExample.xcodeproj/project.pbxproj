@@ -19,6 +19,7 @@
 		5C89448628A556C3004D0C7B /* DetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448528A556C3004D0C7B /* DetailInfoView.swift */; };
 		5C89448828A5580F004D0C7B /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448728A5580F004D0C7B /* RestaurantDetailView.swift */; };
 		5C89448A28A5B429004D0C7B /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448928A5B429004D0C7B /* BlankView.swift */; };
+		5C89448D28A5C86D004D0C7B /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448C28A5C86D004D0C7B /* DragState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5C89448528A556C3004D0C7B /* DetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoView.swift; sourceTree = "<group>"; };
 		5C89448728A5580F004D0C7B /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		5C89448928A5B429004D0C7B /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		5C89448C28A5C86D004D0C7B /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		5C89446A28A53D6D004D0C7B /* SwiftUIBottomSheetExample */ = {
 			isa = PBXGroup;
 			children = (
+				5C89448B28A5C85E004D0C7B /* Enums */,
 				5C89447A28A53D81004D0C7B /* View */,
 				5C89447928A53D79004D0C7B /* Model */,
 				5C89446B28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift */,
@@ -105,6 +108,14 @@
 				5C89448928A5B429004D0C7B /* BlankView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5C89448B28A5C85E004D0C7B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5C89448C28A5C86D004D0C7B /* DragState.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				5C89448028A55161004D0C7B /* HandleBar.swift in Sources */,
 				5C89446C28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift in Sources */,
 				5C89447C28A53D97004D0C7B /* Restaurant.swift in Sources */,
+				5C89448D28A5C86D004D0C7B /* DragState.swift in Sources */,
 				5C89448828A5580F004D0C7B /* RestaurantDetailView.swift in Sources */,
 				5C89448228A5521A004D0C7B /* TitleBar.swift in Sources */,
 				5C89447E28A54949004D0C7B /* BasicImageRow.swift in Sources */,
