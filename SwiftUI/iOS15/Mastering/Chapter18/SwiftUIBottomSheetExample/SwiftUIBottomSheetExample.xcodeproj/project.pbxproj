@@ -16,6 +16,7 @@
 		5C89448028A55161004D0C7B /* HandleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89447F28A55161004D0C7B /* HandleBar.swift */; };
 		5C89448228A5521A004D0C7B /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448128A5521A004D0C7B /* TitleBar.swift */; };
 		5C89448428A5540A004D0C7B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448328A5540A004D0C7B /* HeaderView.swift */; };
+		5C89448628A556C3004D0C7B /* DetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448528A556C3004D0C7B /* DetailInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5C89447F28A55161004D0C7B /* HandleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleBar.swift; sourceTree = "<group>"; };
 		5C89448128A5521A004D0C7B /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
 		5C89448328A5540A004D0C7B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5C89448528A556C3004D0C7B /* DetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				5C89447F28A55161004D0C7B /* HandleBar.swift */,
 				5C89448128A5521A004D0C7B /* TitleBar.swift */,
 				5C89448328A5540A004D0C7B /* HeaderView.swift */,
+				5C89448528A556C3004D0C7B /* DetailInfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C89446E28A53D6D004D0C7B /* ContentView.swift in Sources */,
+				5C89448628A556C3004D0C7B /* DetailInfoView.swift in Sources */,
 				5C89448028A55161004D0C7B /* HandleBar.swift in Sources */,
 				5C89446C28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift in Sources */,
 				5C89447C28A53D97004D0C7B /* Restaurant.swift in Sources */,
