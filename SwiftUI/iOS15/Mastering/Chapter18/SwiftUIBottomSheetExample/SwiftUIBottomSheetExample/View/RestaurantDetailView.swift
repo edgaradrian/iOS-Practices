@@ -13,21 +13,24 @@ struct RestaurantDetailView: View {
   
     var body: some View {
         
-        VStack {
-            Spacer()
-            HandleBar()
-            ScrollView {
-                TitleBar()
-                HeaderView(restaurant: self.restaurant)
-                DetailInfoView(icon: "map", info: self.restaurant.location) .padding(.top)
-                DetailInfoView(icon: "phone", info: self.restaurant.phone)
-                DetailInfoView(icon: nil, info: self.restaurant.description)
-                    .padding(.top)
+        GeometryReader { g in
+            VStack {
+                Spacer()
+                HandleBar()
+                ScrollView {
+                    TitleBar()
+                    HeaderView(restaurant: self.restaurant)
+                    DetailInfoView(icon: "map", info: self.restaurant.location) .padding(.top)
+                    DetailInfoView(icon: "phone", info: self.restaurant.phone)
+                    DetailInfoView(icon: nil, info: self.restaurant.description)
+                        .padding(.top)
+                }
+                .background(Color.white)
+                .cornerRadius(10, antialiased: true)
             }
-            .background(Color.white)
-            .cornerRadius(10, antialiased: true)
+            .offset(y: g.size.height/2)
+            .edgesIgnoringSafeArea(.all)
         }
-        .offset(y: 300)
         
     }//body
 
