@@ -33,8 +33,10 @@ struct HeaderView: View {
                             .background(Color.red)
                             .cornerRadius(5)
                     }
-                    Spacer() }
-                    .padding()
+                    Spacer()
+                    
+                }
+                .padding()
             )
         
     }//body
