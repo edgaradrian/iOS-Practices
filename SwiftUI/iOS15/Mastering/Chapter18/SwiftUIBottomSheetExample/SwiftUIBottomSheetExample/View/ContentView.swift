@@ -14,32 +14,37 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            NavigationView {
-                List {
-                    ForEach(restaurants) { restaurant in
-                        BasicImageRow(restaurant: restaurant)
-                            .onTapGesture {
-                                self.showDetail = true
-                                self.selectedRestaurant = restaurant
-                            }
+            GeometryReader { g in
+                NavigationView {
+                    List {
+                        ForEach(restaurants) { restaurant in
+                            BasicImageRow(restaurant: restaurant)
+                                .onTapGesture {
+                                    self.showDetail = true
+                                    self.selectedRestaurant = restaurant
+                                }
+                        }
+                    }
+                    .listStyle(.plain)
+                    .navigationBarTitle("Restaurantes")
+                }
+                .offset(y: showDetail ? -100 : 0)
+                .animation(.easeOut(duration: 0.2))
+                
+                if showDetail {
+                    
+                    BlankView(color: .black)
+                        .opacity(0.5)
+                        .onTapGesture {
+                            self.showDetail = false
+                        }
+                    
+                    if let selectedRestaurant = selectedRestaurant {
+                        RestaurantDetailView(restaurant: selectedRestaurant)
+                            .transition(.move(edge: .bottom))
                     }
                 }
-                .listStyle(.plain)
-                .navigationBarTitle("Restaurantes")
-            }
-            
-            if showDetail {
                 
-                BlankView(color: .black)
-                    .opacity(0.5)
-                    .onTapGesture {
-                        self.showDetail = false
-                    }
-                
-                if let selectedRestaurant = selectedRestaurant {
-                    RestaurantDetailView(restaurant: selectedRestaurant)
-                        .transition(.move(edge: .bottom))
-                }
             }
         }
     }//body

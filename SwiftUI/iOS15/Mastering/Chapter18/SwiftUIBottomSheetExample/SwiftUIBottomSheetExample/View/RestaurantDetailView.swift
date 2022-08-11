@@ -29,6 +29,7 @@ struct RestaurantDetailView: View {
                 .cornerRadius(10, antialiased: true)
             }
             .offset(y: g.size.height/2)
+            .animation(.interpolatingSpring(stiffness: 200.00, damping: 25.0, initialVelocity: 10.0))
             .edgesIgnoringSafeArea(.all)
         }
         
