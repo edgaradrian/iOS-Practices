@@ -20,6 +20,7 @@
 		5C89448828A5580F004D0C7B /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448728A5580F004D0C7B /* RestaurantDetailView.swift */; };
 		5C89448A28A5B429004D0C7B /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448928A5B429004D0C7B /* BlankView.swift */; };
 		5C89448D28A5C86D004D0C7B /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448C28A5C86D004D0C7B /* DragState.swift */; };
+		5C89448F28A5D29A004D0C7B /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89448E28A5D29A004D0C7B /* ViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		5C89448728A5580F004D0C7B /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		5C89448928A5B429004D0C7B /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		5C89448C28A5C86D004D0C7B /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		5C89448E28A5D29A004D0C7B /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5C89448C28A5C86D004D0C7B /* DragState.swift */,
+				5C89448E28A5D29A004D0C7B /* ViewState.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				5C89446E28A53D6D004D0C7B /* ContentView.swift in Sources */,
 				5C89448A28A5B429004D0C7B /* BlankView.swift in Sources */,
+				5C89448F28A5D29A004D0C7B /* ViewState.swift in Sources */,
 				5C89448628A556C3004D0C7B /* DetailInfoView.swift in Sources */,
 				5C89448028A55161004D0C7B /* HandleBar.swift in Sources */,
 				5C89446C28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift in Sources */,
