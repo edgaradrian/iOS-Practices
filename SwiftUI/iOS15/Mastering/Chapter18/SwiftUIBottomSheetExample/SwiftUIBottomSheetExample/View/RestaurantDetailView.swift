@@ -10,6 +10,8 @@ import SwiftUI
 struct RestaurantDetailView: View {
     
     let restaurant: Restaurant
+    @GestureState private var dragState = DragState.inactive
+    @State private var positionOffSet: CGFloat = 0.0
   
     var body: some View {
         
@@ -27,10 +29,18 @@ struct RestaurantDetailView: View {
                 }
                 .background(Color.white)
                 .cornerRadius(10, antialiased: true)
+                
             }
-            .offset(y: g.size.height/2)
+            .offset(y: g.size.height/2 + self.dragState.translation.height + self.positionOffSet)
             .animation(.interpolatingSpring(stiffness: 200.00, damping: 25.0, initialVelocity: 10.0))
             .edgesIgnoringSafeArea(.all)
+            .gesture(
+                DragGesture()
+                    .updating(self.$dragState, body: { value, state, transaction in
+                        state = .dragging(translation: value.translation)
+                    })
+            )
+            
         }
         
     }//body
