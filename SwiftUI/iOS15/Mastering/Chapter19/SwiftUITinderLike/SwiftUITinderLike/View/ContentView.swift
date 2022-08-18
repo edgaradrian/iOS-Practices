@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var cardViews: [CardView] = {
+       
+        var views = [CardView]()
+        
+        for trip in trips {
+            views.append(CardView(image: trip.image, title: trip.destination))
+        }
+        
+        return views
+        
+    }()
+    
     var body: some View {
         
         VStack {
             
             TopBarMenu()
             
-            CardView(image: "df-mexico", title: "México, Distrito Federal")
+            ZStack {
+                ForEach(cardViews) { cardView in
+                    cardView
+                }
+            }
+            
             
             Spacer(minLength: 20)
             

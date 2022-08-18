@@ -16,7 +16,7 @@ struct CardView: View, Identifiable {
     var body: some View {
         Image(image)
             .resizable()
-            .scaledToFill()
+            //.scaledToFill()
             .frame(minWidth: 0, maxWidth: .infinity)
             .cornerRadius(10)
             .padding(.horizontal, 15)
