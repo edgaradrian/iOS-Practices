@@ -9,10 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack {
+            
+            TopBarMenu()
+            
+            CardView(image: "df-mexico", title: "México, Distrito Federal")
+            
+            Spacer(minLength: 20)
+            
+            BottomBarMenu()
+            
+        }
+        
     }
-}
+}//ContentView
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
