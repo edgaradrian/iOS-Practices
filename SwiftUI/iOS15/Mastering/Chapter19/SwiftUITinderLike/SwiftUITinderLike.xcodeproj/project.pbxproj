@@ -12,6 +12,7 @@
 		5CE376B728AE7D5400C139C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE376B628AE7D5400C139C4 /* Assets.xcassets */; };
 		5CE376BA28AE7D5400C139C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE376B928AE7D5400C139C4 /* Preview Assets.xcassets */; };
 		5CE376C128AE7E9200C139C4 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376C028AE7E9200C139C4 /* Trip.swift */; };
+		5CE376C528AE86AA00C139C4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376C428AE86AA00C139C4 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5CE376B628AE7D5400C139C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE376B928AE7D5400C139C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CE376C028AE7E9200C139C4 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		5CE376C428AE86AA00C139C4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +55,11 @@
 		5CE376B128AE7D5300C139C4 /* SwiftUITinderLike */ = {
 			isa = PBXGroup;
 			children = (
+				5CE376C328AE869900C139C4 /* View */,
+				5CE376C228AE868D00C139C4 /* Model */,
 				5CE376B228AE7D5300C139C4 /* SwiftUITinderLikeApp.swift */,
-				5CE376B428AE7D5300C139C4 /* ContentView.swift */,
 				5CE376B628AE7D5400C139C4 /* Assets.xcassets */,
 				5CE376B828AE7D5400C139C4 /* Preview Content */,
-				5CE376C028AE7E9200C139C4 /* Trip.swift */,
 			);
 			path = SwiftUITinderLike;
 			sourceTree = "<group>";
@@ -68,6 +70,23 @@
 				5CE376B928AE7D5400C139C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CE376C228AE868D00C139C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CE376C028AE7E9200C139C4 /* Trip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE376C328AE869900C139C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CE376B428AE7D5300C139C4 /* ContentView.swift */,
+				5CE376C428AE86AA00C139C4 /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,7 @@
 			files = (
 				5CE376C128AE7E9200C139C4 /* Trip.swift in Sources */,
 				5CE376B528AE7D5300C139C4 /* ContentView.swift in Sources */,
+				5CE376C528AE86AA00C139C4 /* CardView.swift in Sources */,
 				5CE376B328AE7D5300C139C4 /* SwiftUITinderLikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
