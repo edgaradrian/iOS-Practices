@@ -14,6 +14,7 @@
 		5CE376C128AE7E9200C139C4 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376C028AE7E9200C139C4 /* Trip.swift */; };
 		5CE376C528AE86AA00C139C4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376C428AE86AA00C139C4 /* CardView.swift */; };
 		5CE376C728AE916F00C139C4 /* TopBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376C628AE916F00C139C4 /* TopBarMenu.swift */; };
+		5CE376C928AE94DC00C139C4 /* BottomBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376C828AE94DC00C139C4 /* BottomBarMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5CE376C028AE7E9200C139C4 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		5CE376C428AE86AA00C139C4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5CE376C628AE916F00C139C4 /* TopBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarMenu.swift; sourceTree = "<group>"; };
+		5CE376C828AE94DC00C139C4 /* BottomBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				5CE376B428AE7D5300C139C4 /* ContentView.swift */,
 				5CE376C428AE86AA00C139C4 /* CardView.swift */,
 				5CE376C628AE916F00C139C4 /* TopBarMenu.swift */,
+				5CE376C828AE94DC00C139C4 /* BottomBarMenu.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				5CE376C128AE7E9200C139C4 /* Trip.swift in Sources */,
 				5CE376B528AE7D5300C139C4 /* ContentView.swift in Sources */,
 				5CE376C528AE86AA00C139C4 /* CardView.swift in Sources */,
+				5CE376C928AE94DC00C139C4 /* BottomBarMenu.swift in Sources */,
 				5CE376C728AE916F00C139C4 /* TopBarMenu.swift in Sources */,
 				5CE376B328AE7D5300C139C4 /* SwiftUITinderLikeApp.swift in Sources */,
 			);
