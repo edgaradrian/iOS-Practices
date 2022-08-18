@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5D4B7A28A6B6FE00643FFF /* ScrollOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D4B7928A6B6FE00643FFF /* ScrollOffsetKey.swift */; };
 		5C89446C28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89446B28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift */; };
 		5C89446E28A53D6D004D0C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89446D28A53D6D004D0C7B /* ContentView.swift */; };
 		5C89447028A53D6E004D0C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C89446F28A53D6E004D0C7B /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5D4B7928A6B6FE00643FFF /* ScrollOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetKey.swift; sourceTree = "<group>"; };
 		5C89446828A53D6D004D0C7B /* SwiftUIBottomSheetExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBottomSheetExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C89446B28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBottomSheetExampleApp.swift; sourceTree = "<group>"; };
 		5C89446D28A53D6D004D0C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5D4B7828A6B6DD00643FFF /* PreferenceKeys */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D4B7928A6B6FE00643FFF /* ScrollOffsetKey.swift */,
+			);
+			path = PreferenceKeys;
+			sourceTree = "<group>";
+		};
 		5C89445F28A53D6D004D0C7B = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		5C89446A28A53D6D004D0C7B /* SwiftUIBottomSheetExample */ = {
 			isa = PBXGroup;
 			children = (
+				5C5D4B7828A6B6DD00643FFF /* PreferenceKeys */,
 				5C89448B28A5C85E004D0C7B /* Enums */,
 				5C89447A28A53D81004D0C7B /* View */,
 				5C89447928A53D79004D0C7B /* Model */,
@@ -196,6 +207,7 @@
 				5C89448F28A5D29A004D0C7B /* ViewState.swift in Sources */,
 				5C89448628A556C3004D0C7B /* DetailInfoView.swift in Sources */,
 				5C89448028A55161004D0C7B /* HandleBar.swift in Sources */,
+				5C5D4B7A28A6B6FE00643FFF /* ScrollOffsetKey.swift in Sources */,
 				5C89446C28A53D6D004D0C7B /* SwiftUIBottomSheetExampleApp.swift in Sources */,
 				5C89447C28A53D97004D0C7B /* Restaurant.swift in Sources */,
 				5C89448D28A5C86D004D0C7B /* DragState.swift in Sources */,

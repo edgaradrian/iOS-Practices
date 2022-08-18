@@ -14,11 +14,16 @@ struct RestaurantDetailView: View {
     @State private var positionOffSet: CGFloat = 0.0
     @State private var viewState = ViewState.half
     @Binding var isShow: Bool
+    @State private var scrollOffset: CGFloat = 0.0
   
     var body: some View {
         
         GeometryReader { g in
             VStack {
+                GeometryReader { scrollViewProxy in
+                    Color.clear.preference(key: ScrollOffsetKey.self, value: scrollViewProxy.frame(in: .named("scrollview")).minY )
+                }
+                .frame(height: 0)
                 Spacer()
                 HandleBar()
                 ScrollView {
@@ -28,15 +33,32 @@ struct RestaurantDetailView: View {
                     DetailInfoView(icon: "phone", info: self.restaurant.phone)
                     DetailInfoView(icon: nil, info: self.restaurant.description)
                         .padding(.top)
+                        .padding(.bottom, 100)
                 }
                 .background(Color.white)
                 .cornerRadius(10, antialiased: true)
                 .disabled(self.viewState == .half)
+                .coordinateSpace(name: "scrollview")
                 
             }
             .offset(y: g.size.height/2 + self.dragState.translation.height + self.positionOffSet)
+            //.offset(y: self.scrollOffset)
             .animation(.interpolatingSpring(stiffness: 200.00, damping: 25.0, initialVelocity: 10.0))
             .edgesIgnoringSafeArea(.all)
+            .onPreferenceChange(ScrollOffsetKey.self) { value in
+                if self.viewState == .full {
+                    self.scrollOffset = value > 0 ? value : 0
+                    
+                    if self.scrollOffset > 120 {
+                        self.positionOffSet = 0
+                        self.scrollOffset = 0
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                            self.viewState = .half
+                        }
+                    }
+                    
+                }
+            }
             .gesture(
                 DragGesture()
                     .updating(self.$dragState, body: { value, state, transaction in
