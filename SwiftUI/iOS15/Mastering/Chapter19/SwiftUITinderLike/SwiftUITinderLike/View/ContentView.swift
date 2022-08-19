@@ -13,8 +13,8 @@ struct ContentView: View {
        
         var views = [CardView]()
         
-        for trip in trips {
-            views.append(CardView(image: trip.image, title: trip.destination))
+        for index in 0..<2 {
+            views.append(CardView(image: trips[index].image, title: trips[index].destination))
         }
         
         return views
