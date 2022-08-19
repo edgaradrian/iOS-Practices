@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CAD21E628AF0E5E0058939C /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD21E528AF0E5E0058939C /* DragState.swift */; };
 		5CE376B328AE7D5300C139C4 /* SwiftUITinderLikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376B228AE7D5300C139C4 /* SwiftUITinderLikeApp.swift */; };
 		5CE376B528AE7D5300C139C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE376B428AE7D5300C139C4 /* ContentView.swift */; };
 		5CE376B728AE7D5400C139C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE376B628AE7D5400C139C4 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CAD21E528AF0E5E0058939C /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 		5CE376AF28AE7D5300C139C4 /* SwiftUITinderLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITinderLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE376B228AE7D5300C139C4 /* SwiftUITinderLikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITinderLikeApp.swift; sourceTree = "<group>"; };
 		5CE376B428AE7D5300C139C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CAD21E428AF0E4D0058939C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD21E528AF0E5E0058939C /* DragState.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		5CE376A628AE7D5300C139C4 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 		5CE376B128AE7D5300C139C4 /* SwiftUITinderLike */ = {
 			isa = PBXGroup;
 			children = (
+				5CAD21E428AF0E4D0058939C /* Enums */,
 				5CE376C328AE869900C139C4 /* View */,
 				5CE376C228AE868D00C139C4 /* Model */,
 				5CE376B228AE7D5300C139C4 /* SwiftUITinderLikeApp.swift */,
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CAD21E628AF0E5E0058939C /* DragState.swift in Sources */,
 				5CE376C128AE7E9200C139C4 /* Trip.swift in Sources */,
 				5CE376B528AE7D5300C139C4 /* ContentView.swift in Sources */,
 				5CE376C528AE86AA00C139C4 /* CardView.swift in Sources */,
