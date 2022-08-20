@@ -15,6 +15,7 @@
 		5CB5C60428B17ABA001DC849 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60328B17ABA001DC849 /* Card.swift */; };
 		5CB5C60628B17D32001DC849 /* Transaction .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60528B17D32001DC849 /* Transaction .swift */; };
 		5CB5C60928B18186001DC849 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60828B18186001DC849 /* TransactionView.swift */; };
+		5CB5C60B28B18309001DC849 /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60A28B18309001DC849 /* TransactionHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5CB5C60328B17ABA001DC849 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		5CB5C60528B17D32001DC849 /* Transaction .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction .swift"; sourceTree = "<group>"; };
 		5CB5C60828B18186001DC849 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		5CB5C60A28B18309001DC849 /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				5CB5C60828B18186001DC849 /* TransactionView.swift */,
+				5CB5C60A28B18309001DC849 /* TransactionHistoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB5C60B28B18309001DC849 /* TransactionHistoryView.swift in Sources */,
 				5CB5C60628B17D32001DC849 /* Transaction .swift in Sources */,
 				5CB5C5F428B178B7001DC849 /* ContentView.swift in Sources */,
 				5CB5C5F228B178B7001DC849 /* SwiftUIAppleWalletLikeApp.swift in Sources */,
