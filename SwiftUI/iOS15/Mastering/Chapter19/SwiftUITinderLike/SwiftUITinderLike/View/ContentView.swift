@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var cardViews: [CardView] = {
+    @State var cardViews: [CardView] = {
        
         var views = [CardView]()
         
@@ -23,6 +23,7 @@ struct ContentView: View {
     
     @GestureState private var dragState = DragState.inactive
     private let dragThreshold: CGFloat = 80.0
+    @State private var lastIndex = 1
     
     var body: some View {
         
@@ -69,6 +70,20 @@ struct ContentView: View {
                                     }
                                     
                                 })
+                                .onEnded({ value in
+                                    
+                                    guard case .second(true, let drag?) = value else {
+                                        return
+                                    }
+                                    
+                                    if drag.translation.width < -self.dragThreshold || drag.translation.width > self.dragThreshold {
+                                        
+                                        self.moveCard()
+                                        
+                                    }
+                                    
+                                })
+                                
                         )
                 }
             }
@@ -95,6 +110,19 @@ struct ContentView: View {
         return index == 0
         
     }//isTopCard
+    
+    private func moveCard() {
+        
+        cardViews.removeFirst()
+        
+        self.lastIndex += 1
+        let trip = trips[lastIndex % trips.count]
+        
+        let newCardView = CardView(image: trip.image, title: trip.destination)
+        
+        cardViews.append(newCardView)
+        
+    }//moveCard
     
 }//ContentView
 
