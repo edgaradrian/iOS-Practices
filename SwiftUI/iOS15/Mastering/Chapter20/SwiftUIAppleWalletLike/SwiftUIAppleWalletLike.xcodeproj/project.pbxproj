@@ -12,6 +12,7 @@
 		5CB5C5F628B178B7001DC849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5C5F528B178B7001DC849 /* Assets.xcassets */; };
 		5CB5C5F928B178B7001DC849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5C5F828B178B7001DC849 /* Preview Assets.xcassets */; };
 		5CB5C60128B178D8001DC849 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60028B178D8001DC849 /* CardType.swift */; };
+		5CB5C60428B17ABA001DC849 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60328B17ABA001DC849 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5CB5C5F528B178B7001DC849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB5C5F828B178B7001DC849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CB5C60028B178D8001DC849 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		5CB5C60328B17ABA001DC849 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		5CB5C5F028B178B7001DC849 /* SwiftUIAppleWalletLike */ = {
 			isa = PBXGroup;
 			children = (
+				5CB5C60228B17A9F001DC849 /* Model */,
 				5CB5C5FF28B178C5001DC849 /* Enums */,
 				5CB5C5F128B178B7001DC849 /* SwiftUIAppleWalletLikeApp.swift */,
 				5CB5C5F328B178B7001DC849 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				5CB5C60028B178D8001DC849 /* CardType.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		5CB5C60228B17A9F001DC849 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5C60328B17ABA001DC849 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				5CB5C5F428B178B7001DC849 /* ContentView.swift in Sources */,
 				5CB5C5F228B178B7001DC849 /* SwiftUIAppleWalletLikeApp.swift in Sources */,
 				5CB5C60128B178D8001DC849 /* CardType.swift in Sources */,
+				5CB5C60428B17ABA001DC849 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
