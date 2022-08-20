@@ -21,6 +21,8 @@ struct ContentView: View {
         
     }()
     
+    @GestureState private var dragState = DragState.inactive
+    
     var body: some View {
         
         VStack {
@@ -31,6 +33,26 @@ struct ContentView: View {
                 ForEach(cardViews) { cardView in
                     cardView
                         .zIndex(self.isTopCard(cardView: cardView) ? 1 : 0)
+                        .offset(x: self.dragState.translation.width, y: self.dragState.translation.height)
+                        .scaleEffect(self.dragState.isDragging ? 0.95 : 1)
+                        .rotationEffect(.degrees(Double( self.dragState.translation.width / 10)))
+                        .animation(.interpolatingSpring(stiffness: 180, damping: 100), value: self.dragState.translation)
+                        .gesture(
+                            LongPressGesture(minimumDuration: 0.01)
+                                .sequenced(before: DragGesture())
+                                .updating($dragState, body: { value, state, transaction in
+                                    
+                                    switch value {
+                                    case .first(true):
+                                        state = .pressing
+                                    case .second(true, let drag):
+                                        state = .dragging(translation: drag?.translation ?? .zero )
+                                    default:
+                                        break
+                                    }
+                                    
+                                })
+                        )
                 }
             }
             
@@ -38,6 +60,8 @@ struct ContentView: View {
             Spacer(minLength: 20)
             
             BottomBarMenu()
+                .opacity(self.dragState.isDragging ? 0.0 : 1.0)
+                .animation(.default, value: self.dragState.translation)
             
         }
         
