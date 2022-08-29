@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct WalletView: View {
+    
+    var cards: [Card] = myCards
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TopNavBar()
+                .padding(.bottom)
+            
+            Spacer()
+            
+            ZStack {
+                ForEach(cards) { card in
+                    CardView(card: card)
+                        .padding(.horizontal, 35)
+                }
+            }
+            
+            Spacer()
+        }
     }
 }
 
