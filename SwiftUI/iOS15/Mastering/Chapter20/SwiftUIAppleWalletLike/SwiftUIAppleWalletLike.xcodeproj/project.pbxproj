@@ -18,6 +18,7 @@
 		5CB5C60928B18186001DC849 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60828B18186001DC849 /* TransactionView.swift */; };
 		5CB5C60B28B18309001DC849 /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60A28B18309001DC849 /* TransactionHistoryView.swift */; };
 		5CB5C60D28B1861B001DC849 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5C60C28B1861B001DC849 /* CardView.swift */; };
+		5CF34BBF28BE89A700A3304C /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF34BBE28BE89A700A3304C /* DragState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5CB5C60828B18186001DC849 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		5CB5C60A28B18309001DC849 /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
 		5CB5C60C28B1861B001DC849 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5CF34BBE28BE89A700A3304C /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5CB5C60028B178D8001DC849 /* CardType.swift */,
+				5CF34BBE28BE89A700A3304C /* DragState.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB5C60B28B18309001DC849 /* TransactionHistoryView.swift in Sources */,
+				5CF34BBF28BE89A700A3304C /* DragState.swift in Sources */,
 				5CB5C60628B17D32001DC849 /* Transaction .swift in Sources */,
 				5CB5C5F228B178B7001DC849 /* SwiftUIAppleWalletLikeApp.swift in Sources */,
 				5C5C655328BD3B3A0066E347 /* TopNavBar.swift in Sources */,
