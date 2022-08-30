@@ -12,6 +12,9 @@ struct WalletView: View {
     var cards: [Card] = myCards
     @State private var isCardPresented = false
     
+    @State private var isCardPressed = false
+    @State private var selectedCard: Card?
+    
     var body: some View {
         VStack {
             TopNavBar()
@@ -28,6 +31,15 @@ struct WalletView: View {
                             .zIndex(self.zIndex(for: card))
                             .transition(AnyTransition.slide.combined(with: .move(edge: .leading)).combined(with: .opacity))
                             .animation(self.transitionAnimation(for: card))
+                            .gesture(
+                                TapGesture()
+                                    .onEnded({ _ in
+                                        withAnimation(.easeOut(duration: 0.15).delay(0.1)) {
+                                            self.isCardPressed.toggle()
+                                            self.selectedCard = self.isCardPressed ? card : nil
+                                        }
+                                    })
+                            )
                     }
                 }
             }
@@ -36,6 +48,13 @@ struct WalletView: View {
             }
             
             Spacer()
+            
+            if isCardPressed {
+                TransactionHistoryView(transactions: transactions)
+                    .padding(.top, 10)
+                    .transition(.move(edge: .bottom))
+            }
+            
         }
     }//body
     
@@ -63,6 +82,21 @@ struct WalletView: View {
         
         guard let cardIndex = index(for: card) else {
             return CGSize()
+        }
+        
+        if isCardPressed {
+            guard let selectedCard = selectedCard, let selectedCardIndex = index(for: selectedCard) else {
+                return .zero
+            }
+            
+            if cardIndex >= selectedCardIndex {
+                return .zero
+            }
+            
+            let offset = CGSize(width: 0, height: 1400)
+            
+            return offset
+
         }
         
         return CGSize(width: 0, height: -50 * CGFloat(cardIndex))

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TransactionHistoryView: View {
     
+    var transactions: [Transaction]
     
     var body: some View {
         
@@ -35,6 +36,6 @@ struct TransactionHistoryView: View {
 
 struct TransactionHistoryView_Previews: PreviewProvider {
     static var previews: some View {
-        TransactionHistoryView()
+        TransactionHistoryView(transactions: transactions)
     }
 }
