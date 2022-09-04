@@ -16,6 +16,7 @@ struct WalletView: View {
     @State private var selectedCard: Card?
     
     @GestureState private var dragState = DragState.inactive
+    private let cardOffset: CGFloat = 50.0
     
     var body: some View {
         VStack {
@@ -98,7 +99,13 @@ struct WalletView: View {
             return 0.0
         }
         
-        return -Double(cardIndex)
+        let defaultZIndex = -Double(cardIndex)
+        
+        if let draggingIndex = dragState.index, cardIndex == draggingIndex {
+            return defaultZIndex + Double(dragState.translation.height/self.cardOffset)
+        }
+        
+        return defaultZIndex
         
     }//zIndex
     
