@@ -9,7 +9,7 @@ import SwiftUI
 
 struct WalletView: View {
     
-    var cards: [Card] = myCards
+    @State var cards: [Card] = myCards
     @State private var isCardPresented = false
     
     @State private var isCardPressed = false
@@ -60,6 +60,8 @@ struct WalletView: View {
                                         guard case .second(true, let drag?) = value else {
                                             return
                                         }
+                                        
+                                        self.rearrangeCards(with: card, dragOffset: drag.translation)
 
                                     })
 
@@ -164,6 +166,20 @@ struct WalletView: View {
         return animation
         
     }//transitionAnimation
+    
+    private func rearrangeCards(with card: Card, dragOffset: CGSize) {
+        guard let draggingCardIndex = index(for: card) else {
+            return
+        }
+        
+        var newIndex = draggingCardIndex + Int(-dragOffset.height / self.cardOffset)
+        newIndex = newIndex >= cards.count ? cards.count - 1 : newIndex
+        newIndex = newIndex < 0 ? 0 : newIndex
+                
+        let removedCard = cards.remove(at: draggingCardIndex)
+        cards.insert(removedCard, at: newIndex)
+        
+    }//rearrangeCards
     
 }//WalletView
 
