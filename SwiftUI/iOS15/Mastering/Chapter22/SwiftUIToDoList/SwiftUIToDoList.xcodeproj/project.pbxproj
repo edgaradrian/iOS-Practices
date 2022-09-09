@@ -10,6 +10,7 @@
 		5C307F7428CB945A007DEC73 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7328CB945A007DEC73 /* NewToDoView.swift */; };
 		5C307F7628CB9B3A007DEC73 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7528CB9B3A007DEC73 /* BackgroundView.swift */; };
 		5C307F7828CB9C49007DEC73 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7728CB9C49007DEC73 /* NoDataView.swift */; };
+		5C307F7A28CB9FFA007DEC73 /* ToDoListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7928CB9FFA007DEC73 /* ToDoListRow.swift */; };
 		5C94322F28CAD0C300C3A873 /* SwiftUIToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94322E28CAD0C300C3A873 /* SwiftUIToDoListApp.swift */; };
 		5C94323128CAD0C300C3A873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94323028CAD0C300C3A873 /* ContentView.swift */; };
 		5C94323328CAD0C300C3A873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C94323228CAD0C300C3A873 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		5C307F7328CB945A007DEC73 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 		5C307F7528CB9B3A007DEC73 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		5C307F7728CB9C49007DEC73 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		5C307F7928CB9FFA007DEC73 /* ToDoListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListRow.swift; sourceTree = "<group>"; };
 		5C94322B28CAD0C300C3A873 /* SwiftUIToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C94322E28CAD0C300C3A873 /* SwiftUIToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoListApp.swift; sourceTree = "<group>"; };
 		5C94323028CAD0C300C3A873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				5C307F7328CB945A007DEC73 /* NewToDoView.swift */,
 				5C307F7528CB9B3A007DEC73 /* BackgroundView.swift */,
 				5C307F7728CB9C49007DEC73 /* NoDataView.swift */,
+				5C307F7928CB9FFA007DEC73 /* ToDoListRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				5C307F7828CB9C49007DEC73 /* NoDataView.swift in Sources */,
 				5C94322F28CAD0C300C3A873 /* SwiftUIToDoListApp.swift in Sources */,
 				5C94324228CAD50B00C3A873 /* CheckBoxStyle.swift in Sources */,
+				5C307F7A28CB9FFA007DEC73 /* ToDoListRow.swift in Sources */,
 				5C94323E28CAD10300C3A873 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
