@@ -31,7 +31,7 @@ struct ToDoListRow: View {
     private func color(for priority: Priority) -> Color {
         switch priority {
         case .high: return .red
-        case .normal: return .orange
+        case .normal: return .yellow
         case .low: return .green
         }
     }//color

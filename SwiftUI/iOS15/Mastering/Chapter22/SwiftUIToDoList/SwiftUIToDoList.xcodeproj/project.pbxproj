@@ -66,7 +66,6 @@
 				5C94323F28CAD4E300C3A873 /* View */,
 				5C94323C28CAD0F200C3A873 /* Model */,
 				5C94322E28CAD0C300C3A873 /* SwiftUIToDoListApp.swift */,
-				5C94323028CAD0C300C3A873 /* ContentView.swift */,
 				5C94323228CAD0C300C3A873 /* Assets.xcassets */,
 				5C94323428CAD0C300C3A873 /* Preview Content */,
 			);
@@ -97,6 +96,7 @@
 				5C307F7528CB9B3A007DEC73 /* BackgroundView.swift */,
 				5C307F7728CB9C49007DEC73 /* NoDataView.swift */,
 				5C307F7928CB9FFA007DEC73 /* ToDoListRow.swift */,
+				5C94323028CAD0C300C3A873 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

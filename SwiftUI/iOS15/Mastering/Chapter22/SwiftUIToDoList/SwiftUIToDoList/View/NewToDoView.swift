@@ -100,7 +100,7 @@ struct NewToDoView: View {
                         .frame(minWidth: 0, maxWidth: .infinity)
                         .padding()
                         .foregroundColor(.white)
-                        .background(Color.purple)
+                        .background(Color.cyan)
                         .cornerRadius(10)
                 }
                 .padding(.bottom)
