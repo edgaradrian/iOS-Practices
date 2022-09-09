@@ -12,6 +12,7 @@
 		5C94323328CAD0C300C3A873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C94323228CAD0C300C3A873 /* Assets.xcassets */; };
 		5C94323628CAD0C300C3A873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C94323528CAD0C300C3A873 /* Preview Assets.xcassets */; };
 		5C94323E28CAD10300C3A873 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94323D28CAD10300C3A873 /* ToDoItem.swift */; };
+		5C94324228CAD50B00C3A873 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94324128CAD50B00C3A873 /* CheckBoxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5C94323228CAD0C300C3A873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C94323528CAD0C300C3A873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C94323D28CAD10300C3A873 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		5C94324128CAD50B00C3A873 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		5C94322D28CAD0C300C3A873 /* SwiftUIToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				5C94323F28CAD4E300C3A873 /* View */,
 				5C94323C28CAD0F200C3A873 /* Model */,
 				5C94322E28CAD0C300C3A873 /* SwiftUIToDoListApp.swift */,
 				5C94323028CAD0C300C3A873 /* ContentView.swift */,
@@ -76,6 +79,22 @@
 				5C94323D28CAD10300C3A873 /* ToDoItem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5C94323F28CAD4E300C3A873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C94324028CAD4EF00C3A873 /* Style */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C94324028CAD4EF00C3A873 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				5C94324128CAD50B00C3A873 /* CheckBoxStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +169,7 @@
 			files = (
 				5C94323128CAD0C300C3A873 /* ContentView.swift in Sources */,
 				5C94322F28CAD0C300C3A873 /* SwiftUIToDoListApp.swift in Sources */,
+				5C94324228CAD50B00C3A873 /* CheckBoxStyle.swift in Sources */,
 				5C94323E28CAD10300C3A873 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
