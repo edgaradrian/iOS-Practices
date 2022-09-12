@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreData
 
 enum Priority: Int {
     case low = 0
@@ -13,17 +14,25 @@ enum Priority: Int {
     case high = 2
 }//Priority
 
-class ToDoItem: ObservableObject, Identifiable {
+class ToDoItem: NSManagedObject {
     
-    var id = UUID()
-    @Published var name = ""
-    @Published var priority: Priority = .normal
-    @Published var isComplete = false
+    @NSManaged public var id: UUID
+    @NSManaged public var name: String
+    @NSManaged public var priorityNum: Int32
+    @NSManaged public var isComplete: Bool
     
-    init(name: String, priority: Priority = .normal, isComplete: Bool = false) {
-        self.name = name
-        self.priority = priority
-        self.isComplete = isComplete
-    }//init
+}//ToDoItem
+
+extension ToDoItem: Identifiable {
+    
+    var priority: Priority {
+        get {
+            return Priority(rawValue: Int(priorityNum)) ?? .normal
+        }
+        
+        set {
+            self.priorityNum = Int32(newValue.rawValue)
+        }
+    }
     
 }//ToDoItem
