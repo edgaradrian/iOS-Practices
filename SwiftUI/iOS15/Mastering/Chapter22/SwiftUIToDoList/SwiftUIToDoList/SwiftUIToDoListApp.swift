@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SwiftUIToDoListApp: App {
+    
+    let persistanceController = PersistanceController.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistanceController.container.viewContext)
         }
     }
 }
