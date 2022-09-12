@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var todoItems: [ToDoItem] = []
+    @FetchRequest(entity: ToDoItem.entity(),
+                  sortDescriptors: [ NSSortDescriptor(keyPath: \ToDoItem.priorityNum, ascending: false) ])
+    
+    var todoItems: FetchedResults<ToDoItem>
     @State private var newItemName: String = ""
     @State private var newItemPriority: Priority = .normal
     @State private var showNewTask = false
