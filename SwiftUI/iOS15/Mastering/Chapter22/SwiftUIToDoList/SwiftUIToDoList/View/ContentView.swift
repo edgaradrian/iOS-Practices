@@ -19,6 +19,10 @@ struct ContentView: View {
     @State private var newItemPriority: Priority = .normal
     @State private var showNewTask = false
     
+    //SearchBar
+    @State private var searchText = ""
+    
+    
     var body: some View {
         
         ZStack {
@@ -41,6 +45,9 @@ struct ContentView: View {
                     }
                 }
                 .padding()
+                
+                CustomSearchBar(text: $searchText)
+                    .padding(.top, 20)
                 
                 List {
                     ForEach(todoItems) { todoItem in
