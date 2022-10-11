@@ -18,6 +18,7 @@ struct CustomSearchBar: UIViewRepresentable {
         searchBar.searchBarStyle = .minimal
         searchBar.autocapitalizationType = .none
         searchBar.placeholder = "Buscar..."
+        searchBar.delegate = context.coordinator
         
         return searchBar
         
@@ -30,10 +31,28 @@ struct CustomSearchBar: UIViewRepresentable {
     
     typealias UIViewType = UISearchBar
     
-    
-    
+    func makeCoordinator() -> SearchBarCoordinator {
+        SearchBarCoordinator($text)
+    }
     
 }//CustomSearchBar
+
+class SearchBarCoordinator: NSObject, UISearchBarDelegate {
+    
+    @Binding var text: String
+    
+    init(_ text: Binding<String>) {
+        self._text = text
+    }
+    
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        searchBar.showsCancelButton = true
+        text = searchText
+    }
+    
+}//SearchBarCoordinator
+
 
 struct CustomSearchBar_Previews: PreviewProvider {
     static var previews: some View {
