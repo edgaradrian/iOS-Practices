@@ -11,6 +11,31 @@ struct PersistanceController {
     
     static let shared = PersistanceController()
     
+    static var preview: PersistanceController = {
+        
+        let result = PersistanceController(inMemory: true)
+        let viewContext = result.container.viewContext
+        
+        for index in 0..<10 {
+            let newItem = ToDoItem(context: viewContext)
+            newItem.id = UUID()
+            newItem.name = "Por hacer #\(index)"
+            newItem.priority = .normal
+            newItem.isComplete = false
+        }
+        
+        
+        do {
+            try viewContext.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Error \(nsError), \(nsError.userInfo)")
+        }
+        
+        return result
+        
+    }()
+    
     let container: NSPersistentContainer
     
     init(inMemory: Bool = false) {
