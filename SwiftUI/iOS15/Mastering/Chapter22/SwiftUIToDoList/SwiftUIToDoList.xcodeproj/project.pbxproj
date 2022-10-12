@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C1A3F7528F5FF49007BCA17 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A3F7428F5FF49007BCA17 /* CustomSearchBar.swift */; };
+		5C2416EF28F7525E0045A5E9 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2416EE28F7525E0045A5E9 /* FilteredList.swift */; };
 		5C307F7428CB945A007DEC73 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7328CB945A007DEC73 /* NewToDoView.swift */; };
 		5C307F7628CB9B3A007DEC73 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7528CB9B3A007DEC73 /* BackgroundView.swift */; };
 		5C307F7828CB9C49007DEC73 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307F7728CB9C49007DEC73 /* NoDataView.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		5C1A3F7428F5FF49007BCA17 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		5C2416EE28F7525E0045A5E9 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 		5C307F7328CB945A007DEC73 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 		5C307F7528CB9B3A007DEC73 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		5C307F7728CB9C49007DEC73 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				5C307F7728CB9C49007DEC73 /* NoDataView.swift */,
 				5C307F7928CB9FFA007DEC73 /* ToDoListRow.swift */,
 				5C94323028CAD0C300C3A873 /* ContentView.swift */,
+				5C2416EE28F7525E0045A5E9 /* FilteredList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				5C307F7828CB9C49007DEC73 /* NoDataView.swift in Sources */,
 				5C94322F28CAD0C300C3A873 /* SwiftUIToDoListApp.swift in Sources */,
 				5C94324228CAD50B00C3A873 /* CheckBoxStyle.swift in Sources */,
+				5C2416EF28F7525E0045A5E9 /* FilteredList.swift in Sources */,
 				5C307F7A28CB9FFA007DEC73 /* ToDoListRow.swift in Sources */,
 				5C1A3F7528F5FF49007BCA17 /* CustomSearchBar.swift in Sources */,
 				5C94323E28CAD10300C3A873 /* ToDoItem.swift in Sources */,

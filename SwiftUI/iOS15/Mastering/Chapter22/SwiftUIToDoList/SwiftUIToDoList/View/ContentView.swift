@@ -9,19 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @Environment(\.managedObjectContext) var context
-    
-    @FetchRequest(entity: ToDoItem.entity(),
-                  sortDescriptors: [ NSSortDescriptor(keyPath: \ToDoItem.priorityNum, ascending: false) ])
-    
-    var todoItems: FetchedResults<ToDoItem>
     @State private var newItemName: String = ""
     @State private var newItemPriority: Priority = .normal
     @State private var showNewTask = false
     
     //SearchBar
     @State private var searchText = ""
-    
     
     var body: some View {
         
@@ -49,13 +42,7 @@ struct ContentView: View {
                 CustomSearchBar(text: $searchText)
                     .padding(.top, 20)
                 
-                List {
-                    ForEach(todoItems.filter({ searchText.isEmpty ? true : $0.name.contains(searchText)
-                    })) { todoItem in
-                        ToDoListRow(todoItem: todoItem)
-                    }
-                    .onDelete(perform: deleteTask)
-                }
+                FilteredList($searchText)
                 
             }
             .rotation3DEffect(Angle(degrees: showNewTask ? 5 : 0), axis: (x: 1, y: 0, z: 0))
@@ -64,10 +51,6 @@ struct ContentView: View {
             .onAppear {
                 UITableView.appearance().separatorColor = .clear
             }
-            
-            if todoItems.count == 0 {
-                NoDataView()
-            }//todoItems.count == 0
             
             if showNewTask {
                 BackgroundView(bgColor: .black)
@@ -85,24 +68,6 @@ struct ContentView: View {
         
     }//body
     
-    
-    private func deleteTask(indexSet: IndexSet) {
-        
-        for index in indexSet {
-            let itemToDelete = todoItems[index]
-            context.delete(itemToDelete)
-        }
-        
-        DispatchQueue.main.async {
-            do {
-                try context.save()
-            } catch {
-                print(error)
-            }
-        }
-        
-    }//deleteTask
-    
 }//ContentView
 
 struct ContentView_Previews: PreviewProvider {
@@ -111,3 +76,6 @@ struct ContentView_Previews: PreviewProvider {
             .environment(\.managedObjectContext, PersistanceController.preview.container.viewContext)
     }
 }//ContentView_Previews
+
+
+
