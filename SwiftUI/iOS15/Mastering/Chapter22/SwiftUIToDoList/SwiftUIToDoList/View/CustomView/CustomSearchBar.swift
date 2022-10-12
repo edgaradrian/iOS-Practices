@@ -51,6 +51,18 @@ class SearchBarCoordinator: NSObject, UISearchBarDelegate {
         text = searchText
     }
     
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        text = ""
+        searchBar.resignFirstResponder()
+        searchBar.showsCancelButton = false
+        searchBar.endEditing(true)
+    }//searchBarCancelButtonClicked
+    
+    func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
+        searchBar.showsCancelButton = true
+        return true
+    }//searchBarShouldBeginEditing
+    
 }//SearchBarCoordinator
 
 
