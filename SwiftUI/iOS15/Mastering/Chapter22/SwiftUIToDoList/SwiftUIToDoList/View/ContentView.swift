@@ -39,7 +39,7 @@ struct ContentView: View {
                 }
                 .padding()
                 
-                CustomSearchBar(text: $searchText)
+                SearchBar(text: $searchText)
                     .padding(.top, 20)
                 
                 FilteredList($searchText)

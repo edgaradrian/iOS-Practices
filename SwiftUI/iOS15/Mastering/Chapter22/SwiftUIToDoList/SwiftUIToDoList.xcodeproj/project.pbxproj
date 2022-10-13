@@ -21,6 +21,7 @@
 		5C94323628CAD0C300C3A873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C94323528CAD0C300C3A873 /* Preview Assets.xcassets */; };
 		5C94323E28CAD10300C3A873 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94323D28CAD10300C3A873 /* ToDoItem.swift */; };
 		5C94324228CAD50B00C3A873 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94324128CAD50B00C3A873 /* CheckBoxStyle.swift */; };
+		5CBB3B3D28F8755A0097B932 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B3C28F8755A0097B932 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		5C94323528CAD0C300C3A873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C94323D28CAD10300C3A873 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		5C94324128CAD50B00C3A873 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
+		5CBB3B3C28F8755A0097B932 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				5C1A3F7428F5FF49007BCA17 /* CustomSearchBar.swift */,
+				5CBB3B3C28F8755A0097B932 /* SearchBar.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBB3B3D28F8755A0097B932 /* SearchBar.swift in Sources */,
 				5C84F07428CF9AFD0047D90D /* Persistence.swift in Sources */,
 				5C307F7628CB9B3A007DEC73 /* BackgroundView.swift in Sources */,
 				5C307F7428CB945A007DEC73 /* NewToDoView.swift in Sources */,
