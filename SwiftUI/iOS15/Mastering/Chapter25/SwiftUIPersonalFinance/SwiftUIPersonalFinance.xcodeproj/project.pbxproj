@@ -15,6 +15,7 @@
 		5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B5C28F87EB40097B932 /* Date+Extensions.swift */; };
 		5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */; };
 		5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */; };
+		5CBB3B6428F8850F0097B932 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B6328F8850F0097B932 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5CBB3B5C28F87EB40097B932 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentActivity.swift; sourceTree = "<group>"; };
+		5CBB3B6328F8850F0097B932 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */,
+				5CBB3B6328F8850F0097B932 /* Persistence.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */,
 				5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */,
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
+				5CBB3B6428F8850F0097B932 /* Persistence.swift in Sources */,
 				5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */,
 				5CBB3B5A28F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld in Sources */,
 				5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */,
