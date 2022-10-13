@@ -56,6 +56,7 @@ class SearchBarCoordinator: NSObject, UISearchBarDelegate {
         searchBar.resignFirstResponder()
         searchBar.showsCancelButton = false
         searchBar.endEditing(true)
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }//searchBarCancelButtonClicked
     
     func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
