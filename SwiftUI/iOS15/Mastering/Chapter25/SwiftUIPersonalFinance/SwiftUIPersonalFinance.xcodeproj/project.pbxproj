@@ -14,6 +14,7 @@
 		5CBB3B5A28F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B5828F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld */; };
 		5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B5C28F87EB40097B932 /* Date+Extensions.swift */; };
 		5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */; };
+		5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5CBB3B5928F87BE20097B932 /* PersonalFinanceStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonalFinanceStore.xcdatamodel; sourceTree = "<group>"; };
 		5CBB3B5C28F87EB40097B932 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		5CBB3B4928F87B940097B932 /* SwiftUIPersonalFinance */ = {
 			isa = PBXGroup;
 			children = (
+				5CBB3B6028F882B30097B932 /* Model */,
 				5CBB3B5B28F87DE30097B932 /* Extension */,
 				5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */,
 				5CBB3B4C28F87B940097B932 /* ContentView.swift */,
@@ -82,6 +85,14 @@
 				5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		5CBB3B6028F882B30097B932 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */,
 				5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */,
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
+				5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */,
 				5CBB3B5A28F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld in Sources */,
 				5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */,
 			);
