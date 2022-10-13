@@ -16,6 +16,7 @@
 		5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */; };
 		5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */; };
 		5CBB3B6428F8850F0097B932 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B6328F8850F0097B932 /* Persistence.swift */; };
+		5CBB3B6728F88B250097B932 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B6628F88B250097B932 /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5CBB3B5E28F880B80097B932 /* NumberFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentActivity.swift; sourceTree = "<group>"; };
 		5CBB3B6328F8850F0097B932 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5CBB3B6628F88B250097B932 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		5CBB3B4928F87B940097B932 /* SwiftUIPersonalFinance */ = {
 			isa = PBXGroup;
 			children = (
+				5CBB3B6528F88B0C0097B932 /* View */,
 				5CBB3B6028F882B30097B932 /* Model */,
 				5CBB3B5B28F87DE30097B932 /* Extension */,
 				5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */,
@@ -96,6 +99,14 @@
 				5CBB3B6328F8850F0097B932 /* Persistence.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5CBB3B6528F88B0C0097B932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CBB3B6628F88B250097B932 /* BlankView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
 				5CBB3B6428F8850F0097B932 /* Persistence.swift in Sources */,
 				5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */,
+				5CBB3B6728F88B250097B932 /* BlankView.swift in Sources */,
 				5CBB3B5A28F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld in Sources */,
 				5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */,
 			);
