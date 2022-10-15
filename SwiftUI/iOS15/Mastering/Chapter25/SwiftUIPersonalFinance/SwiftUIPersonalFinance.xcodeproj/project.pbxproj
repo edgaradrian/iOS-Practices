@@ -10,6 +10,7 @@
 		5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546A28F9FF490082118B /* KeyboardAdaptive.swift */; };
 		5C11546D28FA00990082118B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546C28FA00990082118B /* View+Extensions.swift */; };
 		5C11546F28FA0B420082118B /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546E28FA0B420082118B /* FormTextField.swift */; };
+		5C11547128FA26470082118B /* FormDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547028FA26470082118B /* FormDateField.swift */; };
 		5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */; };
 		5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4C28F87B940097B932 /* ContentView.swift */; };
 		5CBB3B4F28F87B960097B932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4E28F87B960097B932 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		5C11546A28F9FF490082118B /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
 		5C11546C28FA00990082118B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5C11546E28FA0B420082118B /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		5C11547028FA26470082118B /* FormDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDateField.swift; sourceTree = "<group>"; };
 		5CBB3B4728F87B940097B932 /* SwiftUIPersonalFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPersonalFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPersonalFinanceApp.swift; sourceTree = "<group>"; };
 		5CBB3B4C28F87B940097B932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				5CBB3B6628F88B250097B932 /* BlankView.swift */,
 				5C11546E28FA0B420082118B /* FormTextField.swift */,
+				5C11547028FA26470082118B /* FormDateField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */,
 				5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */,
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
+				5C11547128FA26470082118B /* FormDateField.swift in Sources */,
 				5CBB3B6428F8850F0097B932 /* Persistence.swift in Sources */,
 				5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */,
 				5CBB3B6728F88B250097B932 /* BlankView.swift in Sources */,
