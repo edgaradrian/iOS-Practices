@@ -12,6 +12,7 @@
 		5C11546F28FA0B420082118B /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546E28FA0B420082118B /* FormTextField.swift */; };
 		5C11547128FA26470082118B /* FormDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547028FA26470082118B /* FormDateField.swift */; };
 		5C11547328FA324A0082118B /* FormTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547228FA324A0082118B /* FormTextEditor.swift */; };
+		5CA499FC28FDF4E400E9CDE3 /* ValidationErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */; };
 		5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */; };
 		5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4C28F87B940097B932 /* ContentView.swift */; };
 		5CBB3B4F28F87B960097B932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4E28F87B960097B932 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		5C11546E28FA0B420082118B /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
 		5C11547028FA26470082118B /* FormDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDateField.swift; sourceTree = "<group>"; };
 		5C11547228FA324A0082118B /* FormTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextEditor.swift; sourceTree = "<group>"; };
+		5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorText.swift; sourceTree = "<group>"; };
 		5CBB3B4728F87B940097B932 /* SwiftUIPersonalFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPersonalFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPersonalFinanceApp.swift; sourceTree = "<group>"; };
 		5CBB3B4C28F87B940097B932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				5C11546E28FA0B420082118B /* FormTextField.swift */,
 				5C11547028FA26470082118B /* FormDateField.swift */,
 				5C11547228FA324A0082118B /* FormTextEditor.swift */,
+				5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */,
 				5C11547328FA324A0082118B /* FormTextEditor.swift in Sources */,
+				5CA499FC28FDF4E400E9CDE3 /* ValidationErrorText.swift in Sources */,
 				5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */,
 				5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */,
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
