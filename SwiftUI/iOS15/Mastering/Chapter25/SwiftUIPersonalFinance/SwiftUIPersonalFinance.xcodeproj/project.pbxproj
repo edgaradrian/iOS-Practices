@@ -13,6 +13,8 @@
 		5C11547128FA26470082118B /* FormDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547028FA26470082118B /* FormDateField.swift */; };
 		5C11547328FA324A0082118B /* FormTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547228FA324A0082118B /* FormTextEditor.swift */; };
 		5CA499FC28FDF4E400E9CDE3 /* ValidationErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */; };
+		5CA499FE28FDF6E500E9CDE3 /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */; };
+		5CA49A0128FDF74600E9CDE3 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA49A0028FDF74600E9CDE3 /* DragState.swift */; };
 		5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */; };
 		5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4C28F87B940097B932 /* ContentView.swift */; };
 		5CBB3B4F28F87B960097B932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB3B4E28F87B960097B932 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		5C11547028FA26470082118B /* FormDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDateField.swift; sourceTree = "<group>"; };
 		5C11547228FA324A0082118B /* FormTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextEditor.swift; sourceTree = "<group>"; };
 		5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorText.swift; sourceTree = "<group>"; };
+		5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
+		5CA49A0028FDF74600E9CDE3 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 		5CBB3B4728F87B940097B932 /* SwiftUIPersonalFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPersonalFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBB3B4A28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPersonalFinanceApp.swift; sourceTree = "<group>"; };
 		5CBB3B4C28F87B940097B932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,14 @@
 			path = ViewModifier;
 			sourceTree = "<group>";
 		};
+		5CA499FF28FDF73700E9CDE3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5CA49A0028FDF74600E9CDE3 /* DragState.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		5CBB3B3E28F87B940097B932 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 		5CBB3B4928F87B940097B932 /* SwiftUIPersonalFinance */ = {
 			isa = PBXGroup;
 			children = (
+				5CA499FF28FDF73700E9CDE3 /* Enums */,
 				5C11546928F9F1E10082118B /* ViewModifier */,
 				5CBB3B6528F88B0C0097B932 /* View */,
 				5CBB3B6028F882B30097B932 /* Model */,
@@ -131,6 +144,7 @@
 				5C11547028FA26470082118B /* FormDateField.swift */,
 				5C11547228FA324A0082118B /* FormTextEditor.swift */,
 				5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */,
+				5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,7 +226,9 @@
 				5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */,
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
 				5C11547128FA26470082118B /* FormDateField.swift in Sources */,
+				5CA499FE28FDF6E500E9CDE3 /* TitleBar.swift in Sources */,
 				5CBB3B6428F8850F0097B932 /* Persistence.swift in Sources */,
+				5CA49A0128FDF74600E9CDE3 /* DragState.swift in Sources */,
 				5CBB3B6228F882CF0097B932 /* PaymentActivity.swift in Sources */,
 				5CBB3B6728F88B250097B932 /* BlankView.swift in Sources */,
 				5CBB3B5A28F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld in Sources */,
