@@ -12,6 +12,7 @@
 		5C11546F28FA0B420082118B /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546E28FA0B420082118B /* FormTextField.swift */; };
 		5C11547128FA26470082118B /* FormDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547028FA26470082118B /* FormDateField.swift */; };
 		5C11547328FA324A0082118B /* FormTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547228FA324A0082118B /* FormTextEditor.swift */; };
+		5C4EBF73290C43DC001B262D /* HandleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EBF72290C43DC001B262D /* HandleBar.swift */; };
 		5CA499FC28FDF4E400E9CDE3 /* ValidationErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */; };
 		5CA499FE28FDF6E500E9CDE3 /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */; };
 		5CA49A0128FDF74600E9CDE3 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA49A0028FDF74600E9CDE3 /* DragState.swift */; };
@@ -33,6 +34,7 @@
 		5C11546E28FA0B420082118B /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
 		5C11547028FA26470082118B /* FormDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDateField.swift; sourceTree = "<group>"; };
 		5C11547228FA324A0082118B /* FormTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextEditor.swift; sourceTree = "<group>"; };
+		5C4EBF72290C43DC001B262D /* HandleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleBar.swift; sourceTree = "<group>"; };
 		5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorText.swift; sourceTree = "<group>"; };
 		5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
 		5CA49A0028FDF74600E9CDE3 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				5C11547228FA324A0082118B /* FormTextEditor.swift */,
 				5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */,
 				5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */,
+				5C4EBF72290C43DC001B262D /* HandleBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				5C11546D28FA00990082118B /* View+Extensions.swift in Sources */,
 				5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */,
 				5C11546F28FA0B420082118B /* FormTextField.swift in Sources */,
+				5C4EBF73290C43DC001B262D /* HandleBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
