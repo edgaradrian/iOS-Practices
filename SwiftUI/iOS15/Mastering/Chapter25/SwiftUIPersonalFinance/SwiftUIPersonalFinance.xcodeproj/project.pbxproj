@@ -13,6 +13,7 @@
 		5C11547128FA26470082118B /* FormDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547028FA26470082118B /* FormDateField.swift */; };
 		5C11547328FA324A0082118B /* FormTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11547228FA324A0082118B /* FormTextEditor.swift */; };
 		5C4EBF73290C43DC001B262D /* HandleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EBF72290C43DC001B262D /* HandleBar.swift */; };
+		5C4EBF76290C4637001B262D /* ScrollOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EBF75290C4637001B262D /* ScrollOffsetKey.swift */; };
 		5CA499FC28FDF4E400E9CDE3 /* ValidationErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */; };
 		5CA499FE28FDF6E500E9CDE3 /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */; };
 		5CA49A0128FDF74600E9CDE3 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA49A0028FDF74600E9CDE3 /* DragState.swift */; };
@@ -35,6 +36,7 @@
 		5C11547028FA26470082118B /* FormDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDateField.swift; sourceTree = "<group>"; };
 		5C11547228FA324A0082118B /* FormTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextEditor.swift; sourceTree = "<group>"; };
 		5C4EBF72290C43DC001B262D /* HandleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleBar.swift; sourceTree = "<group>"; };
+		5C4EBF75290C4637001B262D /* ScrollOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetKey.swift; sourceTree = "<group>"; };
 		5CA499FB28FDF4E400E9CDE3 /* ValidationErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorText.swift; sourceTree = "<group>"; };
 		5CA499FD28FDF6E500E9CDE3 /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
 		5CA49A0028FDF74600E9CDE3 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 			path = ViewModifier;
 			sourceTree = "<group>";
 		};
+		5C4EBF74290C44A5001B262D /* PreferenceKeys */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EBF75290C4637001B262D /* ScrollOffsetKey.swift */,
+			);
+			path = PreferenceKeys;
+			sourceTree = "<group>";
+		};
 		5CA499FF28FDF73700E9CDE3 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		5CBB3B4928F87B940097B932 /* SwiftUIPersonalFinance */ = {
 			isa = PBXGroup;
 			children = (
+				5C4EBF74290C44A5001B262D /* PreferenceKeys */,
 				5CA499FF28FDF73700E9CDE3 /* Enums */,
 				5C11546928F9F1E10082118B /* ViewModifier */,
 				5CBB3B6528F88B0C0097B932 /* View */,
@@ -239,6 +250,7 @@
 				5CBB3B4B28F87B940097B932 /* SwiftUIPersonalFinanceApp.swift in Sources */,
 				5C11546F28FA0B420082118B /* FormTextField.swift in Sources */,
 				5C4EBF73290C43DC001B262D /* HandleBar.swift in Sources */,
+				5C4EBF76290C4637001B262D /* ScrollOffsetKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
