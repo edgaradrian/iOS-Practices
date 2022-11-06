@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct TitleBar: View {
+    var viewModel: PaymentDetailViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        HStack {
+            Text("Detalles del Pago")
+                .font(.headline)
+                .foregroundColor(Color("Heading"))
 
-struct TitleBar_Previews: PreviewProvider {
-    static var previews: some View {
-        TitleBar()
+            Image(systemName: viewModel.typeIcon)
+                .foregroundColor(Color("ExpenseCard"))
+            
+            Spacer()
+        }
+        .padding()
     }
-}
+}//Title BAr

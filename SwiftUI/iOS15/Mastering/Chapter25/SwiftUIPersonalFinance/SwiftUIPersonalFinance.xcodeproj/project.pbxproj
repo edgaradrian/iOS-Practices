@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5C02C6DF29172DD400879A10 /* PaymentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C6DE29172DD400879A10 /* PaymentFormView.swift */; };
 		5C02C6E129172E8A00879A10 /* PaymentFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C6E029172E8A00879A10 /* PaymentFormViewModel.swift */; };
+		5C02C6E32917314800879A10 /* PaymentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C6E22917314800879A10 /* PaymentDetailView.swift */; };
+		5C02C6E52917321900879A10 /* PaymentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C6E42917321900879A10 /* PaymentDetailViewModel.swift */; };
 		5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546A28F9FF490082118B /* KeyboardAdaptive.swift */; };
 		5C11546D28FA00990082118B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546C28FA00990082118B /* View+Extensions.swift */; };
 		5C11546F28FA0B420082118B /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546E28FA0B420082118B /* FormTextField.swift */; };
@@ -35,6 +37,8 @@
 /* Begin PBXFileReference section */
 		5C02C6DE29172DD400879A10 /* PaymentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormView.swift; sourceTree = "<group>"; };
 		5C02C6E029172E8A00879A10 /* PaymentFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormViewModel.swift; sourceTree = "<group>"; };
+		5C02C6E22917314800879A10 /* PaymentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailView.swift; sourceTree = "<group>"; };
+		5C02C6E42917321900879A10 /* PaymentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewModel.swift; sourceTree = "<group>"; };
 		5C11546A28F9FF490082118B /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
 		5C11546C28FA00990082118B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5C11546E28FA0B420082118B /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				5CBB3B6128F882CF0097B932 /* PaymentActivity.swift */,
 				5CBB3B6328F8850F0097B932 /* Persistence.swift */,
 				5C02C6E029172E8A00879A10 /* PaymentFormViewModel.swift */,
+				5C02C6E42917321900879A10 /* PaymentDetailViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				5C4EBF72290C43DC001B262D /* HandleBar.swift */,
 				5C4EBF77290C4BB3001B262D /* BottomSheet.swift */,
 				5C02C6DE29172DD400879A10 /* PaymentFormView.swift */,
+				5C02C6E22917314800879A10 /* PaymentDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				5CA499FC28FDF4E400E9CDE3 /* ValidationErrorText.swift in Sources */,
 				5CBB3B5F28F880B80097B932 /* NumberFormatter+Extensions.swift in Sources */,
 				5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */,
+				5C02C6E52917321900879A10 /* PaymentDetailViewModel.swift in Sources */,
 				5CBB3B5D28F87EB40097B932 /* Date+Extensions.swift in Sources */,
 				5C11547128FA26470082118B /* FormDateField.swift in Sources */,
 				5CA499FE28FDF6E500E9CDE3 /* TitleBar.swift in Sources */,
@@ -256,6 +263,7 @@
 				5CBB3B6728F88B250097B932 /* BlankView.swift in Sources */,
 				5CBB3B5A28F87BE20097B932 /* PersonalFinanceStore.xcdatamodeld in Sources */,
 				5C02C6DF29172DD400879A10 /* PaymentFormView.swift in Sources */,
+				5C02C6E32917314800879A10 /* PaymentDetailView.swift in Sources */,
 				5C4EBF78290C4BB3001B262D /* BottomSheet.swift in Sources */,
 				5C02C6E129172E8A00879A10 /* PaymentFormViewModel.swift in Sources */,
 				5C11546D28FA00990082118B /* View+Extensions.swift in Sources */,
