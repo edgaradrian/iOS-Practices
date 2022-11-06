@@ -13,6 +13,7 @@
 		5C02C6E52917321900879A10 /* PaymentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C6E42917321900879A10 /* PaymentDetailViewModel.swift */; };
 		5C02C6E729174C0C00879A10 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C6E629174C0C00879A10 /* MenuBar.swift */; };
 		5C06DB56291861A900906317 /* TotalBalanceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06DB55291861A900906317 /* TotalBalanceCard.swift */; };
+		5C06DB5829186A3100906317 /* IncomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06DB5729186A3100906317 /* IncomeCard.swift */; };
 		5C11546B28F9FF490082118B /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546A28F9FF490082118B /* KeyboardAdaptive.swift */; };
 		5C11546D28FA00990082118B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546C28FA00990082118B /* View+Extensions.swift */; };
 		5C11546F28FA0B420082118B /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11546E28FA0B420082118B /* FormTextField.swift */; };
@@ -43,6 +44,7 @@
 		5C02C6E42917321900879A10 /* PaymentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewModel.swift; sourceTree = "<group>"; };
 		5C02C6E629174C0C00879A10 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		5C06DB55291861A900906317 /* TotalBalanceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBalanceCard.swift; sourceTree = "<group>"; };
+		5C06DB5729186A3100906317 /* IncomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCard.swift; sourceTree = "<group>"; };
 		5C11546A28F9FF490082118B /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
 		5C11546C28FA00990082118B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5C11546E28FA0B420082118B /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				5C02C6E22917314800879A10 /* PaymentDetailView.swift */,
 				5C02C6E629174C0C00879A10 /* MenuBar.swift */,
 				5C06DB55291861A900906317 /* TotalBalanceCard.swift */,
+				5C06DB5729186A3100906317 /* IncomeCard.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C06DB5829186A3100906317 /* IncomeCard.swift in Sources */,
 				5CBB3B4D28F87B940097B932 /* ContentView.swift in Sources */,
 				5C11547328FA324A0082118B /* FormTextEditor.swift in Sources */,
 				5C02C6E729174C0C00879A10 /* MenuBar.swift in Sources */,
