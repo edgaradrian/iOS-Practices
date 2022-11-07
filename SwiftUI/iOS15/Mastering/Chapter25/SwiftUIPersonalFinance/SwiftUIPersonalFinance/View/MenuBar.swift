@@ -36,7 +36,6 @@ struct MenuBar<Content>: View where Content: View {
                     .font(.title)
                     .foregroundColor(.primary)
             }
-
             .sheet(isPresented: self.$showPaymentForm, onDismiss: {
                 self.showPaymentForm = false
             }) {
