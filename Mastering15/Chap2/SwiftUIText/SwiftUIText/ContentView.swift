@@ -19,6 +19,7 @@ struct ContentView: View {
                 .truncationMode(.head)
                 .lineSpacing(8)
                 .padding()
+                .rotationEffect(.degrees(7))
         }
         .padding()
     }
