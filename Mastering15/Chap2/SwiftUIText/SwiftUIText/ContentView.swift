@@ -15,6 +15,8 @@ struct ContentView: View {
                 .font(.system(size: 40))
                 .foregroundStyle(.cyan)
                 .multilineTextAlignment(.center)
+                .lineLimit(6)
+                .truncationMode(.head)
         }
         .padding()
     }
