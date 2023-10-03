@@ -15,7 +15,8 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Stay hungry")
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                .font(.system(.title, design: .rounded))
+                .font(.system(size: 40))
+                .foregroundStyle(.cyan)
         }
         .padding()
     }
