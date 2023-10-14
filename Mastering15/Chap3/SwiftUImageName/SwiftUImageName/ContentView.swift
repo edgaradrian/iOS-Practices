@@ -14,12 +14,13 @@ struct ContentView: View {
             
             Image("paris")
                 .resizable()
-                .ignoresSafeArea()
+                .frame(width: 300)
+                .clipShape(Circle())
             
             VStack {
                 Image(systemName: "globe")
                     .font(.system(size: 100))
-                    .foregroundStyle(.white)
+                    .foregroundStyle(.yellow)
                 
                 Spacer()
             }
