@@ -14,13 +14,17 @@ struct ContentView: View {
             
             Image("paris")
                 .resizable()
+                .aspectRatio(contentMode: .fit)
                 .frame(width: 300)
-                .clipShape(Circle())
                 .overlay {
-                    Image(systemName: "heart.fill")
-                        .font(.system(size: 30))
-                        .foregroundStyle(.red)
-                        .opacity(0.5)
+                    Color.black
+                        .opacity(0.4)
+                        .overlay {
+                            Text("París")
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                                .foregroundStyle(.white)
+                        }
                 }
             
             VStack {
