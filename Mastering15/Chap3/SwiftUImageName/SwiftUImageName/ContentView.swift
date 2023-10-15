@@ -16,7 +16,12 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 300)
                 .clipShape(Circle())
-                .opacity(0.5)
+                .overlay {
+                    Image(systemName: "heart.fill")
+                        .font(.system(size: 30))
+                        .foregroundStyle(.red)
+                        .opacity(0.5)
+                }
             
             VStack {
                 Image(systemName: "globe")
