@@ -16,11 +16,13 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 300)
                 .clipShape(Circle())
+                .opacity(0.5)
             
             VStack {
                 Image(systemName: "globe")
                     .font(.system(size: 100))
                     .foregroundStyle(.yellow)
+                    .opacity(0.5)
                 
                 Spacer()
             }
