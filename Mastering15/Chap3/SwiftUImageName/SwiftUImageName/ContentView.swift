@@ -28,10 +28,10 @@ struct ContentView: View {
                 }
             
             VStack {
-                Image(systemName: "globe")
-                    .font(.system(size: 100))
-                    .foregroundStyle(.yellow)
-                    .opacity(0.5)
+                Image(systemName: "trash.slash.fill")
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle(.yellow, .blue, .gray)
+                    .font(.largeTitle)
                 
                 Spacer()
             }
