@@ -9,15 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text("Elige")
-                .font(.system(.largeTitle, design: .rounded))
-                .fontWeight(.black)
-            Text("Tu plan")
-                .font(.system(.largeTitle, design: .rounded))
-                .fontWeight(.black)
+        VStack {
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Elige")
+                    .font(.system(.largeTitle, design: .rounded))
+                    .fontWeight(.black)
+                Text("Tu plan")
+                    .font(.system(.largeTitle, design: .rounded))
+                    .fontWeight(.black)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
