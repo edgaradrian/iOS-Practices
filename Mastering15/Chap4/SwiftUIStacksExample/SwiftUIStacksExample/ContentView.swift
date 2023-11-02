@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 2) {
             Text("Elige")
                 .font(.system(.largeTitle, design: .rounded))
                 .fontWeight(.black)
