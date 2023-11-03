@@ -11,6 +11,29 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HeaderView()
+            
+            HStack {
+                VStack {
+                    
+                    Text("Básico")
+                        .font(.system(.title, design: .rounded))
+                        .fontWeight(.black)
+                        .foregroundStyle(.white)
+                    
+                    Text("$89")
+                        .font(.system(size: 40, weight: .heavy, design: .rounded))
+                        .foregroundStyle(.white)
+                    
+                    Text("Por mes")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                    
+                }
+                .padding(40)
+                .background(Color.purple)
+            .clipShape(Circle())
+            }
+            
         }
     }
 }
