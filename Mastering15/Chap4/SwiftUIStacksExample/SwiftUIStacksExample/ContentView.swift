@@ -31,7 +31,28 @@ struct ContentView: View {
                 }
                 .padding(40)
                 .background(Color.purple)
-            .clipShape(Circle())
+                .clipShape(Circle())
+                
+                VStack {
+                    
+                    Text("Pro")
+                        .font(.system(.title, design: .rounded))
+                        .fontWeight(.black)
+                        .foregroundStyle(.black)
+                    
+                    Text("$159")
+                        .font(.system(size: 40, weight: .heavy, design: .rounded))
+                        .foregroundStyle(.black)
+                    
+                    Text("Por mes")
+                        .font(.headline)
+                        .foregroundStyle(.black)
+                    
+                }
+                .padding(40)
+                .background(Color(red: 240/255, green: 240/255, blue: 240/255))
+                .clipShape(Circle())
+                
             }
             
         }
