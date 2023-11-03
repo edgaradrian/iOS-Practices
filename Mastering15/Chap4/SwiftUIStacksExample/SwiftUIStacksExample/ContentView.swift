@@ -13,46 +13,9 @@ struct ContentView: View {
             HeaderView()
             
             HStack {
-                VStack {
-                    
-                    Text("Básico")
-                        .font(.system(.title, design: .rounded))
-                        .fontWeight(.black)
-                        .foregroundStyle(.white)
-                    
-                    Text("$89")
-                        .font(.system(size: 40, weight: .heavy, design: .rounded))
-                        .foregroundStyle(.white)
-                    
-                    Text("Por mes")
-                        .font(.headline)
-                        .foregroundStyle(.white)
-                    
-                }
-                .padding(40)
-                .background(Color.purple)
-                .clipShape(Circle())
+                PricingView(title: "Básico", price: "$89", textColor: .white, bgColor: .cyan)
                 
-                VStack {
-                    
-                    Text("Pro")
-                        .font(.system(.title, design: .rounded))
-                        .fontWeight(.black)
-                        .foregroundStyle(.black)
-                    
-                    Text("$159")
-                        .font(.system(size: 40, weight: .heavy, design: .rounded))
-                        .foregroundStyle(.black)
-                    
-                    Text("Por mes")
-                        .font(.headline)
-                        .foregroundStyle(.black)
-                    
-                }
-                .padding(40)
-                .background(Color(red: 240/255, green: 240/255, blue: 240/255))
-                .clipShape(Circle())
-                
+                PricingView(title: "Pro", price: "$159", textColor: .black, bgColor: .red)
             }
             
         }
@@ -74,5 +37,35 @@ struct HeaderView: View {
                 .fontWeight(.black)
         }
         .padding()
+    }
+}
+
+struct PricingView: View {
+    
+    var title: String
+    var price: String
+    var textColor: Color
+    var bgColor: Color
+    
+    var body: some View {
+        VStack {
+            
+            Text(title)
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.black)
+                .foregroundStyle(textColor)
+            
+            Text(price)
+                .font(.system(size: 40, weight: .heavy, design: .rounded))
+                .foregroundStyle(textColor)
+            
+            Text("Por mes")
+                .font(.headline)
+                .foregroundStyle(textColor)
+            
+        }
+        .padding(40)
+        .background(bgColor)
+        .clipShape(Circle())
     }
 }
