@@ -15,7 +15,18 @@ struct ContentView: View {
             HStack {
                 PricingView(title: "Básico", price: "$89", textColor: .white, bgColor: .cyan)
                 
-                PricingView(title: "Pro", price: "$159", textColor: .black, bgColor: .red)
+                ZStack {
+                    PricingView(title: "Pro", price: "$159", textColor: .black, bgColor: .red)
+                    
+                    Text("Students option")
+                        .font(.system(.caption, design: .rounded))
+                        .fontWeight(.bold)
+                        .foregroundStyle(.white)
+                        .padding(5)
+                        .background(Color(red: 255/255, green: 183/255, blue: 37/255))
+                        .offset(x: 0, y: 80)
+                    
+                }
             }
             
         }
