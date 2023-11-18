@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
+
     var body: some View {
         VStack() {
             Image("swiftui-button")
@@ -35,6 +36,12 @@ struct CardView: View {
             }
             .padding()
         }//Main VStack
+        .clipShape(RoundedRectangle(cornerRadius: 10))
+        .overlay {
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 1.0), lineWidth: 1)
+        }
+        .padding([.top, .horizontal])
     }
 }//CardView
 
