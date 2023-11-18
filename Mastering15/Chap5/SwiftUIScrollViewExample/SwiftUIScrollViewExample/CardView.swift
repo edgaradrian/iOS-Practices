@@ -9,9 +9,29 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack() {
+            Image("swiftui-button")
+                .resizable()
+            .aspectRatio(contentMode: .fit)
+            
+            VStack(alignment: .leading) {
+                Text("SwiftUI")
+                    .font(.headline)
+                    .foregroundStyle(.secondary)
+                
+                Text("Dibujando un borde con esquinas redondeadas")
+                    .font(.title)
+                    .fontWeight(.black)
+                    .foregroundStyle(.primary)
+                    .lineLimit(3)
+                
+                Text("Por Edgar Adrián")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }//Main VStack
     }
-}
+}//CardView
 
 #Preview {
     CardView()
