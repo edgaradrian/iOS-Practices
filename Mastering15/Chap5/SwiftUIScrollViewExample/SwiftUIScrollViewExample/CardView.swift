@@ -14,21 +14,26 @@ struct CardView: View {
                 .resizable()
             .aspectRatio(contentMode: .fit)
             
-            VStack(alignment: .leading) {
-                Text("SwiftUI")
-                    .font(.headline)
-                    .foregroundStyle(.secondary)
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("SwiftUI")
+                        .font(.headline)
+                        .foregroundStyle(.secondary)
+                    
+                    Text("Dibujando un borde con esquinas redondeadas")
+                        .font(.title)
+                        .fontWeight(.black)
+                        .foregroundStyle(.primary)
+                        .lineLimit(3)
+                    
+                    Text("Por Edgar Adrián")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
                 
-                Text("Dibujando un borde con esquinas redondeadas")
-                    .font(.title)
-                    .fontWeight(.black)
-                    .foregroundStyle(.primary)
-                    .lineLimit(3)
-                
-                Text("Por Edgar Adrián")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                Spacer()
             }
+            .padding()
         }//Main VStack
     }
 }//CardView
