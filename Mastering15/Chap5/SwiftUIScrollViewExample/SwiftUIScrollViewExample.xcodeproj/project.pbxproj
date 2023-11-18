@@ -15,6 +15,7 @@
 		1964CBA22B0872CC003D6049 /* SwiftUIScrollViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1964CBA12B0872CC003D6049 /* SwiftUIScrollViewExampleUITests.swift */; };
 		1964CBA42B0872CC003D6049 /* SwiftUIScrollViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1964CBA32B0872CC003D6049 /* SwiftUIScrollViewExampleUITestsLaunchTests.swift */; };
 		1964CBB32B087325003D6049 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1964CBB22B087325003D6049 /* CardView.swift */; };
+		1964CBB62B08868E003D6049 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1964CBB52B08868E003D6049 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1964CBA12B0872CC003D6049 /* SwiftUIScrollViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollViewExampleUITests.swift; sourceTree = "<group>"; };
 		1964CBA32B0872CC003D6049 /* SwiftUIScrollViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1964CBB22B087325003D6049 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1964CBB52B08868E003D6049 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1964CB842B0872CB003D6049 /* SwiftUIScrollViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				1964CBB42B088678003D6049 /* Extensions */,
 				1964CB852B0872CB003D6049 /* SwiftUIScrollViewExampleApp.swift */,
 				1964CB872B0872CB003D6049 /* ContentView.swift */,
 				1964CB892B0872CC003D6049 /* Assets.xcassets */,
@@ -130,6 +133,14 @@
 				1964CBA32B0872CC003D6049 /* SwiftUIScrollViewExampleUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIScrollViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		1964CBB42B088678003D6049 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1964CBB52B08868E003D6049 /* Date+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1964CB882B0872CB003D6049 /* ContentView.swift in Sources */,
+				1964CBB62B08868E003D6049 /* Date+Extension.swift in Sources */,
 				1964CBB32B087325003D6049 /* CardView.swift in Sources */,
 				1964CB862B0872CB003D6049 /* SwiftUIScrollViewExampleApp.swift in Sources */,
 			);
