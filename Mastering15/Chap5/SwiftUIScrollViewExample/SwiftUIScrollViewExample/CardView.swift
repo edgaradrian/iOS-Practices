@@ -31,6 +31,7 @@ struct CardView: View {
                         .fontWeight(.black)
                         .foregroundStyle(.primary)
                         .lineLimit(3)
+                        .minimumScaleFactor(0.5)
                     
                     Text(author)
                         .font(.caption)
