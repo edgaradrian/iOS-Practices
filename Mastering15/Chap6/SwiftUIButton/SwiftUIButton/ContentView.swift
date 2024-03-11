@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             Button {
                 print("Fui pulsado")
             } label: {
@@ -27,15 +27,20 @@ struct ContentView: View {
                     }
             }
             
-            Spacer()
-                .frame(height: 30)
-            
             Button {
                 print("Botón de borrado pulsado.")
             } label: {
-                Image(systemName: "trash")
-                    .font(.title)
-                    .foregroundStyle(Color.red)
+                HStack {
+                    Image(systemName: "trash")
+                        .font(.title)
+                    Text("Borrar")
+                        .fontWeight(.semibold)
+                        .font(.title)
+                }
+                .padding()
+                .foregroundStyle(.white)
+                .background(Color.red)
+                .clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/))
             }
 
         }
