@@ -15,9 +15,10 @@ struct ContentView: View {
             } label: {
                 Text("Púlsame")
                     .padding()
-                    .background(Color.cyan)
-                    .foregroundStyle(Color.white)
+                    .foregroundStyle(Color.cyan)
                     .font(.title2)
+                    .border(Color.cyan, width: 4)
+                
             }
         }
         .padding()
