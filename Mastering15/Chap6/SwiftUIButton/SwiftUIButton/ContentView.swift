@@ -26,6 +26,18 @@ struct ContentView: View {
                             .stroke(.cyan, lineWidth: 4)
                     }
             }
+            
+            Spacer()
+                .frame(height: 30)
+            
+            Button {
+                print("Botón de borrado pulsado.")
+            } label: {
+                Image(systemName: "trash")
+                    .font(.title)
+                    .foregroundStyle(Color.red)
+            }
+
         }
         .padding()
     }
