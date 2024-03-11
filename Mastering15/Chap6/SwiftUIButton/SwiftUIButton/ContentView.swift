@@ -30,13 +30,17 @@ struct ContentView: View {
             Button {
                 print("Botón de borrado pulsado.")
             } label: {
-                HStack {
-                    Image(systemName: "trash")
-                        .font(.title)
-                    Text("Borrar")
-                        .fontWeight(.semibold)
-                        .font(.title)
-                }
+                Label(
+                    title: {
+                        Text("Borrar")
+                            .fontWeight(.semibold)
+                            .font(.title)
+                    },
+                    icon: {
+                        Image(systemName: "trash")
+                            .font(.title)
+                    }
+                )
                 .padding()
                 .foregroundStyle(.white)
                 .background(Color.red)
