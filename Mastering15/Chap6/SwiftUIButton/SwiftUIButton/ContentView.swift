@@ -14,6 +14,9 @@ struct ContentView: View {
                 print("Fui pulsado")
             } label: {
                 Text("Púlsame")
+                    .background(Color.cyan)
+                    .foregroundStyle(Color.white)
+                    .font(.title2)
             }
         }
         .padding()
