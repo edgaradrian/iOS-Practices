@@ -41,11 +41,42 @@ struct ContentView: View {
                             .font(.title)
                     }
                 )
-                .padding()
-                .foregroundStyle(.white)
-                .background(Color.red)
-                .clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/))
             }
+            .buttonStyle(MyButtonBackgroundStyle())
+            
+            Button {
+                print("Botón de editado pulsado.")
+            } label: {
+                Label(
+                    title: {
+                        Text("Editar")
+                            .fontWeight(.semibold)
+                            .font(.title)
+                    },
+                    icon: {
+                        Image(systemName: "square.and.pencil")
+                            .font(.title)
+                    }
+                )
+            }
+            .buttonStyle(MyButtonBackgroundStyle())
+            
+            Button {
+                print("Botón de compartir pulsado.")
+            } label: {
+                Label(
+                    title: {
+                        Text("Compartir")
+                            .fontWeight(.semibold)
+                            .font(.title)
+                    },
+                    icon: {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.title)
+                    }
+                )
+            }
+            .buttonStyle(MyButtonBackgroundStyle())
 
         }
         .padding()

@@ -14,6 +14,7 @@
 		19EA2FC42B9F7CB700E48625 /* SwiftUIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA2FC32B9F7CB700E48625 /* SwiftUIButtonTests.swift */; };
 		19EA2FCE2B9F7CB700E48625 /* SwiftUIButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA2FCD2B9F7CB700E48625 /* SwiftUIButtonUITests.swift */; };
 		19EA2FD02B9F7CB700E48625 /* SwiftUIButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA2FCF2B9F7CB700E48625 /* SwiftUIButtonUITestsLaunchTests.swift */; };
+		19EA2FDD2B9F902300E48625 /* MyButtonBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA2FDC2B9F902300E48625 /* MyButtonBackgroundStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		19EA2FC92B9F7CB700E48625 /* SwiftUIButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19EA2FCD2B9F7CB700E48625 /* SwiftUIButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonUITests.swift; sourceTree = "<group>"; };
 		19EA2FCF2B9F7CB700E48625 /* SwiftUIButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19EA2FDC2B9F902300E48625 /* MyButtonBackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonBackgroundStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				19EA2FB42B9F7CB600E48625 /* ContentView.swift */,
 				19EA2FB62B9F7CB700E48625 /* Assets.xcassets */,
 				19EA2FB82B9F7CB700E48625 /* Preview Content */,
+				19EA2FDC2B9F902300E48625 /* MyButtonBackgroundStyle.swift */,
 			);
 			path = SwiftUIButton;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EA2FDD2B9F902300E48625 /* MyButtonBackgroundStyle.swift in Sources */,
 				19EA2FB52B9F7CB600E48625 /* ContentView.swift in Sources */,
 				19EA2FB32B9F7CB600E48625 /* SwiftUIButtonApp.swift in Sources */,
 			);
