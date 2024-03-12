@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isAddButtonPressed = false
+    
     var body: some View {
         VStack(spacing: 30) {
             Button {
@@ -77,6 +80,20 @@ struct ContentView: View {
                 )
             }
             .buttonStyle(MyButtonBackgroundStyle())
+            
+            Button {
+                self.isAddButtonPressed.toggle()
+            } label: {
+                Image(systemName: "plus")
+                    .padding()
+                    .background(Color.cyan)
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .foregroundStyle(.white)
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .rotationEffect(isAddButtonPressed ? .degrees(135) : .degrees(90))
+            }
+
 
         }
         .padding()
