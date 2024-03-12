@@ -94,6 +94,17 @@ struct ContentView: View {
                     .rotationEffect(isAddButtonPressed ? .degrees(135) : .degrees(90))
             }
 
+            
+            Button {
+                print("Botón en iOS 15 pulsado")
+            } label: {
+                Text("América campeón")
+            }
+            .tint(.cyan)
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.capsule)
+            .controlSize(.large)
+
 
         }
         .padding()
